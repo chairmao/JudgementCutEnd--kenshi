@@ -1,0 +1,56 @@
+{
+  "failure_log": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\obj\\Release\\JudgementCutEnd.log",
+  "failure": "LINK : fatal error LNK1104: cannot open libboost_thread-vc100-mt-1_60.lib",
+  "user_cpp_compilation": "object file generated; machine 0x8664; no C++ error in recorded log",
+  "cause": "Project LibraryPath omitted existing Boost stage/lib",
+  "autolink": [
+    "libboost_thread-vc100-mt-1_60.lib",
+    "libboost_system-vc100-mt-1_60.lib",
+    "libboost_date_time-vc100-mt-1_60.lib",
+    "libboost_chrono-vc100-mt-1_60.lib"
+  ],
+  "agent_compilation_run": false,
+  "fixed_build_verified": false,
+  "file_reports": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.vcxproj",
+      "Role": "工程库搜索配置",
+      "Code location": "LibraryPath",
+      "Before": "用户构建日志 LNK1104；源码已生成对象文件，工程遗漏 Boost 库搜索目录",
+      "Changes": "补上 $(BoostDir)\\stage\\lib；保留所有原有依赖、平台和 CRT 配置",
+      "Reasons": "补上 $(BoostDir)\\stage\\lib；保留所有原有依赖、平台和 CRT 配置",
+      "After": "工程可搜索本机现有自动链接库，待用户重新链接",
+      "Impact": "仅 JudgementCutEnd 项目，不改源码、依赖或其他工程",
+      "Validation": "回读、XML/Python AST（如适用）、UTF-8/CRLF/中文检查；实际链接未运行",
+      "Safety": {
+        "backup_paths": [
+          "D:\\CodexBackups\\JudgementCutEnd-BuildFix-20261007-141105-238347\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.vcxproj",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BuildFix-20261007-141105-238347\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.vcxproj"
+        ],
+        "encoding": "UTF-8 无 BOM",
+        "newlines": "CRLF"
+      },
+      "Unresolved": "修复后的 Release|x64 构建及实机测试待用户执行"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "Role": "只读验证",
+      "Code location": "Boost 库路径与自动链接依赖",
+      "Before": "用户构建日志 LNK1104；源码已生成对象文件，工程遗漏 Boost 库搜索目录",
+      "Changes": "增加库搜索路径和四个现有 Boost 库检查，防止漏配重现",
+      "Reasons": "增加库搜索路径和四个现有 Boost 库检查，防止漏配重现",
+      "After": "工程可搜索本机现有自动链接库，待用户重新链接",
+      "Impact": "仅 JudgementCutEnd 项目，不改源码、依赖或其他工程",
+      "Validation": "回读、XML/Python AST（如适用）、UTF-8/CRLF/中文检查；实际链接未运行",
+      "Safety": {
+        "backup_paths": [
+          "D:\\CodexBackups\\JudgementCutEnd-BuildFix-20261007-141105-238347\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BuildFix-20261007-141105-238347\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+        ],
+        "encoding": "UTF-8 无 BOM",
+        "newlines": "CRLF"
+      },
+      "Unresolved": "修复后的 Release|x64 构建及实机测试待用户执行"
+    }
+  ]
+}

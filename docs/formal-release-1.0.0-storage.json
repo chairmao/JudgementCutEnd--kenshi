@@ -1,0 +1,13 @@
+{
+  "release": "1.0.0",
+  "internal_dll_version": "0.3.0",
+  "archive": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-1.0.0.zip",
+  "archive_sha256": "44f47c6ae17592d6f703e73ff5b263c7d143e7660fa78344638c270ed4ee9f9c",
+  "external_verified_copies": [
+    "D:\\CodexBackups\\JudgementCutEnd-Formal-1.0.0-20261007-205024-716141\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-1.0.0.zip",
+    "D:\\CodexBackups\\JudgementCutEnd-Formal-1.0.0-20261007-205024-716141\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-1.0.0.zip.sha256",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Formal-1.0.0-20261007-205024-716141\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-1.0.0.zip",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Formal-1.0.0-20261007-205024-716141\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-1.0.0.zip.sha256"
+  ],
+  "validation": "all bytes equal, exclusive creation; originals unchanged"
+}

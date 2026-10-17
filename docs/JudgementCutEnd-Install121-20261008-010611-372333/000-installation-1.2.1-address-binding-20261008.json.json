@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\installation-1.2.1-address-binding-20261008.json",
+  "Role": "部署与逐文件审计",
+  "Code location": "整包DLL及资源哈希/双备份校验",
+  "Before": "absent",
+  "Changes": "核验游戏目录每个文件与项目包一致，记录原文件双备份和编码；新版DLL含地址式绑定和新特效",
+  "Reasons": "用户明确要求迅速更新本地JudgementCutEnd模组",
+  "After": "3e4d619b5049c128ecc8fd28c4983102ef3a4ed957a70f8589c87c3649efda4c",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "DLL由用户提供，哈希部署已验证；游戏效果尚待实测"
+}

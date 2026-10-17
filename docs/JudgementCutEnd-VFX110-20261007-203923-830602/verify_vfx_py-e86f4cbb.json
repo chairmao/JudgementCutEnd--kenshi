@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+  "Role": "新版特效非编译验证",
+  "Code location": "main/Node离线模型/正式存档哈希",
+  "Before": "不存在",
+  "Changes": "核验冻结基线、未改伤害/控制、纹理材质、顶点上界与16路径/192碎片落地",
+  "Reasons": "用户要求蓝色雾气、沿路径斩击幻影、镜面碎裂与碎片落地",
+  "After": "1.1.0开发资源/源码",
+  "Impact": "仅本项目特效，不改伤害/范围/速度和已安装模组",
+  "Validation": "写后读回一致，文本UTF-8/BOM/CRLF与中文扫描通过；待专项静态检查",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8/CRLF或明确二进制资源"
+  },
+  "Unresolved": "不代编译，待用户Release|x64与实机视觉/性能验收"
+}

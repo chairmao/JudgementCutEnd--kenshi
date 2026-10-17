@@ -1,0 +1,13 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\range-bodypart-0.2.8.md",
+  "Role": "范围与原生部位取证报告",
+  "Code location": "全部",
+  "Before": "不存在",
+  "Changes": "新建原生函数字节证据/范围数学/逐文件报告",
+  "Reasons": "解释外缘差异和部位权重选择",
+  "After": "可审查空间合同与当前部署状态",
+  "Impact": "项目文档",
+  "Validation": "UTF-8 CRLF读回及中文扫描通过",
+  "Safety": "独占新建无需备份既有文件",
+  "Unresolved": "0.2.8编译与实测待用户完成"
+}

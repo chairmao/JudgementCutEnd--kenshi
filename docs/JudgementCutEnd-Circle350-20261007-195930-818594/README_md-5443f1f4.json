@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "工程说明",
+  "Code location": "标题、当前状态及新增0.3.0段落",
+  "Before": "默认范围来自旧布局缩放值，当前简介安装版本过时",
+  "Changes": "记录350水平圆及96拟合、升级INI及未编译状态",
+  "Reasons": "让用户区分源码与已安装成品、理解范围单位变化",
+  "After": "0.3.0源码将范围圈/伤害统一为半径350，并适配96条裂痕；已安装0.2.9不变",
+  "Impact": "仅 JudgementCutEnd；350水平圆、固定范围圈、96条裂痕缩放，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Circle350-20261007-195930-818594\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Circle350-20261007-195930-818594\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.3.0待用户编译Release|x64和实机验证；不代编译、不部署"
+}

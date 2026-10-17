@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.2.0.json",
+  "Role": "资源身份与参数",
+  "Code location": "revision/flow/notes",
+  "Before": "r1静态感蓝雾元信息",
+  "Changes": "记录r2输运参数和现有DLL兼容性",
+  "Reasons": "避免以DLL版本冒充新资源身份",
+  "After": "5a447a0cc3c5aa13bc81ff19d8cd4d9a29164668bd475939454dc1227b11771f",
+  "Impact": "仅分发元数据；不是加载入口",
+  "Validation": "逐字节读回、UTF-8/CRLF和乱码检查；JSON可解析；本轮不编译，最终游戏观感待用户验收",
+  "Safety": {
+    "backup_paths": [
+      "D:\\CodexBackups\\JudgementCutEnd-FogFlow-20261008-122847-062403\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.2.0.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FogFlow-20261008-122847-062403\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.2.0.json"
+    ],
+    "encoding": "UTF-8 no BOM",
+    "line_endings": "CRLF",
+    "before_sha256": "4e44f2b9b5bb3ae703bf787a732ae78b7959554f76a687cd2f3d7f235134a8e6"
+  },
+  "Unresolved": "新r2着色器未在游戏验证；保留现有2.2 DLL，无需重新编译C++"
+}

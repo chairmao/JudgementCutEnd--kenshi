@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+  "Role": "静态特效核验",
+  "Code location": "已编译和安装产物身份",
+  "Before": "f8b928125cc47943ecffd3e222604c8a497bcf716f777f751c799b11045f7dc5",
+  "Changes": "区分本机用户编译的新旧产物，不误判为此轮源码修改写了DLL",
+  "Reasons": "用户要求修正演出结束后速度未恢复；日志证实取消后原始速度被0.001污染",
+  "After": "cb572d42bd5c5369735c20f5175711ee0ba47506aedd002311569d2e85535443",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-TimeRestore-20261007-214112-148084\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-TimeRestore-20261007-214112-148084\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；暂停解除、速度恢复与异常路径待实机验收"
+}

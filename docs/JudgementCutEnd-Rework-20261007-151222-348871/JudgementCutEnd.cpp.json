@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "插件入口、实例动画、演出和 Ogre 绘制",
+  "Code location": "Runtime/Pose/Draw/MakeResources/ReleaseGraphics；诊断版本 0.2.0",
+  "Before": "0.1.2 实机失败版本；原字节已双备份",
+  "Changes": "官方 postFindVisibleObjects 手动提交有界几何；排除阴影/其他相机；显式验证材质；渲染回调计数；统一角色场景节点基准；全轨道进出混合",
+  "Reasons": "实机没有特效；原版本只统计顶点，没有绘制链证据；上下半身父骨骼控制基准不一致",
+  "After": "源码/资源修订，等待用户编译与实机验证",
+  "Impact": "仅独立插件；旧DLL不得搭配新资源安装",
+  "Validation": "读回一致，保留 BOM 和 CRLF；中文与乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-151222-348871\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-151222-348871\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "未编译；未实机验收"
+}

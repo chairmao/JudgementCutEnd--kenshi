@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "交付状态",
+  "Code location": "已编译/安装版本与配置",
+  "Before": "源码0.2.3待编译，安装0.2.2",
+  "Changes": "记录用户编译DLL并安装0.2.3",
+  "Reasons": "安装及逐文件哈希核对完成",
+  "After": "0.2.3待实机测试",
+  "Impact": "状态记录，不改变游戏逻辑",
+  "Validation": "写后读回、UTF-8 CRLF与中文扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InstallStatus-20261007-170209-883097\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InstallStatus-20261007-170209-883097\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "游戏测试未执行"
+}

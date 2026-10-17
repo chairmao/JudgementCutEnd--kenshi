@@ -1,0 +1,23 @@
+// 2.9.7五组UV合同不变；新FP收窄切口/侧角混合，默认captureValid=0，失败透明。
+vertex_program JCE/Facet297_VP hlsl
+{
+    source jce_facets297.hlsl
+    entry_point jce_facet297_vp
+    target vs_4_0
+    default_params
+    {
+        param_named_auto worldViewProjMatrix worldviewproj_matrix
+        param_named_auto worldViewMatrix worldview_matrix
+    }
+}
+fragment_program JCE/Facet297_FP hlsl
+{
+    source jce_facets297.hlsl
+    entry_point jce_facet297_fp
+    target ps_4_0
+    default_params
+    {
+        param_named_auto viewport viewport_size
+        param_named captureValid float 0
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "?getSkeleton@Entity@Ogre@@QEBAPEAVOldSkeletonInstance@2@XZ": "00013A80",
+  "?isInitialised@Entity@Ogre@@QEBA_NXZ": "00013B10",
+  "?getSkeletonInstanceSharingSet@Entity@Ogre@@QEBAPEBV?$set@PEAVEntity@Ogre@@U?$less@PEAVEntity@Ogre@@@std@@V?$STLAllocator@PEAVEntity@Ogre@@V?$CategorisedAllocPolicy@$0A@@2@@2@@std@@XZ": "00013AC0",
+  "?getSkipAnimationStateUpdate@Entity@Ogre@@QEBA_NXZ": "00013B30",
+  "?setSkipAnimationStateUpdate@Entity@Ogre@@QEAAX_N@Z": "00013B20",
+  "?_getBoneMatrices@Entity@Ogre@@QEBAPEBVMatrix4@2@XZ": "00013A50",
+  "?_getNumBoneMatrices@Entity@Ogre@@QEBAGXZ": "00013A60"
+}

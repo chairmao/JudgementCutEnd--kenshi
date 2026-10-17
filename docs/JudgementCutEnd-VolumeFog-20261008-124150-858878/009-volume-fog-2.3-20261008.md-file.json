@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\volume-fog-2.3-20261008.md",
+  "Role": "本次修正说明",
+  "Code location": "视频证据/原因/方案/验证限制/编译部署",
+  "Before": "无此次总结",
+  "Changes": "记录上一轮验证盲点和r3完整方案",
+  "Reasons": "区分实机失败证据与未实测新方案",
+  "After": "cf39ba68adec34adcf13f1abd31ea32316a210326559e1bc35fd84bd22f3e4ec",
+  "Impact": "审计文档；不改历史记录",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

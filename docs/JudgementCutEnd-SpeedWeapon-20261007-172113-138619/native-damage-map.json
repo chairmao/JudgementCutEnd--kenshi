@@ -1,0 +1,37 @@
+{
+  "game_sha256": "504b362cde850d56afb1cea6f5b7b0ee014d9dd7b47e188599d91c804502cd3e",
+  "library_sha256": "5b6240622d06801dc39896e385efb834b8e1fe2fcdf86067d071ae7a04f6c83b",
+  "table": "D:\\steam\\steamapps\\common\\Kenshi\\RE_Kenshi\\RVAs\\Steam_1.0.65.br",
+  "stub_stride": 6,
+  "functions": {
+    "CharStats::getTotalAttackDamageFor": {
+      "slot": 2215,
+      "rva": "0x8859E0",
+      "header": "CharStats.h:186"
+    },
+    "Damages::multiply": {
+      "slot": 2527,
+      "rva": "0x337A80",
+      "header": "Damages.h:16"
+    },
+    "CombatClass::attackImpactCheck": {
+      "slot": 2326,
+      "rva": "0x609860"
+    },
+    "CharStats::setWeapon": {
+      "slot": 2235,
+      "rva": "0x897060"
+    },
+    "CharStats::hasWeapon": {
+      "slot": 2251,
+      "rva": "0x595A30"
+    },
+    "MedicalSystem::addWound": {
+      "slot": 4865,
+      "rva": "0x64FE40",
+      "header": "MedicalSystem.h:193"
+    }
+  },
+  "impact_evidence": "0x609927调用基准伤害；0x609974取impact power；0x60997F/0x60998D/0x60999B/0x6099A9乘四个伤害通道；0x609A0A再交给目标。",
+  "limits": "只读确认公式与倍率通道；仍使用原有addWound入口，不声称复制全部格挡/经验/犯罪/攻击动画语义。"
+}

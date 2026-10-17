@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "非编译PE验证器",
+  "Code location": "导出符号终止符读取",
+  "Before": "字符串终止符被写为两字节反斜杠0",
+  "Changes": "使用单字节NUL终止符",
+  "Reasons": "修正验证器解析错误，不涉及游戏逻辑",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-RootVFX-VerifyRepair-20261007-164425-727674\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-RootVFX-VerifyRepair-20261007-164425-727674\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

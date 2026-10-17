@@ -1,0 +1,131 @@
+{
+  "stamp": "JudgementCutEnd-BlueFog-20261008-120105-326056",
+  "source_sha256": "61f10be1a013bfe06c0075a79b9359d4cb30a5bf425dcd5af70f7dc3b1993e33",
+  "files": {
+    "JudgementCutEnd.cpp": "61f10be1a013bfe06c0075a79b9359d4cb30a5bf425dcd5af70f7dc3b1993e33",
+    "package\\JudgementCutEnd\\_JudgementCutEnd.info": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+    "package\\JudgementCutEnd\\assets\\jce.clip": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99",
+    "package\\JudgementCutEnd\\assets\\jce.material": "65e1776ffe87965f3b89b2c0b173d44fbb0964fc997b74653f5871eeebdd26eb",
+    "package\\JudgementCutEnd\\assets\\jce_glass.tga": "7f15077985314b170b80b785c5f067cf887bc41fe3fbd84b2ae07b17638941ab",
+    "package\\JudgementCutEnd\\assets\\jce_glow.tga": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+    "package\\JudgementCutEnd\\assets\\jce_mist.tga": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c",
+    "package\\JudgementCutEnd\\assets\\jce_phantom.bin": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7",
+    "package\\JudgementCutEnd\\assets\\jce_refraction.hlsl": "3c854b96b9982067353eb1c7ff7b4eec661831b4c9955f9c97bd71f2785e78ae",
+    "package\\JudgementCutEnd\\assets\\jce_refraction.program": "e1d50bf3af0250cb6e6f1135ce7bf85369c759b64bd769c5e4759c05434e2361",
+    "package\\JudgementCutEnd\\assets\\jce_sequence.wav": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+    "package\\JudgementCutEnd\\assets\\jce_sequence_fast.wav": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+    "package\\JudgementCutEnd\\assets\\jce_shards.csv": "7ba2eafb15e7a78b95c23bb8402dc87c6d58ac497869b9547c06f2caff44c3e6",
+    "package\\JudgementCutEnd\\assets\\jce_source.material": "685d8cac629eed4f9abe17ac3ef5c11d206f92d6f953f3aff3aa4a7304fca3fe",
+    "package\\JudgementCutEnd\\assets\\jce_source_blade08.dds": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57",
+    "package\\JudgementCutEnd\\assets\\jce_source_blade09.dds": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104",
+    "package\\JudgementCutEnd\\assets\\jce_source_curves.csv": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134",
+    "package\\JudgementCutEnd\\assets\\jce_source_dust.dds": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b",
+    "package\\JudgementCutEnd\\assets\\jce_source_flash.dds": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b",
+    "package\\JudgementCutEnd\\assets\\jce_source_spark.dds": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1",
+    "package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f",
+    "package\\JudgementCutEnd\\assets\\jce_source_texture.program": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51",
+    "package\\JudgementCutEnd\\assets\\slashes.csv": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214",
+    "package\\JudgementCutEnd\\assets\\vfx-1.1.0.json": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c",
+    "package\\JudgementCutEnd\\assets\\vfx-1.1.1.json": "3b13ad798f4f2157f9dd0897ce41d0fc1223e3e1e7a1aff506062fe06b0bad06",
+    "package\\JudgementCutEnd\\assets\\vfx-1.2.1.json": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e",
+    "package\\JudgementCutEnd\\JudgementCutEnd.dll": "eace738bd15cb03be6591db50ea12d4107cf6585526c8e0ad7e7fe2cfd09da4c",
+    "package\\JudgementCutEnd\\JudgementCutEnd.ini": "15f65bf08fc7a166ccaf4157e117c82f3291d199464a7ca356f37033fc6f4bd6",
+    "package\\JudgementCutEnd\\JudgementCutEnd.mod": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+    "package\\JudgementCutEnd\\LICENSE": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+    "package\\JudgementCutEnd\\LICENSE-NOTICE.md": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50",
+    "package\\JudgementCutEnd\\RE_Kenshi.json": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+    "package\\JudgementCutEnd\\README.md": "32b14d9fbe9175d517be2d455fb87261babbfc0190e416f0d5a4f3b2a3bbaf14"
+  },
+  "installed": {
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material": "65e1776ffe87965f3b89b2c0b173d44fbb0964fc997b74653f5871eeebdd26eb",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glass.tga": "7f15077985314b170b80b785c5f067cf887bc41fe3fbd84b2ae07b17638941ab",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.hlsl": "3c854b96b9982067353eb1c7ff7b4eec661831b4c9955f9c97bd71f2785e78ae",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.program": "e1d50bf3af0250cb6e6f1135ce7bf85369c759b64bd769c5e4759c05434e2361",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_shards.csv": "7ba2eafb15e7a78b95c23bb8402dc87c6d58ac497869b9547c06f2caff44c3e6",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source.material": "685d8cac629eed4f9abe17ac3ef5c11d206f92d6f953f3aff3aa4a7304fca3fe",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade08.dds": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade09.dds": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_curves.csv": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_dust.dds": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_flash.dds": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_spark.dds": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.hlsl": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.1.json": "3b13ad798f4f2157f9dd0897ce41d0fc1223e3e1e7a1aff506062fe06b0bad06",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.2.1.json": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll": "eace738bd15cb03be6591db50ea12d4107cf6585526c8e0ad7e7fe2cfd09da4c",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini": "15f65bf08fc7a166ccaf4157e117c82f3291d199464a7ca356f37033fc6f4bd6",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+    "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md": "32b14d9fbe9175d517be2d455fb87261babbfc0190e416f0d5a4f3b2a3bbaf14"
+  },
+  "formal": {
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-1.0.0.zip": "44f47c6ae17592d6f703e73ff5b263c7d143e7660fa78344638c270ed4ee9f9c",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-2.0.0-release.zip": "4e47e90b637180c8fdf16002bab0e05469cb034d19ad363d6c896d0f74a066b7"
+  },
+  "external_dll": {
+    "E:\\KenshiProject\\2.Projects\\bin\\Release\\JudgementCutEnd.dll": "eace738bd15cb03be6591db50ea12d4107cf6585526c8e0ad7e7fe2cfd09da4c"
+  },
+  "video": "E:\\QQdata\\1009E7~1.MP4",
+  "video_frames": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCEVideoReview-20261008-115041-8f2a3a",
+  "skyrim_palette": {
+    "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\textures\\effects\\zjc\\gradients\\gradshockdisintegrate.dds",
+    "sha256": "9c69744602fe4506cd4a1d2d85949f831e8162f7a2d67ffd62f16110cb1b003f",
+    "nif": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\effects\\AP05\\JCE030CutAllActi.nif",
+    "nif_sha256": "72928b557ba226888285178122e6e568706d8b5546ec7627b71c979841c29986",
+    "block": {
+      "index": 238,
+      "type": "BSEffectShaderProperty",
+      "bytes": 179,
+      "name": "",
+      "extra_data": [],
+      "controller": -1,
+      "shader_flags": [
+        2147483760,
+        48
+      ],
+      "uv_offset": [
+        0.0,
+        0.0
+      ],
+      "uv_scale": [
+        1.0,
+        1.5
+      ],
+      "source_texture": "textures\\effects\\FXSmokeSoftSub.dds",
+      "clamp_and_lighting": [
+        3,
+        255,
+        0,
+        0
+      ],
+      "falloff": [
+        0.6427876353263855,
+        0.42261824011802673,
+        1.0,
+        0.699999988079071
+      ],
+      "base_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "base_color_scale": 1.0,
+      "soft_falloff_depth": 8.0,
+      "palette_texture": "textures\\effects\\zjc\\gradients\\gradshockdisintegrate.dds"
+    },
+    "mapping": "中间行按密度采样；18%源色表 + 冷蓝基色适配，非Skyrim原渲染公式"
+  }
+}

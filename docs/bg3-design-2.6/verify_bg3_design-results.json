@@ -1,0 +1,1058 @@
+{
+  "static_passed": true,
+  "check_count": 261,
+  "checks": [
+    {
+      "name": "original backup hash D:\\CodexBackups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "original backup hash E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "original backup hash D:\\CodexBackups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "original backup hash E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "original backup hash D:\\CodexBackups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "original backup hash E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "original backup hash D:\\CodexBackups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "original backup hash E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "original backup hash D:\\CodexBackups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "original backup hash E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "original backup hash D:\\CodexBackups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "passed": true
+    },
+    {
+      "name": "original backup hash E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "passed": true
+    },
+    {
+      "name": "original backup hash D:\\CodexBackups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "original backup hash E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "original backup hash D:\\CodexBackups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "passed": true
+    },
+    {
+      "name": "original backup hash E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BG3Design26-20261009-012311-016714\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "passed": true
+    },
+    {
+      "name": "entire C++ outside VFX scope equals 2.5",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void Begin(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void Finish(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void Tick(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void Damage(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void Pose(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void RestoreTime(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void Collect(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void FitSlashLayout(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void ReleaseGraphics(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void ReleaseRefraction(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void CaptureBackground(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity void MakeResources(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity float SourceSmokeAge(",
+      "passed": true
+    },
+    {
+      "name": "protected function identity float SourceSmokeScale(",
+      "passed": true
+    },
+    {
+      "name": "no C++11 additions",
+      "passed": true
+    },
+    {
+      "name": "UV shape clock radius transport",
+      "passed": true
+    },
+    {
+      "name": "age passed to four corners",
+      "passed": true
+    },
+    {
+      "name": "age producer void SourceSmokeRibbons(",
+      "passed": true
+    },
+    {
+      "name": "age producer void SourceSmokeWisps(",
+      "passed": true
+    },
+    {
+      "name": "CPU lifecycle vectors",
+      "passed": true
+    },
+    {
+      "name": "cutLife contract 0",
+      "passed": true
+    },
+    {
+      "name": "cutLife contract 1",
+      "passed": true
+    },
+    {
+      "name": "cutLife contract 2",
+      "passed": true
+    },
+    {
+      "name": "cutLife contract 3",
+      "passed": true
+    },
+    {
+      "name": "cutLife contract 4",
+      "passed": true
+    },
+    {
+      "name": "cutLife contract 5",
+      "passed": true
+    },
+    {
+      "name": "cutLife contract 6",
+      "passed": true
+    },
+    {
+      "name": "cutLife contract 7",
+      "passed": true
+    },
+    {
+      "name": "lifecycle vectors actually consumed",
+      "passed": true
+    },
+    {
+      "name": "one HDR sample and bounded displacement",
+      "passed": true
+    },
+    {
+      "name": "refraction guards and hemisphere",
+      "passed": true
+    },
+    {
+      "name": "continuous shared field",
+      "passed": true
+    },
+    {
+      "name": "two noise samples plus atlas and palette",
+      "passed": true
+    },
+    {
+      "name": "smoke guards",
+      "passed": true
+    },
+    {
+      "name": "atlas shape and half texel inset",
+      "passed": true
+    },
+    {
+      "name": "UV shape 0 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 0 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 0 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 0 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 1 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 1 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 1 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 1 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 2 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 2 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 2 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 2 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 3 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 3 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 3 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 3 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 4 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 4 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 4 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 4 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 5 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 5 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 5 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 5 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 6 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 6 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 6 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 6 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 7 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 7 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 7 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 7 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 8 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 8 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 8 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 8 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 9 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 9 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 9 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 9 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 10 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 10 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 10 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 10 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 11 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 11 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 11 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 11 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 12 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 12 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 12 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 12 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 13 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 13 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 13 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 13 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 14 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 14 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 14 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 14 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "UV shape 15 time 0",
+      "passed": true
+    },
+    {
+      "name": "UV shape 15 time 2.35",
+      "passed": true
+    },
+    {
+      "name": "UV shape 15 time 5.15",
+      "passed": true
+    },
+    {
+      "name": "UV shape 15 time 6.7",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/MistBase26_FP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/Smoke_FP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/SourceSmokeRibbon26_FP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/SourceSmokeWisp26_FP",
+      "passed": true
+    },
+    {
+      "name": "shader exists jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "shader exists jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "shader exists jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "shader exists jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "shader exists jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "entry jce_fog_vp",
+      "passed": true
+    },
+    {
+      "name": "entry jce_mist_fp",
+      "passed": true
+    },
+    {
+      "name": "entry jce_smoke_fp",
+      "passed": true
+    },
+    {
+      "name": "entry jce_source_ribbon_fp",
+      "passed": true
+    },
+    {
+      "name": "entry jce_source_wisp_fp",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/Refraction_VP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/Refraction26_FP",
+      "passed": true
+    },
+    {
+      "name": "shader exists jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "shader exists jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "entry jce_refraction_vp",
+      "passed": true
+    },
+    {
+      "name": "entry jce_refraction_fp",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/SourceTexture_FP",
+      "passed": true
+    },
+    {
+      "name": "shader exists jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "entry jce_source_texture_fp",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/MistBase26_FP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/Refraction_VP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/Refraction26_FP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/SourceTexture_FP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/SourceTexture_FP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/Smoke_FP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/SourceTexture_FP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/SourceTexture_FP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/SourceSmokeRibbon26_FP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "material link JCE/SourceSmokeWisp26_FP",
+      "passed": true
+    },
+    {
+      "name": "versioned shader JCE/MistBase26_FP",
+      "passed": true
+    },
+    {
+      "name": "versioned shader JCE/SourceSmokeRibbon26_FP",
+      "passed": true
+    },
+    {
+      "name": "versioned shader JCE/SourceSmokeWisp26_FP",
+      "passed": true
+    },
+    {
+      "name": "versioned shader JCE/Refraction26_FP",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "delimiters JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF package/JudgementCutEnd/assets/jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "delimiters package/JudgementCutEnd/assets/jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF package/JudgementCutEnd/assets/jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "delimiters package/JudgementCutEnd/assets/jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF package/JudgementCutEnd/assets/jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "delimiters package/JudgementCutEnd/assets/jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF package/JudgementCutEnd/assets/jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "delimiters package/JudgementCutEnd/assets/jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF package/JudgementCutEnd/assets/jce.material",
+      "passed": true
+    },
+    {
+      "name": "delimiters package/JudgementCutEnd/assets/jce.material",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF package/JudgementCutEnd/assets/jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "delimiters package/JudgementCutEnd/assets/jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF docs/task-status.json",
+      "passed": true
+    },
+    {
+      "name": "96 actual slashes",
+      "passed": true
+    },
+    {
+      "name": "positive release interval 0",
+      "passed": true
+    },
+    {
+      "name": "cut lifecycle bounded with zero endpoints 0",
+      "passed": true
+    },
+    {
+      "name": "positive release interval 1",
+      "passed": true
+    },
+    {
+      "name": "cut lifecycle bounded with zero endpoints 1",
+      "passed": true
+    },
+    {
+      "name": "positive release interval 2",
+      "passed": true
+    },
+    {
+      "name": "cut lifecycle bounded with zero endpoints 2",
+      "passed": true
+    },
+    {
+      "name": "positive release interval 3",
+      "passed": true
+    },
+    {
+      "name": "cut lifecycle bounded with zero endpoints 3",
+      "passed": true
+    },
+    {
+      "name": "positive release interval 4",
+      "passed": true
+    },
+    {
+      "name": "cut lifecycle bounded with zero endpoints 4",
+      "passed": true
+    },
+    {
+      "name": "positive release interval 5",
+      "passed": true
+    },
+    {
+      "name": "cut lifecycle bounded with zero endpoints 5",
+      "passed": true
+    },
+    {
+      "name": "positive release interval 6",
+      "passed": true
+    },
+    {
+      "name": "cut lifecycle bounded with zero endpoints 6",
+      "passed": true
+    },
+    {
+      "name": "positive release interval 7",
+      "passed": true
+    },
+    {
+      "name": "cut lifecycle bounded with zero endpoints 7",
+      "passed": true
+    },
+    {
+      "name": "fixed slots and sections",
+      "passed": true
+    },
+    {
+      "name": "2.5 geometry budget",
+      "passed": true
+    },
+    {
+      "name": "BG3 original assets not copied",
+      "passed": true
+    },
+    {
+      "name": "formal2.5 ZIP unchanged",
+      "passed": true
+    },
+    {
+      "name": "installed DLL unchanged",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce.clip",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_fog_noise.tga",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_glass.tga",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_glow.tga",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_mist.tga",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_optics.csv",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_phantom.bin",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_sequence.wav",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_sequence_fast.wav",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_shards.csv",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_blade08.dds",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_blade09.dds",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_curves.csv",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_dust.dds",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_flash.dds",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_fog_palette.dds",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_smoke_wisps.dds",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_soft_smoke.dds",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_spark.dds",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged slashes.csv",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged vfx-1.1.0.json",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged vfx-1.1.1.json",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged vfx-1.2.1.json",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged vfx-2.2.0.json",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged vfx-2.3.0.json",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged vfx-2.4.0.json",
+      "passed": true
+    },
+    {
+      "name": "other source asset unchanged vfx-2.5.0.json",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce.clip",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce.material",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_fog_noise.tga",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_glass.tga",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_glow.tga",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_mist.tga",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_optics.csv",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_phantom.bin",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_sequence.wav",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_sequence_fast.wav",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_shards.csv",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_blade08.dds",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_blade09.dds",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_curves.csv",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_dust.dds",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_flash.dds",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_fog_palette.dds",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_smoke_wisps.dds",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_soft_smoke.dds",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_spark.dds",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged slashes.csv",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged vfx-1.1.0.json",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged vfx-1.1.1.json",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged vfx-1.2.1.json",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged vfx-2.2.0.json",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged vfx-2.3.0.json",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged vfx-2.4.0.json",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged vfx-2.5.0.json",
+      "passed": true
+    },
+    {
+      "name": "archive asset comparisons nonempty",
+      "passed": true
+    },
+    {
+      "name": "Python syntax parsed",
+      "passed": true
+    }
+  ],
+  "compiled": false,
+  "game_tested": false,
+  "installed_new_revision": false,
+  "source_version": "2.6.0-dev",
+  "limitations": [
+    "文本和数学检查不能代替C++编译及HLSL运行",
+    "烟带面积和额外噪声采样的GPU开销待测量"
+  ]
+}

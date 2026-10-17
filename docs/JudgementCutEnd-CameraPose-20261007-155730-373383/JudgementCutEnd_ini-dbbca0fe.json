@@ -1,0 +1,20 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+  "Role": "演出配置",
+  "Code location": "CinematicCamera",
+  "Before": "旧配置启用强制镜头",
+  "Changes": "镜头开关置零，保留其他数值和快捷键",
+  "Reasons": "让旧 0.2.0 DLL 下次启动也不接管视角；当前进程已缓存配置，不能即时生效",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-CameraPose-20261007-155730-373383\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-CameraPose-20261007-155730-373383\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

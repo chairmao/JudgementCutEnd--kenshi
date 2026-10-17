@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目当前状态",
+  "Code location": "r2资源身份和待验收项",
+  "Before": "r1被标记尚未游戏测试",
+  "Changes": "记录r1用户反馈、r2部署和验证边界",
+  "Reasons": "当前版本与实际安装保持一致",
+  "After": "9c3cec5caaf624c1dade6ba781185f17dc0190f2955af7dcc2471135b7e8576e",
+  "Impact": "只更新本项目状态，历史归档不改",
+  "Validation": "逐字节读回、UTF-8/CRLF和乱码检查；JSON可解析；本轮不编译，最终游戏观感待用户验收",
+  "Safety": {
+    "backup_paths": [
+      "D:\\CodexBackups\\JudgementCutEnd-FogFlow-20261008-122847-062403\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FogFlow-20261008-122847-062403\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM",
+    "line_endings": "CRLF",
+    "before_sha256": "375398bfcf4d5d376cb74f06fe5983cab63f104602828b7ec7e7e0989d25cd4d"
+  },
+  "Unresolved": "新r2着色器未在游戏验证；保留现有2.2 DLL，无需重新编译C++"
+}

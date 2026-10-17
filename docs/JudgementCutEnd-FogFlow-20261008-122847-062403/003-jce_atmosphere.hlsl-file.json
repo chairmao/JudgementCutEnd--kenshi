@@ -1,0 +1,21 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+  "Role": "游戏本地资源",
+  "Code location": "Mist/SourceDust shader与资源身份",
+  "Before": "已安装r1资源",
+  "Changes": "复制r2资源并保持编码",
+  "Reasons": "用户请求修正蓝雾静止感",
+  "After": "d3f2c372e3d3b508b7413d5689115b65d88aa8579d5ec5a0bc225e2a29146360",
+  "Impact": "重启游戏读取；DLL保持2.2",
+  "Validation": "逐字节读回、UTF-8/CRLF和乱码检查；JSON可解析；本轮不编译，最终游戏观感待用户验收",
+  "Safety": {
+    "backup_paths": [
+      "D:\\CodexBackups\\JudgementCutEnd-FogFlow-20261008-122847-062403\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FogFlow-20261008-122847-062403\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl"
+    ],
+    "encoding": "UTF-8 no BOM",
+    "line_endings": "CRLF",
+    "before_sha256": "ac570629c84b9304ac479435ead6bc364bd5eee6fe55cb6ca1d0dc2a3a870ac1"
+  },
+  "Unresolved": "新r2着色器未在游戏验证；保留现有2.2 DLL，无需重新编译C++"
+}

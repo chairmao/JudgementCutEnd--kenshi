@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-blue-fog-2.2-20261008.json",
+  "Role": "本轮验证结果",
+  "Code location": "114项静态/数值检查",
+  "Before": "无2.2结果",
+  "Changes": "保存逐项检查、80784生命周期样本与64512有界角点",
+  "Reasons": "区分静态通过与实机尚未确认",
+  "After": "c9abb8472c1783f7958a24e9fba88ee0246968ec9b83b84ee56db3adbb8c03de",
+  "Impact": "未调用任何C++/shader编译器",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

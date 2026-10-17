@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "插件运行时",
+  "Code location": "Runtime::Begin / RestoreTime / Finish / Tick",
+  "Before": "8bc02a5334eef614d1ad379dec2b42d0767b6dacbc5cda3b3ad453920d3e4d03",
+  "Changes": "独立时间所有权与暂停后的帧恢复；恢复先于可能失败的清理；保留玩家变速；有界诊断；版本1.1.2-dev",
+  "Reasons": "用户要求修正演出结束后速度未恢复；日志证实取消后原始速度被0.001污染",
+  "After": "d1b95de6016f6f7015f10f8b8e2fcd4e229888e881caa7ed4d54385ce4cdea0b",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-TimeRestore-20261007-213750-962596\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-TimeRestore-20261007-213750-962596\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF"
+  },
+  "Unresolved": "未编译；暂停解除、速度恢复与异常路径待实机验收"
+}

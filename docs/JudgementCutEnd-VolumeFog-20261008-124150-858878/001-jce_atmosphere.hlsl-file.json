@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+  "Role": "雾像素层",
+  "Code location": "jce_mist_fp",
+  "Before": "每片椭圆边缘造成离散团；透明度按贴片定义",
+  "Changes": "用切片厚度和连续密度计算光学透明度，移除云片边缘",
+  "Reasons": "CPU几何与shader Alpha含义需同步",
+  "After": "6a626c83cc65e1f8bcdd037b6992596b74a300632cf53b8ea5ef61586f337fc9",
+  "Impact": "仅Mist函数变化；SourceDust、色表与场景边界保持",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "d3f2c372e3d3b508b7413d5689115b65d88aa8579d5ec5a0bc225e2a29146360"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

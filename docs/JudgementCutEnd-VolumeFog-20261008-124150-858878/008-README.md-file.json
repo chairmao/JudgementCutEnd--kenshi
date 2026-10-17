@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+  "Role": "分发说明",
+  "Code location": "README当前版本说明",
+  "Before": "头部仍写历史1.2资源状态",
+  "Changes": "仅更新当前说明，旧版说明保留",
+  "Reasons": "明确2.3待编译及不能混装",
+  "After": "7abd6dee85aba473b93166fc53e3f2943ed34956af406587691af4a8d4c337cd",
+  "Impact": "说明型文件；不修改玩法约定",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "32b14d9fbe9175d517be2d455fb87261babbfc0190e416f0d5a4f3b2a3bbaf14"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

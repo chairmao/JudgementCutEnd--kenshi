@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-time-1.1.2-20261007-214603.json",
+  "Role": "静态验证证据",
+  "Code location": "时间模型和完整既有回归",
+  "Before": "absent",
+  "Changes": "记录全部验证结果及非编译/非实机边界",
+  "Reasons": "用户要求修正演出结束后速度未恢复；日志证实取消后原始速度被0.001污染",
+  "After": "ed537fbffdef88a6a92d282661decadc1ed16319d3a147be7bac4baa05a13cbb",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；暂停解除、速度恢复与异常路径待实机验收"
+}

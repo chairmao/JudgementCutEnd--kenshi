@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "版本与安装状态",
+  "Code location": "编译/安装/验收字段",
+  "Before": "源码0.2.7安装0.2.5",
+  "Changes": "记录用户编译、0.2.7DLL哈希及已更新配置；保留旧失败日志证据",
+  "Reasons": "区分安装成功与实机尚未验证",
+  "After": "用户编译的0.2.7已安装，游戏验收待完成",
+  "Impact": "仅 JudgementCutEnd 源项目文档及授权的本地模组",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Install027-20261007-184955-894524\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Install027-20261007-184955-894524\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.7已由用户编译并安装；实机测试待完成"
+}

@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+  "Role": "底雾材质绑定",
+  "Code location": "仅JCE/Mist",
+  "Before": "Basic灰雾单纹理",
+  "Changes": "绑定专用Fog_VP/Mist_FP与低频场/源色表",
+  "Reasons": "背景雾灰色且形态单调",
+  "After": "71c4d44b2f781da88da572a6a4689f9b6adefe215ecd38a7507e49c8188e1b65",
+  "Impact": "Glow/Glass/Refraction材质逐字保持",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-BlueFog-20261008-120105-326056\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BlueFog-20261008-120105-326056\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "65e1776ffe87965f3b89b2c0b173d44fbb0964fc997b74653f5871eeebdd26eb"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

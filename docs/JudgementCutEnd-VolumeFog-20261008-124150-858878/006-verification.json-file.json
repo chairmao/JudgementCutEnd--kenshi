@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\verification.json",
+  "Role": "追加r3边界检查",
+  "Code location": "checks/shader_identity/limits",
+  "Before": "97项几何/保护检查",
+  "Changes": "追加3项早退/采样与当前哈希，明确GPU面积风险",
+  "Reasons": "避免把减少顶点误当帧率提升",
+  "After": "92cafd65c52b9fb3282bc9e627e9cffbeb6703151f0eb1f56f7168ec6cf34a45",
+  "Impact": "前97项仍对应同一CPP/几何，shader边界等值重用；共100项非编译检查",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VolumeFog-20261008-124150-858878-BoundaryGuard\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\verification.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VolumeFog-20261008-124150-858878-BoundaryGuard\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\verification.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "e2c9205e96371574b57507495964b2721a35b5657f648f3f149f1ff6dba49ac8"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

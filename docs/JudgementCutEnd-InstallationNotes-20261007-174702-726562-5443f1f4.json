@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "installation instructions",
+  "Code location": "current installed DLL/version statement",
+  "Before": "incorrectly described pre-build 0.2.3 DLL",
+  "Changes": "reflect installed user-compiled 0.2.4",
+  "Reasons": "DLL successfully installed and hash verified",
+  "After": "0.2.4 installed, gameplay validation pending",
+  "Impact": "documentation only",
+  "Validation": "UTF-8/CRLF and Chinese checked, readback exact",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InstallationNotes-20261007-174702-726562\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InstallationNotes-20261007-174702-726562\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.4 game test pending"
+}

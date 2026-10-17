@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+  "Role": "待安装配置说明",
+  "Code location": "DLL版本注释",
+  "Before": "3a5b286abfbc7dd1107259d5db799ab8f4acef4df0094bdcad16f68f103fc6af",
+  "Changes": "仅更新注释版本；全部配置键和值保持不变",
+  "Reasons": "用户要求修正演出结束后速度未恢复；日志证实取消后原始速度被0.001污染",
+  "After": "15f65bf08fc7a166ccaf4157e117c82f3291d199464a7ca356f37033fc6f4bd6",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-TimeRestore-20261007-214238-325208\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-TimeRestore-20261007-214238-325208\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；暂停解除、速度恢复与异常路径待实机验收"
+}

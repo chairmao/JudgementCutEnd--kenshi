@@ -1,0 +1,29 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file E:\KenshiProject\2.Projects\bin\Release\JudgementCutEnd.dll
+
+File Type: DLL
+
+  000000018000532C: 48 8B 56 58        mov         rdx,qword ptr [rsi+58h]
+  0000000180005330: 48 8B 8A A8 00 00  mov         rcx,qword ptr [rdx+0A8h]
+                    00
+  0000000180005337: 48 85 C9           test        rcx,rcx
+  000000018000533A: 0F 84 11 07 00 00  je          0000000180005A51
+  0000000180005340: 80 B9 00 03 00 00  cmp         byte ptr [rcx+300h],0
+                    00
+  0000000180005347: 0F 84 04 07 00 00  je          0000000180005A51
+  000000018000534D: 48 8B 81 F8 02 00  mov         rax,qword ptr [rcx+2F8h]
+                    00
+  0000000180005354: 48 3B 46 60        cmp         rax,qword ptr [rsi+60h]
+  0000000180005358: 0F 85 F3 06 00 00  jne         0000000180005A51
+  000000018000535E: 48 8B 81 88 02 00  mov         rax,qword ptr [rcx+288h]
+                    00
+  0000000180005365: 48 85 C0           test        rax,rax
+  0000000180005368: 74 3E              je          00000001800053A8
+  000000018000536A: 48 83 78 10 40     cmp         qword ptr [rax+10h],40h
+
+  Summary
+
+       29000 .text

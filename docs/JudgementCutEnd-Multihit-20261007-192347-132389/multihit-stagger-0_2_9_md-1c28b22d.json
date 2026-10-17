@@ -1,0 +1,13 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\multihit-stagger-0.2.9.md",
+  "Role": "完整行为/原生取证/文件审计",
+  "Code location": "当前0.2.9报告",
+  "Before": "新文件，不存在待覆盖内容",
+  "Changes": "证据和未验证边界；逐文件11项即时报告索引",
+  "Reasons": "向用户交付可复核源码结果",
+  "After": "0.2.9审计证据可查；无编译或安装",
+  "Impact": "仅JudgementCutEnd文档",
+  "Validation": "UTF-8无BOM/CRLF；读回与乱码检查通过",
+  "Safety": "新文件独占创建；无旧文件需备份",
+  "Unresolved": "待用户编译和实机验证"
+}

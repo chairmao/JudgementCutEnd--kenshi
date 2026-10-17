@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program",
+  "Role": "自有OGRE程序",
+  "Code location": "fragment_program",
+  "Before": "absent",
+  "Changes": "局部ps_4_0程序及视口常量，不替换公共shader",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "e1d50bf3af0250cb6e6f1135ce7bf85369c759b64bd769c5e4759c05434e2361",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

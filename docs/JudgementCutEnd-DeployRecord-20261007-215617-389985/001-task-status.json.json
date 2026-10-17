@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目状态",
+  "Code location": "安装状态",
+  "Before": "8236a41e64f19b5f19a586f31166e17b670d13d60bb26840adaaf493c2210047",
+  "Changes": "记录1.1.2已安装与用户编译证据；游戏测试仍待完成",
+  "Reasons": "用户授权更新mod；已核验并安装用户编译的1.1.2-dev",
+  "After": "9430adefcf03a8be8b3f6d31fdd287aba5de86b78253465a7a141b654a7712d7",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-DeployRecord-20261007-215617-389985\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-DeployRecord-20261007-215617-389985\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "用户已编译；暂停解除、速度恢复和视觉效果待实机验收"
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "当前安装状态",
+  "Code location": "1.2.1编译产物与全部资源部署",
+  "Before": "2c9c0cf9ba25427ccc9e56247f730327209114e9b45fb0f19aed7072995ed96f",
+  "Changes": "记录用户新DLL身份和完成安装状态；运行验收仍为未确认",
+  "Reasons": "用户明确要求迅速更新本地JudgementCutEnd模组",
+  "After": "5b8690c28f0d02a911edd5aa57753005a2678a396ec1957226bc3a8fdff6caae",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Install121-20261008-010611-372333\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Install121-20261008-010611-372333\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "DLL由用户提供，哈希部署已验证；游戏效果尚待实测"
+}

@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+  "Role": "默认配置",
+  "Code location": "版本注释及Cooldown说明",
+  "Before": "冷却含义不明确",
+  "Changes": "说明结束后15真实秒，数值保持",
+  "Reasons": "日志证明冷却正常拦截而非永久卡住；保留现有设置",
+  "After": "0.2.6源码修复句柄比较；已安装0.2.5不变",
+  "Impact": "仅 JudgementCutEnd；修复武器准备和演出放行，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-HandleCompareFix-20261007-183649-637552\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-HandleCompareFix-20261007-183649-637552\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.6待用户编译及实机验证；15秒冷却保持"
+}

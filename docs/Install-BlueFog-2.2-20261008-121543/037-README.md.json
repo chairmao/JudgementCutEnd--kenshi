@@ -1,0 +1,19 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+  "Role": "本地JudgementCutEnd运行DLL/资源",
+  "Code location": "README.md",
+  "Before": "32b14d9fbe9175d517be2d455fb87261babbfc0190e416f0d5a4f3b2a3bbaf14",
+  "Changes": "从已核验分发包成套复制",
+  "Reasons": "用户明确要求迅速更新已编译2.2模组",
+  "After": "32b14d9fbe9175d517be2d455fb87261babbfc0190e416f0d5a4f3b2a3bbaf14",
+  "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+  "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "binary; byte-identical copy"
+  },
+  "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+}

@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\member-layout-fix-20261008.md",
+  "Role": "U无反应诊断与修正说明",
+  "Code location": "实际启动日志、SDK合同、编译部署状态",
+  "Before": "absent",
+  "Changes": "明确我上一轮检查错误导致插件初始化禁用，记录修正边界、520项检查和未执行原生验证",
+  "Reasons": "用户报告U键无反应，修正已授权成员地址绑定范围内的错误布局拒绝",
+  "After": "625ffcbd06c90bb0dfb4b014ffff2120f3359e2219e98f3880cb2a931c14e3ff",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

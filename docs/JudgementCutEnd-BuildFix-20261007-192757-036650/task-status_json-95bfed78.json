@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "源码/编译事实记录",
+  "Code location": "last_user_compilation / status / static_check_count",
+  "Before": "源码0.2.9待编译且191项通过",
+  "Changes": "记录用户C1083、正确路径及192项非编译检查通过；修复后未编译",
+  "Reasons": "应区分用户失败编译和修复后待重编译；已安装0.2.7不变",
+  "After": "0.2.9修正CombatClass头文件路径；已安装0.2.7不变",
+  "Impact": "仅 JudgementCutEnd；只修正依赖头文件路径并增加不编译检查，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-BuildFix-20261007-192757-036650\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BuildFix-20261007-192757-036650\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.9待用户编译Release|x64和实机验证；不代编译、不部署"
+}

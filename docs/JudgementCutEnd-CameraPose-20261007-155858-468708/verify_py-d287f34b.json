@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "非编译回归与发布数据流检查",
+  "Code location": "镜头、蒙皮发布、缓存状态模型",
+  "Before": "旧验证要求强制镜头恢复，未覆盖节点更新与蒙皮缓存的边界",
+  "Changes": "检验无相机写入、旧配置兼容、实例身份、共享消费者、RAII恢复、同帧缓存模型",
+  "Reasons": "保持验证与用户所需自由视角一致；补充本轮缓存缺陷对应检查",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-CameraPose-20261007-155858-468708\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-CameraPose-20261007-155858-468708\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

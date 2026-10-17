@@ -1,0 +1,19 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program",
+  "Role": "已授权本地模组色调资源",
+  "Code location": "assets/jce_source_texture.program",
+  "Before": "e19c82f7a9a0aad7d443b6ef0e546defb1bb3e9bc85decc8203ee3c436071810",
+  "Changes": "仅同步已核验淡蓝材质/shader；备份原2.1资源，DLL与配置不写入",
+  "Reasons": "用户要求今天最后一版仅调淡蓝颜色，对照本地Skyrim原模组；不修改C++或游戏逻辑",
+  "After": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-PaleBlue-20261008-021226-403276\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-PaleBlue-20261008-021226-403276\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "本轮仅材质/shader资源；不需DLL重编译，真实HDR画面待游戏验收"
+}

@@ -1,0 +1,13 @@
+{
+  "result": "passed",
+  "docs_utf8_crlf_checked": true,
+  "all_recorded_backups_verified": true,
+  "installed_files_unchanged": true,
+  "formal_releases_unchanged": true,
+  "source_version": "2.4.0-dev",
+  "source_modified": true,
+  "native_compiled": false,
+  "shader_compiled": false,
+  "new_revision_installed": false,
+  "game_tested": false
+}

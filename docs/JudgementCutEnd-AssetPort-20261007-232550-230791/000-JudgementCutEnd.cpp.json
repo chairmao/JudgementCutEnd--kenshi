@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "独立折射资源",
+  "Code location": "ReleaseRefraction / CopyResource",
+  "Before": "477006e344462a353f2f2565aec867b218cf41488deb7762be5d457bbb2db6fd",
+  "Changes": "材质与纹理管理器回收分离；限定已存在基类导出；校验完整DX11复制尺寸",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "1f4ab84bcbc24cd22968957fb11a061fc7cf388ff583d480d049ede9e68c1e8c",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

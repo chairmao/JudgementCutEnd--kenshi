@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目状态记录",
+  "Code location": "installation fields",
+  "Before": "01eddc14715b7718f68f3b64644dad8ca107c0aed04e97ff41877385f84bc3f9",
+  "Changes": "记录用户编译和本次完整安装",
+  "Reasons": "保持项目安装状态与游戏分发文件一致",
+  "After": "bf41751c414e6f5ffb5d034992ac9b87bfb9d9009a3414db3a534f9f6ba211a2",
+  "Impact": "only project metadata",
+  "Validation": "JSON roundtrip; UTF-8/CRLF; Chinese checked; formal_release unchanged",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF preserved"
+  },
+  "Unresolved": "游戏效果和性能尚未验证"
+}

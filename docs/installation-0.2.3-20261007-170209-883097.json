@@ -1,0 +1,312 @@
+{
+  "installed_version": "0.2.3",
+  "compiled_by": "user",
+  "installed_dll_sha256": "8a3b4d37f49110a4020f424ddb2443a34b4e162214afb07450c974e262f7ca30",
+  "files_verified": 13,
+  "backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498"
+  ],
+  "per_file_reports": [
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "_JudgementCutEnd.info",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "assets\\jce.clip",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "7d0f7c4cf49b459f056eab1813911f31e2fe8496e3043c82315cdeaa9f6f07fb",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "assets\\jce.material",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "c7bb6d436a7cc55f69d7c35c01ecc28e3d8a6a1905f2bd9492962dd2b627aad0",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "assets\\jce_glow.tga",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga"
+        ],
+        "encoding": "binary",
+        "line_endings": "binary unchanged"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "assets\\jce_sequence.wav",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav"
+        ],
+        "encoding": "binary",
+        "line_endings": "binary unchanged"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "assets\\slashes.csv",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "JudgementCutEnd.dll",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "8a3b4d37f49110a4020f424ddb2443a34b4e162214afb07450c974e262f7ca30",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll"
+        ],
+        "encoding": "binary",
+        "line_endings": "binary unchanged"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "JudgementCutEnd.ini",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "cfa3059ba912e8133dc0cfbfe54141feb3ee13a9e333fbb02d9d8e73c4f8588b",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "JudgementCutEnd.mod",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod"
+        ],
+        "encoding": "binary",
+        "line_endings": "binary unchanged"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "LICENSE",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE"
+        ],
+        "encoding": "binary",
+        "line_endings": "binary unchanged"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "LICENSE-NOTICE.md",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "60993760b9974a6fae1ee4c584f784311c0778e270d0ead19abd6c1ad15bd9bf",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "RE_Kenshi.json",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "Role": "JudgementCutEnd本地分发文件",
+      "Code location": "README.md",
+      "Before": "已安装0.2.2对应文件",
+      "Changes": "复制当前包文件到本地mod，字节一致",
+      "Reasons": "用户要求安装已编译0.2.3与配套范围/材质修正",
+      "After": "本地mod对应0.2.3分发包",
+      "Impact": "仅JudgementCutEnd目录，需启动游戏验证",
+      "Validation": {
+        "sha256": "0487d6f850726080a03496001de477ecf7797f05fa8389551c3b3445dfe9c74c",
+        "package_bytes_identical": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-170107-8672498\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "动作、蒙皮、五倍范围与亮度待实机"
+    }
+  ],
+  "game_tested": false
+}

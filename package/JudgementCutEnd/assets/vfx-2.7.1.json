@@ -1,0 +1,12 @@
+{
+  "source_version": "2.7.0-dev",
+  "resource_revision": "2.7.1-curtain-removal-r1",
+  "hotfix": "disable broad blue volume; no uniform scene darkening; refraction only near cuts",
+  "visible_mist_slices": 0,
+  "submitted_mist_slices_compatibility": 32,
+  "native_dll_unchanged": true,
+  "true_3d_volume_implemented": false,
+  "game_tested": false,
+  "static_checks": 105,
+  "shader_compiled_by_agent": false
+}

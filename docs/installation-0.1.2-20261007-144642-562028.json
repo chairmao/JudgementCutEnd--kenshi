@@ -1,0 +1,275 @@
+{
+  "version": "0.1.2",
+  "DLL_sha256": "0d650be291314a3f562951f66a5c3211896fd9ed52bd2ede9f77db3e51194dc9",
+  "entry": "?startPlugin@@YAXXZ",
+  "installed_file_count": 13,
+  "per_file_reports": [
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "JudgementCutEnd.dll",
+      "Before": "17ffd966c1ab0fd97934c092b1d56cdc37295858b7a269f2a9b07efacdfdcacd",
+      "Changes": "内容更新为 0.1.2 分发文件",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "0d650be291314a3f562951f66a5c3211896fd9ed52bd2ede9f77db3e51194dc9",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll"
+        ],
+        "encoding": "binary / exact copy"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "JudgementCutEnd.ini",
+      "Before": "4967a0e343296e0e5a5ffb359edd15aacad8676e5e9c73efc0d965b6924494dd",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "4967a0e343296e0e5a5ffb359edd15aacad8676e5e9c73efc0d965b6924494dd",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "JudgementCutEnd.mod",
+      "Before": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod"
+        ],
+        "encoding": "binary / exact copy"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "LICENSE",
+      "Before": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "LICENSE-NOTICE.md",
+      "Before": "87db8a2bece159bf8a09ca72b4904c27a3e3fc0998139c5990f73816fc4b8b60",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "87db8a2bece159bf8a09ca72b4904c27a3e3fc0998139c5990f73816fc4b8b60",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "README.md",
+      "Before": "74e815ee1722664d38aea89a29d49eb8523b0c6097916191351bafc3fd2638cc",
+      "Changes": "内容更新为 0.1.2 分发文件",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "ab5dbf15fde889783f90dd7d1473b605f3db111ec4d39368cf050422107a3f89",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "RE_Kenshi.json",
+      "Before": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "_JudgementCutEnd.info",
+      "Before": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "assets\\jce.clip",
+      "Before": "4c6a838f15ec69114eb7b45231915abe54ec8af61dfadc2fcc060a7aec6f1ebf",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "4c6a838f15ec69114eb7b45231915abe54ec8af61dfadc2fcc060a7aec6f1ebf",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "assets\\jce.material",
+      "Before": "2a5c44eb23d91eed4e21fe8426c2f1c21c4e38e23180b15423bcc0320f0e27ee",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "2a5c44eb23d91eed4e21fe8426c2f1c21c4e38e23180b15423bcc0320f0e27ee",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "assets\\jce_glow.tga",
+      "Before": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga"
+        ],
+        "encoding": "binary / exact copy"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "assets\\jce_sequence.wav",
+      "Before": "c69ce8ccc528aa4609369596b4559734ed9cbd6be80e1c9bde1b290ba14e9036",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "c69ce8ccc528aa4609369596b4559734ed9cbd6be80e1c9bde1b290ba14e9036",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav"
+        ],
+        "encoding": "binary / exact copy"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "Role": "独立 RE_Kenshi 插件成品及配套资源",
+      "Code location": "assets\\slashes.csv",
+      "Before": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b",
+      "Changes": "内容相同，随包同步",
+      "Reasons": "用户要求安装新 DLL",
+      "After": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b",
+      "Impact": "仅 JudgementCutEnd 本地模组",
+      "Validation": "源/目标逐字节一致，双备份核验，适用文本编码/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-144601-7460671\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待 Kenshi 实际加载与施法测试"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "Role": "安装状态",
+      "Code location": "status/compiled/dll_sha256/pending",
+      "Before": "0.1.2 源码修正待用户编译",
+      "Changes": "记录用户编译与安装 0.1.2 完成",
+      "Reasons": "新 DLL 版本标记/入口/目标哈希已核验",
+      "After": "新版本待实机测试",
+      "Impact": "仅项目元数据",
+      "Validation": "JSON 回读及 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-Install012-20261007-144642-555859\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Install012-20261007-144642-555859\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "运行效果待用户测试"
+    }
+  ],
+  "game_tested": false
+}

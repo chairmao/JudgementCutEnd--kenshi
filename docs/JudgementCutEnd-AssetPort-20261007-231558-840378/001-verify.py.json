@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "基础静态核验",
+  "Code location": "动画 KEY 与正向运动学",
+  "Before": "79a10c5eec22dd8db8eeb263deb5efc109edc412c2d8e9aa65b774286cea0351",
+  "Changes": "适配实际HKX动作四元数和垂直落地修正；保留骨长、角速度及游戏合同核验",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "8b76150c77243ff47fa68d50263d4d00a364f6fb6574a9c614a2ffd57e57130e",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

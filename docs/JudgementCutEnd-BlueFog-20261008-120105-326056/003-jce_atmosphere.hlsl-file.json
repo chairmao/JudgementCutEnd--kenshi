@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+  "Role": "独立VP/底雾/烟流shader",
+  "Code location": "jce_fog_vp / jce_mist_fp / jce_smoke_fp",
+  "Before": "灰底雾与硬化烟团分开且无源渐变",
+  "Changes": "局部连续云场、半球柔边、原图集双帧插值、低密度细丝、蓝紫渐变",
+  "Reasons": "仅换RGB无法获得氤氲形态",
+  "After": "cb72c5585fd074794b73391e491210691d06d17b7df9bba4146fd996900fe6ed",
+  "Impact": "新增本插件着色器；3次底雾采样/4次烟流采样；真实GPU支持未验证",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

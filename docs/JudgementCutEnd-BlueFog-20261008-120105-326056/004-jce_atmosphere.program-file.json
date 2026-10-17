@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+  "Role": "Ogre程序声明",
+  "Code location": "独立vs_4_0/ps_4_0三个入口",
+  "Before": "无蓝雾专用程序",
+  "Changes": "局部位置VP与两种FP独立入口",
+  "Reasons": "RGBA/UV/时钟/半径需明确跨层合同",
+  "After": "6222f47db8472601b50e242f6ace3e3e289b7e4581e32a39db08ba65fe45cfd9",
+  "Impact": "不覆盖Basic或JCE/SourceTexture_FP，无共享参数副作用",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py",
+  "Role": "新增特效回归",
+  "Code location": "初始化段不变核验",
+  "Before": "3bbe7471b78657fe9a9a9585aa3bed4aa1c787fad35da85ee4f4d4d1e17261e5",
+  "Changes": "精确排除另行授权的两个绑定调用；继续证明Hook对象/安装/失败处理和全部效果逻辑未改变",
+  "Reasons": "用户明确要求JudgementCutEnd.cpp不使用字符串函数签名，改为函数地址式绑定",
+  "After": "25c0fa2b1f631b21eedffc851ade3f69fb3f8427229f4fba7f7369bb52b915d2",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AddressBinding-20261008-005843-854798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AddressBinding-20261008-005843-854798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

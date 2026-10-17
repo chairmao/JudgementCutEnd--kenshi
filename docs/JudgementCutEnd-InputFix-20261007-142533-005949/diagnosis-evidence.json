@@ -1,0 +1,27 @@
+{
+  "cause": "C export startPlugin does not meet RE_Kenshi C++ entry lookup",
+  "game_log": "D:/steam/steamapps/common/Kenshi/RE_Kenshi_log.txt",
+  "direct_log": "Error 33.635 RE_Kenshi: Could not initialize plugin: ...mods/JudgementCutEnd/JudgementCutEnd.dll",
+  "dll_export": "startPlugin",
+  "expected_export": "?startPlugin@@YAXXZ",
+  "loader_ascii_string_offset": "0x116088",
+  "loader_utf16_failure_string_offset": "0x1160a0",
+  "reference_plugin": "E:/KenshiProject/3.KenshiGithubProjects/bin/Release/IME Support Plugin.dll",
+  "reference_export": "?startPlugin@@YAXXZ",
+  "J_conflict_log": [
+    "151.929 ClickToTeleport: DIAG J edge mapOpen=0",
+    "151.929 ClickToTeleport: DIAG teleporting squad done"
+  ],
+  "powerShell_AST": "passed",
+  "export_parser_fixtures": [
+    "old JudgementCutEnd export correctly identified: startPlugin",
+    "IME C++ export correctly identified",
+    "old DLL rejected by Stage before copy"
+  ],
+  "compilation": "not run by policy",
+  "new_DLL_game_test": "pending",
+  "backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-InputFix-20261007-142533-005949",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InputFix-20261007-142533-005949"
+  ]
+}

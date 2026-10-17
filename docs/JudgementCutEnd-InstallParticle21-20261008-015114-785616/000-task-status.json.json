@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "安装事实/用户编译记录",
+  "Code location": "2.1DLL与资源已同步",
+  "Before": "9b7cee08fdc01fb936718c8aa64826c9bf82729e5ee99d91e095c34b5aa17759",
+  "Changes": "记录已编译安装、32项字节一致性、双备份；游戏验收仍未确认；正式2.0归档不变",
+  "Reasons": "用户明确要求迅速更新模组；核验用户已编译DLL后同步安装并记录事实",
+  "After": "4f6bdfcf7e59a0712c128868557abffcc55b709f51c99ac8958b1b1fbec67dd6",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InstallParticle21-20261008-015114-785616\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InstallParticle21-20261008-015114-785616\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目行为和安装状态",
+  "Code location": "版本摘要",
+  "Before": "源码0.2.5待编译且安装旧DLL",
+  "Changes": "标记用户编译并安装0.2.5",
+  "Reasons": "本轮安装成功，区分安装和游戏测试",
+  "After": "文档同步用户已编译并安装0.2.5的状态",
+  "Impact": "仅 JudgementCutEnd；修复武器准备和演出放行，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InstallationNotes-20261007-181711-236208\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InstallationNotes-20261007-181711-236208\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.5已安装；游戏内效果与伤害仍待实测"
+}

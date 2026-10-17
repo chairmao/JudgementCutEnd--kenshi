@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_optics.csv",
+  "Role": "运行时九条原折射强度曲线",
+  "Code location": "JCEOPTICS1: slash1..8 / screen1",
+  "Before": "缺少独立折射强度资源",
+  "Changes": "新增九条完整曲线，保留独立峰值/频率/切线",
+  "Reasons": "不能用原Alpha代替RefractionStrength",
+  "After": "新LoadAssets消费，局部时间映射随后实现",
+  "Impact": "新增文件，旧六条Alpha曲线合同保留",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": null,
+    "after_sha256": "209acb9243bd215ec03b22b8b0a76b8a2481ca392b0e82902247f25a29a1f871"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

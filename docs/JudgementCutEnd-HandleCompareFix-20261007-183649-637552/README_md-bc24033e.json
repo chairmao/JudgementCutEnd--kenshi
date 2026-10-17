@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+  "Role": "分发说明",
+  "Code location": "版本、伤害和诊断",
+  "Before": "0.2.5已安装待测试",
+  "Changes": "同步0.2.6句柄校验与冷却剩余说明",
+  "Reasons": "包说明不宣称未安装的源码已解决实机问题",
+  "After": "0.2.6源码修复句柄比较；已安装0.2.5不变",
+  "Impact": "仅 JudgementCutEnd；修复武器准备和演出放行，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-HandleCompareFix-20261007-183649-637552\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-HandleCompareFix-20261007-183649-637552\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.6待用户编译及实机验证；15秒冷却保持"
+}

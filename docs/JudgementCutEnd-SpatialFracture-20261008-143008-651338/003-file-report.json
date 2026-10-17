@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "插件动画演出的特效层",
+  "Code location": "OpticalStrength / LoadAssets / SpatialFracture / VFX队列回调",
+  "Before": "192个柔边小片共享Alpha，短促折射，透明排序可能覆盖前层",
+  "Changes": "九条严格独立强度曲线、八道实际刀路片区、原网格带宽比、单覆盖面及自有段优先级；版本2.5",
+  "Reasons": "源9网格/9强度曲线已精确解析；旧最大约4.8像素及0.11秒闪现不显空间错位",
+  "After": "连续错位保持至收刀淡出，保留原高光/蓝雾；副本实际首自有段前抓取，每帧最多一次",
+  "Impact": "仅VFX和启动资源校验；U/无冷却/350范围/96次伤害/姿势/时间恢复不改；需要新DLL和新资源",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "utf-8-sig",
+    "line_endings": "CRLF",
+    "original_sha256": "3dc6700f991362c480b89f3d464a3899292080b76ee814069a71ea22df216dc3",
+    "after_sha256": "29ba5fa25a1a39715b59a93eeb20c0568e96be67a950e69f72794f0814bc333b"
+  },
+  "Unresolved": "C++/HLSL未编译，GPU性能与视觉待游戏测试；源坐标与光照按Kenshi适配"
+}

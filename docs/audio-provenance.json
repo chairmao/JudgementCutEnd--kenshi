@@ -1,0 +1,42 @@
+{
+  "sources": [
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE010Intro.wav",
+      "sha256": "2b42df9aa475af6cd1cfe2c1c236948ba4cafe7e3f90abe14bc88e72cffcc8ef",
+      "at": 0,
+      "gain": 0.45,
+      "used_seconds": 2.1
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE020Draw.wav",
+      "sha256": "a2cd2f48c3584f43b87dcf722e4e4f18ca06b715b23b42dbe8c09520de40e047",
+      "at": 2.1,
+      "gain": 0.65,
+      "used_seconds": 0.6999773242630386
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE030CutAll.wav",
+      "sha256": "0e0841baa8b403c0e8395054bf41d78ad0449ee80548fa18dea4ee038582cfb1",
+      "at": 2.35,
+      "gain": 0.65,
+      "used_seconds": 1.0715419501133787
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE040Sheath.wav",
+      "sha256": "7e37b6d0b7be3c685eea096e146bd99697f31f2f4b9ce6124f0552b65ec261ec",
+      "at": 3.66,
+      "gain": 0.5,
+      "used_seconds": 0.7439909297052154
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE040Finish.wav",
+      "sha256": "ba1766c51b147a9cdcf5417d0d28ec7f521de8fbf3ed9bf39ae56fc64c7f1f0f",
+      "at": 5.15,
+      "gain": 0.7,
+      "used_seconds": 1.55
+    }
+  ],
+  "format": "mono PCM16 44100 Hz",
+  "duration": 6.7,
+  "redistribution": "本地测试资源；来源为用户提供参考目录，不声称原创音频"
+}

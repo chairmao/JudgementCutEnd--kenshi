@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_spatial_fracture.py",
+  "Role": "空间切裂只读验证",
+  "Code location": "main / fallback / projection boundaries",
+  "Before": "第一轮100项检查已通过，中途失败布局尚未独立覆盖",
+  "Changes": "增加零Alpha四分量UV失败分支与三种相机的实际刀路片区检查",
+  "Reasons": "静态交叉验证不能只检查正常路径",
+  "After": "包含相机/生命周期边界的专项核验",
+  "Impact": "不编译，投影数值模型不能证明GPU观感",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338-validation-145106-706620\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_spatial_fracture.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338-validation-145106-706620\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_spatial_fracture.py"
+    ],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": "ebc11013b019d3be68a68f0cbc466bcd2f956eddfd61b6beeb788a1f5f4057e8",
+    "after_sha256": "8d93ab2a1473d09065d916ba0854d3e6e6dada57be6fc74ade4196b314a8a6ca"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

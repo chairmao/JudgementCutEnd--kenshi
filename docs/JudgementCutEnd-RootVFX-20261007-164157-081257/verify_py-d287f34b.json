@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "非编译回归验证器",
+  "Code location": "原生消费者/位置/范围/材质验证",
+  "Before": "只验证 dirty 模型，未覆盖 skip 分支",
+  "Changes": "增加实际PE分支核对、八导出、缓存消费模型、位置/范围/HDR与几何预算检查",
+  "Reasons": "回归必须覆盖这次已证实的冻结路径；仍不能替代宿主编译与像素测试",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-RootVFX-20261007-164157-081257\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-RootVFX-20261007-164157-081257\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

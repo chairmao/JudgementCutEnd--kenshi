@@ -1,0 +1,32 @@
+{
+  "source_version": "2.9.1-dev",
+  "resource_revision": "2.9.1-single-wide-facet-probe",
+  "native_cpp_changed": true,
+  "user_compile_required": true,
+  "game_tested": false,
+  "installed": false,
+  "default_probe_mode": 1,
+  "probe_modes": {
+    "0": "three facets with existing visuals",
+    "1": "wide facet only",
+    "2": "wide facet with existing visuals"
+  },
+  "source_sha256": "C3C47FC0743AE1C60C89330097533BE3253DC0F9D324170BDE1235223EB80729",
+  "resources": {
+    "jce_facets291.hlsl": "81D9563E19CA25DE4F264F57C687CEA1CFAAAC011CEE30C72EF845238212B3E3",
+    "jce_facets291.program": "B8A505525147A558E7B2A6E3480E1E444602CFD0B5D0D352E82B573A3431CE79",
+    "jce.material": "C182E1C4A7446EBFBAEB3A9BCC8EBAD442E56617DB5C9D2D5A0FC70E22550D08",
+    "jce_source_optical_mask.dds": "A3F29383DE8BB46BB69B75475067DE5DD1238CCE41793CE6E04950B7749B19FD",
+    "JudgementCutEnd.ini": "E4C81032B55FE74C7D21A5CBDABBAEE2AF67E8A484D218E009EFCE2DABF17D85"
+  },
+  "retained_archive": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-2.9.0-tested-retained-JCE-WideProbe291-20261009-235338.zip",
+  "source_mask_sha256": "A3F29383DE8BB46BB69B75475067DE5DD1238CCE41793CE6E04950B7749B19FD",
+  "hdr_copies_max": 1,
+  "texture_samples_max": 2,
+  "max_offset_pixels": 36,
+  "wide_extent_radius": 0.55,
+  "wide_adapted_scale": 3.2304459772053566,
+  "compile_configuration": "Release|x64",
+  "compile_project": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.vcxproj",
+  "compilation": "not run by policy"
+}

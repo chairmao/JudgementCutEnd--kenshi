@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "current delivery status",
+  "Code location": "installed version/artifact/hash/pending test",
+  "Before": "source 0.2.4 pending compile",
+  "Changes": "record user-built 0.2.4 installation",
+  "Reasons": "installation and source-target hashes verified",
+  "After": "installed 0.2.4 pending gameplay test",
+  "Impact": "documentation only",
+  "Validation": "strict byte readback and Chinese text check",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InstalledStatus-20261007-174614-861284\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InstalledStatus-20261007-174614-861284\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8/CRLF"
+  },
+  "Unresolved": "gameplay test pending"
+}

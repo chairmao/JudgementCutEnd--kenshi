@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program",
+  "Role": "OGRE独立光学GPU程序声明",
+  "Code location": "Refraction_VP / Refraction_FP / default_params",
+  "Before": "只有Basic顶点程序和captureValid",
+  "Changes": "独立VP传局部坐标/投影中心，声明八切面/八状态/屏幕强度默认零",
+  "Reasons": "像素划分需要世界局部位置和源曲线强度合同",
+  "After": "CPP与HLSL的uniform名称/尺寸明确，默认不产生折射",
+  "Impact": "新增VP；不改宿主Basic程序",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program"
+    ],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": "e1d50bf3af0250cb6e6f1135ce7bf85369c759b64bd769c5e4759c05434e2361",
+    "after_sha256": "c5f956aea2671fb5d6a307d411cb0950c83792e2fd741eed343807ebb161946c"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

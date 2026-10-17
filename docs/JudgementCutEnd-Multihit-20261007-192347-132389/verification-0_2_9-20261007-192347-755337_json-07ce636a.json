@@ -1,0 +1,13 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-0.2.9-20261007-192347-755337.json",
+  "Role": "非编译验证结果",
+  "Code location": "checks / metrics",
+  "Before": "新文件，不存在待覆盖内容",
+  "Changes": "记录全部通过项与未编译/未实机状态",
+  "Reasons": "本次合同、模型和本机PE核验",
+  "After": "0.2.9审计证据可查；无编译或安装",
+  "Impact": "仅JudgementCutEnd文档",
+  "Validation": "UTF-8无BOM/CRLF；读回与乱码检查通过",
+  "Safety": "新文件独占创建；无旧文件需备份",
+  "Unresolved": "待用户编译和实机验证"
+}

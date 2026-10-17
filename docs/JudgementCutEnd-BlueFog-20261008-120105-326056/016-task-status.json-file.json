@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "当前项目状态",
+  "Code location": "源码VFX色表字段",
+  "Before": "源码继承安装版SourceDust旧uniform说明",
+  "Changes": "仅新源码配置准确指向新Smoke/Mist程序；安装配置保持",
+  "Reasons": "不把旧colorTint参数冒称为新shader仍在使用",
+  "After": "3a8d3d76b4a453e5115fc5d5ea0a6cae9c77a3baf2520eb00ce33b5d44de5820",
+  "Impact": "仅元数据；native和材质未再变化",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-BlueFog-20261008-121324-044763\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BlueFog-20261008-121324-044763\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "470a141d034c1cb59a358adfa6b1727c38e34b2f9910766eb84fcc79570d5f15"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

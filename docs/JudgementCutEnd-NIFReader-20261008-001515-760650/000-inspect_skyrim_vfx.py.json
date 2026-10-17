@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\inspect_skyrim_vfx.py",
+  "Role": "原特效只读取证工具",
+  "Code location": "Reader / parse / main",
+  "Before": "absent",
+  "Changes": "根据niftools SSE布局读取真实材质、发射器和关键帧；长度边界严格校验，未解析类型显式记录",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "3e6922645e62ff9e39fd6326bf656505c4573a26c9791c3a1ed04f388ad4054f",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

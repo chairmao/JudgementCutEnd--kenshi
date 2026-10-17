@@ -1,0 +1,779 @@
+{
+  "static_passed": true,
+  "checks": [
+    {
+      "name": "Python AST author_assets.py",
+      "passed": true
+    },
+    {
+      "name": "Python AST author_fast_audio.py",
+      "passed": true
+    },
+    {
+      "name": "Python AST verify.py",
+      "passed": true
+    },
+    {
+      "name": "v100 ABI",
+      "passed": true
+    },
+    {
+      "name": "whole program optimization enabled",
+      "passed": true
+    },
+    {
+      "name": "LTCG and nonincremental linking",
+      "passed": true
+    },
+    {
+      "name": "only own C++ translation unit",
+      "passed": true
+    },
+    {
+      "name": "all import libraries configured",
+      "passed": true
+    },
+    {
+      "name": "existing dependencies",
+      "passed": true
+    },
+    {
+      "name": "Boost autolink search path",
+      "passed": true
+    },
+    {
+      "name": "all four Boost autolink libraries present",
+      "passed": true
+    },
+    {
+      "name": "manifest single entry",
+      "passed": true
+    },
+    {
+      "name": "zero-record mod header",
+      "passed": true
+    },
+    {
+      "name": "no game data record",
+      "passed": true
+    },
+    {
+      "name": "track count matches contract",
+      "passed": true
+    },
+    {
+      "name": "track names distinct",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 Pelvis",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 Pelvis",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L Thigh",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L Thigh",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L Calf",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L Calf",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L Foot",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L Foot",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L Toe0",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L Toe0",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R Thigh",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R Thigh",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R Calf",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R Calf",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R Foot",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R Foot",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R Toe0",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R Toe0",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 Spine",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 Spine",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 Spine1",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 Spine1",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 Spine2",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 Spine2",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L Clavicle",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L Clavicle",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L UpperArm",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L UpperArm",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L Forearm",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L Forearm",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L Hand",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L Hand",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 Neck",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 Neck",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 Head",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 Head",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R Clavicle",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R Clavicle",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R UpperArm",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R UpperArm",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R Forearm",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R Forearm",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R Hand",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R Hand",
+      "passed": true
+    },
+    {
+      "name": "all bone steps under 12 degrees at 60 Hz",
+      "passed": true
+    },
+    {
+      "name": "full humanoid parent chain controlled",
+      "passed": true
+    },
+    {
+      "name": "embedded HTML equals scene data",
+      "passed": true
+    },
+    {
+      "name": "bone lengths preserved",
+      "passed": true
+    },
+    {
+      "name": "feet planted without root motion",
+      "passed": true
+    },
+    {
+      "name": "nontrivial draw/sheath movement",
+      "passed": true
+    },
+    {
+      "name": "96 independent stable slashes",
+      "passed": true
+    },
+    {
+      "name": "TGA dimensions and size",
+      "passed": true
+    },
+    {
+      "name": "WAV full timeline",
+      "passed": true
+    },
+    {
+      "name": "game shader contract",
+      "passed": true
+    },
+    {
+      "name": "HDR queue exists",
+      "passed": true
+    },
+    {
+      "name": "RE_Kenshi C++ entry contract",
+      "passed": true
+    },
+    {
+      "name": "single U default and configurable VK input",
+      "passed": true
+    },
+    {
+      "name": "bounded input and first callback diagnostics",
+      "passed": true
+    },
+    {
+      "name": "installation validates export before copying",
+      "passed": true
+    },
+    {
+      "name": "hotkey hold/release/focus state boundaries",
+      "passed": true
+    },
+    {
+      "name": "single key retains text and input gates",
+      "passed": true
+    },
+    {
+      "name": "native damage types fully included",
+      "passed": true
+    },
+    {
+      "name": "no skeleton resource mutation",
+      "passed": true
+    },
+    {
+      "name": "native binding and one hook per entry",
+      "passed": true
+    },
+    {
+      "name": "canonical stub address guarded before SDK resolution",
+      "passed": true
+    },
+    {
+      "name": "one medical call site in single deferred damage batch",
+      "passed": true
+    },
+    {
+      "name": "targets revalidate by handle",
+      "passed": true
+    },
+    {
+      "name": "scope serializes only caster",
+      "passed": true
+    },
+    {
+      "name": "manual render submission and camera/shadow isolation",
+      "passed": true
+    },
+    {
+      "name": "material supported and scene coordinates explicit",
+      "passed": true
+    },
+    {
+      "name": "render phase filter and per-frame deduplication",
+      "passed": true
+    },
+    {
+      "name": "reference audio source hashes verified",
+      "passed": true
+    },
+    {
+      "name": "world/pose restoration",
+      "passed": true
+    },
+    {
+      "name": "free camera including legacy config",
+      "passed": true
+    },
+    {
+      "name": "instance skin publication and ownership",
+      "passed": true
+    },
+    {
+      "name": "eight native skin interfaces bound before hooks",
+      "passed": true
+    },
+    {
+      "name": "no incompatible Entity inline accesses",
+      "passed": true
+    },
+    {
+      "name": "transform then skin publication ordering",
+      "passed": true
+    },
+    {
+      "name": "all eight native OGRE exports present",
+      "passed": true
+    },
+    {
+      "name": "local native skip bypasses updateAnimation cache call",
+      "passed": true
+    },
+    {
+      "name": "explicit native cache skips replay but writes matrices",
+      "passed": true
+    },
+    {
+      "name": "explicit cache precedes world matrices with guarded skip",
+      "passed": true
+    },
+    {
+      "name": "old skip freezes while explicit cache publishes across frames",
+      "passed": true
+    },
+    {
+      "name": "body and sharing consumers each receive pose without replay",
+      "passed": true
+    },
+    {
+      "name": "bone local positions owned and restored",
+      "passed": true
+    },
+    {
+      "name": "local translation accumulation reset for entire cast",
+      "passed": true
+    },
+    {
+      "name": "fivefold radius default and compatible larger clamp",
+      "passed": true
+    },
+    {
+      "name": "fivefold slash and ring widths with persistent cracks",
+      "passed": true
+    },
+    {
+      "name": "fourfold HDR gain supported by both game shader variants",
+      "passed": true
+    },
+    {
+      "name": "expanded VFX retains bounded geometry",
+      "passed": true
+    },
+    {
+      "name": "old slashes overflow radius verified",
+      "passed": true
+    },
+    {
+      "name": "asset endpoint and wide ribbon determine shared radius",
+      "passed": true
+    },
+    {
+      "name": "query filter revalidation and ring use same envelope",
+      "passed": true
+    },
+    {
+      "name": "all wide ribbon endpoints covered at radius 5",
+      "passed": true
+    },
+    {
+      "name": "boundary ring and shockwave within shared sphere at radius 5",
+      "passed": true
+    },
+    {
+      "name": "all wide ribbon endpoints covered at radius 30",
+      "passed": true
+    },
+    {
+      "name": "boundary ring and shockwave within shared sphere at radius 30",
+      "passed": true
+    },
+    {
+      "name": "all wide ribbon endpoints covered at radius 150",
+      "passed": true
+    },
+    {
+      "name": "boundary ring and shockwave within shared sphere at radius 150",
+      "passed": true
+    },
+    {
+      "name": "all wide ribbon endpoints covered at radius 300",
+      "passed": true
+    },
+    {
+      "name": "boundary ring and shockwave within shared sphere at radius 300",
+      "passed": true
+    },
+    {
+      "name": "sphere includes boundary but rejects vertical or radial outside",
+      "passed": true
+    },
+    {
+      "name": "visible and logical centres share fixed anchor across origin shifts",
+      "passed": true
+    },
+    {
+      "name": "floating origin cancellation (0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "floating origin cancellation (10000, -300, 7000)",
+      "passed": true
+    },
+    {
+      "name": "floating origin cancellation (-100000, 500, 400)",
+      "passed": true
+    },
+    {
+      "name": "current enemies collected once at damage not early cut",
+      "passed": true
+    },
+    {
+      "name": "all in area enemies independent of legacy MaxTargets",
+      "passed": true
+    },
+    {
+      "name": "extra boundary ring stays within geometry budget",
+      "passed": true
+    },
+    {
+      "name": "all target damage with bounded diagnostic detail",
+      "passed": true
+    },
+    {
+      "name": "100 enemies covered while neutral player outside invalid rejected",
+      "passed": true
+    },
+    {
+      "name": "entrant hit and leaver skipped at commit",
+      "passed": true
+    },
+    {
+      "name": "threefold runtime clock preserves real stall deadline",
+      "passed": true
+    },
+    {
+      "name": "preview clock threefold, clip contract preserved",
+      "passed": true
+    },
+    {
+      "name": "fast soundtrack reproducible without changing source sounds",
+      "passed": true
+    },
+    {
+      "name": "fast PCM keeps pitch rate and exact threefold duration",
+      "passed": true
+    },
+    {
+      "name": "sound cues align to clip divided by three within one sample",
+      "passed": true
+    },
+    {
+      "name": "runtime plays synchronized fast soundtrack",
+      "passed": true
+    },
+    {
+      "name": "per slash 100 percent overrides legacy 44 multiplier",
+      "passed": true
+    },
+    {
+      "name": "complete native weapon stats headers",
+      "passed": true
+    },
+    {
+      "name": "per target formula before fresh single slash native medical calls",
+      "passed": true
+    },
+    {
+      "name": "hit count derives from current 96 VFX rows",
+      "passed": true
+    },
+    {
+      "name": "reaction requested once after inner hit loop with aggregated body counts",
+      "passed": true
+    },
+    {
+      "name": "each strike resolves caster target and weapon before medical call",
+      "passed": true
+    },
+    {
+      "name": "large native reaction with honest race fallback",
+      "passed": true
+    },
+    {
+      "name": "no extra medical damage HP writes or timer writes for stagger",
+      "passed": true
+    },
+    {
+      "name": "stagger guards KO death prone and bounds force",
+      "passed": true
+    },
+    {
+      "name": "weapon cache no longer blocks visual begin",
+      "passed": true
+    },
+    {
+      "name": "native preferred equipped weapon selected without backpack search",
+      "passed": true
+    },
+    {
+      "name": "damage requires prepared and matching preferred cache handles",
+      "passed": true
+    },
+    {
+      "name": "only plugin drawn same weapon restored",
+      "passed": true
+    },
+    {
+      "name": "sheathed loadout with empty cache casts and arms",
+      "passed": true
+    },
+    {
+      "name": "already drawn loadout never auto sheathed",
+      "passed": true
+    },
+    {
+      "name": "unarmed and failed draw still show visuals",
+      "passed": true
+    },
+    {
+      "name": "external weapon change cancels damage without restoring old gear",
+      "passed": true
+    },
+    {
+      "name": "native default body part selection uses dynamic weighted anatomy",
+      "passed": true
+    },
+    {
+      "name": "native cumulative weighted draw resolves random float thunk",
+      "passed": true
+    },
+    {
+      "name": "native spatial query ignores caller count uses full results",
+      "passed": true
+    },
+    {
+      "name": "native human draw really populates combat cache",
+      "passed": true
+    },
+    {
+      "name": "native weapon accessors and sheath exports map",
+      "passed": true
+    },
+    {
+      "name": "hasWeapon is cache hand test not inventory search",
+      "passed": true
+    },
+    {
+      "name": "all owned weapon and target equality uses native nonvirtual hand API",
+      "passed": true
+    },
+    {
+      "name": "game hand slot zero is bool and slot one is hand equality",
+      "passed": true
+    },
+    {
+      "name": "native equality compares type container containerSerial index serial",
+      "passed": true
+    },
+    {
+      "name": "same handle passes and each stale identity component fails",
+      "passed": true
+    },
+    {
+      "name": "repeated target identity commits only once",
+      "passed": true
+    },
+    {
+      "name": "cooldown removed even for legacy nonzero settings",
+      "passed": true
+    },
+    {
+      "name": "new key replaces old cast before pending timeline damage",
+      "passed": true
+    },
+    {
+      "name": "input remains rising edge across cleanup and restart",
+      "passed": true
+    },
+    {
+      "name": "restart uses existing common input safety gates",
+      "passed": true
+    },
+    {
+      "name": "restart restores owned state before new snapshots",
+      "passed": true
+    },
+    {
+      "name": "restart wins on old damage boundary, only replacement hits",
+      "passed": true
+    },
+    {
+      "name": "committed damage remains once per cast after replacement",
+      "passed": true
+    },
+    {
+      "name": "held key does not replay, release allows immediate no cooldown cast",
+      "passed": true
+    },
+    {
+      "name": "restart at clip phase 0.2",
+      "passed": true
+    },
+    {
+      "name": "restart at clip phase 0.9",
+      "passed": true
+    },
+    {
+      "name": "restart at clip phase 1.6",
+      "passed": true
+    },
+    {
+      "name": "blocked editing input does not replace current cast",
+      "passed": true
+    },
+    {
+      "name": "100 replacements retain one owner and no old queued hits",
+      "passed": true
+    },
+    {
+      "name": "finite base and returned reaction channels validated",
+      "passed": true
+    },
+    {
+      "name": "bounded hit diagnostics expose base anatomy batch and reaction",
+      "passed": true
+    },
+    {
+      "name": "96 independent fresh parameters retain bleed and penetration",
+      "passed": true
+    },
+    {
+      "name": "one target armour changes do not affect another target",
+      "passed": true
+    },
+    {
+      "name": "early death ends remaining hits and zero hits no reaction",
+      "passed": true
+    },
+    {
+      "name": "native large stumble selector export and big flag filter",
+      "passed": true
+    },
+    {
+      "name": "native stumble start and combat reaction force exports",
+      "passed": true
+    },
+    {
+      "name": "native target reaction accessors match current game",
+      "passed": true
+    },
+    {
+      "name": "block timer is constant so no promised forced duration",
+      "passed": true
+    },
+    {
+      "name": "sheath commits once at multiple FPS",
+      "passed": true
+    },
+    {
+      "name": "long stall cancels before deferred damage",
+      "passed": true
+    },
+    {
+      "name": "short stall orders crossing events",
+      "passed": true
+    },
+    {
+      "name": "threefold real cut sheath end boundaries",
+      "passed": true
+    },
+    {
+      "name": "UTF-8 Chinese and CRLF verified",
+      "passed": true
+    }
+  ],
+  "metrics": {
+    "bone_length_error": 6.217248937900877e-15,
+    "foot_drift": 0,
+    "right_hand_motion": 5.9732055889744835,
+    "frames": 403,
+    "tracks": 23,
+    "max_single_frame_rotation_degrees": 10.88434553702598
+  },
+  "compiled": false,
+  "game_tested": false
+}

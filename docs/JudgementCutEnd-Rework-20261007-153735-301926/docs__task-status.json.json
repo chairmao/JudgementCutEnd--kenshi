@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目状态与验证界限",
+  "Code location": "static_check_count/latest_verification/metrics",
+  "Before": "0.1.2 实机失败版本；原字节已双备份",
+  "Changes": "用当前 94 项结果替代历史 62 项，保留旧安装版本事实",
+  "Reasons": "避免把旧验证计数或旧 DLL 当作本轮修订已安装",
+  "After": "源码/资源修订，等待用户编译与实机验证",
+  "Impact": "仅独立插件；旧DLL不得搭配新资源安装",
+  "Validation": "读回一致，保留 BOM 和 CRLF；中文与乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-153735-301926\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-153735-301926\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "未编译；未实机验收"
+}

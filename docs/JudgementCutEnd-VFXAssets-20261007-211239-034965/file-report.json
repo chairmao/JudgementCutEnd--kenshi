@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_shards.csv",
+  "Role": "96道斩痕关联192个独立瞬态光区，固定空间坐标，无下落",
+  "Code location": "完整特效资源",
+  "Before": "已双备份",
+  "Changes": "确定性重现1.1.1特效资产",
+  "Reasons": "灰色整体气氛与瞬态空间裂光，不改原动画/音频",
+  "After": "资源已生成",
+  "Impact": "仅JudgementCutEnd分发包",
+  "Validation": "逐字节读回一致，文本UTF-8/CRLF/中文扫描",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFXAssets-20261007-211239-034965\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_shards.csv",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXAssets-20261007-211239-034965\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_shards.csv"
+    ],
+    "encoding": "文本UTF-8无BOM/CRLF；TGA保持二进制"
+  },
+  "Unresolved": "需用户编译/实机验证"
+}

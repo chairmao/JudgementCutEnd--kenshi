@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+  "Role": "OGRE特效材质",
+  "Code location": "仅JCE/Refraction的vertex_program_ref",
+  "Before": "Basic VP不传局部半球位置",
+  "Changes": "换成自有Refraction_VP，保留t1、Alpha混合及深度测试",
+  "Reasons": "连续片区不能依靠小片柔边遮罩裁切",
+  "After": "光学覆盖受半球与原深度限制",
+  "Impact": "其他Glow/Mist/Glass字节不变",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material"
+    ],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": "2c4d3c8c7c28cac7265c3646770018547e791b3689bfe3ce9cc46852137a0757",
+    "after_sha256": "063eb537912d9c0cccf0971833226f1554bf7cb02144575d750490d3079e699b"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

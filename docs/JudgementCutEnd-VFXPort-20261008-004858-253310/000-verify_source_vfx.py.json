@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py",
+  "Role": "独立特效静态回归",
+  "Code location": "绑定与日志分离核验",
+  "Before": "8163ced0ee3a7a97d580a9ad85a172ac6b3b432d8df16d371f186abd60c3dd3e",
+  "Changes": "只规范化获授权的特效资源日志，继续逐字核验 Hook 绑定与失败处理",
+  "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+  "After": "3bbe7471b78657fe9a9a9585aa3bed4aa1c787fad35da85ee4f4d4d1e17261e5",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-004858-253310\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-004858-253310\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

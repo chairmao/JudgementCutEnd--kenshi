@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+  "Role": "模组配置",
+  "Code location": "版本注释",
+  "Before": "1.0正式基线已独立封存；原文件另行双备份",
+  "Changes": "只同步开发版本注释，Radius350与伤害/按键等配置数值保持",
+  "Reasons": "用户要求蓝色雾气、沿路径斩击幻影、镜面碎裂与碎片落地",
+  "After": "1.1.0开发资源/源码",
+  "Impact": "仅本项目特效，不改伤害/范围/速度和已安装模组",
+  "Validation": "写后读回一致，文本UTF-8/BOM/CRLF与中文扫描通过；待专项静态检查",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFX110-20261007-204453-103337\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFX110-20261007-204453-103337\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini"
+    ],
+    "encoding": "UTF-8/CRLF或明确二进制资源"
+  },
+  "Unresolved": "不代编译，待用户Release|x64与实机视觉/性能验收"
+}

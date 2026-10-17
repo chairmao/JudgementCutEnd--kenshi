@@ -1,0 +1,86 @@
+{
+  "source_version": "2.8.0-dev",
+  "resource_revision": "2.8.3-coarse-fracture-contrast-r1",
+  "based_on_resource_revision": "2.8.2-large-space-fragments-r1",
+  "native_cpp_changed": false,
+  "dll_recompile_required": false,
+  "runtime_shader_validation_required": true,
+  "installed": false,
+  "game_tested": false,
+  "shader_file": "assets/jce_refraction.hlsl",
+  "shader_sha256": "C62E49771992B3132D986C49932919B0C0AEAC9D2032AFB82E135554B285D904",
+  "coarse_plane_indices": [
+    0,
+    2,
+    4
+  ],
+  "hierarchy_order": [
+    0,
+    2,
+    4,
+    1,
+    3,
+    5,
+    6,
+    7
+  ],
+  "coarse_regions_max": 8,
+  "region_motion": "normalized stable region direction; middle phase 22 reference pixels before strength/budget",
+  "detail_budget_fraction": 0.3,
+  "coarse_rotation_range": [
+    -0.0275,
+    0.0275
+  ],
+  "coarse_shear_range": [
+    -0.015,
+    0.015
+  ],
+  "coarse_lip": "screen derivative bounded cyan light and local shadow; no full-face tint",
+  "shadow_factor_max": 0.14,
+  "scene_samples_per_fragment": 1,
+  "max_offset_pixels": 36,
+  "global_tint_added": false,
+  "actual_3d_mirror_meshes": false,
+  "radius": 350,
+  "slash_count": 96,
+  "validation_task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Fracture283-20261009-212555-ec31cc",
+  "validation_checks": 4995,
+  "model_comparisons": [
+    {
+      "view": [
+        1,
+        1.4,
+        2
+      ],
+      "before_median_pixels": 6.397738173424369,
+      "after_median_pixels": 16.397595722011847,
+      "offset_ratio": 2.563030133075153,
+      "visible_area_fraction": 0.5737285034760337
+    },
+    {
+      "view": [
+        0.2,
+        3,
+        1
+      ],
+      "before_median_pixels": 11.690400290985316,
+      "after_median_pixels": 21.27481587568296,
+      "offset_ratio": 1.8198534991216995,
+      "visible_area_fraction": 0.5537614405833767
+    },
+    {
+      "view": [
+        2,
+        0.2,
+        1
+      ],
+      "before_median_pixels": 8.999705214389127,
+      "after_median_pixels": 15.959427053972316,
+      "offset_ratio": 1.7733277561642438,
+      "visible_area_fraction": 0.6326585695006748
+    }
+  ],
+  "model_is_not_gpu_render": true,
+  "compilation": "not run by policy",
+  "unresolved": "实际GPU编译、沙地和密集场景的可读性与帧率需实机验证；未读取到BG3全部依赖材质，不能宣称原版等效"
+}

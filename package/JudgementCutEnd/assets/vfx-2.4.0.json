@@ -1,0 +1,63 @@
+{
+  "revision": "2.4-source-smoke-r1",
+  "source_version": "2.4.0-dev",
+  "audit": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SourceSmoke-20261008-133659-646941",
+  "source_evidence": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCESkyrimFog-20261008-1305",
+  "evidence_video": "C:\\Users\\周凡稀\\AppData\\Local\\Temp\\steam\\3AFFA7~1.MP4",
+  "layers": 11,
+  "fog_slices": 32,
+  "fog_optical_depth_coefficient": 0.16,
+  "smoke_bands": 48,
+  "smoke_segments": 10,
+  "smoke_wisps": 96,
+  "smoke_shapes_per_atlas": 16,
+  "smoke_clock": "clip seconds at 3x real playback; z=shape*16+clip_seconds, w=radius",
+  "shape_animation": false,
+  "scale_samples": {
+    "strip": 200,
+    "wisp": 64
+  },
+  "vertex_upper_bound": 19668,
+  "index_upper_bound": 47358,
+  "hard_limits": {
+    "vertices": 32768,
+    "indices": 49152
+  },
+  "textures": [
+    {
+      "resource": "jce_source_soft_smoke.dds",
+      "sha256": "66e28eb641a21ebd3fd7b32f0c40286a6971e329f82d835e0ad5348ec2d20692",
+      "provenance": {
+        "archive": "E:\\skyrimspecialedition\\mods\\Kart_CSSET_Overwrite\\Skyrim - Textures4.bsa",
+        "entry": "FXSmokeSoftSub.dds",
+        "archive_offset": 722117435,
+        "payload_bytes": 231905,
+        "extracted_bytes": 349700,
+        "dimensions": [
+          512,
+          512
+        ],
+        "sha256": "66e28eb641a21ebd3fd7b32f0c40286a6971e329f82d835e0ad5348ec2d20692",
+        "output": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCESkyrimFog-20261008-1305\\FXSmokeSoftSub.dds",
+        "source_read_only": true,
+        "library": "E:\\skyrimspecialedition\\dlls\\liblz4.dll"
+      }
+    },
+    {
+      "resource": "jce_source_smoke_wisps.dds",
+      "sha256": "ab0d433161b2088da9cd236af685d46a0b1aa8b1afefdead600fd4f108b48047",
+      "source": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\textures\\effects\\zjc\\SmokeParticles01.dds"
+    }
+  ],
+  "native_compiled": false,
+  "shader_compiled": false,
+  "installed": false,
+  "game_tested": false,
+  "gameplay_unchanged": true,
+  "limits": [
+    "适配条带几何/独立生命周期，不是完整NIF引擎执行器。",
+    "不直接复制Skyrim力场数值；旋转和尺寸曲线保留，空间/寿命适配350圆和2.233秒演出。",
+    "每层内排序；跨层透明顺序、实际填充率和GPU观感需实机确认。",
+    "不能用2.3 DLL混配2.4新材质；需用户Release|x64编译。"
+  ]
+}

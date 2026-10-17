@@ -1,0 +1,98 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+    "Role": "只读验证",
+    "Code location": "验证/证据相关段落",
+    "Before": "已有内容，双备份后调整",
+    "Changes": "增加本机反汇编确认的相机目标坐标合同检查",
+    "Reasons": "增加本机反汇编确认的相机目标坐标合同检查",
+    "After": "与当前代码和直接证据一致",
+    "Impact": "仅本项目",
+    "Validation": "UTF-8/BOM/CRLF保持；回读/中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "Unresolved": "编译与游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+    "Role": "测试说明",
+    "Code location": "验证/证据相关段落",
+    "Before": "已有内容，双备份后调整",
+    "Changes": "同步新增检查后的 51 项数量",
+    "Reasons": "同步新增检查后的 51 项数量",
+    "After": "与当前代码和直接证据一致",
+    "Impact": "仅本项目",
+    "Validation": "UTF-8/BOM/CRLF保持；回读/中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "Unresolved": "编译与游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\implementation-review.md",
+    "Role": "测试说明",
+    "Code location": "验证/证据相关段落",
+    "Before": "已有内容，双备份后调整",
+    "Changes": "同步新增检查后的 51 项数量",
+    "Reasons": "同步新增检查后的 51 项数量",
+    "After": "与当前代码和直接证据一致",
+    "Impact": "仅本项目",
+    "Validation": "UTF-8/BOM/CRLF保持；回读/中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\implementation-review.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\implementation-review.md"
+    ],
+    "Unresolved": "编译与游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\native-evidence.json",
+    "Role": "原生接口证据",
+    "Code location": "验证/证据相关段落",
+    "Before": "已有内容，双备份后调整",
+    "Changes": "记录速度/暂停字段分离、Camera.lookAt 世界目标的本机证据",
+    "Reasons": "记录速度/暂停字段分离、Camera.lookAt 世界目标的本机证据",
+    "After": "与当前代码和直接证据一致",
+    "Impact": "仅本项目",
+    "Validation": "UTF-8/BOM/CRLF保持；回读/中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\native-evidence.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\native-evidence.json"
+    ],
+    "Unresolved": "编译与游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification.json",
+    "Role": "验证结果",
+    "Code location": "验证/证据相关段落",
+    "Before": "已有内容，双备份后调整",
+    "Changes": "51 项全部通过；保留非编译、非实机的验证范围",
+    "Reasons": "51 项全部通过；保留非编译、非实机的验证范围",
+    "After": "与当前代码和直接证据一致",
+    "Impact": "仅本项目",
+    "Validation": "UTF-8/BOM/CRLF保持；回读/中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification.json"
+    ],
+    "Unresolved": "编译与游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+    "Role": "项目状态",
+    "Code location": "验证/证据相关段落",
+    "Before": "已有内容，双备份后调整",
+    "Changes": "同步 51 项；编译、安装及实测依然未完成",
+    "Reasons": "同步 51 项；编译、安装及实测依然未完成",
+    "After": "与当前代码和直接证据一致",
+    "Impact": "仅本项目",
+    "Validation": "UTF-8/BOM/CRLF保持；回读/中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140230-102026\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "Unresolved": "编译与游戏实测尚未执行"
+  }
+]

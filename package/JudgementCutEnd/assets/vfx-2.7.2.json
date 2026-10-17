@@ -1,0 +1,32 @@
+{
+  "source_version": "2.7.0-dev",
+  "resource_revision": "2.7.2-pale-blue-rolling-r1",
+  "baseline_resource_revision": "2.7.1-curtain-removal-r1",
+  "native_dll_unchanged": true,
+  "dll_recompile_required": false,
+  "installed": false,
+  "game_tested": false,
+  "shader_compiled_by_agent": false,
+  "bg3_reference": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-PaleBlue272-20261009-183804-43bd08\\bg3-reference.json",
+  "bg3_assets_copied": false,
+  "bg3_base_shader_status": "MISSING",
+  "changes": [
+    "烟带/烟丝暗部提亮为淡蓝，低/高密度RGB=.16,.38,.57 / .38,.72,.94",
+    "原CPU寿命颜色映射为轻微色温，不再次乘深蓝；消散仍由原Alpha和END控制",
+    "两个低频场差速卷流加高度剪切，沿刀路卷边连续弯曲"
+  ],
+  "legacy_dust_changed": false,
+  "visible_mist_slices": 0,
+  "true_3d_volume_implemented": false,
+  "refraction_changed": false,
+  "geometry_changed": false,
+  "source_smoke_noise_samples": 2,
+  "source_smoke_atlas_samples": 1,
+  "static_checks": 41,
+  "verification": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-PaleBlue272-20261009-183804-43bd08\\verification.json",
+  "files": {
+    "jce_atmosphere.hlsl": "e88a23f2bed52ebb023178c82dc0c614b57116312e3b68a3a1ad52c51eddde2c",
+    "jce_atmosphere.program": "ec8cbddb111ce233ee6905c82c5115ca3f32ac1c6ca26ce08b0b6919eb98c5f4",
+    "jce_source.material": "89ffddb09a7cfee58923070afcf51e0f9c302d2c4669f0fd388b1e92fb3db135"
+  }
+}

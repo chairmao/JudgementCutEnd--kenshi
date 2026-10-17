@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\blue-fog-2.2-20261008.md",
+  "Role": "用户可读完成记录",
+  "Code location": "证据/改动/验证/编译/备份",
+  "Before": "无本轮记录",
+  "Changes": "说明本轮范围、来源、保护与未编译状态",
+  "Reasons": "用户回来可继续编译和验收",
+  "After": "f9e335675b99f4a9ea17f9c1f23d8594f08035e8ad657cf5372475d9626575d9",
+  "Impact": "仅文档；不冒称实机通过",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

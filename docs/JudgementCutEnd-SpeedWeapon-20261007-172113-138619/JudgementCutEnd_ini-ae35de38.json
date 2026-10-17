@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+  "Role": "分发配置",
+  "Code location": "DamageMultiplier/版本说明",
+  "Before": "固定切割50、钝击20",
+  "Changes": "删除固定伤害项，追加44倍默认与单位注释",
+  "Reasons": "用户明确要求随当前装备近战武器伤害变化",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；新版源码、同步音轨与配置",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpeedWeapon-20261007-172113-138619\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpeedWeapon-20261007-172113-138619\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.4 DLL待用户编译，武器伤害与三倍速度待实机；未修改已安装模组"
+}

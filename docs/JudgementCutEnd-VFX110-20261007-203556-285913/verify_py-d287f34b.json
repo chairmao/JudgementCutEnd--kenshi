@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "时序合同验证",
+  "Code location": "96 independent stable slashes",
+  "Before": "1.0正式基线已独立封存；原文件另行双备份",
+  "Changes": "新裂痕时序铺满2.35–4.55剪辑秒，验证上界与已确认演出合同一致",
+  "Reasons": "用户要求蓝色雾气、沿路径斩击幻影、镜面碎裂与碎片落地",
+  "After": "1.1.0开发资源/源码",
+  "Impact": "仅本项目特效，不改伤害/范围/速度和已安装模组",
+  "Validation": "写后读回一致，文本UTF-8/BOM/CRLF与中文扫描通过；待专项静态检查",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFX110-20261007-203556-285913\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFX110-20261007-203556-285913\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8/CRLF或明确二进制资源"
+  },
+  "Unresolved": "不代编译，待用户Release|x64与实机视觉/性能验收"
+}

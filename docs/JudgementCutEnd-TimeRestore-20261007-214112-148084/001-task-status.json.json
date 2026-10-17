@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目状态",
+  "Code location": "源版本/编译状态/证据/待验收",
+  "Before": "57e13e0dde17f86fafc9b5100ee4b1dccf68831b16abbc0a0b2936902a5bb6f6",
+  "Changes": "记录1.1.2时间修复待编译，区分刚发现的1.1.1编译产物与1.1.0安装DLL",
+  "Reasons": "用户要求修正演出结束后速度未恢复；日志证实取消后原始速度被0.001污染",
+  "After": "6c5aaa5e838eeafbb66af9a735dee0fb5da53406edd3d9d3a768909e8f874183",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-TimeRestore-20261007-214112-148084\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-TimeRestore-20261007-214112-148084\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；暂停解除、速度恢复与异常路径待实机验收"
+}

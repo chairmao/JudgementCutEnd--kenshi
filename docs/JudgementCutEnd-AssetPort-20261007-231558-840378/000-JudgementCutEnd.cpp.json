@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "运行时",
+  "Code location": "Draw / 第四材质层",
+  "Before": "9eaccb689adb81b9e3cded7209d768f4fb3e90dd9e4f423fd6038bebffa75116",
+  "Changes": "折射不可用时写入透明占位三角形，避免空层导致整场演出失败",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "477006e344462a353f2f2565aec867b218cf41488deb7762be5d457bbb2db6fd",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

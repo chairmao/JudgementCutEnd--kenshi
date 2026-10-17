@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\spatial-fracture-2.5-task.json",
+  "Role": "本次静态验证输入与范围",
+  "Code location": "baseline / changed_existing",
+  "Before": "无2.5任务清单",
+  "Changes": "记录基线、许可文件范围及版本",
+  "Reasons": "验证器需逐文件核验边界",
+  "After": "现有游戏产物独立保护",
+  "Impact": "仅项目文档",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": null,
+    "after_sha256": "a51c2b416bfa94138b4c914b095724231e46631da3ca3199235c90ea851fa2d1"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

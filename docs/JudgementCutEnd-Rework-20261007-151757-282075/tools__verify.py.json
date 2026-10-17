@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "不编译的合同与资源检查",
+  "Code location": "main：动画规范/接口/来源/生命周期",
+  "Before": "0.1.2 实机失败版本；原字节已双备份",
+  "Changes": "新增单帧旋转阈值、23 轨完整父骨链、手动绘制注销/阴影隔离、材质与场景坐标、音效哈希合同",
+  "Reasons": "旧检查只验证数据规范，未约束动作跳变；新绘制入口和参考音效必须核验生产与消费方",
+  "After": "源码/资源修订，等待用户编译与实机验证",
+  "Impact": "仅独立插件；旧DLL不得搭配新资源安装",
+  "Validation": "读回一致，保留 BOM 和 CRLF；中文与乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-151757-282075\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-151757-282075\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "未编译；未实机验收"
+}

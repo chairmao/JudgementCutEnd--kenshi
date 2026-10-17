@@ -1,0 +1,152 @@
+  00000001800C1620: 40 53              push        rbx
+  00000001800C1622: 48 83 EC 30        sub         rsp,30h
+  00000001800C1626: 80 B9 08 03 00 00  cmp         byte ptr [rcx+00000308h],0
+  00000001800C162D: 48 8B D9           mov         rbx,rcx
+  00000001800C1630: 0F 84 27 01 00 00  je          00000001800C175D
+  00000001800C1636: 48 8B 89 00 03 00  mov         rcx,qword ptr [rcx+00000300h]
+  00000001800C163D: 48 85 C9           test        rcx,rcx
+  00000001800C1640: 0F 84 17 01 00 00  je          00000001800C175D
+  00000001800C1646: 48 8B 83 A8 01 00  mov         rax,qword ptr [rbx+000001A8h]
+  00000001800C164D: 8B 50 18           mov         edx,dword ptr [rax+18h]
+  00000001800C1650: 39 93 84 02 00 00  cmp         dword ptr [rbx+00000284h],edx
+  00000001800C1656: 75 36              jne         00000001800C168E
+  00000001800C1658: 48 8B 01           mov         rax,qword ptr [rcx]
+  00000001800C165B: FF 90 48 02 00 00  call        qword ptr [rax+00000248h]
+  00000001800C1661: 84 C0              test        al,al
+  00000001800C1663: 75 29              jne         00000001800C168E
+  00000001800C1665: 48 8B 43 28        mov         rax,qword ptr [rbx+28h]
+  00000001800C1669: 48 8D 8B 0C 03 00  lea         rcx,[rbx+0000030Ch]
+  00000001800C1670: 0F B6 50 38        movzx       edx,byte ptr [rax+38h]
+  00000001800C1674: 48 C1 E2 06        shl         rdx,6
+  00000001800C1678: 48 03 90 80 00 00  add         rdx,qword ptr [rax+00000080h]
+  00000001800C167F: E8 2C AA 00 00     call        00000001800CC0B0
+  00000001800C1684: 84 C0              test        al,al
+  00000001800C1686: 0F 84 D1 00 00 00  je          00000001800C175D
+  00000001800C168C: EB 21              jmp         00000001800C16AF
+  00000001800C168E: 80 BB D8 02 00 00  cmp         byte ptr [rbx+000002D8h],0
+  00000001800C1695: 75 08              jne         00000001800C169F
+  00000001800C1697: 48 8B CB           mov         rcx,rbx
+  00000001800C169A: E8 91 13 00 00     call        00000001800C2A30
+  00000001800C169F: 48 8B 83 A8 01 00  mov         rax,qword ptr [rbx+000001A8h]
+  00000001800C16A6: 8B 48 18           mov         ecx,dword ptr [rax+18h]
+  00000001800C16A9: 89 8B 84 02 00 00  mov         dword ptr [rbx+00000284h],ecx
+  00000001800C16AF: 48 8B 43 28        mov         rax,qword ptr [rbx+28h]
+  00000001800C16B3: 48 8D 8B 0C 03 00  lea         rcx,[rbx+0000030Ch]
+  00000001800C16BA: 41 B8 40 00 00 00  mov         r8d,40h
+  00000001800C16C0: 0F B6 50 38        movzx       edx,byte ptr [rax+38h]
+  00000001800C16C4: 48 8B 80 80 00 00  mov         rax,qword ptr [rax+00000080h]
+  00000001800C16CB: 48 89 7C 24 40     mov         qword ptr [rsp+40h],rdi
+  00000001800C16D0: 48 C1 E2 06        shl         rdx,6
+  00000001800C16D4: 48 03 D0           add         rdx,rax
+  00000001800C16D7: E8 DE C5 49 00     call        000000018055DCBA
+  00000001800C16DC: 48 8B 8B 00 03 00  mov         rcx,qword ptr [rbx+00000300h]
+  00000001800C16E3: 48 85 C9           test        rcx,rcx
+  00000001800C16E6: 74 70              je          00000001800C1758
+  00000001800C16E8: 48 8B 83 A8 01 00  mov         rax,qword ptr [rbx+000001A8h]
+  00000001800C16EF: 48 83 78 50 00     cmp         qword ptr [rax+50h],0
+  00000001800C2A30: 48 89 5C 24 08     mov         qword ptr [rsp+8],rbx
+  00000001800C2A35: 57                 push        rdi
+  00000001800C2A36: 48 83 EC 20        sub         rsp,20h
+  00000001800C2A3A: 48 8B 05 DF 70 84  mov         rax,qword ptr [80909B20h]
+  00000001800C2A41: 48 8B D9           mov         rbx,rcx
+  00000001800C2A44: 8B B8 90 01 00 00  mov         edi,dword ptr [rax+00000190h]
+  00000001800C2A4A: 48 8B 81 88 02 00  mov         rax,qword ptr [rcx+00000288h]
+  00000001800C2A51: 39 38              cmp         dword ptr [rax],edi
+  00000001800C2A53: 75 26              jne         00000001800C2A7B
+  00000001800C2A55: 48 8B 89 00 03 00  mov         rcx,qword ptr [rcx+00000300h]
+  00000001800C2A5C: 48 85 C9           test        rcx,rcx
+  00000001800C2A5F: 74 0D              je          00000001800C2A6E
+  00000001800C2A61: 48 8B 01           mov         rax,qword ptr [rcx]
+  00000001800C2A64: FF 90 48 02 00 00  call        qword ptr [rax+00000248h]
+  00000001800C2A6A: 84 C0              test        al,al
+  00000001800C2A6C: 75 0D              jne         00000001800C2A7B
+  00000001800C2A6E: 32 C0              xor         al,al
+  00000001800C2A70: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001800C2A75: 48 83 C4 20        add         rsp,20h
+  00000001800C2A79: 5F                 pop         rdi
+  00000001800C2A7A: C3                 ret
+  00000001800C2A7B: 80 BB D8 02 00 00  cmp         byte ptr [rbx+000002D8h],0
+  00000001800C2A82: 75 2D              jne         00000001800C2AB1
+  00000001800C2A84: 48 8B 83 88 02 00  mov         rax,qword ptr [rbx+00000288h]
+  00000001800C2A8B: 39 38              cmp         dword ptr [rax],edi
+  00000001800C2A8D: 74 22              je          00000001800C2AB1
+  00000001800C2A8F: 48 8B 8B 00 03 00  mov         rcx,qword ptr [rbx+00000300h]
+  00000001800C2A96: 48 8B 93 A8 01 00  mov         rdx,qword ptr [rbx+000001A8h]
+  00000001800C2A9D: 4C 8D 89 60 02 00  lea         r9,[rcx+00000260h]
+  00000001800C2AA4: F3 0F 10 91 88 02  movss       xmm2,dword ptr [rcx+00000288h]
+  00000001800C2AAC: E8 4F 07 28 00     call        0000000180343200
+  00000001800C2AB1: 48 8B 8B 00 03 00  mov         rcx,qword ptr [rbx+00000300h]
+  00000001800C2AB8: 48 8B 93 78 02 00  mov         rdx,qword ptr [rbx+00000278h]
+  00000001800C2ABF: 48 8B 01           mov         rax,qword ptr [rcx]
+  00000001800C2AC2: FF 90 F8 01 00 00  call        qword ptr [rax+000001F8h]
+  00000001800C2AC8: 4C 8B 9B 88 02 00  mov         r11,qword ptr [rbx+00000288h]
+  00000001800C2ACF: 48 8B 5C 24 30     mov         rbx,qword ptr [rsp+30h]
+  00000001800C2AD4: 41 89 3B           mov         dword ptr [r11],edi
+  00000001800C2AD7: B0 01              mov         al,1
+  00000001800C2AD9: 48 83 C4 20        add         rsp,20h
+  00000001800C2ADD: 5F                 pop         rdi
+  00000001800C2ADE: C3                 ret
+  00000001801E3490: 8B 02              mov         eax,dword ptr [rdx]
+  00000001801E3492: 89 81 98 00 00 00  mov         dword ptr [rcx+00000098h],eax
+  00000001801E3498: 8B 42 04           mov         eax,dword ptr [rdx+4]
+  00000001801E349B: 89 81 9C 00 00 00  mov         dword ptr [rcx+0000009Ch],eax
+  00000001801E34A1: 8B 42 08           mov         eax,dword ptr [rdx+8]
+  00000001801E34A4: 33 D2              xor         edx,edx
+  00000001801E34A6: 89 81 A0 00 00 00  mov         dword ptr [rcx+000000A0h],eax
+  00000001801E34AC: 48 8B 01           mov         rax,qword ptr [rcx]
+  00000001801E34AF: 48 FF A0 00 02 00  jmp         qword ptr [rax+00000200h]
+  00000001801E34B6: CC                 int         3
+  00000001801E34B7: CC                 int         3
+  00000001801E34B8: CC                 int         3
+  00000001801E34B9: CC                 int         3
+  00000001801E34BA: CC                 int         3
+  00000001801E34BB: CC                 int         3
+  00000001801E34BC: CC                 int         3
+  00000001801E34BD: CC                 int         3
+  00000001801E34BE: CC                 int         3
+  00000001801E34BF: CC                 int         3
+  00000001801E34C0: 48 83 EC 38        sub         rsp,38h
+  00000001801E34C4: 48 8B 01           mov         rax,qword ptr [rcx]
+  00000001801E34C7: 48 8D 54 24 20     lea         rdx,[rsp+20h]
+  00000001801E34CC: F3 0F 11 4C 24 20  movss       dword ptr [rsp+20h],xmm1
+  00000001801E34D2: F3 0F 11 54 24 24  movss       dword ptr [rsp+24h],xmm2
+  00000001801E34D8: F3 0F 11 5C 24 28  movss       dword ptr [rsp+28h],xmm3
+  00000001801E34DE: FF 50 60           call        qword ptr [rax+60h]
+  00000001801E34E1: 48 83 C4 38        add         rsp,38h
+  00000001801E34E5: C3                 ret
+  00000001801E34E6: CC                 int         3
+  00000001801E34E7: CC                 int         3
+  00000001801E34E8: CC                 int         3
+  00000001801E34E9: CC                 int         3
+  00000001801E34EA: CC                 int         3
+  00000001801E34EB: CC                 int         3
+  00000001801E34EC: CC                 int         3
+  00000001801E34ED: CC                 int         3
+  00000001801E34EE: CC                 int         3
+  00000001801E34EF: CC                 int         3
+  00000001801E34F0: 48 8D 81 98 00 00  lea         rax,[rcx+00000098h]
+  00000001801E34F7: C3                 ret
+  00000001801E34F8: CC                 int         3
+  00000001801E34F9: CC                 int         3
+  00000001801E34FA: CC                 int         3
+  00000001801E34FB: CC                 int         3
+  00000001801E34FC: CC                 int         3
+  00000001801E34FD: CC                 int         3
+  00000001801E34FE: CC                 int         3
+  00000001801E34FF: CC                 int         3
+  00000001801E3500: 48 8B C4           mov         rax,rsp
+  00000001801E3503: 48 81 EC C8 00 00  sub         rsp,0C8h
+  00000001801E350A: 0F 29 70 E8        movaps      xmmword ptr [rax-18h],xmm6
+  00000001801E350E: 0F 29 78 D8        movaps      xmmword ptr [rax-28h],xmm7
+  00000001801E3512: 44 0F 29 40 C8     movaps      xmmword ptr [rax-38h],xmm8
+  00000001801E3517: 4C 8B CA           mov         r9,rdx
+  00000001801E351A: 4C 8D 44 24 20     lea         r8,[rsp+20h]
+  00000001801E351F: 48 8D 54 24 50     lea         rdx,[rsp+50h]
+  00000001801E3524: 48 81 C1 88 00 00  add         rcx,88h
+  00000001801E352B: 44 0F 29 48 B8     movaps      xmmword ptr [rax-48h],xmm9
+  00000001801E3530: 44 0F 29 50 A8     movaps      xmmword ptr [rax-58h],xmm10
+  00000001801E3535: 44 0F 29 58 98     movaps      xmmword ptr [rax-68h],xmm11
+  00000001801E353A: 48 8B 05 3F 69 6F  mov         rax,qword ptr [808D9E80h]
+  00000001801E3541: 48 89 44 24 20     mov         qword ptr [rsp+20h],rax
+  00000001801E3546: 8B 05 3C 69 6F 00  mov         eax,dword ptr [808D9E88h]
+  00000001801E354C: 89 44 24 28        mov         dword ptr [rsp+28h],eax

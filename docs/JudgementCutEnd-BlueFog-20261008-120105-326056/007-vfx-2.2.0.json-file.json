@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.2.0.json",
+  "Role": "资源修订说明",
+  "Code location": "2.2蓝雾合同与来源",
+  "Before": "无本修订说明",
+  "Changes": "记录来源、预算、时钟、静态与实机状态",
+  "Reasons": "避免新资源与旧DLL混装或把静态通过当成实机通过",
+  "After": "4e44f2b9b5bb3ae703bf787a732ae78b7959554f76a687cd2f3d7f235134a8e6",
+  "Impact": "仅说明文档，不参与游戏配置",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

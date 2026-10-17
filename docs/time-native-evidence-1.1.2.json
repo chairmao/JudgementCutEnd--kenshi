@@ -1,0 +1,66 @@
+{
+  "log_path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\logs\\JudgementCutEnd.log",
+  "sha256": "792ca3efebb1b3faec749560a0611a45dfa1ecfc78064fdc8304430b878ca48e",
+  "observed_rows": [
+    {
+      "line": 2333,
+      "text": "2026-10-07 21:00:14.542 [JCE 1.1.0-dev] vfx_material_loaded group=JudgementCutEnd/Resources/v1"
+    },
+    {
+      "line": 2334,
+      "text": "2026-10-07 21:00:14.542 [JCE 1.1.0-dev] weapon_prepare cache_before=none preferred=223851-256591792-0-0-2 cache_after=223851-256591792-0-0-2 draw_attempted=1 draw_ok=1 damage_armed=1"
+    },
+    {
+      "line": 2335,
+      "text": "2026-10-07 21:00:14.542 [JCE 1.1.0-dev] cast_begin id=14 caster=1-2836303616-229-1009033216-1 speed_before=1 slow=0.001 tracks=23 radius=350 area_radius=350 area_shape=horizontal_circle layout_scale=262.273 damage=1 weapon=223851-256591792-0-0-2 damage_armed=1 damage_multiplier=1 playback_rate=3 real_duration=2.23333 sound_started=1"
+    },
+    {
+      "line": 2350,
+      "text": "2026-10-07 21:00:16.747 [JCE 1.1.0-dev] cast_end id=14 reason=cancelled_pause_focus_or_escape pose_calls=165 queue_calls=164 render_calls=492 world_valid=1 cooldown_real_seconds=0"
+    },
+    {
+      "line": 2353,
+      "text": "2026-10-07 21:02:55.787 [JCE 1.1.0-dev] weapon_prepare cache_before=none preferred=223851-256591792-0-0-2 cache_after=223851-256591792-0-0-2 draw_attempted=1 draw_ok=1 damage_armed=1"
+    },
+    {
+      "line": 2354,
+      "text": "2026-10-07 21:02:55.787 [JCE 1.1.0-dev] cast_begin id=15 caster=1-2836303616-229-1009033216-1 speed_before=0.001 slow=0.001 tracks=23 radius=350 area_radius=350 area_shape=horizontal_circle layout_scale=262.273 damage=1 weapon=223851-256591792-0-0-2 damage_armed=1 damage_multiplier=1 playback_rate=3 real_duration=2.23333 sound_started=1"
+    },
+    {
+      "line": 2541,
+      "text": "2026-10-07 21:07:01.860 [JCE 1.1.0-dev] cast_end id=26 reason=completed pose_calls=89 queue_calls=88 render_calls=264 world_valid=1 cooldown_real_seconds=0"
+    }
+  ],
+  "confirmed": "cast14取消后，cast15的speed_before=0.001；其后cast26完成仍沿用该基线。原getter直接读frameSpeedMult，isPaused另读暂停标志。",
+  "inference": "原生userPause维护正速度缓存，暂停时用0/暂停态，解除时可能恢复施放期间的0.001；旧Finish条件因此可能跳过恢复。",
+  "missing": "旧日志合并pause/focus/escape，缺少恢复前后getter及原生暂停输入证据，不能确认当时具体输入。",
+  "native_exe": "D:\\steam\\steamapps\\common\\Kenshi\\kenshi_x64.exe",
+  "native_exe_sha256": "504b362cde850d56afb1cea6f5b7b0ee014d9dd7b47e188599d91c804502cd3e",
+  "rva_table": "D:\\steam\\steamapps\\common\\Kenshi\\RE_Kenshi\\RVAs\\Steam_1.0.65.br",
+  "native": [
+    {
+      "name": "?getFrameSpeedMultiplier@GameWorld@@QEBAMXZ",
+      "rva": "0x66bcd0",
+      "bytes": "f3 0f 10 81 00 07 00 00 c3",
+      "length": 9
+    },
+    {
+      "name": "?setFrameSpeedMultiplier@GameWorld@@QEAAXM@Z",
+      "rva": "0x787170",
+      "bytes": "48 89 5c 24 10 48 89 74 24 18 57 48 83 ec 30 0f b6 99 b9 08 00 00 0f 29 74 24 20 0f 28 f1 f3 0f 11 b1 00 07 00 00 e8 b7 07 8b ff 48 8d 4c 24 40 48 8b f8 e8 8e 5f 8b ff 48 8d 8f 98 00 00 00 48 8b d0 e8 f7 86 8c ff 48 8d 8f 98 00 00 00 88 9f b8 00 00 00 0f 14 f6 0f 5a c6 f2 0f 11 87 c0 00 00 00 48 8b 5c 24 48 0f 28 74 24 20 48 8b 74 24 50 48 83 c4 30 5f e9 58 76 8a ff cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc cc",
+      "length": 140
+    },
+    {
+      "name": "?isPaused@GameWorld@@QEBA_NXZ",
+      "rva": "0xdedc0",
+      "bytes": "0f b6 81 b9 08 00 00 c3",
+      "length": 8
+    },
+    {
+      "name": "?userPause@GameWorld@@QEAAX_N@Z",
+      "rva": "0x787470",
+      "bytes": "48 89 5c 24 10 48 89 6c 24 18 48 89 74 24 20 57 48 83 ec 30 8b 05 02 aa 9a 01 0f 29 74 24 20 48 8b e9 a8 01 75 1b f3 0f 10 b1 00 07 00 00 83 c8 01 f3 0f 11 35 df a9 9a 01 89 05 dd a9 9a 01 eb 08 f3 0f 10 35 cf a9 9a 01 f3 0f 10 81 00 07 00 00 0f 2f 05 70 96 ef 00 76 0b 0f 28 f0 f3 0f 11 35 b3 a9 9a 01 84 d2 74 03 0f 57 f6 0f b6 1d 86 c4 9a 01 f3 0f 11 35 c5 c2 9a 01 e8 62 04 8b ff 48 8d 4c 24 40 48 8b f8 e8 39 5c 8b ff 48 8d 8f 98 00 00 00 48 8b d0 e8 a2 83 8c ff 48 8d 8f 98 00 00 00 88 9f b8 00 00 00 0f 14 f6 0f 5a c6 f2 0f 11 87 c0 00 00 00 e8 17 73 8a ff 0f 2e 35 05 96 ef 00 7a 06 75 04 b2 01 eb 02 33 d2 48 8b cd e8 ba a0 8c ff 48 8b 0d 14 b2 9a 01 e8 e3 a2 8c ff 0f 2e 35 b0 3d ef 00 f3 0f 11 35 20 47 97 01",
+      "length": 240
+    }
+  ]
+}

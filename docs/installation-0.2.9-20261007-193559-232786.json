@@ -1,0 +1,362 @@
+{
+  "version": "0.2.9",
+  "compiled_by": "user",
+  "installed_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "dll_sha256": "4b7eb82e9a5061e71896649c1db1f9e61299fed6654e200acf68dd79447334ac",
+  "matched_file_count": 14,
+  "backup_roots": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681"
+  ],
+  "configuration": {
+    "CastKeyVK": "85",
+    "Radius": "150",
+    "WorldSpeed": "0.001",
+    "DamageMultiplier": "1",
+    "StaggerForceMultiplier": "8",
+    "Cooldown": "0",
+    "MaxTargets": "0",
+    "DamageEnabled": "1",
+    "SoundEnabled": "1",
+    "CinematicCamera": "0"
+  },
+  "game_tested": false,
+  "file_reports": [
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "Role": "本地模组发行文件",
+      "Code location": "_JudgementCutEnd.info",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF",
+        "mojibake": "通过"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "Role": "本地模组发行文件",
+      "Code location": "assets\\jce.clip",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "7d0f7c4cf49b459f056eab1813911f31e2fe8496e3043c82315cdeaa9f6f07fb",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF",
+        "mojibake": "通过"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "Role": "本地模组发行文件",
+      "Code location": "assets\\jce.material",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "c7bb6d436a7cc55f69d7c35c01ecc28e3d8a6a1905f2bd9492962dd2b627aad0",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF",
+        "mojibake": "通过"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "Role": "本地模组发行文件",
+      "Code location": "assets\\jce_glow.tga",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga"
+        ],
+        "encoding": "binary",
+        "line_endings": null,
+        "mojibake": "不适用"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "Role": "本地模组发行文件",
+      "Code location": "assets\\jce_sequence.wav",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav"
+        ],
+        "encoding": "binary",
+        "line_endings": null,
+        "mojibake": "不适用"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+      "Role": "本地模组发行文件",
+      "Code location": "assets\\jce_sequence_fast.wav",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav"
+        ],
+        "encoding": "binary",
+        "line_endings": null,
+        "mojibake": "不适用"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "Role": "本地模组发行文件",
+      "Code location": "assets\\slashes.csv",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF",
+        "mojibake": "通过"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "Role": "本地模组发行文件",
+      "Code location": "JudgementCutEnd.dll",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "4b7eb82e9a5061e71896649c1db1f9e61299fed6654e200acf68dd79447334ac",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll"
+        ],
+        "encoding": "binary",
+        "line_endings": null,
+        "mojibake": "不适用"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "Role": "本地模组发行文件",
+      "Code location": "JudgementCutEnd.ini",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "3af93f1cf632dc79997ac128f705ea0724b56efc40e84159db216c4722ec476e",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF",
+        "mojibake": "通过"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "Role": "本地模组发行文件",
+      "Code location": "JudgementCutEnd.mod",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod"
+        ],
+        "encoding": "binary",
+        "line_endings": null,
+        "mojibake": "不适用"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "Role": "本地模组发行文件",
+      "Code location": "LICENSE",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE"
+        ],
+        "encoding": "binary",
+        "line_endings": null,
+        "mojibake": "不适用"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "Role": "本地模组发行文件",
+      "Code location": "LICENSE-NOTICE.md",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "b614791d4b45d2ba65f8f09bef1b10577adf0d0a8d7729c611afe64b9d13ace3",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF",
+        "mojibake": "通过"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "Role": "本地模组发行文件",
+      "Code location": "RE_Kenshi.json",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF",
+        "mojibake": "通过"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "Role": "本地模组发行文件",
+      "Code location": "README.md",
+      "Before": "原已安装发行包",
+      "Changes": "复制0.2.9分发包文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与本项目分发文件SHA256一致",
+      "Impact": "仅JudgementCutEnd，游戏已退出；存档和mods.cfg不变",
+      "Validation": {
+        "sha256": "5cb02fb231c07cfb4d0a85fdb6cf24c9d2a87802b3e0461df1e88e8240c1ade8",
+        "matches_package": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-193421-7151681\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF",
+        "mojibake": "通过"
+      },
+      "Unresolved": "尚未实机验证96击及大踉跄"
+    }
+  ]
+}

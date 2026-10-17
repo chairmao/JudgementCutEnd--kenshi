@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目说明",
+  "Code location": "0.1.2 / 断言事实 / 修复机制",
+  "Before": "仍描述 0.1.1 待验证状态",
+  "Changes": "记录 0.1.1 断言与新修正，补充绑定日志和新编译要求",
+  "Reasons": "不把旧版已编译或源码修正误描述为有效运行",
+  "After": "修改已写入；需要重新编译/部署才影响游戏运行",
+  "Impact": "仅限本插件项目/分发包，不写其他模组及运行游戏",
+  "Validation": "UTF-8/BOM/CRLF/中文严格回读；专项非编译检查随后另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8",
+    "line_endings": "CRLF",
+    "sha256": "79ededdaafaad6c84b93b8276617537cf8436f80bb69c244ac90bbcdd2f07306"
+  },
+  "Unresolved": "新 DLL 编译/安装和实机验收仍待完成"
+}

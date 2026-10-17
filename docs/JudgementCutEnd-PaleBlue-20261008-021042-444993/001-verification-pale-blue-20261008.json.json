@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-pale-blue-20261008.json",
+  "Role": "本轮静态核验结果",
+  "Code location": "资源色调合同与保护基线",
+  "Before": "absent",
+  "Changes": "记录本轮只读检查，不冒充游戏验收",
+  "Reasons": "用户要求今天最后一版仅调淡蓝颜色，对照本地Skyrim原模组；不修改C++或游戏逻辑",
+  "After": "06ca92bc33f4238f59110adb8ee6d998030adfbc2c7c56bb0efc43b4f230288c",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "本轮仅材质/shader资源；不需DLL重编译，真实HDR画面待游戏验收"
+}

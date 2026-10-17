@@ -1,0 +1,17 @@
+{
+  "resource_revision": "2.2-blue-flow-r2",
+  "changed_installed": [
+    "assets/jce_atmosphere.hlsl",
+    "assets/vfx-2.2.0.json"
+  ],
+  "package_matched_file_count": 37,
+  "DLL_unchanged_sha256": "595e7ca964dbfd23fc29c22bc9adaa5679cf1aa0a45fce4dcea820018312dcdd",
+  "backup_directories": [
+    "D:\\CodexBackups\\JudgementCutEnd-FogFlow-20261008-122847-062403",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FogFlow-20261008-122847-062403"
+  ],
+  "agent_compiled": false,
+  "game_tested": false,
+  "game_closed_before_copy": true,
+  "no_gameplay_or_source_change": true
+}

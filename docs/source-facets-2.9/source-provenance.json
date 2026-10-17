@@ -1,0 +1,112 @@
+{
+  "skyrim_sha256": "20f12b7ab7156ebc4767630499994a20ec1fda35fb1c238a4c0651c687f4a942",
+  "skyrim_source": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\effects\\AP05\\JCE030CutRefraction.nif",
+  "bg3_components": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-Formal25-BG3-20261009-005520-911010\\bg3-effect-components.json",
+  "bg3_components_sha256": "CCDBE50556691998F2E7A776248C2AD66767C533942B444C8EA6A2624F81378B",
+  "parts": [
+    {
+      "name": "screen1",
+      "optical_curve": 8,
+      "slash_index": 0,
+      "source_mesh_index": 10,
+      "source_peak_scale": 10.0,
+      "source_scale_start": 0.5000010132789612,
+      "source_scale_end": 3.0,
+      "vertices": 24,
+      "triangles": 12,
+      "source_geometry_retained": true,
+      "source_transform_original_retained_in": "skyrim-source-confirmed.json",
+      "runtime_scale_keys": 0,
+      "runtime_scale": "source peak geometry held; BG3 hold/release opacity drives lifespan"
+    },
+    {
+      "name": "slash3",
+      "optical_curve": 2,
+      "slash_index": 24,
+      "source_mesh_index": 28,
+      "source_peak_scale": 10.0,
+      "source_scale_start": 0.5,
+      "source_scale_end": 2.8499999046325684,
+      "vertices": 24,
+      "triangles": 12,
+      "source_geometry_retained": true
+    },
+    {
+      "name": "slash5",
+      "optical_curve": 4,
+      "slash_index": 48,
+      "source_mesh_index": 40,
+      "source_peak_scale": 10.0,
+      "source_scale_start": 0.5,
+      "source_scale_end": 2.8499999046325684,
+      "vertices": 24,
+      "triangles": 12,
+      "source_geometry_retained": true
+    }
+  ],
+  "envelopes": [
+    {
+      "name": "hold",
+      "component_index": 31,
+      "component_name": "SpaceDebris",
+      "component": {
+        "EndTime": "5.664122",
+        "ID": "e00da3ae-59c2-4eed-82c5-dbd4b2cd9b7d",
+        "Name": "ParticleSystem",
+        "StartTime": "2.450382",
+        "Track": "6",
+        "Type": "ParticleSystem"
+      },
+      "source_alpha": [
+        {
+          "Time": "0",
+          "Value": "0.283871"
+        },
+        {
+          "Time": "1",
+          "Value": "0.2129032"
+        }
+      ],
+      "normalization_peak": 0.283871
+    },
+    {
+      "name": "release",
+      "component_index": 24,
+      "component_name": "SpaceWarp1",
+      "component": {
+        "EndTime": "6.246176",
+        "ID": "cd73940a-e3fd-476e-8d8a-c185cc7acd1d",
+        "Name": "ParticleSystem",
+        "StartTime": "3.353046",
+        "Track": "4",
+        "Type": "ParticleSystem"
+      },
+      "source_alpha": [
+        {
+          "Time": "0",
+          "Value": "0.1354839"
+        },
+        {
+          "Time": "0.8229692",
+          "Value": "0.1416129"
+        },
+        {
+          "Time": "1",
+          "Value": "0"
+        }
+      ],
+      "normalization_peak": 0.1416129
+    }
+  ],
+  "adaptation": {
+    "common_radius_scale": 7.712334808711122e-05,
+    "peak_extent_radius": 0.78,
+    "shared_height_radius": 0.28,
+    "release_travel_radius": 0.025,
+    "source_scale_replaces_static": true,
+    "scale_clock": "visible source interval mapped to each actual slash birth until SHEATH+.75",
+    "source_units_not_kenshi_units": true,
+    "wide_facet_lifetime": "screen1 source scale is a brief flash; preserve peak geometry and replace only its pulse lifecycle with BG3 continuous envelope"
+  },
+  "unimplemented": "BG3 dependency materials and Skyrim lighting/normal-map engine response"
+}

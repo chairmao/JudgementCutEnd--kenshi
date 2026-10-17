@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+  "Role": "发行包使用说明",
+  "Code location": "整份当前使用合同",
+  "Before": "旧44倍/单部位说明",
+  "Changes": "更新96击100%、反应、日志与实测边界",
+  "Reasons": "发行包需要与新DLL合同一致",
+  "After": "0.2.9源码按96条裂痕独立结算并增加大踉跄；已安装0.2.7不变",
+  "Impact": "仅 JudgementCutEnd；96次100%武器伤害与原生大踉跄反应，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Multihit-20261007-192347-132389\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Multihit-20261007-192347-132389\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.9待用户编译Release|x64和实机验证；不代编译、不部署"
+}

@@ -1,0 +1,444 @@
+{
+  "source_version": "2.3.0-dev",
+  "resource_revision": "2.3-volume-flow-r1",
+  "compiled": false,
+  "game_tested": false,
+  "checks": [
+    {
+      "name": "whole CPP outside authorized fog/identity region unchanged",
+      "passed": true
+    },
+    {
+      "name": "shader outside Mist unchanged",
+      "passed": true
+    },
+    {
+      "name": "new optical thickness contract",
+      "passed": true
+    },
+    {
+      "name": "no cloud ellipse in Mist",
+      "passed": true
+    },
+    {
+      "name": "raw slice geometry not clamped",
+      "passed": true
+    },
+    {
+      "name": "slices const32 and no stale cloud symbol",
+      "passed": true
+    },
+    {
+      "name": "zero phase final retained",
+      "passed": true
+    },
+    {
+      "name": "nonMist materials exact",
+      "passed": true
+    },
+    {
+      "name": "new material program exists",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.vcxproj",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\bin\\Release\\JudgementCutEnd.dll",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_fog_noise.tga",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_glass.tga",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_mist.tga",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_phantom.bin",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_shards.csv",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_blade09.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_dust.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_flash.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_fog_palette.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_spark.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\slashes.csv",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.1.1.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.2.0.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\RE_Kenshi.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged file E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_fog_noise.tga",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glass.tga",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_shards.csv",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade09.dds",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_dust.dds",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_flash.dds",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_fog_palette.dds",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_spark.dds",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.1.json",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+      "passed": true
+    },
+    {
+      "name": "installed unchanged D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.2.0.json",
+      "passed": true
+    },
+    {
+      "name": "formal archive unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-1.0.0.zip",
+      "passed": true
+    },
+    {
+      "name": "formal archive unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-2.0.0-release.zip",
+      "passed": true
+    },
+    {
+      "name": "encoding/line endings E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "readable Chinese E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "encoding/line endings E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "readable Chinese E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "encoding/line endings E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "readable Chinese E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "encoding/line endings E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "passed": true
+    },
+    {
+      "name": "readable Chinese E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "passed": true
+    },
+    {
+      "name": "external/inside/overhead slice coverage",
+      "passed": true
+    },
+    {
+      "name": "fog slice vertex/index budget reduced",
+      "passed": true
+    },
+    {
+      "name": "hemisphere pixel boundary retained",
+      "passed": true
+    },
+    {
+      "name": "constant field thickness independent of slice count",
+      "passed": true
+    },
+    {
+      "name": "end phase alpha exactly zero",
+      "passed": true
+    },
+    {
+      "name": "volume boundary guard before texture reads",
+      "passed": true
+    },
+    {
+      "name": "thickness uses same computed boundary",
+      "passed": true
+    },
+    {
+      "name": "Mist texture count still3",
+      "passed": true
+    }
+  ],
+  "check_count": 100,
+  "video_evidence": {
+    "video": "C:\\Users\\周凡稀\\AppData\\Local\\Temp\\steam\\40680D~1.MP4",
+    "frames": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCEFogVideo-20261008-1235",
+    "finding": "2.55s远右侧亮蓝局部团，角色附近清透；2.25..3.0s与4.75..5.75s未形成连贯卷烟。r2shader安装哈希d3f2c3核对；演出时钟/恢复正常。"
+  },
+  "geometric_probe": {
+    "camera_cases": 5,
+    "rays": 1445,
+    "covered_sample_points": 19404,
+    "rays_hitting_volume": 1403,
+    "minimum_nonzero_samples": 1,
+    "maximum_samples": 32,
+    "uniform_integrated_alpha": [
+      0.572585068051273,
+      0.5725850680512726,
+      0.5725850680512741
+    ],
+    "method": "CPU核对实际视线/切片/半球几何和积分厚度；没有GPU栅格/场景深度实测，边缘薄层可能有32片离散误差"
+  },
+  "budget": {
+    "fog_vertices": 128,
+    "fog_indices": 192,
+    "total_vertex_upper_bound": 17364,
+    "total_index_upper_bound": 43902,
+    "shader_sample_count_mist": 3,
+    "shader_sample_count_smoke": 4
+  },
+  "limits": [
+    "此为32层体积切片积分近似，不是完整3D纹理raymarch",
+    "真实遮挡依赖各切片depth_check；透明物体互排序与薄地形交线需实机确认",
+    "相机内外/俯视CPU覆盖通过，不冒称游戏效果",
+    "不代编译；用户Release|x64构建后再部署，旧安装r2全程不动",
+    "几何数量更少不代表GPU成本更少：连续覆盖扩大透明像素面积，虽球外早退与采样数不变，实机帧率待测。"
+  ],
+  "shader_identity": "e6905100971c45b54a79acdec42e37103415439ba1fc00e810de220161be9756"
+}

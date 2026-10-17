@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目安装状态",
+  "Code location": "安装版本/产物状态/pending",
+  "Before": "0.2.2待编译安装",
+  "Changes": "记录用户编译成品已安装，保留实测待验证状态",
+  "Reasons": "用户要求更新mod且安装哈希已核对",
+  "After": "源码与安装版本均0.2.2",
+  "Impact": "状态记录；不改变代码/游戏行为",
+  "Validation": "JSON解析，UTF-8/BOM/CRLF及中文检查通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InstallStatus-20261007-162125-797593\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InstallStatus-20261007-162125-797593\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "新版本游戏实测尚未完成"
+}

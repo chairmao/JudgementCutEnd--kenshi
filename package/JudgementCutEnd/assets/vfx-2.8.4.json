@@ -1,0 +1,119 @@
+{
+  "source_version": "2.8.0-dev",
+  "resource_revision": "2.8.4-finite-facets-moving-light-r1",
+  "based_on_resource_revision": "2.8.3-coarse-fracture-contrast-r1",
+  "native_cpp_changed": false,
+  "dll_recompile_required": false,
+  "runtime_shader_validation_required": true,
+  "installed": false,
+  "game_tested": false,
+  "shader_file": "assets/jce_refraction.hlsl",
+  "shader_sha256": "46813AEEAE609E14E56AC7EB3F24CE7D9217331EF0619E124B1B4A62714DE346",
+  "coarse_plane_indices": [
+    0,
+    2,
+    4
+  ],
+  "hierarchy_order": [
+    0,
+    2,
+    4,
+    1,
+    3,
+    5,
+    6,
+    7
+  ],
+  "coarse_regions_max": 8,
+  "facet_shape": "stable asymmetric pentagon intersected with actual coarse slash partition",
+  "facet_half_extents_radius_units": {
+    "x": [
+      0.5,
+      0.68
+    ],
+    "y": [
+      0.46,
+      0.64
+    ]
+  },
+  "facet_birth": "fixed target region shape; coverage fades through coarseReady",
+  "clock_source": "OpticalVertex.texCoord.z = elapsed * PLAYBACK_RATE (3)",
+  "mid_motion": {
+    "direction_sway": 0.16,
+    "rotation": 0.01,
+    "shear": 0.006,
+    "pixel_breath": 0.06
+  },
+  "edge_light": "cyan highlight travelling along finite contour using clip clock",
+  "coarse_pixels": "(12 + 10*hold + 9*releaseEnergy + 6*releaseProgress) * breath * min(weight,1)",
+  "detail_budget_fraction": 0.3,
+  "interior_coverage": "(.88 + .08*hold) * face * pieceMask",
+  "legacy_cut_patch_coverage": 0.28,
+  "shadow_factor_max": 0.14,
+  "scene_samples_per_fragment": 1,
+  "max_offset_pixels": 36,
+  "global_tint_added": false,
+  "actual_3d_mirror_meshes": false,
+  "radius": 350,
+  "slash_count": 96,
+  "validation_task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Fracture284-20261009-222127-a1628b",
+  "validation_checks": 5355,
+  "protected_file_checks": 3539,
+  "excluded_live_IDE_cache": [
+    ".vs\\JudgementCutEnd\\FileContentIndex\\2c117f9f-9397-4298-bc50-b9eb818e1195.vsidx",
+    ".vs\\JudgementCutEnd\\FileContentIndex\\ab7389dd-cfe2-4170-9e74-2c3c3bae9d9a.vsidx",
+    ".vs\\JudgementCutEnd\\FileContentIndex\\read.lock",
+    ".vs\\JudgementCutEnd\\v17\\.suo",
+    ".vs\\JudgementCutEnd\\v17\\Browse.VC.db",
+    ".vs\\JudgementCutEnd\\v17\\Browse.VC.db-shm",
+    ".vs\\JudgementCutEnd\\v17\\Browse.VC.db-wal",
+    ".vs\\JudgementCutEnd\\v17\\Browse.VC.opendb",
+    ".vs\\JudgementCutEnd\\v17\\fileList.bin",
+    ".vs\\JudgementCutEnd\\v17\\ipch\\AutoPCH\\113346ca2842f2e9\\JUDGEMENTCUTEND.ipch",
+    "releases\\2.0.0\\source\\.vs\\JudgementCutEnd\\FileContentIndex\\be0afe1a-8cbb-4a36-9766-d1177ad0be13.vsidx",
+    "releases\\2.0.0\\source\\.vs\\JudgementCutEnd\\FileContentIndex\\read.lock",
+    "releases\\2.0.0\\source\\.vs\\JudgementCutEnd\\v17\\.suo",
+    "releases\\2.0.0\\source\\.vs\\JudgementCutEnd\\v17\\Browse.VC.db",
+    "releases\\2.0.0\\source\\.vs\\JudgementCutEnd\\v17\\Browse.VC.db-shm",
+    "releases\\2.0.0\\source\\.vs\\JudgementCutEnd\\v17\\Browse.VC.db-wal",
+    "releases\\2.0.0\\source\\.vs\\JudgementCutEnd\\v17\\Browse.VC.opendb"
+  ],
+  "model_metrics": [
+    {
+      "view": [
+        1,
+        1.4,
+        2
+      ],
+      "median_motion_pixels": 1.0855967760862784,
+      "visible_area_fraction": 0.4751798999878034,
+      "clear_interior_samples": 883,
+      "cropped_face_gap_samples": 468
+    },
+    {
+      "view": [
+        0.2,
+        3,
+        1
+      ],
+      "median_motion_pixels": 1.4047913582658245,
+      "visible_area_fraction": 0.4209390579656224,
+      "clear_interior_samples": 1204,
+      "cropped_face_gap_samples": 884
+    },
+    {
+      "view": [
+        2,
+        0.2,
+        1
+      ],
+      "median_motion_pixels": 5.389868708301203,
+      "visible_area_fraction": 0.5932523616734143,
+      "clear_interior_samples": 530,
+      "cropped_face_gap_samples": 50
+    }
+  ],
+  "model_is_not_gpu_render": true,
+  "compilation": "not run by policy",
+  "unresolved": "GPU编译、纹理采样、实机可读性与性能尚未验证；参考模组完整材质响应未还原，不能宣称原版等效"
+}

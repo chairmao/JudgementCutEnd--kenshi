@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目事实状态",
+  "Code location": "formal_release/source_configuration/build/deployment",
+  "Before": "591de1ec73d3e0047fc2f55b7c55c9c0b896f63b338350a06b3f6e4a360457aa",
+  "Changes": "记录正式2.0和2.1开发状态；不把旧DLL或静态检查冒充新运行验证",
+  "Reasons": "用户指定冻结正式版2.0并改进粒子；沿用已授权JudgementCutEnd.cpp特效绘制范围",
+  "After": "6bf5f07583836f8ab23e0530fb01bd26de949364090376c4c6cd69d3bd9a225f",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Particle21-20261008-013933-386546\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Particle21-20261008-013933-386546\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

@@ -1,0 +1,19 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin",
+  "Role": "Stage原生DLL及配套资源复制",
+  "Code location": "完整文件部署/安装身份",
+  "Before": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7",
+  "Changes": "2.3连续雾配套DLL/资源",
+  "Reasons": "用户请求更新mod；已验证PE64、导出入口、2.3内嵌版本与源码时间",
+  "After": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7",
+  "Impact": "本项目和本地JudgementCutEnd mod；无游戏配置/存档/其他mod修改",
+  "Validation": "复制字节/哈希读回相等；binary；未运行编译器或游戏测试",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-125013-4331855\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-125013-4331855\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin"
+    ],
+    "encoding": "binary"
+  },
+  "Unresolved": "新2.3实机雾气连贯性、深度遮挡与GPU帧率待用户按U测试"
+}

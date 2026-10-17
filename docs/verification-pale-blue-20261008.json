@@ -1,0 +1,208 @@
+{
+  "passed": true,
+  "check_count": 49,
+  "checks": [
+    {
+      "name": "entire C++ byte unchanged",
+      "passed": true
+    },
+    {
+      "name": "DLL has not been recompiled or replaced",
+      "passed": true
+    },
+    {
+      "name": "original Skyrim NIF identity JCE030CutAllActi.nif",
+      "passed": true
+    },
+    {
+      "name": "original Skyrim NIF identity JCE030ScreenFx.nif",
+      "passed": true
+    },
+    {
+      "name": "original Skyrim NIF identity JCE040Finish.nif",
+      "passed": true
+    },
+    {
+      "name": "direct original blue particle RGB",
+      "passed": true
+    },
+    {
+      "name": "shader only RGB colourTint extension; alpha and dust logic unchanged",
+      "passed": true
+    },
+    {
+      "name": "no extra texture sampling or UV modification",
+      "passed": true
+    },
+    {
+      "name": "shader missing tint default backward compatible white",
+      "passed": true
+    },
+    {
+      "name": "palette RGB transported SourceBlade",
+      "passed": true
+    },
+    {
+      "name": "blue ordering and finite bounded tint SourceBlade",
+      "passed": true
+    },
+    {
+      "name": "material only colour and gain changed SourceBlade",
+      "passed": true
+    },
+    {
+      "name": "HDR gain finite and not increased SourceBlade",
+      "passed": true
+    },
+    {
+      "name": "palette RGB transported SourceFeather",
+      "passed": true
+    },
+    {
+      "name": "blue ordering and finite bounded tint SourceFeather",
+      "passed": true
+    },
+    {
+      "name": "material only colour and gain changed SourceFeather",
+      "passed": true
+    },
+    {
+      "name": "HDR gain finite and not increased SourceFeather",
+      "passed": true
+    },
+    {
+      "name": "palette RGB transported SourceDust",
+      "passed": true
+    },
+    {
+      "name": "blue ordering and finite bounded tint SourceDust",
+      "passed": true
+    },
+    {
+      "name": "material only colour and gain changed SourceDust",
+      "passed": true
+    },
+    {
+      "name": "HDR gain finite and not increased SourceDust",
+      "passed": true
+    },
+    {
+      "name": "palette RGB transported SourceFlash",
+      "passed": true
+    },
+    {
+      "name": "blue ordering and finite bounded tint SourceFlash",
+      "passed": true
+    },
+    {
+      "name": "material only colour and gain changed SourceFlash",
+      "passed": true
+    },
+    {
+      "name": "HDR gain finite and not increased SourceFlash",
+      "passed": true
+    },
+    {
+      "name": "palette RGB transported SourceSpark",
+      "passed": true
+    },
+    {
+      "name": "blue ordering and finite bounded tint SourceSpark",
+      "passed": true
+    },
+    {
+      "name": "material only colour and gain changed SourceSpark",
+      "passed": true
+    },
+    {
+      "name": "HDR gain finite and not increased SourceSpark",
+      "passed": true
+    },
+    {
+      "name": "grey atmosphere or scene refraction fully untouched Mist",
+      "passed": true
+    },
+    {
+      "name": "grey atmosphere or scene refraction fully untouched Refraction",
+      "passed": true
+    },
+    {
+      "name": "base material only RGB gain changed Glow",
+      "passed": true
+    },
+    {
+      "name": "base material only RGB gain changed Glass",
+      "passed": true
+    },
+    {
+      "name": "sampled layer remains pale blue over intensity range SourceBlade",
+      "passed": true
+    },
+    {
+      "name": "sampled layer remains pale blue over intensity range SourceFeather",
+      "passed": true
+    },
+    {
+      "name": "sampled layer remains pale blue over intensity range SourceDust",
+      "passed": true
+    },
+    {
+      "name": "sampled layer remains pale blue over intensity range SourceFlash",
+      "passed": true
+    },
+    {
+      "name": "sampled layer remains pale blue over intensity range SourceSpark",
+      "passed": true
+    },
+    {
+      "name": "original DDS/clip/path/audio byte unchanged",
+      "passed": true
+    },
+    {
+      "name": "recorded resource exact identity jce.material",
+      "passed": true
+    },
+    {
+      "name": "UTF8 no BOM CRLF and readable Chinese jce.material",
+      "passed": true
+    },
+    {
+      "name": "recorded resource exact identity jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "UTF8 no BOM CRLF and readable Chinese jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "recorded resource exact identity jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "UTF8 no BOM CRLF and readable Chinese jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "recorded resource exact identity jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "UTF8 no BOM CRLF and readable Chinese jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "formal2 ZIP unchanged",
+      "passed": true
+    },
+    {
+      "name": "2.1 DLL resource contract remains compatible",
+      "passed": true
+    }
+  ],
+  "resource_revision": "2.1-pale-blue-r1",
+  "cpp_changed": false,
+  "dll_recompile_required": false,
+  "native_compile_run": false,
+  "shader_compile_run": false,
+  "game_tested": false
+}

@@ -1,0 +1,61 @@
+{
+  "stamp": "JudgementCutEnd-BG3Design26-20261009-012311-016714",
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-BG3Design26-20261009-012311-016714",
+  "project": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd",
+  "backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-BG3Design26-20261009-012311-016714",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BG3Design26-20261009-012311-016714"
+  ],
+  "files": {
+    "JudgementCutEnd.cpp": {
+      "sha256": "26272a145e6e5e9863d3a4aa476f571e1a495b81d8dea33d9279a7344c05cb24",
+      "encoding": "utf-8-sig",
+      "line_endings": "CRLF",
+      "size": 126218
+    },
+    "package/JudgementCutEnd/assets/jce_atmosphere.hlsl": {
+      "sha256": "3faea07a452294deadc0b33d9c61b0865a818110b8e12faf4ece7e943709c6cf",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 8228
+    },
+    "package/JudgementCutEnd/assets/jce_refraction.hlsl": {
+      "sha256": "d30e976dee21ee67933f3c4fb00575679bdcf52386773904f9d0f45b73e73dc3",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 4565
+    },
+    "package/JudgementCutEnd/assets/jce_atmosphere.program": {
+      "sha256": "0342735b28f587606549276db1f68a92f193589eaf33d918e993463652e7b4c3",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 1048
+    },
+    "package/JudgementCutEnd/assets/jce_refraction.program": {
+      "sha256": "c5f956aea2671fb5d6a307d411cb0950c83792e2fd741eed343807ebb161946c",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 1389
+    },
+    "package/JudgementCutEnd/assets/jce.material": {
+      "sha256": "063eb537912d9c0cccf0971833226f1554bf7cb02144575d750490d3079e699b",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 3769
+    },
+    "package/JudgementCutEnd/assets/jce_source.material": {
+      "sha256": "b9d602cb7ecc3644dd646e988bc9d41187a69569a1ca7ee5cdb2a6db5c1dcd1f",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 7109
+    },
+    "docs/task-status.json": {
+      "sha256": "3333c256f8aa6beaccada772f5664f41ee2e7c1d53f5df1e07d6a13fc31da709",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 16596
+    }
+  },
+  "compile_policy": "not run; user builds Release|x64",
+  "scope": "independent BG3 design adaptation of VFX only; no BG3 assets copied; gameplay callbacks unchanged"
+}

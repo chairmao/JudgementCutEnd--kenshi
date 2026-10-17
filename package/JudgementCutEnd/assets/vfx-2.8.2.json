@@ -1,0 +1,42 @@
+{
+  "source_version": "2.8.0-dev",
+  "resource_revision": "2.8.2-large-space-fragments-r1",
+  "based_on_resource_revision": "2.8.1-outer-slash-layout-r1",
+  "native_cpp_changed": false,
+  "dll_recompile_required": false,
+  "runtime_shader_validation_required": true,
+  "installed": false,
+  "game_tested": false,
+  "shader_file": "assets/jce_refraction.hlsl",
+  "shader_sha256": "E93CD2B3C7DF5B412BD545CB7C9A44B452CA53B5A52336E921DF52F2984E1749",
+  "coarse_plane_indices": [
+    0,
+    2,
+    4
+  ],
+  "hierarchy_order": [
+    0,
+    2,
+    4,
+    1,
+    3,
+    5,
+    6,
+    7
+  ],
+  "coarse_regions_max": 8,
+  "remaining_planes": 5,
+  "scene_samples_per_fragment": 1,
+  "max_offset_pixels": 36,
+  "pixel_budget": "clamp(min(viewport.width,viewport.height)/1080*26,12,36)",
+  "existing_uniform_contract": "cutPlane0..7/cutState0..7/cutLife0..7/screenState",
+  "background_rgb_preserved": true,
+  "global_tint_added": false,
+  "actual_3d_mirror_meshes": false,
+  "radius": 350,
+  "slash_count": 96,
+  "validation_task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-EarlyFracture282-20261009-210156-4efb38",
+  "compilation": "not run by policy",
+  "validation": "4664 structural/hash/model checks plus 64 degeneracy/unborn/determinism checks",
+  "model_is_not_gpu_render": true
+}

@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.program",
+  "Role": "专用shader声明",
+  "Code location": "JCE/SourceTexture_FP",
+  "Before": "absent",
+  "Changes": "独立HDR增益，不改变游戏公用程序",
+  "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+  "After": "6580a1a04e1c34f659386f5888513747820246f3d56ed07f631c00fe3a22ce9a",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证"
+}

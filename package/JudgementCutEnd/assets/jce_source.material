@@ -1,0 +1,226 @@
+// 本机ap05原纹理层；亮度按Kenshi HDR适配，非照搬Skyrim数值。
+material JCE/SourceBlade
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref Basic_Coloured_Texture_VP {}
+            fragment_program_ref JCE/SourceTexture27_FP
+            {
+                param_named hdrGain float 2.4
+                param_named grayscale float 0
+                // 冰蓝/青蓝分层；降低等通道HDR冲白，灰度光屑仍以强度图染色，不回到原暖黄。
+                param_named colourTint float3 0.56 0.8 1.0
+            }
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            scene_blend src_alpha one
+            texture_unit
+            {
+                texture jce_source_blade09.dds
+                tex_address_mode clamp
+                filtering bilinear
+            }
+        }
+    }
+}
+// 本机ap05原纹理层；亮度按Kenshi HDR适配，非照搬Skyrim数值。
+material JCE/SourceFeather
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref Basic_Coloured_Texture_VP {}
+            fragment_program_ref JCE/SourceTexture27_FP
+            {
+                param_named hdrGain float 1.4
+                param_named grayscale float 0
+                // 冰蓝/青蓝分层；降低等通道HDR冲白，灰度光屑仍以强度图染色，不回到原暖黄。
+                param_named colourTint float3 0.48 0.74 1.0
+            }
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            scene_blend src_alpha one
+            texture_unit
+            {
+                texture jce_source_blade08.dds
+                tex_address_mode clamp
+                filtering bilinear
+            }
+        }
+    }
+}
+// 本机ap05原纹理层；亮度按Kenshi HDR适配，非照搬Skyrim数值。
+material JCE/SourceDust
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref JCE/Fog_VP {}
+            fragment_program_ref JCE/Smoke_FP {}
+            // 普通透明混合保留背景与蓝色层次；写深度关闭，世界深度检测/双面保持。
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            scene_blend alpha_blend
+            texture_unit
+            {
+                texture jce_fog_noise.tga
+                tex_address_mode wrap
+                filtering bilinear
+            }
+            texture_unit
+            {
+                texture jce_source_fog_palette.dds
+                tex_address_mode clamp
+                filtering bilinear
+            }
+            texture_unit
+            {
+                texture jce_source_dust.dds
+                tex_address_mode clamp
+                filtering bilinear
+            }
+        }
+    }
+}
+// 本机ap05原纹理层；亮度按Kenshi HDR适配，非照搬Skyrim数值。
+material JCE/SourceFlash
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref Basic_Coloured_Texture_VP {}
+            fragment_program_ref JCE/SourceTexture27_FP
+            {
+                param_named hdrGain float 1.8
+                param_named grayscale float 0
+                // 冰蓝/青蓝分层；降低等通道HDR冲白，灰度光屑仍以强度图染色，不回到原暖黄。
+                param_named colourTint float3 0.7 0.9 1.0
+            }
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            scene_blend src_alpha one
+            texture_unit
+            {
+                texture jce_source_flash.dds
+                tex_address_mode clamp
+                filtering bilinear
+            }
+        }
+    }
+}
+// 本机ap05原纹理层；亮度按Kenshi HDR适配，非照搬Skyrim数值。
+material JCE/SourceSpark
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref Basic_Coloured_Texture_VP {}
+            fragment_program_ref JCE/SourceTexture27_FP
+            {
+                param_named hdrGain float 2.4
+                param_named grayscale float 1
+                // 冰蓝/青蓝分层；降低等通道HDR冲白，灰度光屑仍以强度图染色，不回到原暖黄。
+                param_named colourTint float3 0.52 0.8 1.0
+            }
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            scene_blend src_alpha one
+            texture_unit
+            {
+                texture jce_source_spark.dds
+                tex_address_mode clamp
+                filtering bilinear
+            }
+        }
+    }
+}
+
+// 2.8淡蓝流烟Ribbon：独立512px/4×4烟形图；普通透明混合保留轮廓空隙，深度仅检测。
+// 主体密度来自可平铺低频场；辅助图集仅弱调制，保留无mipmap图集槽防串格。
+material JCE/SourceSmokeRibbon
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref JCE/Fog_VP {}
+            fragment_program_ref JCE/SourceSmokeRibbon28_FP {}
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            scene_blend alpha_blend
+            texture_unit
+            {
+                texture jce_cloud_field27.tga
+                tex_address_mode wrap
+                filtering trilinear
+            }
+            texture_unit
+            {
+                texture jce_source_fog_palette.dds
+                tex_address_mode clamp
+                filtering trilinear
+            }
+            texture_unit
+            {
+                texture jce_source_soft_smoke.dds
+                tex_address_mode clamp
+                filtering linear linear none
+            }
+        }
+    }
+}
+
+// 2.8淡蓝流烟Wisp：独立512px/4×4烟形图；普通透明混合保留轮廓空隙，深度仅检测。
+// 主体密度来自可平铺低频场；辅助图集仅弱调制，保留无mipmap图集槽防串格。
+material JCE/SourceSmokeWisp
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref JCE/Fog_VP {}
+            fragment_program_ref JCE/SourceSmokeWisp28_FP {}
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            scene_blend alpha_blend
+            texture_unit
+            {
+                texture jce_cloud_field27.tga
+                tex_address_mode wrap
+                filtering trilinear
+            }
+            texture_unit
+            {
+                texture jce_source_fog_palette.dds
+                tex_address_mode clamp
+                filtering trilinear
+            }
+            texture_unit
+            {
+                texture jce_source_smoke_wisps.dds
+                tex_address_mode clamp
+                filtering linear linear none
+            }
+        }
+    }
+}

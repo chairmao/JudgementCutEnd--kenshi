@@ -1,0 +1,36 @@
+{
+  "direct_evidence": {
+    "asserted_address": "JudgementCutEnd.dll+0x1969a",
+    "disassembly_at_address": "jmp qword ptr [__imp_?_NV_mainLoop_GPUSensitiveStuff@GameWorld@@QEAAXM@Z]",
+    "sdk_assert_source": "E:/KenshiProject/1.Dependencies/KenshiLib_0.5.0/Source/core/Functions.cpp:142-174",
+    "library_sha256": "5b6240622d06801dc39896e385efb834b8e1fe2fcdf86067d071ae7a04f6c83b",
+    "FUNC_BEGIN_RVA": "0x15b46",
+    "FUNC_END_RVA": "0x20dea",
+    "stub_encoding": "FF 25 disp32; 6 bytes",
+    "exports_verified": [
+      {
+        "export": "?_NV_mainLoop_GPUSensitiveStuff@GameWorld@@QEAAXM@Z",
+        "stub_RVA": "0x1b0cc",
+        "slot": 3649,
+        "native_RVA": "0x787e70",
+        "stub_bounds_verified": true
+      },
+      {
+        "export": "?_NV_update@AnimationClass@@QEAAXM@Z",
+        "stub_RVA": "0x169bc",
+        "slot": 617,
+        "native_RVA": "0x5b5e30",
+        "stub_bounds_verified": true
+      }
+    ]
+  },
+  "validation": {
+    "static_checks_passed": 62,
+    "powerShell_AST": "passed",
+    "stale_DLL_refused_before_copy": true,
+    "encoding": "UTF-8 / source BOM preserved / CRLF / Chinese checked"
+  },
+  "compiled": false,
+  "game_tested_new_version": false,
+  "pending": "User rebuild Release|x64; inspect new DLL and install after game exits"
+}

@@ -1,0 +1,158 @@
+{
+  "source_version": "0.2.2",
+  "installed_dll_version": "0.2.1",
+  "compiled_this_turn": false,
+  "game_verified_new_version": false,
+  "changed_file_count": 7,
+  "unchanged_assets": [
+    "jce.clip",
+    "jce.material",
+    "jce_glow.tga",
+    "jce_sequence.wav",
+    "slashes.csv"
+  ],
+  "per_file_reports": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "Role": "插件输入与实例蒙皮",
+      "Code location": "Settings/Tick/SkinApi/Begin/RefreshSkin/Pose/startPlugin",
+      "Before": "旧键Ctrl+Shift+F8；Entity 内联字段错8字节，日志反复拒绝施放",
+      "Changes": "默认单键U；新增七个真实OGRE导出绑定；替换全部新增Entity内联访问；保留身份/恢复检查、限量绑定日志；0.2.2",
+      "Reasons": "本机0.2.1反汇编与OGRE导出访问偏移不同；16:09日志已收到按键却拒绝",
+      "After": "项目修订；现有运行中DLL不变",
+      "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+      "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-U-EntityABI-20261007-161508-058512\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-U-EntityABI-20261007-161508-058512\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+        ],
+        "encoding": "UTF-8 BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "Role": "运行时快捷键配置",
+      "Code location": "CastKeyVK/注释",
+      "Before": "F8(119)，Ctrl+Shift固定",
+      "Changes": "U(85)，注释注明单键需要0.2.2 DLL",
+      "Reasons": "用户要求改U；0.2.1实际按键已识别，骨架误拒绝需要源码修正",
+      "After": "项目修订；现有运行中DLL不变",
+      "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+      "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-U-EntityABI-20261007-161549-421114\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-U-EntityABI-20261007-161549-421114\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "Role": "运行时快捷键配置",
+      "Code location": "CastKeyVK/注释",
+      "Before": "F8(119)，Ctrl+Shift固定",
+      "Changes": "U(85)，注释注明单键需要0.2.2 DLL",
+      "Reasons": "用户要求改U；0.2.1实际按键已识别，骨架误拒绝需要源码修正",
+      "After": "项目修订；现有运行中DLL不变",
+      "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+      "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-U-EntityABI-20261007-161549-421114\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-U-EntityABI-20261007-161549-421114\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "Role": "非编译验证",
+      "Code location": "快捷键状态模型及蒙皮ABI回归",
+      "Before": "旧F8组合键及错误内联API仅做文本验证",
+      "Changes": "单U边沿/前台/输入框门槛；七个真实导出绑定、禁止Entity内联访问",
+      "Reasons": "按实际运行失败补充跨层检查；不编译C++",
+      "After": "项目修订；现有运行中DLL不变",
+      "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+      "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-U-EntityABI-20261007-161549-421114\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-U-EntityABI-20261007-161549-421114\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "Role": "项目操作与验证说明",
+      "Code location": "0.2.2章节、当前状态、快捷键",
+      "Before": "旧状态写待编译0.2.1/当前0.2.0及F8",
+      "Changes": "记录0.2.1失败证据、ABI修正及单U；明确当前DLL与待测试版本",
+      "Reasons": "根据真实安装和日志更新操作口径，避免误以为当前DLL已修复",
+      "After": "项目修订；现有运行中DLL不变",
+      "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+      "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-U-EntityABI-20261007-161723-171261\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-U-EntityABI-20261007-161723-171261\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "Role": "分发包说明",
+      "Code location": "版本与按键及日志",
+      "Before": "0.2.1待实测、旧F8",
+      "Changes": "0.2.2单U与真实接口绑定；记录旧误拒绝",
+      "Reasons": "分发包操作说明与源码保持一致",
+      "After": "项目修订；现有运行中DLL不变",
+      "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+      "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-U-EntityABI-20261007-161723-171261\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-U-EntityABI-20261007-161723-171261\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "Role": "当前任务状态",
+      "Code location": "版本/安装/实测边界",
+      "Before": "状态滞后于0.2.1安装，误拒绝未记录",
+      "Changes": "记录0.2.1已安装但失败，0.2.2待编译；101非编译检查",
+      "Reasons": "保证实际运行版本与源码修订不混淆",
+      "After": "项目修订；现有运行中DLL不变",
+      "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+      "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-U-EntityABI-20261007-161723-171261\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-U-EntityABI-20261007-161723-171261\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+        ],
+        "encoding": "UTF-8 without BOM",
+        "line_endings": "CRLF"
+      },
+      "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+    }
+  ],
+  "evidence_directory": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\native-entity-abi-20261007-161614",
+  "validation": "101项非编译检查；修改文件中文/UTF-8/BOM/CRLF再次检查通过；七个接口实际导出已确认"
+}

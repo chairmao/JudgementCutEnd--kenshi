@@ -1,0 +1,134 @@
+{
+  "installed_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "compiled_dll": "E:\\KenshiProject\\2.Projects\\bin\\Release\\JudgementCutEnd.dll",
+  "dll_x64": true,
+  "startPlugin_export_verified": true,
+  "file_count": 13,
+  "files": [
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "size": 307,
+      "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+      "validation": "byte-identical source/destination",
+      "encoding": "UTF-8, CRLF, original bytes preserved",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+      "size": 239654,
+      "sha256": "4c6a838f15ec69114eb7b45231915abe54ec8af61dfadc2fcc060a7aec6f1ebf",
+      "validation": "byte-identical source/destination",
+      "encoding": "UTF-8, CRLF, original bytes preserved",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "size": 519,
+      "sha256": "2a5c44eb23d91eed4e21fe8426c2f1c21c4e38e23180b15423bcc0320f0e27ee",
+      "validation": "byte-identical source/destination",
+      "encoding": "UTF-8, CRLF, original bytes preserved",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "size": 32786,
+      "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+      "validation": "byte-identical source/destination",
+      "encoding": "binary",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "size": 295514,
+      "sha256": "c69ce8ccc528aa4609369596b4559734ed9cbd6be80e1c9bde1b290ba14e9036",
+      "validation": "byte-identical source/destination",
+      "encoding": "binary",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\slashes.csv",
+      "size": 8991,
+      "sha256": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b",
+      "validation": "byte-identical source/destination",
+      "encoding": "UTF-8, CRLF, original bytes preserved",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "size": 341504,
+      "sha256": "2cac2a2d129018e742f0349e2553927169661a44356cb98cbe25af38b92ad41a",
+      "validation": "byte-identical source/destination",
+      "encoding": "binary",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "size": 312,
+      "sha256": "95f5b6a70929aebb113fcc8f5a4afb332571919cca28930441132db2a451394c",
+      "validation": "byte-identical source/destination",
+      "encoding": "UTF-8, CRLF, original bytes preserved",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "size": 117,
+      "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+      "validation": "byte-identical source/destination",
+      "encoding": "binary",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE",
+      "size": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "validation": "byte-identical source/destination",
+      "encoding": "UTF-8, CRLF, original bytes preserved",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "size": 731,
+      "sha256": "87db8a2bece159bf8a09ca72b4904c27a3e3fc0998139c5990f73816fc4b8b60",
+      "validation": "byte-identical source/destination",
+      "encoding": "UTF-8, CRLF, original bytes preserved",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\RE_Kenshi.json",
+      "size": 54,
+      "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+      "validation": "byte-identical source/destination",
+      "encoding": "UTF-8, CRLF, original bytes preserved",
+      "backup": "new destination; no existing file overwritten"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "size": 783,
+      "sha256": "294dee88a2da64891a0136ef5812091409b8e2791599727432fe26e652b2d6c0",
+      "validation": "byte-identical source/destination",
+      "encoding": "UTF-8, CRLF, original bytes preserved",
+      "backup": "new destination; no existing file overwritten"
+    }
+  ],
+  "game_started": false,
+  "game_tested": false,
+  "mods_cfg_changed": false,
+  "save_changed": false,
+  "status_file_backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-Install-20261007-141552-315973\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Install-20261007-141552-315973\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "version": "0.2.7",
+  "installed_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "dll_sha256": "198920c19f94a1e4c9c05134a3ba8dd33b9f4fe332abeb91bf94472fa29e4601",
+  "user_compiled": true,
+  "compiled_by_agent": false,
+  "game_tested": false,
+  "backup_directories": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-184908-8335059",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-184908-8335059"
+  ],
+  "metadata_backup_directory": "JudgementCutEnd-Install027-20261007-184955-894524",
+  "package_file_count": 14,
+  "package_hash_check": "passed before metadata sync; README bytes identical after sync",
+  "files": [
+    {
+      "relative": "JudgementCutEnd.dll",
+      "size": 290304,
+      "sha256": "198920c19f94a1e4c9c05134a3ba8dd33b9f4fe332abeb91bf94472fa29e4601"
+    },
+    {
+      "relative": "JudgementCutEnd.ini",
+      "size": 1334,
+      "sha256": "57f39ed63c8600eceeb9622e3f5f070ea0dcfcfd6fe831c6471fc29a4a38945e"
+    },
+    {
+      "relative": "JudgementCutEnd.mod",
+      "size": 117,
+      "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b"
+    },
+    {
+      "relative": "LICENSE",
+      "size": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    {
+      "relative": "LICENSE-NOTICE.md",
+      "size": 1400,
+      "sha256": "b614791d4b45d2ba65f8f09bef1b10577adf0d0a8d7729c611afe64b9d13ace3"
+    },
+    {
+      "relative": "README.md",
+      "size": 2944,
+      "sha256": "340a9e5639b3b187546c0c52c84829a3fdfc46271d6cbae5c4426c6e73fbeb4e"
+    },
+    {
+      "relative": "RE_Kenshi.json",
+      "size": 54,
+      "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5"
+    },
+    {
+      "relative": "_JudgementCutEnd.info",
+      "size": 307,
+      "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3"
+    },
+    {
+      "relative": "assets\\jce.clip",
+      "size": 545302,
+      "sha256": "7d0f7c4cf49b459f056eab1813911f31e2fe8496e3043c82315cdeaa9f6f07fb"
+    },
+    {
+      "relative": "assets\\jce.material",
+      "size": 826,
+      "sha256": "c7bb6d436a7cc55f69d7c35c01ecc28e3d8a6a1905f2bd9492962dd2b627aad0"
+    },
+    {
+      "relative": "assets\\jce_glow.tga",
+      "size": 32786,
+      "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481"
+    },
+    {
+      "relative": "assets\\jce_sequence.wav",
+      "size": 590984,
+      "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611"
+    },
+    {
+      "relative": "assets\\jce_sequence_fast.wav",
+      "size": 197024,
+      "sha256": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad"
+    },
+    {
+      "relative": "assets\\slashes.csv",
+      "size": 8991,
+      "sha256": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b"
+    }
+  ]
+}

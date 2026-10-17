@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+  "Role": "来源声明",
+  "Code location": "1.2.0衍生动画许可",
+  "Before": "b614791d4b45d2ba65f8f09bef1b10577adf0d0a8d7729c611afe64b9d13ace3",
+  "Changes": "区分原创纹理/拓扑与ap05动作/既有参考声音，不把衍生动画标CC0",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233453-149709\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233453-149709\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

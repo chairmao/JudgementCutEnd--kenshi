@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_glass.tga",
+  "Role": "原创镜片斜向高光纹理，不读取屏幕或声称真实反射",
+  "Code location": "完整特效资源",
+  "Before": "不存在",
+  "Changes": "确定性重现1.1.0特效资产",
+  "Reasons": "新增雾气与碎裂视觉，不改原动画/音频",
+  "After": "资源已生成",
+  "Impact": "仅JudgementCutEnd分发包",
+  "Validation": "逐字节读回一致，文本UTF-8/CRLF/中文扫描",
+  "Safety": {
+    "backups": [],
+    "encoding": "文本UTF-8无BOM/CRLF；TGA保持二进制"
+  },
+  "Unresolved": "需用户编译/实机验证"
+}

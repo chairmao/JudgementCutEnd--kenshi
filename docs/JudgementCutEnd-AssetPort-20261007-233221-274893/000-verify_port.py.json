@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+  "Role": "升级核验",
+  "Code location": "实际PI事件/网格上限",
+  "Before": "b7a1c15714fd93e4f09e3b7c381a0faba7a32e9b767a49fbc2c46152eefcda16",
+  "Changes": "按真实PI事件名称读取；删除不能代表原生运行的常量层计数模型",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "a69834b86a2e8c462b02924c37f38100039f1e041d210e3dc14c1b2a065932a5",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233221-274893\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233221-274893\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

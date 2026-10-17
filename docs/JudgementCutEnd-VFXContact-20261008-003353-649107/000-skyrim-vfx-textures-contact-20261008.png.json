@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\skyrim-vfx-textures-contact-20261008.png",
+  "Role": "源纹理可视核对",
+  "Code location": "原DDS缩略图",
+  "Before": "absent",
+  "Changes": "查看真实纹理形态，避免把刀光当成普通软光带",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "44c72931f7c59eb81522d2d914ec2bee0f3fb7744dee169b03a37e6b201c8c94",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "binary"
+  },
+  "Unresolved": "只读源纹理可视核对；未安装"
+}

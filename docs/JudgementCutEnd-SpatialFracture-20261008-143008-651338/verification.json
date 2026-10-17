@@ -1,0 +1,437 @@
+{
+  "passed": true,
+  "check_count": 105,
+  "checks": [
+    {
+      "name": "original CPP backed up D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338",
+      "passed": true
+    },
+    {
+      "name": "original CPP backed up E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void RestoreTime(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void Begin(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void Finish(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void Tick(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void Damage(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void Pose(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void Collect(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function bool InArea(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void FitSlashLayout(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void GroundRing(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void SourceSparks(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void MakeResources(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void ReleaseGraphics(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void CaptureBackground(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void PrepareRefraction(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void ReleaseRefraction(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void PrepareWeapon(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void RestoreWeapon(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function bool SameDamageWeapon(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void SourceSmokeRibbons(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void SourceSmokeWisps(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void SourceDust(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void Mist(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void Phantoms(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function void SlashAfterimages(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function float SourceCurve(",
+      "passed": true
+    },
+    {
+      "name": "unchanged complete function intptr_t NativeAddress(",
+      "passed": true
+    },
+    {
+      "name": "entire CPP identity outside authorized optical/queue/version changes",
+      "passed": true
+    },
+    {
+      "name": "C++03 compatibility no new lambdas/auto/nullptr",
+      "passed": true
+    },
+    {
+      "name": "C++ and HLSL bracket balance",
+      "passed": true
+    },
+    {
+      "name": "shader export entry contract",
+      "passed": true
+    },
+    {
+      "name": "all cut plane/state uniforms declared and default zero 0",
+      "passed": true
+    },
+    {
+      "name": "all cut plane/state uniforms declared and default zero 1",
+      "passed": true
+    },
+    {
+      "name": "all cut plane/state uniforms declared and default zero 2",
+      "passed": true
+    },
+    {
+      "name": "all cut plane/state uniforms declared and default zero 3",
+      "passed": true
+    },
+    {
+      "name": "all cut plane/state uniforms declared and default zero 4",
+      "passed": true
+    },
+    {
+      "name": "all cut plane/state uniforms declared and default zero 5",
+      "passed": true
+    },
+    {
+      "name": "all cut plane/state uniforms declared and default zero 6",
+      "passed": true
+    },
+    {
+      "name": "all cut plane/state uniforms declared and default zero 7",
+      "passed": true
+    },
+    {
+      "name": "CPP scalar/vector uniform names and float4 ABI",
+      "passed": true
+    },
+    {
+      "name": "public SDK vector and UV overloads exist",
+      "passed": true
+    },
+    {
+      "name": "local position and pivot VP->FP contract",
+      "passed": true
+    },
+    {
+      "name": "pixel hemisphere and zero lifecycle guards",
+      "passed": true
+    },
+    {
+      "name": "preserved material Glow",
+      "passed": true
+    },
+    {
+      "name": "preserved material Mist",
+      "passed": true
+    },
+    {
+      "name": "preserved material Glass",
+      "passed": true
+    },
+    {
+      "name": "Refraction VP and texture1 copy slot preserved",
+      "passed": true
+    },
+    {
+      "name": "all material textures exist",
+      "passed": true
+    },
+    {
+      "name": "public queue priority SDK and real DLL export",
+      "passed": true
+    },
+    {
+      "name": "queue optics before fog, blade, phantom and all smoke",
+      "passed": true
+    },
+    {
+      "name": "first actual owned render captures once with all11 sections",
+      "passed": true
+    },
+    {
+      "name": "source evidence byte/data identity",
+      "passed": true
+    },
+    {
+      "name": "runtime9 curve bytes equal exact original extraction",
+      "passed": true
+    },
+    {
+      "name": "nine independent source shapes/curves",
+      "passed": true
+    },
+    {
+      "name": "runtime band widths match original mesh ratios",
+      "passed": true
+    },
+    {
+      "name": "finite nonnegative bounded original curve slash1",
+      "passed": true
+    },
+    {
+      "name": "finite nonnegative bounded original curve slash2",
+      "passed": true
+    },
+    {
+      "name": "finite nonnegative bounded original curve slash3",
+      "passed": true
+    },
+    {
+      "name": "finite nonnegative bounded original curve slash4",
+      "passed": true
+    },
+    {
+      "name": "finite nonnegative bounded original curve slash5",
+      "passed": true
+    },
+    {
+      "name": "finite nonnegative bounded original curve slash6",
+      "passed": true
+    },
+    {
+      "name": "finite nonnegative bounded original curve slash7",
+      "passed": true
+    },
+    {
+      "name": "finite nonnegative bounded original curve slash8",
+      "passed": true
+    },
+    {
+      "name": "finite nonnegative bounded original curve screen1",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (640, 480, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (640, 480, 8.479983040050879, 5.2999894000318)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (640, 480, -8.94427190999916, 4.47213595499958)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (640, 480, 1e-12, -1e-12)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (1920, 1080, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (1920, 1080, 16.959966080101758, 10.5999788000636)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (1920, 1080, -17.88854381999832, 8.94427190999916)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (1920, 1080, 1e-12, -1e-12)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (2560, 1440, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (2560, 1440, 22.613288106802344, 14.133305066751465)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (2560, 1440, -23.851391759997753, 11.925695879998877)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (2560, 1440, 1e-12, -1e-12)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (4096, 4096, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (4096, 4096, 23.743952512142464, 14.839970320089039)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (4096, 4096, -25.043961347997644, 12.521980673998822)",
+      "passed": true
+    },
+    {
+      "name": "finite bounded pixel displacement (4096, 4096, 1e-12, -1e-12)",
+      "passed": true
+    },
+    {
+      "name": "8 unique actual slash paths and births before sheath",
+      "passed": true
+    },
+    {
+      "name": "world clock and duration untouched",
+      "passed": true
+    },
+    {
+      "name": "optical draw ends before animation/end cleanup",
+      "passed": true
+    },
+    {
+      "name": "late refraction failure keeps float4 UV and zero alpha",
+      "passed": true
+    },
+    {
+      "name": "zero fallback does not access disabled uniforms",
+      "passed": true
+    },
+    {
+      "name": "actual slash partitions visible hemisphere (0, 800, 0)",
+      "passed": true
+    },
+    {
+      "name": "actual slash partitions visible hemisphere (0, 550, 650)",
+      "passed": true
+    },
+    {
+      "name": "actual slash partitions visible hemisphere (600, 400, -500)",
+      "passed": true
+    },
+    {
+      "name": "strict startup loader remains before hooks",
+      "passed": true
+    },
+    {
+      "name": "no new graphics resource per draw",
+      "passed": true
+    },
+    {
+      "name": "strict vertex/index budgets improve",
+      "passed": true
+    },
+    {
+      "name": "all existing non-approved files unchanged",
+      "passed": true
+    },
+    {
+      "name": "installed files, DLLs, formal/special archives and source NIF unchanged",
+      "passed": true
+    },
+    {
+      "name": "encoding and Chinese readable JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "encoding and Chinese readable package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "encoding and Chinese readable package\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "encoding and Chinese readable package\\JudgementCutEnd\\assets\\jce.material",
+      "passed": true
+    },
+    {
+      "name": "encoding and Chinese readable README.md",
+      "passed": true
+    },
+    {
+      "name": "encoding and Chinese readable docs\\task-status.json",
+      "passed": true
+    },
+    {
+      "name": "encoding and Chinese readable tools\\inspect_spatial_refraction.py",
+      "passed": true
+    },
+    {
+      "name": "encoding and Chinese readable tools\\verify_spatial_fracture.py",
+      "passed": true
+    },
+    {
+      "name": "CPP BOM preserved",
+      "passed": true
+    },
+    {
+      "name": "all Python tools AST parse no bytecode/compiler",
+      "passed": true
+    }
+  ],
+  "native_compile_run": false,
+  "shader_compile_run": false,
+  "game_tested": false,
+  "installed_new_revision": false,
+  "source_version": "2.5.0-dev",
+  "vertex_upper_bound": 19096,
+  "index_upper_bound": 46788,
+  "limitations": [
+    "验证不执行C++/HLSL，像素算术/队列适配需实机验证",
+    "Kenshi空间/时钟适配不等于原NIF引擎逐像素执行"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\source-smoke-2.4-20261008.md",
+  "Role": "本次设计、资源依据、验证与验收说明",
+  "Code location": "当前版本状态与烟层设计/验证说明",
+  "Before": "无",
+  "Changes": "记录2.4源码与资源已修改，编译/安装/游戏验证待用户完成，保留历史及正式版",
+  "Reasons": "避免把原纹理移植和静态检查误称实机成功",
+  "After": "4ded56ec525fa0e3c7b9466b82b7d522dad008c13ec2d362420cbb102bc3a814",
+  "Impact": "仅文档及状态，不运行游戏/编译器，不部署",
+  "Validation": "UTF-8无BOM/CRLF读回和中文检查通过；JSON可解析或Markdown可读",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "用户编译后验证透明排序、效果与帧率"
+}

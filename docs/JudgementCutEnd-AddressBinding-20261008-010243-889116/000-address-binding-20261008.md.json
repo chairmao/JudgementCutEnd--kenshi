@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\address-binding-20261008.md",
+  "Role": "绑定修正说明",
+  "Code location": "接口证据、范围、编译与失效保护",
+  "Before": "absent",
+  "Changes": "记录成员地址式接口替代签名字符串，以及仍需用户编译/启动验证和新旧DLL身份",
+  "Reasons": "用户明确要求JudgementCutEnd.cpp不使用字符串函数签名，改为函数地址式绑定",
+  "After": "ec0c29caa552e92b14f38bbe01f930da0f2527721f1ca9ad961cde2397b36ab1",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

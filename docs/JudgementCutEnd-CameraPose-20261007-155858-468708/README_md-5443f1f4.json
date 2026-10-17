@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "修订事实和用户测试说明",
+  "Code location": "版本/0.2.1修订/参数/验证边界",
+  "Before": "旧文档仍以强制镜头和0.2.0待实测为当前状态",
+  "Changes": "记录三次实际渲染数据、自由视角、蒙皮缓存缺口、编译及实测边界",
+  "Reasons": "明确区分已确认引擎缺口与尚待验证的最终动画外观",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-CameraPose-20261007-155858-468708\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-CameraPose-20261007-155858-468708\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

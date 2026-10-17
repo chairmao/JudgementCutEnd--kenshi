@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_spatial_fracture.py",
+  "Role": "只读静态跨层核验",
+  "Code location": "main",
+  "Before": "新增脚本检测样本触发自扫描，UTF-8/CRLF正常",
+  "Changes": "检测样本使用Unicode转义；新增资源/保护区/曲线/队列/预算检查",
+  "Reasons": "避免把检测字面量误当正文乱码，继续完成跨层验证",
+  "After": "可进行非编译核验，输出编译与游戏验证均未执行",
+  "Impact": "仅只读检查工具，已备份首次写入版本",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_spatial_fracture.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_spatial_fracture.py"
+    ],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": "5472c4d4948ba77c290a4df5d4e55893f685fdc2cce74872c05f5ec7898eae3c",
+    "after_sha256": "05b46426110990d519394d7fe3bb677a08ca86bd02c18168c8b8ce8cd84c6672"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

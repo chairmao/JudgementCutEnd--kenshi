@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_vfx.py",
+  "Role": "资源生产工具",
+  "Code location": "JCE/Glass blend",
+  "Before": "4309cd134cb3788dd77460736792efcf9b3603256037865bed815a1b8daf3040",
+  "Changes": "空间高光使用源Alpha加光，保证出现/消散透明度实际生效",
+  "Reasons": "用户提供参考图要求空间碎裂光影、每道多层残迹、整体灰色半球气氛",
+  "After": "754753f7ccec625ecc5bd7263a3e37741b338c3f702c3136a4e917e67d6c6f9c",
+  "Impact": "仅JudgementCutEnd特效；伤害/控制/角色动作合同保持",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFX112-20261007-211630-676027\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_vfx.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFX112-20261007-211630-676027\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_vfx.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；游戏HDR/透明排序/性能待实测"
+}

@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+  "Role": "薄底雾材质",
+  "Code location": "JCE/Mist像素程序引用",
+  "Before": "2.3体积主体雾",
+  "Changes": "绑定2.4薄底雾程序",
+  "Reasons": "与主烟带/烟丝分层",
+  "After": "2c4d3c8c7c28cac7265c3646770018547e791b3689bfe3ce9cc46852137a0757",
+  "Impact": "Glow/Glass材质逐字保持",
+  "Validation": "即时字节读回、编码/CRLF/中文乱码检查通过；跨层与几何模型验证另记 verification.json；未编译、未GPU/游戏测试。",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "d623879f08884fde2a13d0059f34938108c6815abe6dca1d5925d7378bdb596d"
+  },
+  "Unresolved": "[MISSING] 用户Release|x64编译、GPU材质加载、实际透明叠加/帧率和最终观感。"
+}

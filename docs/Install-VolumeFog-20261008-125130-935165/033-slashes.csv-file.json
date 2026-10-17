@@ -1,0 +1,19 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+  "Role": "Stage原生DLL及配套资源复制",
+  "Code location": "完整文件部署/安装身份",
+  "Before": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214",
+  "Changes": "2.3连续雾配套DLL/资源",
+  "Reasons": "用户请求更新mod；已验证PE64、导出入口、2.3内嵌版本与源码时间",
+  "After": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214",
+  "Impact": "本项目和本地JudgementCutEnd mod；无游戏配置/存档/其他mod修改",
+  "Validation": "复制字节/哈希读回相等；UTF-8 no BOM; CRLF; unchanged byte copy or encoding preserved；未运行编译器或游戏测试",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-125013-4331855\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-125013-4331855\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv"
+    ],
+    "encoding": "UTF-8 no BOM; CRLF; unchanged byte copy or encoding preserved"
+  },
+  "Unresolved": "新2.3实机雾气连贯性、深度遮挡与GPU帧率待用户按U测试"
+}

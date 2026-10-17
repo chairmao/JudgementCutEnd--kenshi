@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "非编译静态与生命周期验证",
+  "Code location": "速度时钟与重施放验证段",
+  "Before": "检查15秒冷却边界",
+  "Changes": "替换成无冷却/旧配置忽略/输入优先/资源恢复检查；增加多个演出阶段及100次覆盖模型",
+  "Reasons": "验证覆盖前清理和一次性结算边界，明确模型不执行宿主C++",
+  "After": "0.2.7源码取消冷却并支持按键覆盖；已安装0.2.5不变",
+  "Impact": "仅 JudgementCutEnd；取消冷却并清理后重新施放，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Recast-20261007-184454-494380\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Recast-20261007-184454-494380\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.7待用户编译及实机验证；不代编译或安装旧DLL"
+}

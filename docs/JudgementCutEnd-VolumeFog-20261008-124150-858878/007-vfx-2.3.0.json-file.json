@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.3.0.json",
+  "Role": "连续雾资源元数据",
+  "Code location": "r3 source/resource contract",
+  "Before": "无r3元数据",
+  "Changes": "记录切片、厚度、预算、不能混用旧DLL",
+  "Reasons": "Alpha合同改变必须成套部署",
+  "After": "a6e3f072717c6ed364de168559f7347fe2769779b5ec13b24ceabe787cfddcaa",
+  "Impact": "历史2.2元数据保留；当前2.3需用户编译",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

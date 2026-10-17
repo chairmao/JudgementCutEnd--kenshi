@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-port-1.2.0.md",
+  "Role": "依赖来源",
+  "Code location": "公开源文件路径",
+  "Before": "f6a8ec43de51b55844fb7dda45ae5c01380b23bd60933adfe6de7ea003368a65",
+  "Changes": "按作者HKX文档列出的io_scene_nifly/hkx目录修正链接",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "ba99b578bb8f222834dfef5e6774e99812abff88054f3ca1a544cf4a7f55de6d",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233941-178606\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-port-1.2.0.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233941-178606\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-port-1.2.0.md"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

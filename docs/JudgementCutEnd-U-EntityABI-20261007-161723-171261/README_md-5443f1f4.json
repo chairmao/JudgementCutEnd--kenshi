@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目操作与验证说明",
+  "Code location": "0.2.2章节、当前状态、快捷键",
+  "Before": "旧状态写待编译0.2.1/当前0.2.0及F8",
+  "Changes": "记录0.2.1失败证据、ABI修正及单U；明确当前DLL与待测试版本",
+  "Reasons": "根据真实安装和日志更新操作口径，避免误以为当前DLL已修复",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-U-EntityABI-20261007-161723-171261\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-U-EntityABI-20261007-161723-171261\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

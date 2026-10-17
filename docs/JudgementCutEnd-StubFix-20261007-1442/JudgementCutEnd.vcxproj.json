@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.vcxproj",
+  "Role": "v100/x64 工程配置",
+  "Code location": "WholeProgramOptimization / LinkTimeCodeGeneration / LinkIncremental",
+  "Before": "缺少 GL/LTCG，链接产物存在传给 KenshiLib 的本地 import thunk",
+  "Changes": "启用 WPO 与 LTCG，禁用增量链接，保留 CRT/依赖/输出目录",
+  "Reasons": "截图和 Functions.cpp:142-174 指出本模块地址不属于 KenshiLib 函数桩；同机 Example/SpareLimbBonus Release 启用 WPO",
+  "After": "修改已写入；需要重新编译/部署才影响游戏运行",
+  "Impact": "仅限本插件项目/分发包，不写其他模组及运行游戏",
+  "Validation": "UTF-8/BOM/CRLF/中文严格回读；专项非编译检查随后另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.vcxproj",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.vcxproj"
+    ],
+    "encoding": "UTF-8",
+    "line_endings": "CRLF",
+    "sha256": "fbe4b4b4ba960fa7c6d648699bab52ea74fc5cec605a07267c00736c71f3203f"
+  },
+  "Unresolved": "新 DLL 编译/安装和实机验收仍待完成"
+}

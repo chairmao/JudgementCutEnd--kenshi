@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_soft_smoke.dds",
+  "Role": "原斩击烟带图集",
+  "Code location": "4×4烟形图集",
+  "Before": "包内缺少原主烟纹理",
+  "Changes": "复制提取出的FXSmokeSoftSub，保留DDS原字节",
+  "Reasons": "JCE030CutAllActi 237→238实际引用",
+  "After": "66e28eb641a21ebd3fd7b32f0c40286a6971e329f82d835e0ad5348ec2d20692",
+  "Impact": "仅新烟带材质采样；无损复制",
+  "Validation": "即时字节读回、编码/CRLF/中文乱码检查通过；跨层与几何模型验证另记 verification.json；未编译、未GPU/游戏测试。",
+  "Safety": {
+    "backups": [],
+    "encoding": "binary",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 用户Release|x64编译、GPU材质加载、实际透明叠加/帧率和最终观感。"
+}

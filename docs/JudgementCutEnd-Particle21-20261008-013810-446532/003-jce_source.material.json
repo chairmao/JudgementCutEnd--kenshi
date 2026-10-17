@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+  "Role": "烟尘材质消费者",
+  "Code location": "JCE/SourceDust",
+  "Before": "84f52799071875ab550508c9ebfb8cdd1d21539fe993d085fb02fbad1488e656",
+  "Changes": "仅启用烟尘细节分支；刀光等材料增益/混合/深度参数不变",
+  "Reasons": "用户指定冻结正式版2.0并改进粒子；沿用已授权JudgementCutEnd.cpp特效绘制范围",
+  "After": "b0e6028297b6bd04436f760b05209047d82c9d25f0cc9d92542a30c5ce0a4e22",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Particle21-20261008-013810-446532\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Particle21-20261008-013810-446532\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

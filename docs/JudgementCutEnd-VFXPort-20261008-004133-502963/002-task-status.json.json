@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目状态",
+  "Code location": "新版特效编译边界与预算",
+  "Before": "c344d9d33afc0a039cd7aecfec629b69153fff539d79231e93784a01d196941a",
+  "Changes": "明确新源码待编译；旧DLL身份和历史编译记录保持原样",
+  "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+  "After": "b0411ae823a0e6bcf2deaf28cddd214c5f46cdd50a8c700387cd3f5033c8abbf",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

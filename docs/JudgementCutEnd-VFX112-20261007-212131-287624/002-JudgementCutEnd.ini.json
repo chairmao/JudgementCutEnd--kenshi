@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+  "Role": "分发配置",
+  "Code location": "版本注释",
+  "Before": "d644b737a0e5038ce47b9d22d6f3ceb973d1c1d1e90c18a7d2e4a19b0c5be637",
+  "Changes": "仅更新版本注释；U85/Radius350/96次1倍/踉跄8/无冷却全部保持",
+  "Reasons": "用户提供参考图要求空间碎裂光影、每道多层残迹、整体灰色半球气氛",
+  "After": "3a5b286abfbc7dd1107259d5db799ab8f4acef4df0094bdcad16f68f103fc6af",
+  "Impact": "仅JudgementCutEnd特效；伤害/控制/角色动作合同保持",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFX112-20261007-212131-287624\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFX112-20261007-212131-287624\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；游戏HDR/透明排序/性能待实测"
+}

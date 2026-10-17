@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\pale-blue-20261008.md",
+  "Role": "本轮颜色来源/设计/安全/运行边界说明",
+  "Code location": "源参数与色调合同/备份/部署/验收",
+  "Before": "absent",
+  "Changes": "说明直接证据与适配区别、已安装资源和无需DLL编译；不声称GPU实测",
+  "Reasons": "用户要求今天最后一版仅调淡蓝颜色，对照本地Skyrim原模组；不修改C++或游戏逻辑",
+  "After": "7d98a54e3e15afa0e30a58f268c80e7037d48b79845ef29da0c4dd66e0f71437",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "本轮仅材质/shader资源；不需DLL重编译，真实HDR画面待游戏验收"
+}

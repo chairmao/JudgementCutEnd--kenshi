@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_blue_fog.py",
+  "Role": "只读2.2验证器",
+  "Code location": "完整保护区/跨层/几何/生命周期/色表/编码",
+  "Before": "不存在",
+  "Changes": "验证原包/安装/正式版哈希与新雾的边界/时钟/索引等合同",
+  "Reasons": "避免仅验证几个关键词或把静态检查当实机结果",
+  "After": "7d21f1405b5d42998aa54c8e1d9262e414fce09ccd3931dc758aa13945ecd825",
+  "Impact": "不编译/不安装；只读取并输出JSON，独立保留历史验证器",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目入口",
+  "Code location": "最新地址式绑定状态",
+  "Before": "7219aeedbd1ed20f868589bfe0b1865a7cd51c49667ae48f242a8b2361199878",
+  "Changes": "明确最新编译需要包含成员取址修正，链接1356项静态检查与备份记录",
+  "Reasons": "用户明确要求JudgementCutEnd.cpp不使用字符串函数签名，改为函数地址式绑定",
+  "After": "c0d1c14adb504e6f9575ea64d75799a9a4cd5ba478937392d5f23038106a45ac",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AddressBinding-20261008-010243-889116\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AddressBinding-20261008-010243-889116\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

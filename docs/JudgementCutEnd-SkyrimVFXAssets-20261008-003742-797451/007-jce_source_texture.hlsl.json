@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+  "Role": "专用源纹理shader",
+  "Code location": "DX11像素输入合同",
+  "Before": "absent",
+  "Changes": "同时保留源纹理Alpha和顶点Alpha，按材质选择中性灰转译",
+  "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+  "After": "818386b8728d4434bca0055f8e06ce4a655a3db7c920a0c81ef737ce370d7cc5",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证"
+}

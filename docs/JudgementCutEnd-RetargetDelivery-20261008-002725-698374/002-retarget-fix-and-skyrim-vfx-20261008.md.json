@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\retarget-fix-and-skyrim-vfx-20261008.md",
+  "Role": "用户可审阅的修正与取证说明",
+  "Code location": "身份、错误、静态对比、原效果解析与限制",
+  "Before": "absent",
+  "Changes": "区分已经完成的资源修正、尚未部署及VFX尚未移植",
+  "Reasons": "记录用户本次头部扭转修正、原模组特效读取结果与部署边界",
+  "After": "ba6ef3c8e73ea2daf50076b50523bebb3220164ff0091f0a75dcbc62fa19b359",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "本轮资源修正无需重编译；游戏内外观验收未完成"
+}

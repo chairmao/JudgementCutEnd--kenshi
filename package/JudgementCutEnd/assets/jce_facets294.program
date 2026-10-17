@@ -1,0 +1,23 @@
+// 2.9.4第四UV揭开/偏折合同；默认captureValid=0，HDR复制成功前透明，旧模式使用负揭开标记。
+vertex_program JCE/Facet294_VP hlsl
+{
+    source jce_facets294.hlsl
+    entry_point jce_facet294_vp
+    target vs_4_0
+    default_params
+    {
+        param_named_auto worldViewProjMatrix worldviewproj_matrix
+        param_named_auto worldViewMatrix worldview_matrix
+    }
+}
+fragment_program JCE/Facet294_FP hlsl
+{
+    source jce_facets294.hlsl
+    entry_point jce_facet294_fp
+    target ps_4_0
+    default_params
+    {
+        param_named_auto viewport viewport_size
+        param_named captureValid float 0
+    }
+}

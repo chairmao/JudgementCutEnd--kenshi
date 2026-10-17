@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.program",
+  "Role": "shader参数契约",
+  "Code location": "default_params",
+  "Before": "6580a1a04e1c34f659386f5888513747820246f3d56ed07f631c00fe3a22ce9a",
+  "Changes": "dustDetail默认0，保护2.0其他特效层",
+  "Reasons": "用户指定冻结正式版2.0并改进粒子；沿用已授权JudgementCutEnd.cpp特效绘制范围",
+  "After": "e19c82f7a9a0aad7d443b6ef0e546defb1bb3e9bc85decc8203ee3c436071810",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Particle21-20261008-013810-446532\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.program",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Particle21-20261008-013810-446532\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.program"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

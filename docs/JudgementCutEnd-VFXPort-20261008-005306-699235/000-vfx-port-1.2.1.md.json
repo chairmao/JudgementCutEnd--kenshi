@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\vfx-port-1.2.1.md",
+  "Role": "本轮移植说明",
+  "Code location": "资源来源、运行时接线、边界与验收",
+  "Before": "absent",
+  "Changes": "明确原始纹理/Alpha曲线与适配粒子的区别，记录1346项静态验证和用户编译要求",
+  "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+  "After": "d70b5707971f95dd1c19c0695bace7fc5ead7d83db65a208573611882fbe1a22",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

@@ -1,0 +1,294 @@
+{
+  "version": "2.9.8-dev",
+  "source_sha256": "C4860E2AC76A305489F38B231B7781044D76428BF3E5C32A91D4C170F0297BEB",
+  "source_assets": 3,
+  "instances": 5,
+  "vertices_expected": 199,
+  "triangles_expected": 95,
+  "optical_worst_case_vertices": 300,
+  "optical_worst_case_indices": 540,
+  "adaptation": {
+    "contour": "two halfplanes in immutable birth XY; normals perpendicular to projected CSV slash directions; CPU convex triangle clipping with synchronized position/normal/UV interpolation",
+    "primary_paths": [
+      0,
+      12,
+      24,
+      36,
+      48
+    ],
+    "secondary_paths": [
+      6,
+      18,
+      30,
+      42,
+      54
+    ],
+    "pieces": [
+      {
+        "piece": 0,
+        "paths": [
+          0,
+          6
+        ],
+        "fallback": [
+          false,
+          false
+        ],
+        "retained_coefficients": [
+          0.9,
+          0.76
+        ],
+        "front_polygon": [
+          [
+            0.3989262580871582,
+            -0.11905229091644287,
+            0.0004981704987585545
+          ],
+          [
+            0.15859760344028473,
+            -0.18656133115291595,
+            -0.0006453769165091217
+          ],
+          [
+            -0.6800000071525574,
+            0.23895567655563354,
+            -0.002666482236236334
+          ],
+          [
+            -0.5146535634994507,
+            0.32999861240386963,
+            -0.0017468802398070693
+          ],
+          [
+            0.6023048162460327,
+            0.32999855279922485,
+            0.002633315045386553
+          ]
+        ],
+        "front_area_retained": 0.8306399529484485,
+        "front_corners": 5,
+        "min_front_edge_R": 0.18875674903392792,
+        "vertices": 36,
+        "triangles": 16
+      },
+      {
+        "piece": 1,
+        "paths": [
+          12,
+          18
+        ],
+        "fallback": [
+          false,
+          false
+        ],
+        "retained_coefficients": [
+          0.81,
+          0.9
+        ],
+        "front_polygon": [
+          [
+            0.2282389998435974,
+            -0.2218984067440033,
+            -0.0004775340494234115
+          ],
+          [
+            -0.21467241644859314,
+            0.0028414875268936157,
+            -0.001544995466247201
+          ],
+          [
+            -0.5947864651679993,
+            0.28587591648101807,
+            -0.0021925526671111584
+          ],
+          [
+            -0.5146535634994507,
+            0.32999861240386963,
+            -0.0017468802398070693
+          ],
+          [
+            0.6799989342689514,
+            0.32999855279922485,
+            0.002937995595857501
+          ],
+          [
+            0.6206303238868713,
+            0.16585712134838104,
+            0.002216251101344824
+          ]
+        ],
+        "front_area_retained": 0.8304127342591165,
+        "front_corners": 6,
+        "min_front_edge_R": 0.0914783701300621,
+        "vertices": 46,
+        "triangles": 22
+      },
+      {
+        "piece": 2,
+        "paths": [
+          24,
+          30
+        ],
+        "fallback": [
+          false,
+          false
+        ],
+        "retained_coefficients": [
+          0.91,
+          0.77
+        ],
+        "front_polygon": [
+          [
+            -0.42210492491722107,
+            0.10809579491615295,
+            -0.002044928725808859
+          ],
+          [
+            -0.31526291370391846,
+            0.32999861240386963,
+            -0.0009649621206335723
+          ],
+          [
+            -0.2305753529071808,
+            0.32999861240386963,
+            -0.0006328567396849394
+          ],
+          [
+            0.6585149765014648,
+            0.27060002088546753,
+            0.002676815027371049
+          ],
+          [
+            0.4412827789783478,
+            -0.33000001311302185,
+            3.59230580215808e-05
+          ]
+        ],
+        "front_area_retained": 0.8543117394713595,
+        "front_corners": 5,
+        "min_front_edge_R": 0.0846882089972496,
+        "vertices": 39,
+        "triangles": 19
+      },
+      {
+        "piece": 3,
+        "paths": [
+          36,
+          42
+        ],
+        "fallback": [
+          false,
+          false
+        ],
+        "retained_coefficients": [
+          0.78,
+          0.84
+        ],
+        "front_polygon": [
+          [
+            0.2618774473667145,
+            -0.23896706104278564,
+            -0.00039646198274567723
+          ],
+          [
+            -0.19979581236839294,
+            -0.004707157611846924,
+            -0.0015091412933543324
+          ],
+          [
+            -0.4295448958873749,
+            0.32999861240386963,
+            -0.0014131233328953385
+          ],
+          [
+            0.6799989342689514,
+            0.32999855279922485,
+            0.002937995595857501
+          ],
+          [
+            0.5350948572158813,
+            -0.07062983512878418,
+            0.0011763967340812087
+          ]
+        ],
+        "front_area_retained": 0.8298172953799527,
+        "front_corners": 5,
+        "min_front_edge_R": 0.32091689109802246,
+        "vertices": 39,
+        "triangles": 19
+      },
+      {
+        "piece": 4,
+        "paths": [
+          48,
+          54
+        ],
+        "fallback": [
+          false,
+          false
+        ],
+        "retained_coefficients": [
+          0.82,
+          0.82
+        ],
+        "front_polygon": [
+          [
+            -0.4873866140842438,
+            0.14122071862220764,
+            -0.0022022644989192486
+          ],
+          [
+            -0.09676003456115723,
+            0.32999858260154724,
+            -0.0001080947695299983
+          ],
+          [
+            0.4211251735687256,
+            0.32999855279922485,
+            0.00192281196359545
+          ],
+          [
+            0.6032899022102356,
+            0.11791470646858215,
+            0.0020054439082741737
+          ],
+          [
+            0.4412827789783478,
+            -0.33000001311302185,
+            3.59230580215808e-05
+          ]
+        ],
+        "front_area_retained": 0.8298970353076263,
+        "front_corners": 5,
+        "min_front_edge_R": 0.27957743406295776,
+        "vertices": 39,
+        "triangles": 19
+      }
+    ],
+    "reveal_clip_seconds": 0.45,
+    "bend_remaining_fraction": 0.55,
+    "contour_limits": "retained source extent ratios are Kenshi adaptations; not original Skyrim/BG3 fragment geometry",
+    "diagnostics": "actual submitted counts; projected bbox/warp are explicitly source pre-contour upper bounds"
+  },
+  "unchanged": "five layouts/three-axis poses/clock/release/colour/brightness/shader/material/textures/curves/five UV ABI/capture/queue/legacy modes/damage/input/animation/time restoration/END",
+  "reused_shader_revision": "2.9.7 (no shader or material changes)",
+  "HDR_copies_per_frame": 1,
+  "texture_samples": 2,
+  "max_displacement_pixels": 36,
+  "last_facet_end": 6.45,
+  "END": 6.7,
+  "resources": {
+    "jce_facets297.hlsl": "664367AFECD3CDC8098D70F6B27D14EB205980040D7D8DFE26F6147315C9A809",
+    "jce_facets297.program": "0B17068ABA8F499D0315C993629545552711642D4C8A9B3818753D8E9CC31FB3",
+    "jce.material": "CDFFF08DBFCFE74C1B304EFA87149DFE51ADB6D3A4A249CD1AB465A275C3A9CF",
+    "jce_facets29.csv": "FCA82D54DB3080C3F847A32091AC23060B76C9E02D7703B88177770D9E713FC3",
+    "jce_source_optical_mask.dds": "A3F29383DE8BB46BB69B75475067DE5DD1238CCE41793CE6E04950B7749B19FD",
+    "slashes.csv": "2C63686FA582266EAEBB4BA9631E68BE96771CE167CD37A99B67588564A7BFE9"
+  },
+  "backup_roots": [
+    "D:/CodexBackups/JCE-SlashContours298-20261010-201446",
+    "E:/AIWorkSpace/_backups/JCE-SlashContours298-20261010-201446"
+  ],
+  "compilation": "not run by policy",
+  "runtime": "not verified; package and installed DLL remain user-built2.9.7 until user builds2.9.8"
+}

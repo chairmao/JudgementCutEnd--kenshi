@@ -1,0 +1,554 @@
+{
+  "owner": "Codex",
+  "scope": "Only new JudgementCutEnd project",
+  "audit_directory": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-20261007-132047-9b884c22",
+  "status": "installed_2_8_1_outer_slash_layout_pending_game_test",
+  "compiled": true,
+  "game_tested": false,
+  "static_passed": true,
+  "static_check_count": 867,
+  "installed": true,
+  "pending": [
+    "实机查看350外环各方向斩击、幻影/空间切面保持程度与透明层帧耗"
+  ],
+  "compiled_by": "user; Stage verified PE64/real export/embedded source version/source timestamp",
+  "installed_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "dll_sha256": "225b3eea77a36d1393c8b1ee53a3338cdfd99a3ef7f8d2ae33f633232c86807b",
+  "source_version": "2.8.0-dev",
+  "installed_artifact_current": true,
+  "previous_installed_artifact": {
+    "version": "1.2.1-dev",
+    "formal_version": "2.0.0",
+    "sha256": "61edde0416bde310e8f4901c82e117b674d1292598023b016f5a0734e953bae7",
+    "compiled_by": "user",
+    "installed": false
+  },
+  "runtime_test_result": "2.8.1三项外围刀光资源已部署、逐文件哈希一致；沿用已编译2.8 DLL，实机外观和帧耗待验收。",
+  "runtime_tested_version": "2.8.0-dev / 2.8-flow-fracture-rhythm-r1 (user visual acceptance only)",
+  "previous_runtime_failed": true,
+  "previous_source_status": "installed_0.1.2_pending_runtime_test",
+  "installed_version": "2.8.0-dev",
+  "compilation_not_run_reason": "code-modification-principles要求用户编译；代理未执行C++/HLSL编译",
+  "latest_verification": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Redistribute281-20261009-201148-287d25\\verification-final.json",
+  "metrics": {
+    "bone_length_error": 6.217248937900877e-15,
+    "foot_drift": 0,
+    "right_hand_motion": 5.9732055889744835,
+    "frames": 403,
+    "tracks": 23,
+    "max_single_frame_rotation_degrees": 10.88434553702598
+  },
+  "latest_installation_report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Install28-20261009-194240-fdbf31\\installation.json",
+  "installed_configuration": {
+    "CastKeyVK": 85,
+    "Radius": 350,
+    "CinematicCamera": 0,
+    "requires_restart": true,
+    "PlaybackRate": 3,
+    "RealDuration": 2.2333333333333334,
+    "DamageMultiplier": 1,
+    "WeaponDamage": "native preferred melee -> draw -> matching combat cache; visual allowed without damage",
+    "Cooldown": 0,
+    "ActiveCastKeyBehavior": "rising edge restores previous cast then restarts current selected character; held key never loops",
+    "RadiusMeaning": "actual ground outer circle and damage radius",
+    "AreaRadius": 350,
+    "AreaShape": "XZ horizontal circle at fixed cast anchor",
+    "MaxTargets": 0,
+    "TargetCollection": "current hostile non-player characters at sheath damage commit",
+    "HitsPerTarget": 96,
+    "HitCountSource": "actual slashes asset count",
+    "StaggerForceMultiplier": 8,
+    "StaggerForceCap": 1000000,
+    "Stagger": "native big stumble, ordinary fallback, KO/dead/prone skipped",
+    "MedicalCommit": "96 independent native calls at sheath; stop on death/invalid/out-of-area/weapon change",
+    "SlashLayout": "96 rows uniformly fitted per caster orientation including ribbon half width",
+    "GroundRing": "fixed throughout cast, 128 segments, inward width, anchor height +0.8",
+    "VFX": {
+      "fog_method": "whole Mist volume output disabled; along-cut ribbons and wisps retained",
+      "fog_slices": 32,
+      "base_optical_depth": 0,
+      "smoke_bands": 48,
+      "smoke_segments": 10,
+      "smoke_wisps": 96,
+      "shape_animation": false,
+      "clock": "clip seconds",
+      "vertex_upper_bound": 19096,
+      "index_upper_bound": 46788,
+      "optical_planes": 8,
+      "optical_curves": 9,
+      "max_offset_pixels": 36,
+      "resource_revision": "2.8-flow-fracture-rhythm-r1",
+      "mist_slices": 32,
+      "material_sections": 11,
+      "source_smoke_noise_samples": 2,
+      "atlas_density_modulation": 0.32,
+      "cloud_texture": "jce_cloud_field27.tga",
+      "glow_energy": "Vertex alpha=energy/2; own Glow shader decodes to RGB",
+      "local_cold_multiplier": [
+        1,
+        1,
+        1
+      ],
+      "visible_mist_slices": 0,
+      "optical_coverage": "localized independent regions around cuts; no global cold tint",
+      "smoke_palette": "newborn [.18,.48,.76]..[.34,.74,.98] -> aged [.10,.28,.52]..[.20,.46,.76]",
+      "smoke_age_tint": "G解码包龄后独立插值RGB，Alpha独立包络",
+      "smoke_motion": "single birth: path transport/curl, vortex ascent; sheath expansion",
+      "scene_copy_samples": 1
+    },
+    "TimeRestore": "independent ownership; pause-safe deferred restore; verified native getter; no forced unpause; preserve external speed",
+    "Animation": "JCECLIP2 / 23 tracks / 403 frames / root Y only / anatomical left-right and chest-neck axes corrected / resource revision r1"
+  },
+  "previous_compiled_artifact": {
+    "version": "0.2.9",
+    "compiled_by": "user",
+    "sha256": "4b7eb82e9a5061e71896649c1db1f9e61299fed6654e200acf68dd79447334ac",
+    "installed": true
+  },
+  "source_configuration": {
+    "VFX": {
+      "fog_method": "whole Mist volume output disabled; along-cut ribbons and wisps retained",
+      "fog_slices": 32,
+      "base_optical_depth": 0,
+      "smoke_bands": 48,
+      "smoke_segments": 10,
+      "smoke_wisps": 96,
+      "shape_animation": false,
+      "clock": "clip seconds",
+      "vertex_upper_bound": 19096,
+      "index_upper_bound": 46788,
+      "optical_planes": 8,
+      "optical_curves": 9,
+      "max_offset_pixels": 36,
+      "resource_revision": "2.8-flow-fracture-rhythm-r1",
+      "mist_slices": 32,
+      "material_sections": 11,
+      "source_smoke_noise_samples": 2,
+      "atlas_density_modulation": 0.32,
+      "cloud_texture": "jce_cloud_field27.tga",
+      "glow_energy": "Vertex alpha=energy/2; own Glow shader decodes to RGB",
+      "local_cold_multiplier": [
+        1,
+        1,
+        1
+      ],
+      "visible_mist_slices": 0,
+      "optical_coverage": "localized independent regions around cuts; no global cold tint",
+      "smoke_palette": "newborn [.18,.48,.76]..[.34,.74,.98] -> aged [.10,.28,.52]..[.20,.46,.76]",
+      "smoke_age_tint": "G解码包龄后独立插值RGB，Alpha独立包络",
+      "smoke_motion": "single birth: path transport/curl, vortex ascent; sheath expansion",
+      "scene_copy_samples": 1
+    },
+    "gameplay_unchanged": true
+  },
+  "last_user_compilation": {
+    "version": "2.8.0-dev",
+    "configuration": "Release|x64",
+    "dll_sha256": "225b3eea77a36d1393c8b1ee53a3338cdfd99a3ef7f8d2ae33f633232c86807b",
+    "size": 391680,
+    "modified_local": "2026-10-09T19:40:33.813264",
+    "agent_ran_compiler": false,
+    "validation": "Stage PE64/export/embedded version/source timestamp; 2.8 smoke/optical diagnostic strings present"
+  },
+  "formal_release": {
+    "version": "2.5.0",
+    "directory": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\2.5.0",
+    "zip": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-2.5.0-release.zip",
+    "zip_sha256": "ee5c0ae63b136003887372c3a25b43df69d72cfbd933eb352bdd569257396f65",
+    "zip_size": 10008388,
+    "original_internal_version": "2.5.0-dev",
+    "hashes_verified": true,
+    "source_and_runtime_file_count": 797,
+    "user_requested_freeze": true,
+    "full_gameplay_certified": false
+  },
+  "observed_build_artifact": {
+    "path": "E:\\KenshiProject\\2.Projects\\bin\\Release\\JudgementCutEnd.dll",
+    "version": "2.8.0-dev",
+    "configuration": "Release|x64",
+    "dll_sha256": "225b3eea77a36d1393c8b1ee53a3338cdfd99a3ef7f8d2ae33f633232c86807b",
+    "size": 391680,
+    "modified_local": "2026-10-09T19:40:33.813264",
+    "agent_ran_compiler": false,
+    "validation": "Stage PE64/export/embedded version/source timestamp; 2.8 smoke/optical diagnostic strings present"
+  },
+  "time_bug_evidence": {
+    "log": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\logs\\JudgementCutEnd.log",
+    "first_cancel": "2026-10-07 21:00:16.747 cast=14",
+    "next_poisoned_snapshot": "2026-10-07 21:02:55.787 cast=15 speed_before=0.001",
+    "last_completed": "2026-10-07 21:07:01.860 cast=26",
+    "exact_cancel_trigger": "MISSING: old combined reason cannot separate pause/focus/escape"
+  },
+  "time_check_count": 70,
+  "time_verification_model_only": true,
+  "latest_static_report": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\visual-2.8\\README.md",
+  "port_check_count": 48,
+  "source_cpp_sha256": "fa71e2314349604103d0d73cb07d7ee64c00eb57523d13f8ea76530120f2037d",
+  "resource_revision": "2.8.1-outer-slash-layout-r1",
+  "installed_resource_revision": "2.8.1-outer-slash-layout-r1",
+  "installed_resources_current": true,
+  "installed_dll_current": true,
+  "retarget_check_count": 830,
+  "resource_fix": {
+    "head_face_error_deg_after": 0.6098383,
+    "head_top_error_deg_after": 0.0862545,
+    "cpp_changed": false,
+    "dll_recompile_required": false,
+    "assets": {
+      "jce.clip": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99",
+      "jce_phantom.bin": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7"
+    }
+  },
+  "final_game_process_check": {
+    "local_time": "2026-10-08T00:27:56+08:00",
+    "kenshi_process_found": false
+  },
+  "source_vfx_check_count": 43,
+  "source_vfx": {
+    "cpp_changed": true,
+    "dll_recompile_required": false,
+    "native_compiled": true,
+    "shader_compiled": false,
+    "runtime_tested": false,
+    "layers": 11,
+    "fog_slices": 32,
+    "smoke_bands": 48,
+    "smoke_segments": 10,
+    "smoke_wisps": 96,
+    "shapes": 16,
+    "dust_slots": 144,
+    "vertex_upper_bound": 19096,
+    "index_upper_bound": 46788,
+    "optical_planes": 8,
+    "optical_curves": 9
+  },
+  "previous_observed_build_artifact": {
+    "path": "E:\\KenshiProject\\2.Projects\\bin\\Release\\JudgementCutEnd.dll",
+    "version": "2.7.0-dev",
+    "configuration": "Release|x64",
+    "dll_sha256": "d00791ae06129fc9dd30a5cdca75c965a2eee950c023249f8aa39c00be3d6a04",
+    "size": 389120,
+    "modified_local": "2026-10-09T02:28:58.571633",
+    "agent_ran_compiler": false,
+    "validation": "Stage PE64/export/embedded version/source timestamp"
+  },
+  "native_binding": {
+    "method": "typed non-virtual member function pointer",
+    "target_symbol_lookup": false,
+    "stub_table_guard_before_sdk": true,
+    "whole_program_optimization": true,
+    "ltcg": true,
+    "incremental_link": false,
+    "compiled": true,
+    "runtime_verified": false,
+    "fix": "allow member pointer representations larger than address field; preserve stub-table check",
+    "current_failure": null,
+    "historical_runtime_failure": "2026-10-08 01:07:06.217 plugin_disabled: Unsupported native member pointer layout",
+    "previous_verified_version": "1.2.1-dev / formal2.0"
+  },
+  "formal_releases": [
+    {
+      "version": "1.0.0",
+      "directory": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\1.0.0",
+      "zip": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-1.0.0.zip",
+      "zip_sha256": "44f47c6ae17592d6f703e73ff5b263c7d143e7660fa78344638c270ed4ee9f9c",
+      "original_internal_version": "0.3.0",
+      "hashes_verified": true,
+      "source_and_runtime_file_count": 248
+    },
+    {
+      "version": "2.0.0",
+      "directory": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\2.0.0",
+      "zip": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-2.0.0-release.zip",
+      "zip_sha256": "4e47e90b637180c8fdf16002bab0e05469cb034d19ad363d6c896d0f74a066b7",
+      "zip_size": 8207693,
+      "original_internal_version": "1.2.1-dev",
+      "hashes_verified": true,
+      "source_and_runtime_file_count": 500,
+      "special_backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-Formal2Clean-20261008-013448-433715\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Formal2Clean-20261008-013448-433715\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases"
+      ],
+      "ide_cache_in_release_zip": false
+    },
+    {
+      "version": "2.5.0",
+      "directory": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\2.5.0",
+      "zip": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-2.5.0-release.zip",
+      "zip_sha256": "ee5c0ae63b136003887372c3a25b43df69d72cfbd933eb352bdd569257396f65",
+      "zip_size": 10008388,
+      "original_internal_version": "2.5.0-dev",
+      "hashes_verified": true,
+      "source_and_runtime_file_count": 797,
+      "user_requested_freeze": true,
+      "full_gameplay_certified": false
+    }
+  ],
+  "installed_formal_version": null,
+  "previous_runtime_observation": {
+    "formal_version": "2.0.0",
+    "internal_version": "1.2.1-dev",
+    "user_visual_feedback": "刀光不错，灰雾像雾霾",
+    "latest_completed_cast": 59,
+    "time_restored_after": 1,
+    "scope": "已见演出/时间恢复日志；不是全功能质量认证",
+    "evidence": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\2.0.0\\evidence\\runtime-excerpt.txt"
+  },
+  "particle_check_count": 99,
+  "latest_static_scope": "2.8生命周期/局部片区/蓝色色带合同和范围回归43组；时间模型70项；未编译/未部署/未实机验收",
+  "palette_check_count": 49,
+  "palette_runtime_tested": false,
+  "historical_static_check_count": 616,
+  "blue_fog_task": {
+    "audit": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-BlueFog-20261008-120105-326056",
+    "baseline": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-BlueFog-20261008-120105-326056\\baseline.json",
+    "source_version": "2.2.0-dev",
+    "resource_revision": "2.2-blue-wisps-r1",
+    "changed_existing": [
+      "JudgementCutEnd.cpp",
+      "package/JudgementCutEnd/assets/jce.material",
+      "package/JudgementCutEnd/assets/jce_source.material"
+    ],
+    "compiled": false,
+    "game_tested": false,
+    "installed": false
+  },
+  "latest_video_observation": {
+    "source": "C:\\Users\\周凡稀\\AppData\\Local\\Temp\\steam\\38EADA~1.MP4",
+    "sha256": "d22afe2c4233d107e44e7ed12f8d2436ba70fd38916c2f6739368b0986259efe",
+    "frames": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Visual28-20261009-1900\\frames",
+    "successful_decoded_frames": 15,
+    "duration_seconds": 12.245955,
+    "observed_revision": "2.7.0-dev / 2.7.2-pale-blue-rolling-r1",
+    "finding": "密集刀光、烟体薄、空间片区与尾烟不易辨认；不把静态帧当流速测量"
+  },
+  "fog_flow_task": {
+    "audit": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-FogFlow-20261008-122847-062403",
+    "verification": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-FogFlow-20261008-122847-062403\\verification.json",
+    "installation": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-FogFlow-20261008-122847-062403\\installation.json",
+    "native_source_changed": false,
+    "DLL_recompiled": false,
+    "game_tested": false
+  },
+  "volume_fog_task": {
+    "audit": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VolumeFog-20261008-124150-858878",
+    "source_version": "2.3.0-dev",
+    "resource_revision": "2.3-volume-flow-r1",
+    "native_compiled": true,
+    "installed": true,
+    "game_tested": false,
+    "documentation": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\volume-fog-2.3-20261008.md",
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VolumeFog-20261008-124150-858878",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VolumeFog-20261008-124150-858878"
+    ],
+    "compiled_by": "user"
+  },
+  "previous_2_3_status": {
+    "status": "installed_2_3_volume_fog_pending_game_test",
+    "compiled": true,
+    "game_tested": false,
+    "static_check_count": 100,
+    "source_version": "2.3.0-dev",
+    "resource_revision": "2.2-blue-wisps-r1",
+    "source_vfx": {
+      "cpp_changed": true,
+      "dll_recompile_required": false,
+      "native_compiled": true,
+      "runtime_tested": false,
+      "layers": 9,
+      "clouds": 96,
+      "dust_slots": 144,
+      "vertex_upper_bound": 17620,
+      "index_upper_bound": 44286
+    },
+    "runtime_test_result": "2.3用户编译DLL与38项配套包已部署并核对。新连续雾尚未实机测试。",
+    "source_configuration": {
+      "VFX": {
+        "fog_method": "32 view-aligned volume slices",
+        "fog_slices": 32,
+        "cloud_sprites": 0,
+        "dust_strength_factor": 0.25,
+        "vertex_upper_bound": 17364,
+        "index_upper_bound": 43902
+      },
+      "gameplay_unchanged": true
+    }
+  },
+  "source_smoke_task": {
+    "report": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\source-smoke-2.4-20261008.md",
+    "audit": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SourceSmoke-20261008-133659-646941",
+    "compiled": true,
+    "installed": true,
+    "game_tested": false,
+    "resource_revision": "2.4-source-smoke-r1"
+  },
+  "spatial_fracture_task": {
+    "audit": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338",
+    "report": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\spatial-fracture-2.5-20261008.md",
+    "source_version": "2.5.0-dev",
+    "resource_revision": "2.5-spatial-partition-r1",
+    "compiled": true,
+    "installed": true,
+    "game_tested": false,
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338"
+    ],
+    "compiled_by": "user",
+    "installation": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\install-spatial-2.5-20261008-150012-978536\\installation.json"
+  },
+  "special_visual_release": {
+    "version": "2.4.0-special",
+    "zip": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-2.4.0-special-20261008-141211-865716.zip",
+    "sha256": "527dce99bcdac92948ec37ee83f9d9664bf9a10155a07e26e03d721a1b6a73c6",
+    "user_accepted_visuals": true,
+    "full_gameplay_certified": false
+  },
+  "bg3_design_task": {
+    "directory": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\bg3-design-2.6",
+    "audit_directory": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-BG3Design26-20261009-012311-016714",
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-BG3Design26-20261009-012311-016714",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BG3Design26-20261009-012311-016714"
+    ],
+    "compiled": true,
+    "game_tested": false,
+    "installed": true,
+    "bg3_assets_copied": false,
+    "verification_checks": 261,
+    "time_model_checks": 70,
+    "historical_core_check": "manual render submission assertion already fails on unmodified 2.5 baseline; not counted as passing",
+    "installation_report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-Install26-20261009-014339-75b66c\\installation.json"
+  },
+  "four_fix_task": {
+    "directory": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\four-fixes-2.7",
+    "audit_directory": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642",
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+    ],
+    "source_version": "2.7.0-dev",
+    "resource_revision": "2.7-soft-volume-cold-r1",
+    "compiled": true,
+    "installed": true,
+    "game_tested": false,
+    "bg3_assets_copied": false,
+    "verification_checks": 219,
+    "time_model_checks": 70,
+    "previous_game_install": "2.6.0-dev intact",
+    "historical_check_limit": "旧verify.py在未修改的2.5/2.6基线即失败于manual render submission断言；没有计为通过。",
+    "compiled_by": "user",
+    "installation_report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-Install27-20261009-023056-b8c28c\\installation.json"
+  },
+  "curtain_hotfix": {
+    "revision": "2.7.1-curtain-removal-r1",
+    "audit": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE27-CurtainReview-20261009-023651-c30eab",
+    "checks": 105,
+    "native_cpp_changed": false,
+    "dll_recompile_required": false,
+    "shader_compiled": false,
+    "game_tested": false,
+    "installed": true,
+    "real_volume_implemented": false,
+    "source_backups": [
+      "D:\\CodexBackups\\JCE27-CurtainRemoval-20261009-024151-4fe952",
+      "E:\\AIWorkSpace\\_backups\\JCE27-CurtainRemoval-20261009-024151-4fe952"
+    ],
+    "installation_backups": [
+      "D:\\CodexBackups\\JCE27-CurtainInstall-20261009-024442-edac21",
+      "E:\\AIWorkSpace\\_backups\\JCE27-CurtainInstall-20261009-024442-edac21"
+    ],
+    "startup_log_limit": "DLL日志仍显示2.7.0-dev和旧VFX标签；资源身份以材质FP名称/vfx-2.7.1.json/哈希为准"
+  },
+  "pale_blue_task": {
+    "revision": "2.7.2-pale-blue-rolling-r1",
+    "audit": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-PaleBlue272-20261009-183804-43bd08",
+    "report": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\pale-blue-2.7.2\\README.md",
+    "checks": 41,
+    "cpp_changed": false,
+    "dll_recompile_required": false,
+    "shader_compiled": false,
+    "game_tested": false,
+    "installed": true,
+    "backups": [
+      "D:\\CodexBackups\\Task-JCE-PaleBlue272-20261009-183804-43bd08",
+      "E:\\AIWorkSpace\\_backups\\Task-JCE-PaleBlue272-20261009-183804-43bd08"
+    ],
+    "bg3_assets_copied": false,
+    "installation": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Install272-20261009-185215-0bc415\\installation.json",
+    "installation_backups": [
+      "D:\\CodexBackups\\Task-JCE-Install272-20261009-185215-0bc415",
+      "E:\\AIWorkSpace\\_backups\\Task-JCE-Install272-20261009-185215-0bc415"
+    ]
+  },
+  "previous_2_7_2_status": {
+    "status": "installed_2_7_2_pale_blue_resources_pending_game_test",
+    "compiled": true,
+    "installed": true,
+    "source_version": "2.7.0-dev",
+    "resource_revision": "2.7.2-pale-blue-rolling-r1",
+    "runtime_test_result": "2.7实录呈现暗蓝半圆幕布，判为视觉失败；2.7.1资源热修已部署，实机结果未确认。",
+    "latest_verification": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-PaleBlue272-20261009-183804-43bd08\\verification.json"
+  },
+  "visual_2_8_task": {
+    "audit": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Visual28-20261009-1900",
+    "report": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\visual-2.8\\README.md",
+    "backups": [
+      "D:\\CodexBackups\\JCE-Visual28-20261009-190637-31922f",
+      "E:\\AIWorkSpace\\_backups\\JCE-Visual28-20261009-190637-31922f"
+    ],
+    "checks": 43,
+    "time_checks": 70,
+    "native_compiled": true,
+    "shader_compiled": false,
+    "game_tested": false,
+    "installed": true,
+    "source_cpp_sha256": "fa71e2314349604103d0d73cb07d7ee64c00eb57523d13f8ea76530120f2037d",
+    "resource_revision": "2.8-flow-fracture-rhythm-r1",
+    "previous_install_unchanged": true,
+    "compiled_by": "user",
+    "installation": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Install28-20261009-194240-fdbf31\\installation.json",
+    "installation_backups": [
+      "D:\\CodexBackups\\JCE-Install28-20261009-194240-fdbf31",
+      "E:\\AIWorkSpace\\_backups\\JCE-Install28-20261009-194240-fdbf31"
+    ]
+  },
+  "previous_install_before_2_8": {
+    "installed_version": "2.7.0-dev",
+    "installed_resource_revision": "2.7.2-pale-blue-rolling-r1",
+    "dll_sha256": "d00791ae06129fc9dd30a5cdca75c965a2eee950c023249f8aa39c00be3d6a04",
+    "latest_installation_report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Install272-20261009-185215-0bc415\\installation.json"
+  },
+  "accepted_visual_2_8": {
+    "archive": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-2.8.0-accepted-20261009-195356-a0a960-complete.zip",
+    "sha256": "edad3aef47772e5da4b7e2e9bdafe824c3029b88e5018d895e8bba06d643f7cd",
+    "user_accepted": true,
+    "full_gameplay_certified": false
+  },
+  "slash_distribution_2_8_1": {
+    "audit": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Redistribute281-20261009-201148-287d25",
+    "report": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\slash-distribution-2.8.1\\README.md",
+    "native_cpp_changed": false,
+    "dll_recompile_required": false,
+    "installed": true,
+    "game_tested": false,
+    "changed_paths": 48,
+    "outer_chords": 32,
+    "inner_to_outer_cuts": 16,
+    "checks": 867,
+    "before_paths_reaching315": 3,
+    "after_paths_reaching315": 50,
+    "backups": [
+      "D:\\CodexBackups\\Task-JCE-Redistribute281-20261009-201148-287d25",
+      "E:\\AIWorkSpace\\_backups\\Task-JCE-Redistribute281-20261009-201148-287d25"
+    ],
+    "final_verification": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Redistribute281-20261009-201148-287d25\\verification-final.json",
+    "refinement_audit": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Redistribute281-20261009-201148-287d25\\JCE-Redistribute281-Refine-20261009-202441",
+    "installation": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JCE-Install281-20261009-203858-4f4b93\\installation.json",
+    "installation_backups": [
+      "D:\\CodexBackups\\JCE-Install281-20261009-203858-4f4b93",
+      "E:\\AIWorkSpace\\_backups\\JCE-Install281-20261009-203858-4f4b93"
+    ]
+  }
+}

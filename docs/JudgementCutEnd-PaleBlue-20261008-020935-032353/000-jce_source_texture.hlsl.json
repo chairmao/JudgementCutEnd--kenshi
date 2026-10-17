@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+  "Role": "自有特效像素颜色生产者",
+  "Code location": "colourTint/最终RGB输出",
+  "Before": "31fdfa2dd767d25f0c503413035bc91109e98a0f3de6e1c9d00f036afe175b55",
+  "Changes": "新增RGB染色；不改Alpha、采样UV、雾细节或粒子寿命；兼容现有2.1DLL",
+  "Reasons": "用户要求今天最后一版仅调淡蓝颜色，对照本地Skyrim原模组；不修改C++或游戏逻辑",
+  "After": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-PaleBlue-20261008-020935-032353\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-PaleBlue-20261008-020935-032353\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "本轮仅材质/shader资源；不需DLL重编译，真实HDR画面待游戏验收"
+}

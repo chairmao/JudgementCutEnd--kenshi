@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\retarget-fix-and-skyrim-vfx-20261008.md",
+  "Role": "收尾进程状态",
+  "Code location": "部署边界",
+  "Before": "ba6ef3c8e73ea2daf50076b50523bebb3220164ff0091f0a75dcbc62fa19b359",
+  "Changes": "记录最终游戏进程已不存在；避免沿用检查早期状态",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "7f4f7665889fb8d4d9b77dfc3796599343c8724871a8731f608cb15ee7fb5ff1",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-ExitState-20261008-002826-630748\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\retarget-fix-and-skyrim-vfx-20261008.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-ExitState-20261008-002826-630748\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\retarget-fix-and-skyrim-vfx-20261008.md"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "修正资源未部署；无需重编译；实机外观待验收"
+}

@@ -1,0 +1,136 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+    "Role": "项目交付与用户测试说明",
+    "Code location": "全文",
+    "Before": "不存在",
+    "Changes": "记录实际完成内容、编译边界、独立安装步骤和未确认的实机问题",
+    "Reasons": "记录实际完成内容、编译边界、独立安装步骤和未确认的实机问题",
+    "After": "文档或证据可读取",
+    "Impact": "仅本项目及本地分发包",
+    "Validation": "UTF-8 严格回读、CRLF、中文与乱码扫描通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 无 BOM；CRLF"
+    },
+    "Unresolved": "C++ 编译和游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+    "Role": "分发包使用说明",
+    "Code location": "全文",
+    "Before": "不存在",
+    "Changes": "明确快捷键、资源来源、未实测状态与日志位置",
+    "Reasons": "明确快捷键、资源来源、未实测状态与日志位置",
+    "After": "文档或证据可读取",
+    "Impact": "仅本项目及本地分发包",
+    "Validation": "UTF-8 严格回读、CRLF、中文与乱码扫描通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 无 BOM；CRLF"
+    },
+    "Unresolved": "C++ 编译和游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\LICENSE",
+    "Role": "源码 GPL-3.0 许可文本",
+    "Code location": "全文",
+    "Before": "不存在",
+    "Changes": "补齐 LICENSE-NOTICE 中声明的 GPL 许可全文",
+    "Reasons": "补齐 LICENSE-NOTICE 中声明的 GPL 许可全文",
+    "After": "文档或证据可读取",
+    "Impact": "仅本项目及本地分发包",
+    "Validation": "UTF-8 严格回读、CRLF、中文与乱码扫描通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 无 BOM；CRLF"
+    },
+    "Unresolved": "C++ 编译和游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE",
+    "Role": "分发包 GPL 许可文本",
+    "Code location": "全文",
+    "Before": "不存在",
+    "Changes": "随本地分发包包含原样许可全文",
+    "Reasons": "随本地分发包包含原样许可全文",
+    "After": "文档或证据可读取",
+    "Impact": "仅本项目及本地分发包",
+    "Validation": "UTF-8 严格回读、CRLF、中文与乱码扫描通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 无 BOM；CRLF"
+    },
+    "Unresolved": "C++ 编译和游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+    "Role": "分发包授权与资源来源",
+    "Code location": "全文",
+    "Before": "不存在",
+    "Changes": "保留插件与原创资源的授权划分、参考出处和无第三方文件复制声明",
+    "Reasons": "保留插件与原创资源的授权划分、参考出处和无第三方文件复制声明",
+    "After": "文档或证据可读取",
+    "Impact": "仅本项目及本地分发包",
+    "Validation": "UTF-8 严格回读、CRLF、中文与乱码扫描通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 无 BOM；CRLF"
+    },
+    "Unresolved": "C++ 编译和游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\implementation-review.md",
+    "Role": "原生证据及实现审查",
+    "Code location": "全文",
+    "Before": "不存在",
+    "Changes": "记录入口、时钟、姿势、伤害和清理逻辑；逐项区分代码证据与实机未确认",
+    "Reasons": "记录入口、时钟、姿势、伤害和清理逻辑；逐项区分代码证据与实机未确认",
+    "After": "文档或证据可读取",
+    "Impact": "仅本项目及本地分发包",
+    "Validation": "UTF-8 严格回读、CRLF、中文与乱码扫描通过",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 无 BOM；CRLF"
+    },
+    "Unresolved": "C++ 编译和游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification.json",
+    "Role": "验证结果",
+    "Code location": "全文",
+    "Before": "已有文件，更新前双备份",
+    "Changes": "更新为 50 项通过；保留浏览器和 PowerShell 解析结果；明确编译/游戏未验证",
+    "Reasons": "更新为 50 项通过；保留浏览器和 PowerShell 解析结果；明确编译/游戏未验证",
+    "After": "文档或证据可读取",
+    "Impact": "仅本项目及本地分发包",
+    "Validation": "UTF-8 严格回读、CRLF、中文与乱码扫描通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-135612-530504\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-135612-530504\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification.json"
+      ],
+      "encoding": "UTF-8 无 BOM；CRLF"
+    },
+    "Unresolved": "C++ 编译和游戏实测尚未执行"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+    "Role": "项目交付状态",
+    "Code location": "全文",
+    "Before": "已有文件，更新前双备份",
+    "Changes": "记录资源源码完成与必须区分的用户编译、安装和实测步骤",
+    "Reasons": "记录资源源码完成与必须区分的用户编译、安装和实测步骤",
+    "After": "文档或证据可读取",
+    "Impact": "仅本项目及本地分发包",
+    "Validation": "UTF-8 严格回读、CRLF、中文与乱码扫描通过",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-135612-530504\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-135612-530504\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+      ],
+      "encoding": "UTF-8 无 BOM；CRLF"
+    },
+    "Unresolved": "C++ 编译和游戏实测尚未执行"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\inspect_skyrim_vfx.py",
+  "Role": "SSE只读格式解析器",
+  "Code location": "NiControllerSequence和材质控制器",
+  "Before": "3e6922645e62ff9e39fd6326bf656505c4573a26c9791c3a1ed04f388ad4054f",
+  "Changes": "补充精确的sequence→controller→interpolator→keys关联，避免猜测曲线用途",
+  "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+  "After": "8d897120a7bfcc8c0c065707cd0fc711eba95c07bdc77d127905499f9b95add6",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-003308-881565\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\inspect_skyrim_vfx.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-003308-881565\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\inspect_skyrim_vfx.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

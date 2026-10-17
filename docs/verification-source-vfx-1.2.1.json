@@ -1,0 +1,4610 @@
+{
+  "source_version": "1.2.1-dev",
+  "generated_local": "2026-10-08T00:51:17.388166",
+  "static_passed": true,
+  "check_count": 1346,
+  "source_cpp_sha256": "8ac0ada0a899b9335bfea46f9c5f62da184f2fc43d922c1465a0b7176b8978e4",
+  "native_compiled": false,
+  "shader_compiled": false,
+  "game_tested": false,
+  "installed_version_unchanged": "1.2.0-dev",
+  "results": {
+    "verify_source_vfx": {
+      "passed": true,
+      "check_count": 125,
+      "checks": [
+        {
+          "name": "exact original DDS bytes jce_source_blade09.dds",
+          "passed": true
+        },
+        {
+          "name": "DDS header and finite resolution jce_source_blade09.dds",
+          "passed": true
+        },
+        {
+          "name": "exact original DDS bytes jce_source_blade08.dds",
+          "passed": true
+        },
+        {
+          "name": "DDS header and finite resolution jce_source_blade08.dds",
+          "passed": true
+        },
+        {
+          "name": "exact original DDS bytes jce_source_dust.dds",
+          "passed": true
+        },
+        {
+          "name": "DDS header and finite resolution jce_source_dust.dds",
+          "passed": true
+        },
+        {
+          "name": "exact original DDS bytes jce_source_flash.dds",
+          "passed": true
+        },
+        {
+          "name": "DDS header and finite resolution jce_source_flash.dds",
+          "passed": true
+        },
+        {
+          "name": "exact original DDS bytes jce_source_spark.dds",
+          "passed": true
+        },
+        {
+          "name": "DDS header and finite resolution jce_source_spark.dds",
+          "passed": true
+        },
+        {
+          "name": "actual sequence links retained screen_flash",
+          "passed": true
+        },
+        {
+          "name": "sequence frequency retained screen_flash",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.0",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.05000000074505806",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.10000000149011612",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.20000000298023224",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.25",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.3499999940395355",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.4000000059604645",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.44999998807907104",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.5",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.550000011920929",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.6000000238418579",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.6499999761581421",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 0.8999999761581421",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_flash 1.0",
+          "passed": true
+        },
+        {
+          "name": "before birth and expired curve zero screen_flash",
+          "passed": true
+        },
+        {
+          "name": "actual sequence links retained screen_veil",
+          "passed": true
+        },
+        {
+          "name": "sequence frequency retained screen_veil",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_veil 0.0",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_veil 0.03999999910593033",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_veil 0.6000000238418579",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_veil 2.5",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision screen_veil 3.0",
+          "passed": true
+        },
+        {
+          "name": "before birth and expired curve zero screen_veil",
+          "passed": true
+        },
+        {
+          "name": "actual sequence links retained finish_glow",
+          "passed": true
+        },
+        {
+          "name": "sequence frequency retained finish_glow",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_glow 0.0",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_glow 0.009999999776482582",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_glow 0.25",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_glow 0.33333298563957214",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_glow 0.4000000059604645",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_glow 3.0",
+          "passed": true
+        },
+        {
+          "name": "before birth and expired curve zero finish_glow",
+          "passed": true
+        },
+        {
+          "name": "actual sequence links retained finish_halo",
+          "passed": true
+        },
+        {
+          "name": "sequence frequency retained finish_halo",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_halo 0.0",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_halo 0.03333333507180214",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_halo 0.2666666805744171",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_halo 0.8333333730697632",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision finish_halo 3.0",
+          "passed": true
+        },
+        {
+          "name": "before birth and expired curve zero finish_halo",
+          "passed": true
+        },
+        {
+          "name": "actual sequence links retained fracture_alpha",
+          "passed": true
+        },
+        {
+          "name": "sequence frequency retained fracture_alpha",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision fracture_alpha 0.0",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision fracture_alpha 0.5",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision fracture_alpha 0.5099999904632568",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision fracture_alpha 3.0",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision fracture_alpha 4.0",
+          "passed": true
+        },
+        {
+          "name": "before birth and expired curve zero fracture_alpha",
+          "passed": true
+        },
+        {
+          "name": "actual sequence links retained cut_flash",
+          "passed": true
+        },
+        {
+          "name": "sequence frequency retained cut_flash",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.0",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.10000000149011612",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.15000000596046448",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.25",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.30000001192092896",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.4000000059604645",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.44999998807907104",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.550000011920929",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.6000000238418579",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.699999988079071",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.75",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.8500000238418579",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 0.8999999761581421",
+          "passed": true
+        },
+        {
+          "name": "key value exact within float text precision cut_flash 1.0",
+          "passed": true
+        },
+        {
+          "name": "before birth and expired curve zero cut_flash",
+          "passed": true
+        },
+        {
+          "name": "normalized Hermite tangent convention independent example",
+          "passed": true
+        },
+        {
+          "name": "bad input differs truncation",
+          "passed": true
+        },
+        {
+          "name": "reject bad curve truncation",
+          "passed": true
+        },
+        {
+          "name": "bad input differs huge count",
+          "passed": true
+        },
+        {
+          "name": "reject bad curve huge count",
+          "passed": true
+        },
+        {
+          "name": "bad input differs NaN frequency",
+          "passed": true
+        },
+        {
+          "name": "reject bad curve NaN frequency",
+          "passed": true
+        },
+        {
+          "name": "bad input differs NaN key",
+          "passed": true
+        },
+        {
+          "name": "reject bad curve NaN key",
+          "passed": true
+        },
+        {
+          "name": "bad input differs nonzero first time",
+          "passed": true
+        },
+        {
+          "name": "reject bad curve nonzero first time",
+          "passed": true
+        },
+        {
+          "name": "bad input differs wrong order",
+          "passed": true
+        },
+        {
+          "name": "reject bad curve wrong order",
+          "passed": true
+        },
+        {
+          "name": "bad input differs garbage",
+          "passed": true
+        },
+        {
+          "name": "reject bad curve garbage",
+          "passed": true
+        },
+        {
+          "name": "damage radius weapon and stagger byte unchanged",
+          "passed": true
+        },
+        {
+          "name": "input restart time advance and restore unchanged",
+          "passed": true
+        },
+        {
+          "name": "animation and skin publication unchanged",
+          "passed": true
+        },
+        {
+          "name": "native binding hook sites unchanged",
+          "passed": true
+        },
+        {
+          "name": "loader before hooks and bounded data",
+          "passed": true
+        },
+        {
+          "name": "C++ tangent convention matches format",
+          "passed": true
+        },
+        {
+          "name": "source layer wired SourceBlade",
+          "passed": true
+        },
+        {
+          "name": "source layer wired SourceFeather",
+          "passed": true
+        },
+        {
+          "name": "source layer wired SourceDust",
+          "passed": true
+        },
+        {
+          "name": "source layer wired SourceFlash",
+          "passed": true
+        },
+        {
+          "name": "source layer wired SourceSpark",
+          "passed": true
+        },
+        {
+          "name": "frame callbacks cover all sections",
+          "passed": true
+        },
+        {
+          "name": "new GPU program interface",
+          "passed": true
+        },
+        {
+          "name": "new material occlusion alpha and owned shader",
+          "passed": true
+        },
+        {
+          "name": "DDS references resolve",
+          "passed": true
+        },
+        {
+          "name": "atlas half texel boundary and finite clock",
+          "passed": true
+        },
+        {
+          "name": "all 64 atlas cells have valid UV",
+          "passed": true
+        },
+        {
+          "name": "source FX has no allocations gameplay or file IO",
+          "passed": true
+        },
+        {
+          "name": "source layers share bounded vertex path",
+          "passed": true
+        },
+        {
+          "name": "empty sections maintain placeholder",
+          "passed": true
+        },
+        {
+          "name": "source fog fixed memory and back to front sorting",
+          "passed": true
+        },
+        {
+          "name": "bounded logs no per-particle logging",
+          "passed": true
+        },
+        {
+          "name": "geometry fits existing budgets",
+          "passed": true
+        },
+        {
+          "name": "encoding CRLF Chinese JudgementCutEnd.cpp",
+          "passed": true
+        },
+        {
+          "name": "encoding CRLF Chinese tools/inspect_skyrim_vfx.py",
+          "passed": true
+        },
+        {
+          "name": "encoding CRLF Chinese tools/author_skyrim_vfx.py",
+          "passed": true
+        },
+        {
+          "name": "encoding CRLF Chinese tools/verify_source_vfx.py",
+          "passed": true
+        },
+        {
+          "name": "encoding CRLF Chinese package/JudgementCutEnd/assets/jce_source_curves.csv",
+          "passed": true
+        },
+        {
+          "name": "encoding CRLF Chinese package/JudgementCutEnd/assets/jce_source.material",
+          "passed": true
+        },
+        {
+          "name": "encoding CRLF Chinese package/JudgementCutEnd/assets/jce_source_texture.hlsl",
+          "passed": true
+        },
+        {
+          "name": "encoding CRLF Chinese package/JudgementCutEnd/assets/jce_source_texture.program",
+          "passed": true
+        },
+        {
+          "name": "C++ BOM preserved",
+          "passed": true
+        },
+        {
+          "name": "no new C++11 constructs",
+          "passed": true
+        }
+      ],
+      "source_curves": 6,
+      "source_textures": 5,
+      "layers": 9,
+      "vertex_upper_bound": 19828,
+      "index_upper_bound": 47598,
+      "native_compile_run": false,
+      "shader_compile_run": false,
+      "game_tested": false,
+      "limitations": [
+        "原NIF几何/发射器模拟未完整移植；用固定96路径和48雾片适配",
+        "烟尘atlas播放速率与HDR增益为Kenshi适配参数，不声称与Skyrim一致",
+        "Spark采用灰度强度加蓝白色，尚未完整实现原palette着色语义",
+        "原BSLightingShader屏幕效果仍以本插件既有空间HDR副本折射实现，无全屏接管",
+        "不代编译；不可把旧DLL与1.2.1资源验收状态混淆"
+      ]
+    },
+    "verify_vfx": {
+      "static_passed": true,
+      "base_check_count": 230,
+      "vfx_check_count": 43,
+      "checks": [
+        {
+          "name": "original regression suite",
+          "passed": true
+        },
+        {
+          "name": "formal 1.0 release tag and original build marker",
+          "passed": true
+        },
+        {
+          "name": "every frozen source/runtime hash preserved",
+          "passed": true
+        },
+        {
+          "name": "formal ZIP CRC",
+          "passed": true
+        },
+        {
+          "name": "formal ZIP payload equals frozen directory",
+          "passed": true
+        },
+        {
+          "name": "all damage, 350 boundary, native stagger logic byte-equivalent",
+          "passed": true
+        },
+        {
+          "name": "bounded root pose uses snapshot and retained skin publication",
+          "passed": true
+        },
+        {
+          "name": "input and real timeline unchanged except reviewed time restoration",
+          "passed": true
+        },
+        {
+          "name": "unchanged animation/audio/base glow jce_sequence.wav",
+          "passed": true
+        },
+        {
+          "name": "unchanged animation/audio/base glow jce_sequence_fast.wav",
+          "passed": true
+        },
+        {
+          "name": "unchanged animation/audio/base glow jce_glow.tga",
+          "passed": true
+        },
+        {
+          "name": "same 96 geometric slash paths and lifetimes",
+          "passed": true
+        },
+        {
+          "name": "spread births inside cut to sheath",
+          "passed": true
+        },
+        {
+          "name": "16 distinct moving paths with full phantom lifetime before damage",
+          "passed": true
+        },
+        {
+          "name": "192 independent optical facets from all 96 slashes",
+          "passed": true
+        },
+        {
+          "name": "bounded finite nondegenerate fragment assets",
+          "passed": true
+        },
+        {
+          "name": "valid 32-bit top-left TGA jce_mist.tga",
+          "passed": true
+        },
+        {
+          "name": "valid 32-bit top-left TGA jce_glass.tga",
+          "passed": true
+        },
+        {
+          "name": "neutral RGB texture with transparent alpha rim and cloud noise",
+          "passed": true
+        },
+        {
+          "name": "three separate existing shader-compatible materials",
+          "passed": true
+        },
+        {
+          "name": "material texture exists jce_glow.tga",
+          "passed": true
+        },
+        {
+          "name": "material texture exists jce_mist.tga",
+          "passed": true
+        },
+        {
+          "name": "material texture exists jce_glass.tga",
+          "passed": true
+        },
+        {
+          "name": "material texture exists jce_glass.tga",
+          "passed": true
+        },
+        {
+          "name": "material texture exists jce_glow.tga",
+          "passed": true
+        },
+        {
+          "name": "new shard loader validates count and corruption before hooks",
+          "passed": true
+        },
+        {
+          "name": "preserved base sections and extended source layer callback coverage",
+          "passed": true
+        },
+        {
+          "name": "unique graphical object retained and cleanup still owns all sections",
+          "passed": true
+        },
+        {
+          "name": "new layers use existing graphics API and no cloned gameplay entities",
+          "passed": true
+        },
+        {
+          "name": "per-cast diagnostic stage flags bounded",
+          "passed": true
+        },
+        {
+          "name": "hard bounded geometry",
+          "passed": true
+        },
+        {
+          "name": "C++ delimiter structure",
+          "passed": true
+        },
+        {
+          "name": "preview JavaScript syntax",
+          "passed": true
+        },
+        {
+          "name": "preview finite coordinates, fixed spatial glints, full hemisphere haze, 16 phantom events",
+          "passed": true
+        },
+        {
+          "name": "observed build and unchanged package/installed DLL identities",
+          "passed": true
+        },
+        {
+          "name": "no falling or outlined mirrors in runtime drawing",
+          "passed": true
+        },
+        {
+          "name": "all 96 paths emit six delayed sweep echoes",
+          "passed": true
+        },
+        {
+          "name": "six trail births complete for last slash before sheath",
+          "passed": true
+        },
+        {
+          "name": "grey continuous shell and ordered volumetric lattice",
+          "passed": true
+        },
+        {
+          "name": "no local class template in v100 sorting",
+          "passed": true
+        },
+        {
+          "name": "bounded four phantom echoes",
+          "passed": true
+        },
+        {
+          "name": "optical additive blend honors vertex alpha",
+          "passed": true
+        },
+        {
+          "name": "end-of-cast optical light clears in place",
+          "passed": true
+        }
+      ],
+      "geometry_upper_bound": {
+        "vertices": 19828,
+        "indices": 47598
+      },
+      "preview_model": {
+        "facet_vertices_checked": 77760,
+        "phantom_paths": 16,
+        "stationary_facet_frames": 25920,
+        "haze_cells_checked": 22680,
+        "draw_operations": 2341517
+      },
+      "compiled": false,
+      "game_tested": false,
+      "frozen_release": "1.0.0",
+      "development_version": "1.2.1-dev"
+    },
+    "verify_port": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "actual source HKX and XPMSSE skeleton identity",
+          "passed": true
+        },
+        {
+          "name": "source normal animation, actual 211 frames and 242 tracks",
+          "passed": true
+        },
+        {
+          "name": "retarget 23 named bones at 60 Hz",
+          "passed": true
+        },
+        {
+          "name": "clip and phantom hashes match producer record",
+          "passed": true
+        },
+        {
+          "name": "offline GPL decoder files pinned",
+          "passed": true
+        },
+        {
+          "name": "root horizontal travel removed and vertical floor correction explicit",
+          "passed": true
+        },
+        {
+          "name": "source drawing and sheath event times recorded",
+          "passed": true
+        },
+        {
+          "name": "mesh valid exact bounded topology and allocation",
+          "passed": true
+        },
+        {
+          "name": "binary topology equals preview",
+          "passed": true
+        },
+        {
+          "name": "all baked binary vertices equal preview within float precision",
+          "passed": true
+        },
+        {
+          "name": "reject empty",
+          "passed": true
+        },
+        {
+          "name": "reject header truncated",
+          "passed": true
+        },
+        {
+          "name": "reject end truncated",
+          "passed": true
+        },
+        {
+          "name": "reject extra data",
+          "passed": true
+        },
+        {
+          "name": "reject wrong magic",
+          "passed": true
+        },
+        {
+          "name": "reject huge frame allocation",
+          "passed": true
+        },
+        {
+          "name": "reject huge vertex allocation",
+          "passed": true
+        },
+        {
+          "name": "reject invalid triangle index",
+          "passed": true
+        },
+        {
+          "name": "reject nonfinite vertex",
+          "passed": true
+        },
+        {
+          "name": "reject huge vertex",
+          "passed": true
+        },
+        {
+          "name": "reject NaN fps",
+          "passed": true
+        },
+        {
+          "name": "runtime validates mesh dimensions before allocation",
+          "passed": true
+        },
+        {
+          "name": "v1 compatible and v2 root-only positions",
+          "passed": true
+        },
+        {
+          "name": "baked sample stable at last frame and bounded simultaneous bodies",
+          "passed": true
+        },
+        {
+          "name": "zero alpha fallback keeps material section nonempty",
+          "passed": true
+        },
+        {
+          "name": "copy before own section and once per frame",
+          "passed": true
+        },
+        {
+          "name": "copy source is bound RTV, destination independent",
+          "passed": true
+        },
+        {
+          "name": "copy rejects format dimensions arrays mip multisample changes",
+          "passed": true
+        },
+        {
+          "name": "shader SRV state restored in render callback",
+          "passed": true
+        },
+        {
+          "name": "no CPU readback or global camera/compositor edits",
+          "passed": true
+        },
+        {
+          "name": "getter COM refs owned and immediate context released",
+          "passed": true
+        },
+        {
+          "name": "own texture removed even after material reset error",
+          "passed": true
+        },
+        {
+          "name": "render copy disabled independently on capture failure",
+          "passed": true
+        },
+        {
+          "name": "own HLSL interface matches existing coloured vertex program",
+          "passed": true
+        },
+        {
+          "name": "captured viewport projection and bounded pixel distortion",
+          "passed": true
+        },
+        {
+          "name": "version gate before copying old DLL",
+          "passed": true
+        },
+        {
+          "name": "current source version marker 1.2.1",
+          "passed": true
+        },
+        {
+          "name": "source version recorded independently of user build",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese JudgementCutEnd.cpp",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese author_port.py",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese verify_port.py",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese verify.py",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese verify_vfx.py",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese Stage-LocalMod.ps1",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese index.html",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese scene.json",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese jce_refraction.hlsl",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese jce_refraction.program",
+          "passed": true
+        }
+      ],
+      "check_count": 48,
+      "compiled": false,
+      "game_tested": false,
+      "mesh_bytes": 959092,
+      "source_version": "1.2.1-dev"
+    },
+    "verify_time": {
+      "static_passed": true,
+      "checks": [
+        {
+          "name": "restore before renderer/resolve/bone/weapon operations",
+          "passed": true
+        },
+        {
+          "name": "restore independent of active flag",
+          "passed": true
+        },
+        {
+          "name": "ownership published before slow setter",
+          "passed": true
+        },
+        {
+          "name": "pending blocks replacement of baseline",
+          "passed": true
+        },
+        {
+          "name": "idle resume recovery before new input snapshot",
+          "passed": true
+        },
+        {
+          "name": "no pause override or field writes",
+          "passed": true
+        },
+        {
+          "name": "old world guarded before calls",
+          "passed": true
+        },
+        {
+          "name": "restore verified by native getter before release",
+          "passed": true
+        },
+        {
+          "name": "bounded failure logging",
+          "passed": true
+        },
+        {
+          "name": "distinct pause/focus/escape diagnostics",
+          "passed": true
+        },
+        {
+          "name": "restore completed base=1",
+          "passed": true
+        },
+        {
+          "name": "restore escape base=1",
+          "passed": true
+        },
+        {
+          "name": "restore focus base=1",
+          "passed": true
+        },
+        {
+          "name": "restore loading base=1",
+          "passed": true
+        },
+        {
+          "name": "restore pose_error base=1",
+          "passed": true
+        },
+        {
+          "name": "restore frame_stall base=1",
+          "passed": true
+        },
+        {
+          "name": "restore begin_after_slow_failed base=1",
+          "passed": true
+        },
+        {
+          "name": "restore restart base=1",
+          "passed": true
+        },
+        {
+          "name": "pause remains paused base=1",
+          "passed": true
+        },
+        {
+          "name": "pending cannot overwrite baseline base=1",
+          "passed": true
+        },
+        {
+          "name": "unpause restores original base=1",
+          "passed": true
+        },
+        {
+          "name": "next cast snapshots normal speed base=1",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 1 -> 1",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 1 -> 2",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 1 -> 3",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 1 -> 0.5",
+          "passed": true
+        },
+        {
+          "name": "restore completed base=2",
+          "passed": true
+        },
+        {
+          "name": "restore escape base=2",
+          "passed": true
+        },
+        {
+          "name": "restore focus base=2",
+          "passed": true
+        },
+        {
+          "name": "restore loading base=2",
+          "passed": true
+        },
+        {
+          "name": "restore pose_error base=2",
+          "passed": true
+        },
+        {
+          "name": "restore frame_stall base=2",
+          "passed": true
+        },
+        {
+          "name": "restore begin_after_slow_failed base=2",
+          "passed": true
+        },
+        {
+          "name": "restore restart base=2",
+          "passed": true
+        },
+        {
+          "name": "pause remains paused base=2",
+          "passed": true
+        },
+        {
+          "name": "pending cannot overwrite baseline base=2",
+          "passed": true
+        },
+        {
+          "name": "unpause restores original base=2",
+          "passed": true
+        },
+        {
+          "name": "next cast snapshots normal speed base=2",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 2 -> 1",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 2 -> 2",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 2 -> 3",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 2 -> 0.5",
+          "passed": true
+        },
+        {
+          "name": "restore completed base=3",
+          "passed": true
+        },
+        {
+          "name": "restore escape base=3",
+          "passed": true
+        },
+        {
+          "name": "restore focus base=3",
+          "passed": true
+        },
+        {
+          "name": "restore loading base=3",
+          "passed": true
+        },
+        {
+          "name": "restore pose_error base=3",
+          "passed": true
+        },
+        {
+          "name": "restore frame_stall base=3",
+          "passed": true
+        },
+        {
+          "name": "restore begin_after_slow_failed base=3",
+          "passed": true
+        },
+        {
+          "name": "restore restart base=3",
+          "passed": true
+        },
+        {
+          "name": "pause remains paused base=3",
+          "passed": true
+        },
+        {
+          "name": "pending cannot overwrite baseline base=3",
+          "passed": true
+        },
+        {
+          "name": "unpause restores original base=3",
+          "passed": true
+        },
+        {
+          "name": "next cast snapshots normal speed base=3",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 3 -> 1",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 3 -> 2",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 3 -> 3",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 3 -> 0.5",
+          "passed": true
+        },
+        {
+          "name": "manual resume speed preserved",
+          "passed": true
+        },
+        {
+          "name": "old world never written on replacement",
+          "passed": true
+        },
+        {
+          "name": "invalid world releases without dereference/write",
+          "passed": true
+        },
+        {
+          "name": "setter exception retains baseline",
+          "passed": true
+        },
+        {
+          "name": "setter exception retry restores",
+          "passed": true
+        },
+        {
+          "name": "unverified setter retains ownership",
+          "passed": true
+        },
+        {
+          "name": "unverified setter retry restores",
+          "passed": true
+        },
+        {
+          "name": "invalid speed deferred 0",
+          "passed": true
+        },
+        {
+          "name": "invalid speed deferred nan",
+          "passed": true
+        },
+        {
+          "name": "invalid speed deferred inf",
+          "passed": true
+        },
+        {
+          "name": "old bug reproduced: poisoned baseline persists",
+          "passed": true
+        },
+        {
+          "name": "100 repeated casts and pause cancellations do not drift",
+          "passed": true
+        }
+      ],
+      "check_count": 70,
+      "compiled": false,
+      "game_tested": false,
+      "model_limit": "接口合同模型及源码绑定检查，不能代替实际C++和游戏验证"
+    },
+    "verify_retarget_axes": {
+      "passed": true,
+      "check_count": 830,
+      "checks": [
+        {
+          "name": "source anatomical left aligns actual target left",
+          "passed": true
+        },
+        {
+          "name": "source up becomes target up",
+          "passed": true
+        },
+        {
+          "name": "pure right-handed rotation, no reflection",
+          "passed": true
+        },
+        {
+          "name": "chest uses neck, never first clavicle",
+          "passed": true
+        },
+        {
+          "name": "terminal head is not realigned to eye/jaw/hair",
+          "passed": true
+        },
+        {
+          "name": "source face direction preserved at 0.5",
+          "passed": true
+        },
+        {
+          "name": "source head top direction preserved at 0.5",
+          "passed": true
+        },
+        {
+          "name": "source face direction preserved at 1",
+          "passed": true
+        },
+        {
+          "name": "source head top direction preserved at 1",
+          "passed": true
+        },
+        {
+          "name": "source face direction preserved at 1.5",
+          "passed": true
+        },
+        {
+          "name": "source head top direction preserved at 1.5",
+          "passed": true
+        },
+        {
+          "name": "source face direction preserved at 2",
+          "passed": true
+        },
+        {
+          "name": "source head top direction preserved at 2",
+          "passed": true
+        },
+        {
+          "name": "source face direction preserved at 2.1",
+          "passed": true
+        },
+        {
+          "name": "source head top direction preserved at 2.1",
+          "passed": true
+        },
+        {
+          "name": "actual clip hash matches generation",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 0",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 0",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 1",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 1",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 2",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 2",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 3",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 3",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 4",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 4",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 5",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 5",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 6",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 6",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 7",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 7",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 8",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 8",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 9",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 9",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 10",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 10",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 11",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 11",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 12",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 12",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 13",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 13",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 14",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 14",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 15",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 15",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 16",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 16",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 17",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 17",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 18",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 18",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 19",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 19",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 20",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 20",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 21",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 21",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 22",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 22",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 23",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 23",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 24",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 24",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 25",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 25",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 26",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 26",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 27",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 27",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 28",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 28",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 29",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 29",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 30",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 30",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 31",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 31",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 32",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 32",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 33",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 33",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 34",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 34",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 35",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 35",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 36",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 36",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 37",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 37",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 38",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 38",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 39",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 39",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 40",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 40",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 41",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 41",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 42",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 42",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 43",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 43",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 44",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 44",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 45",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 45",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 46",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 46",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 47",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 47",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 48",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 48",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 49",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 49",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 50",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 50",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 51",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 51",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 52",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 52",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 53",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 53",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 54",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 54",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 55",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 55",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 56",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 56",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 57",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 57",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 58",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 58",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 59",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 59",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 60",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 60",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 61",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 61",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 62",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 62",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 63",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 63",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 64",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 64",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 65",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 65",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 66",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 66",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 67",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 67",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 68",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 68",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 69",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 69",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 70",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 70",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 71",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 71",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 72",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 72",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 73",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 73",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 74",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 74",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 75",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 75",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 76",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 76",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 77",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 77",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 78",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 78",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 79",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 79",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 80",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 80",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 81",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 81",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 82",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 82",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 83",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 83",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 84",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 84",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 85",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 85",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 86",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 86",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 87",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 87",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 88",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 88",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 89",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 89",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 90",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 90",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 91",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 91",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 92",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 92",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 93",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 93",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 94",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 94",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 95",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 95",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 96",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 96",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 97",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 97",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 98",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 98",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 99",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 99",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 100",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 100",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 101",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 101",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 102",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 102",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 103",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 103",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 104",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 104",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 105",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 105",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 106",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 106",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 107",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 107",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 108",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 108",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 109",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 109",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 110",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 110",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 111",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 111",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 112",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 112",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 113",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 113",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 114",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 114",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 115",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 115",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 116",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 116",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 117",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 117",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 118",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 118",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 119",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 119",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 120",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 120",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 121",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 121",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 122",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 122",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 123",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 123",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 124",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 124",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 125",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 125",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 126",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 126",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 127",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 127",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 128",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 128",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 129",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 129",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 130",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 130",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 131",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 131",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 132",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 132",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 133",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 133",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 134",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 134",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 135",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 135",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 136",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 136",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 137",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 137",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 138",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 138",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 139",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 139",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 140",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 140",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 141",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 141",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 142",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 142",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 143",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 143",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 144",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 144",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 145",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 145",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 146",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 146",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 147",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 147",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 148",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 148",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 149",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 149",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 150",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 150",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 151",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 151",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 152",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 152",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 153",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 153",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 154",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 154",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 155",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 155",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 156",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 156",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 157",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 157",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 158",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 158",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 159",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 159",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 160",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 160",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 161",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 161",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 162",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 162",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 163",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 163",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 164",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 164",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 165",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 165",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 166",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 166",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 167",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 167",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 168",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 168",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 169",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 169",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 170",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 170",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 171",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 171",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 172",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 172",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 173",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 173",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 174",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 174",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 175",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 175",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 176",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 176",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 177",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 177",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 178",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 178",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 179",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 179",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 180",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 180",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 181",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 181",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 182",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 182",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 183",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 183",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 184",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 184",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 185",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 185",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 186",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 186",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 187",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 187",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 188",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 188",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 189",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 189",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 190",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 190",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 191",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 191",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 192",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 192",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 193",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 193",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 194",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 194",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 195",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 195",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 196",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 196",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 197",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 197",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 198",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 198",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 199",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 199",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 200",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 200",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 201",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 201",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 202",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 202",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 203",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 203",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 204",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 204",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 205",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 205",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 206",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 206",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 207",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 207",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 208",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 208",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 209",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 209",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 210",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 210",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 211",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 211",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 212",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 212",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 213",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 213",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 214",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 214",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 215",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 215",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 216",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 216",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 217",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 217",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 218",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 218",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 219",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 219",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 220",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 220",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 221",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 221",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 222",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 222",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 223",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 223",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 224",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 224",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 225",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 225",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 226",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 226",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 227",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 227",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 228",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 228",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 229",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 229",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 230",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 230",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 231",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 231",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 232",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 232",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 233",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 233",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 234",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 234",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 235",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 235",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 236",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 236",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 237",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 237",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 238",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 238",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 239",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 239",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 240",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 240",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 241",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 241",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 242",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 242",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 243",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 243",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 244",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 244",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 245",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 245",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 246",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 246",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 247",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 247",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 248",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 248",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 249",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 249",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 250",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 250",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 251",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 251",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 252",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 252",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 253",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 253",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 254",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 254",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 255",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 255",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 256",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 256",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 257",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 257",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 258",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 258",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 259",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 259",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 260",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 260",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 261",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 261",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 262",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 262",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 263",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 263",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 264",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 264",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 265",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 265",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 266",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 266",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 267",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 267",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 268",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 268",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 269",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 269",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 270",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 270",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 271",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 271",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 272",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 272",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 273",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 273",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 274",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 274",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 275",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 275",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 276",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 276",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 277",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 277",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 278",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 278",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 279",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 279",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 280",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 280",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 281",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 281",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 282",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 282",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 283",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 283",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 284",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 284",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 285",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 285",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 286",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 286",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 287",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 287",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 288",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 288",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 289",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 289",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 290",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 290",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 291",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 291",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 292",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 292",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 293",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 293",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 294",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 294",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 295",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 295",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 296",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 296",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 297",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 297",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 298",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 298",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 299",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 299",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 300",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 300",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 301",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 301",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 302",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 302",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 303",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 303",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 304",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 304",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 305",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 305",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 306",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 306",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 307",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 307",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 308",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 308",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 309",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 309",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 310",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 310",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 311",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 311",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 312",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 312",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 313",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 313",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 314",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 314",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 315",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 315",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 316",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 316",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 317",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 317",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 318",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 318",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 319",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 319",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 320",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 320",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 321",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 321",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 322",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 322",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 323",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 323",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 324",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 324",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 325",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 325",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 326",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 326",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 327",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 327",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 328",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 328",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 329",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 329",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 330",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 330",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 331",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 331",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 332",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 332",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 333",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 333",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 334",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 334",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 335",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 335",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 336",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 336",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 337",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 337",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 338",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 338",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 339",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 339",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 340",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 340",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 341",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 341",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 342",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 342",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 343",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 343",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 344",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 344",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 345",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 345",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 346",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 346",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 347",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 347",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 348",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 348",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 349",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 349",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 350",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 350",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 351",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 351",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 352",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 352",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 353",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 353",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 354",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 354",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 355",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 355",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 356",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 356",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 357",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 357",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 358",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 358",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 359",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 359",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 360",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 360",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 361",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 361",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 362",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 362",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 363",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 363",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 364",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 364",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 365",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 365",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 366",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 366",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 367",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 367",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 368",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 368",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 369",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 369",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 370",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 370",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 371",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 371",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 372",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 372",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 373",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 373",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 374",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 374",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 375",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 375",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 376",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 376",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 377",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 377",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 378",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 378",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 379",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 379",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 380",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 380",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 381",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 381",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 382",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 382",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 383",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 383",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 384",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 384",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 385",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 385",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 386",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 386",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 387",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 387",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 388",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 388",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 389",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 389",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 390",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 390",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 391",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 391",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 392",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 392",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 393",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 393",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 394",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 394",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 395",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 395",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 396",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 396",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 397",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 397",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 398",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 398",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 399",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 399",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 400",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 400",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 401",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 401",
+          "passed": true
+        },
+        {
+          "name": "finite normalized rotations frame 402",
+          "passed": true
+        },
+        {
+          "name": "root-only vertical position 402",
+          "passed": true
+        },
+        {
+          "name": "floor compensation retained",
+          "passed": true
+        },
+        {
+          "name": "no instant 180-degree local frame jump",
+          "passed": true
+        },
+        {
+          "name": "controlled bones exist in standard female skeleton",
+          "passed": true
+        },
+        {
+          "name": "syntax encoding Chinese tools/author_port.py",
+          "passed": true
+        },
+        {
+          "name": "syntax encoding Chinese tools/inspect_skyrim_vfx.py",
+          "passed": true
+        },
+        {
+          "name": "syntax encoding Chinese tools/verify_retarget_axes.py",
+          "passed": true
+        },
+        {
+          "name": "NIF reader rejects malformed I",
+          "passed": true
+        },
+        {
+          "name": "NIF reader rejects malformed str",
+          "passed": true
+        }
+      ],
+      "head_direction_comparison": [
+        {
+          "clip_time": 0.5,
+          "before": {
+            "face_error_deg": 47.814588387009024,
+            "top_error_deg": 47.86217976625924
+          },
+          "after": {
+            "face_error_deg": 0.6098381752681433,
+            "top_error_deg": 0.08625440351039748
+          }
+        },
+        {
+          "clip_time": 1,
+          "before": {
+            "face_error_deg": 108.4756340764104,
+            "top_error_deg": 111.45598934192431
+          },
+          "after": {
+            "face_error_deg": 0.6098381306951826,
+            "top_error_deg": 0.08625448891965441
+          }
+        },
+        {
+          "clip_time": 1.5,
+          "before": {
+            "face_error_deg": 113.0871911784466,
+            "top_error_deg": 116.10289034028114
+          },
+          "after": {
+            "face_error_deg": 0.6098383249413483,
+            "top_error_deg": 0.08625449250706953
+          }
+        },
+        {
+          "clip_time": 2,
+          "before": {
+            "face_error_deg": 105.820664465509,
+            "top_error_deg": 107.5914870595595
+          },
+          "after": {
+            "face_error_deg": 0.6098381829246756,
+            "top_error_deg": 0.08625440380617994
+          }
+        },
+        {
+          "clip_time": 2.1,
+          "before": {
+            "face_error_deg": 87.74379260458396,
+            "top_error_deg": 88.42433446387338
+          },
+          "after": {
+            "face_error_deg": 0.6098382123794037,
+            "top_error_deg": 0.08625439923845349
+          }
+        }
+      ],
+      "max_local_step_deg": 12.000000691342352,
+      "max_floor_error": 4.996522265376946e-09,
+      "native_compilation_run": false,
+      "game_tested": false,
+      "limitations": [
+        "标准男女骨架静态检查；凯瑟琳实机头部/面部蒙皮验收仍未完成",
+        "原动画本身在瞬移和回身阶段包含身体转向；不以钳制头部替代重定向"
+      ]
+    }
+  }
+}

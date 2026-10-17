@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\installation-1.1.2-20261007-215617-434922.json",
+  "Role": "安装证据",
+  "Code location": "完整分发文件",
+  "Before": "absent",
+  "Changes": "逐文件记录双备份、版本、哈希与中文核验",
+  "Reasons": "用户授权更新mod；已核验并安装用户编译的1.1.2-dev",
+  "After": "972b456b9518342c4d44db9972aefd40d8474037296462020fb28a69f65f2790",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "用户已编译；暂停解除、速度恢复和视觉效果待实机验收"
+}

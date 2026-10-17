@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+  "Role": "Ogre私有shader注册",
+  "Code location": "JCE/MistVolume_FP",
+  "Before": "旧Mist程序身份",
+  "Changes": "更新私有程序名，保留VP/Smoke和SM4目标",
+  "Reasons": "使r3能明确匹配连续体积密度",
+  "After": "c0a5cbc54975ea770df65ac6057651d58cd34a6b4c3f651d7aaea6577fa016f0",
+  "Impact": "只供本mod Mist材质",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "6222f47db8472601b50e242f6ace3e3e289b7e4581e32a39db08ba65fe45cfd9"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

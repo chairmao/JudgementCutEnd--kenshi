@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目入口说明",
+  "Code location": "当前状态段，历史以下未变",
+  "Before": "首页描述2.4为当前源码",
+  "Changes": "更新2.5源码待编译与2.4安装区别",
+  "Reasons": "避免误认新代码已部署",
+  "After": "编译/报告入口准确",
+  "Impact": "文档，不改变历史记录",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": "6a5cca386979bd617b747fa2db1ec6de756c576451afcfae582b14ed1aa6bb18",
+    "after_sha256": "9896f01ecabfdaeceb35b24673c3f39f6b6d447b189d732dd692e86ed0177785"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

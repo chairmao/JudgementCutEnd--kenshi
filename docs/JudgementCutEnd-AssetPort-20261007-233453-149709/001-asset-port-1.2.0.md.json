@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-port-1.2.0.md",
+  "Role": "实现与验收记录",
+  "Code location": "完整说明",
+  "Before": "absent",
+  "Changes": "记录真实动作、通用幻影、HDR副本、成本、限制、编译及安装合同",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "f6a8ec43de51b55844fb7dda45ae5c01380b23bd60933adfe6de7ea003368a65",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

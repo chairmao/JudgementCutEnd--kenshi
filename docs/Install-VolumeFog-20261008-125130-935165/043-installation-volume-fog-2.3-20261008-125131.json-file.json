@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\installation-volume-fog-2.3-20261008-125131.json",
+  "Role": "2.3部署验证记录",
+  "Code location": "完整文件部署/安装身份",
+  "Before": "new file",
+  "Changes": "2.3连续雾配套DLL/资源",
+  "Reasons": "用户请求更新mod；已验证PE64、导出入口、2.3内嵌版本与源码时间",
+  "After": "905ac4d9fb8f099006bc67534fdd8062db07630effd1568477c38d39ce9f1e0c",
+  "Impact": "本项目和本地JudgementCutEnd mod；无游戏配置/存档/其他mod修改",
+  "Validation": "复制字节/哈希读回相等；UTF-8 no BOM; CRLF; unchanged byte copy or encoding preserved；未运行编译器或游戏测试",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM; CRLF; unchanged byte copy or encoding preserved"
+  },
+  "Unresolved": "新2.3实机雾气连贯性、深度遮挡与GPU帧率待用户按U测试"
+}

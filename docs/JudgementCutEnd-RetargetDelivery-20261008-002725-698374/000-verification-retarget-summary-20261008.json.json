@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-retarget-summary-20261008.json",
+  "Role": "本轮验证汇总",
+  "Code location": "资源协议、方向对比、静态检查和部署状态",
+  "Before": "absent",
+  "Changes": "记录实际结果；保留实机未验证边界",
+  "Reasons": "记录用户本次头部扭转修正、原模组特效读取结果与部署边界",
+  "After": "22a5f0cf5cf7a3b4c1cc29fe543d138d48161374e443f302e85bfa7dafee36f3",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "本轮资源修正无需重编译；游戏内外观验收未完成"
+}

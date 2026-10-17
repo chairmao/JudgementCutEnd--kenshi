@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_retarget_axes.py",
+  "Role": "动画回归核验",
+  "Code location": "source HKX world transforms and target head anatomical axes",
+  "Before": "absent",
+  "Changes": "独立对照源头部面向/顶部，验证非镜像左右、胸骨主轴、403帧归一化和位置边界",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "53e19f80d49534871a291240e514b4ba9eb6cb326c0fe6630ebb87c55fc47cfa",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

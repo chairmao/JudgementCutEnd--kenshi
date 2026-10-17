@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+  "Role": "动画资源",
+  "Code location": "JCECLIP v2 producer",
+  "Before": "153490230c713f89e8aa597361526eae4de72e68510899b9b622e307e3f0a2c2",
+  "Changes": "真实 HKX 23骨映射；403关键帧；位置通道仅根骨竖直补偿",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261008-001338-262981\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261008-001338-262981\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

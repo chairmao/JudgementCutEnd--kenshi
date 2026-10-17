@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "RE_Kenshi插件唯一运行时",
+  "Code location": "LoadAssets、SourceCurve、新增五层、Glass Alpha、Draw与有界日志",
+  "Before": "9799f2a44f62d2841e974b649c82aecbec05fc447b4a8f8547d66b547b7a050d",
+  "Changes": "接入原DDS与六条准确绑定曲线；保留全部玩法、动画和时间恢复逻辑",
+  "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+  "After": "8ac0ada0a899b9335bfea46f9c5f62da184f2fc43d922c1465a0b7176b8978e4",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-003948-386021\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-003948-386021\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

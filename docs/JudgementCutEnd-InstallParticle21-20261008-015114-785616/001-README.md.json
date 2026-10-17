@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目当前状态入口",
+  "Code location": "2.1安装状态",
+  "Before": "915e7a5cb73766346ba3b7bc318d488316b4306ab282f5421a3ab0e9aca6c463",
+  "Changes": "改为用户已编译且整包部署完成，保留实机未测边界及备份记录",
+  "Reasons": "用户明确要求迅速更新模组；核验用户已编译DLL后同步安装并记录事实",
+  "After": "97143590c874735efb5e1b31d927cd03faa4f7080f2c430449b3d8b897b11900",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InstallParticle21-20261008-015114-785616\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InstallParticle21-20261008-015114-785616\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

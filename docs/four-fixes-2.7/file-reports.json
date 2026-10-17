@@ -1,0 +1,429 @@
+{
+  "reports": [
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-1a3a2df216.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.7.0.json",
+        "Role": "资源修订元数据",
+        "Code location": "新文件",
+        "Before": "不存在",
+        "Changes": "明确2.7四项修复的CPU/材质合同与未验证边界",
+        "Reasons": "明确2.7四项修复的CPU/材质合同与未验证边界",
+        "After": "独立新建UTF-8无BOM/CRLF",
+        "Impact": "仅本项目资源或只读验证，不部署/编译游戏",
+        "Validation": "中文编码、AST或JSON；执行结果另报",
+        "Safety": "排他创建，不覆盖历史文件",
+        "Unresolved": "新视觉效果仍需用户编译、游戏验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-2a3263d90e.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\four-fixes-2.7\\flow-field.json",
+        "Role": "原创流场来源",
+        "Code location": "新文件",
+        "Before": "不存在",
+        "Changes": "记录种子、周期频率、资源哈希与生成范围",
+        "Reasons": "记录种子、周期频率、资源哈希与生成范围",
+        "After": "独立新建UTF-8无BOM/CRLF",
+        "Impact": "仅本项目资源或只读验证，不部署/编译游戏",
+        "Validation": "中文编码、AST或JSON；执行结果另报",
+        "Safety": "排他创建，不覆盖历史文件",
+        "Unresolved": "新视觉效果仍需用户编译、游戏验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-351e7c4fd7.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program",
+        "Role": "局部背景程序声明",
+        "Code location": "Refraction27标识",
+        "Before": "2.6基线，详见baseline原哈希",
+        "Changes": "Refraction27标识",
+        "Reasons": "材质引用与shader消费者对应，切面参数结构保持",
+        "After": "2.7开发版，尚未编译/部署",
+        "Impact": "仅视觉；CPU/材质/shader合同同步，游戏逻辑保持",
+        "Validation": "写后编码与中文/CRLF；跨层和数值检查另报",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+            "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+          ],
+          "encoding": "utf-8",
+          "line_endings": "CRLF"
+        },
+        "Unresolved": "C++编译、GPU观感及性能需实机验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-61c5ee40c0.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+        "Role": "雾程序声明",
+        "Code location": "2.7独立程序标识",
+        "Before": "2.6基线，详见baseline原哈希",
+        "Changes": "2.7独立程序标识",
+        "Reasons": "完整链接新密度消费者，避免旧GPU程序复用",
+        "After": "2.7开发版，尚未编译/部署",
+        "Impact": "仅视觉；CPU/材质/shader合同同步，游戏逻辑保持",
+        "Validation": "写后编码与中文/CRLF；跨层和数值检查另报",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+            "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+          ],
+          "encoding": "utf-8",
+          "line_endings": "CRLF"
+        },
+        "Unresolved": "C++编译、GPU观感及性能需实机验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-72064fda2a.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+        "Role": "刀光/源纹理像素着色",
+        "Code location": "共享峰值压缩与新增jce_glow27_fp",
+        "Before": "2.6基线，详见baseline原哈希",
+        "Changes": "共享峰值压缩与新增jce_glow27_fp",
+        "Reasons": "防逐通道截断及高亮加色泛白；保持色相、控制HDR光能，零能量不发光",
+        "After": "2.7开发版，尚未编译/部署",
+        "Impact": "仅视觉；CPU/材质/shader合同同步，游戏逻辑保持",
+        "Validation": "写后编码与中文/CRLF；跨层和数值检查另报",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+            "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+          ],
+          "encoding": "utf-8",
+          "line_endings": "CRLF"
+        },
+        "Unresolved": "C++编译、GPU观感及性能需实机验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-7cd8e585ad.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+        "Role": "源刀光与辅助烟材质",
+        "Code location": "SourceTexture27与辅助烟27程序、共享低频场纹理",
+        "Before": "2.6基线，详见baseline原哈希",
+        "Changes": "SourceTexture27与辅助烟27程序、共享低频场纹理",
+        "Reasons": "各层兼容新的软峰值压缩；降低烟形图集的视觉主导",
+        "After": "2.7开发版，尚未编译/部署",
+        "Impact": "仅视觉；CPU/材质/shader合同同步，游戏逻辑保持",
+        "Validation": "写后编码与中文/CRLF；跨层和数值检查另报",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+            "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+          ],
+          "encoding": "utf-8",
+          "line_endings": "CRLF"
+        },
+        "Unresolved": "C++编译、GPU观感及性能需实机验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-93286a651f.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+        "Role": "局部背景冷暗与切裂",
+        "Code location": "半球内冷暗比例0.42/0.68/0.94",
+        "Before": "2.6基线，详见baseline原哈希",
+        "Changes": "半球内冷暗比例0.42/0.68/0.94",
+        "Reasons": "提高蓝烟与暖地形的分离；无需世界曝光、额外场景采样或实体镜子",
+        "After": "2.7开发版，尚未编译/部署",
+        "Impact": "仅视觉；CPU/材质/shader合同同步，游戏逻辑保持",
+        "Validation": "写后编码与中文/CRLF；跨层和数值检查另报",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+            "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+          ],
+          "encoding": "utf-8",
+          "line_endings": "CRLF"
+        },
+        "Unresolved": "C++编译、GPU观感及性能需实机验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-a90dbfa4c6.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "Role": "特效顶点与烟层生产",
+        "Code location": "Vertex、SourceDust、SourceSmokeRibbons、SourceSmokeWisps、Draw日志及版本",
+        "Before": "2.6基线，详见baseline原哈希",
+        "Changes": "Vertex、SourceDust、SourceSmokeRibbons、SourceSmokeWisps、Draw日志及版本",
+        "Reasons": "保留刀光色相比值，压低独立贴片的颗粒轮廓；同步2.7能量合同",
+        "After": "2.7开发版，尚未编译/部署",
+        "Impact": "仅视觉；CPU/材质/shader合同同步，游戏逻辑保持",
+        "Validation": "写后编码与中文/CRLF；跨层和数值检查另报",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+            "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+          ],
+          "encoding": "utf-8-sig",
+          "line_endings": "CRLF"
+        },
+        "Unresolved": "C++编译、GPU观感及性能需实机验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-af3971ee19.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\generate_cloud_field27.py",
+        "Role": "程序化流场作者工具",
+        "Code location": "新文件",
+        "Before": "不存在",
+        "Changes": "生成可复现、低频平铺的连续密度资源；没有逐像素随机颗粒",
+        "Reasons": "生成可复现、低频平铺的连续密度资源；没有逐像素随机颗粒",
+        "After": "独立新建UTF-8无BOM/CRLF",
+        "Impact": "仅本项目资源或只读验证，不部署/编译游戏",
+        "Validation": "中文编码、AST或JSON；执行结果另报",
+        "Safety": "排他创建，不覆盖历史文件",
+        "Unresolved": "新视觉效果仍需用户编译、游戏验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-atmosphere27.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+        "Role": "连续烟体/烟带像素着色",
+        "Code location": "jce_cloud_field、jce_mist_fp、jce_source_smoke_shape、jce_fog_colour",
+        "Before": "薄底雾0.16，4x4独立烟形Alpha的细碎轮廓主导",
+        "Changes": "主体体积密度0.95；统一低频卷流与深蓝/青蓝色带；图集只作8%弱调制；柔边与零透明退场",
+        "Reasons": "视频中的灰蓝颗粒膜需要改变密度结构，单改色调/移动无法消除贴片轮廓",
+        "After": "新2.7连续体积与低权重卷边材质",
+        "Impact": "原雾/烟输入UV、半球裁切、时钟和原层数保持；取样数不增加",
+        "Validation": "UTF-8无BOM/CRLF与中文正常；跨层、场连续性、光学模型另报",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+            "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+          ],
+          "encoding": "UTF-8/CRLF"
+        },
+        "Unresolved": "GPU编译、材质表现、透明层性能需实机测量"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-baa4230060.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.program",
+        "Role": "刀光程序声明",
+        "Code location": "SourceTexture27与Glow27独立入口/默认参数",
+        "Before": "2.6基线，详见baseline原哈希",
+        "Changes": "SourceTexture27与Glow27独立入口/默认参数",
+        "Reasons": "将CPU能量编码匹配到专用消费者，避免影响烟雾透明度",
+        "After": "2.7开发版，尚未编译/部署",
+        "Impact": "仅视觉；CPU/材质/shader合同同步，游戏逻辑保持",
+        "Validation": "写后编码与中文/CRLF；跨层和数值检查另报",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+            "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+          ],
+          "encoding": "utf-8",
+          "line_endings": "CRLF"
+        },
+        "Unresolved": "C++编译、GPU观感及性能需实机验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-c410b983b1.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\four-fixes-2.7\\baseline.json",
+        "Role": "2.6基线与备份",
+        "Code location": "新文件",
+        "Before": "不存在",
+        "Changes": "原始源码/材质/状态文件哈希与双盘备份，用于授权边界核对",
+        "Reasons": "原始源码/材质/状态文件哈希与双盘备份，用于授权边界核对",
+        "After": "独立新建UTF-8无BOM/CRLF",
+        "Impact": "仅本项目资源或只读验证，不部署/编译游戏",
+        "Validation": "中文编码、AST或JSON；执行结果另报",
+        "Safety": "排他创建，不覆盖历史文件",
+        "Unresolved": "新视觉效果仍需用户编译、游戏验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-cloud-field27.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_cloud_field27.tga",
+        "Role": "主体雾与辅助烟共用低频流场",
+        "Code location": "512x512四通道TGA",
+        "Before": "不存在",
+        "Changes": "原创平滑周期场，仅1..5次/方向的大尺度结构",
+        "Reasons": "减少细碎随机纹理形成的雾霾颗粒",
+        "After": "7fa310bae0be51285107ab3b4e7cc839c81f23b0b871b6e277e2e50371b45db1",
+        "Impact": "自有材质t0低频场；不改变游戏资源或参考文件",
+        "Validation": "数值频谱、平铺和文件哈希在新验证器中检查",
+        "Safety": "排他新建，无覆盖；无中文二进制转换",
+        "Unresolved": "远近GPU采样与烟体视觉待实机"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-cpp-final27.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "Role": "插件VFX生产者与有界日志",
+        "Code location": "SourceSmokeRibbons/SourceDust/Draw首次日志",
+        "Before": "缺少新版烟带权重说明，日志仍声称使用旧色表",
+        "Changes": "补充烟带中文边界说明；日志色表改为自制密度蓝；移除尘烟过时倍数注释",
+        "Reasons": "让说明及日志准确对应2.7 shader",
+        "After": "可由日志识别真实颜色路径",
+        "Impact": "仅VFX注释和每次施放首次日志；游戏逻辑无变化",
+        "Validation": "UTF-8 BOM/CRLF及中文检查通过；完整回归下一步",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JCE27-FinalVFXComments-20261009-022530-a9e052\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+            "E:\\AIWorkSpace\\_backups\\JCE27-FinalVFXComments-20261009-022530-a9e052\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+          ],
+          "encoding": "UTF-8 BOM/CRLF",
+          "Chinese": "原中文保留，新中文可读"
+        },
+        "Unresolved": "仍待用户编译及实机验证"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-e306f77a29.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+        "Role": "主刀光、主体雾和空间材质",
+        "Code location": "Glow专用程序、Mist27低频纹理、Refraction27链接",
+        "Before": "2.6基线，详见baseline原哈希",
+        "Changes": "Glow专用程序、Mist27低频纹理、Refraction27链接",
+        "Reasons": "完整接通新能量与连续雾体，范围和深度语义保持",
+        "After": "2.7开发版，尚未编译/部署",
+        "Impact": "仅视觉；CPU/材质/shader合同同步，游戏逻辑保持",
+        "Validation": "写后编码与中文/CRLF；跨层和数值检查另报",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+            "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+          ],
+          "encoding": "utf-8",
+          "line_endings": "CRLF"
+        },
+        "Unresolved": "C++编译、GPU观感及性能需实机验收"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-readme27.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\four-fixes-2.7\\README.md",
+        "Role": "四项修正说明",
+        "Code location": "问题映射/合同/模型/编译与验收",
+        "Before": "缺少本轮完整说明",
+        "Changes": "记录四项解决路径、旧泛白因果补充、未测边界、用户编译目标及备份",
+        "Reasons": "让结果可以独立审查",
+        "After": "有清楚的源码/部署区分和验证依据",
+        "Impact": "仅文档",
+        "Validation": "UTF-8/CRLF/中文检查通过",
+        "Safety": "新文件exclusive创建，无需原文件备份",
+        "Unresolved": "需用户编译与游戏录像"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-status27.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+        "Role": "项目状态清单",
+        "Code location": "source/installed配置与本轮验证",
+        "Before": "旧状态为已部署2.6",
+        "Changes": "记录2.7源码待编译；保留2.6安装身份/正式归档/历史证据",
+        "Reasons": "避免把源码修改冒充已部署或游戏成功",
+        "After": "清楚区分源码2.7与游戏2.6",
+        "Impact": "仅状态文档，不部署",
+        "Validation": "JSON回读及中文/CRLF通过",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+            "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+          ],
+          "encoding": "UTF-8无BOM/CRLF"
+        },
+        "Unresolved": "用户编译及实机验证尚缺"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-verification-results27.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\four-fixes-2.7\\verification.json",
+        "Role": "2.7验证结果",
+        "Code location": "检查列表/数值指标",
+        "Before": "无本轮验证结果",
+        "Changes": "记录219项静态与模型检查、70项时间模型回归",
+        "Reasons": "留存可复核证据，区分静态与实机",
+        "After": "289项通过；未编译/未游戏测试",
+        "Impact": "仅报告",
+        "Validation": "JSON回读一致",
+        "Safety": "新文件exclusive创建；UTF-8无BOM/CRLF；中文检查通过",
+        "Unresolved": "GPU/实机/性能待测"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-verifier27-contract.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_four_fixes27.py",
+        "Role": "2.7检查器",
+        "Code location": "uniform声明/CPU烟雾系数",
+        "Before": "未识别同类型逗号声明，系数关键词未对应实际函数名",
+        "Changes": "按uniform变量列表及实际SourceCurve/SourceSmokeEnvelope检查",
+        "Reasons": "正确识别既有合同，无生产代码调整",
+        "After": "检查对应真实源码",
+        "Impact": "仅验证器",
+        "Validation": "AST通过",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JCE27-VerifierContract-20261009-022429-730038\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_four_fixes27.py",
+            "E:\\AIWorkSpace\\_backups\\JCE27-VerifierContract-20261009-022429-730038\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_four_fixes27.py"
+          ],
+          "encoding": "UTF-8/CRLF",
+          "Chinese": "新增中文可读"
+        },
+        "Unresolved": "继续完整回归"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-verifier27-fix.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_four_fixes27.py",
+        "Role": "2.7检查器",
+        "Code location": "Draw范围核验",
+        "Before": "masked保留字符串长度，日志版本文本长度不同误报",
+        "Changes": "比较屏蔽注释/字符串后去空白的token序列",
+        "Reasons": "让检查只判断实际Draw代码变化",
+        "After": "不会把日志长度变动算作几何代码修改",
+        "Impact": "只变验证器，生产文件不变",
+        "Validation": "AST通过；测试待重跑",
+        "Safety": {
+          "backups": [
+            "D:\\CodexBackups\\JCE27-VerifierFix-20261009-022334-1edadc\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_four_fixes27.py",
+            "E:\\AIWorkSpace\\_backups\\JCE27-VerifierFix-20261009-022334-1edadc\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_four_fixes27.py"
+          ],
+          "encoding": "UTF-8无BOM/CRLF",
+          "Chinese": "新注释可读"
+        },
+        "Unresolved": "实际Shader仍未编译"
+      }
+    },
+    {
+      "report": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642\\file-verifier27.json",
+      "contents": {
+        "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_four_fixes27.py",
+        "Role": "2.7非编译验证器",
+        "Code location": "main/颜色与输运数值模型",
+        "Before": "无2.7专用检查",
+        "Changes": "新增全源码边界与跨层合同、频率/密度/流动检查",
+        "Reasons": "验证四项修复及游戏逻辑保护",
+        "After": "只读输出JSON检查结果",
+        "Impact": "不启动编译器或游戏",
+        "Validation": "AST通过；检查待执行",
+        "Safety": "新文件exclusive创建，UTF-8无BOM/CRLF；中文可读",
+        "Unresolved": "GPU和游戏测试未运行"
+      }
+    }
+  ]
+}

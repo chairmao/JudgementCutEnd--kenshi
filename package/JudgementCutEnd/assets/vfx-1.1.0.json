@@ -1,0 +1,16 @@
+{
+  "version": "1.1.0-dev",
+  "slashes": 96,
+  "phantom_paths": 16,
+  "mist_clouds": 80,
+  "motes": 128,
+  "mirror_panels": 48,
+  "shards": 192,
+  "sections": [
+    "JCE/Glow",
+    "JCE/Mist",
+    "JCE/Glass"
+  ],
+  "damage_changed": false,
+  "assets": "原创确定性制作；不是DMC原始模型/着色器资源"
+}

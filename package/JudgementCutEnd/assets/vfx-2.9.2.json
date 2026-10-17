@@ -1,0 +1,23 @@
+{
+  "source_version": "2.9.2-dev",
+  "resource_revision": "2.9.2-upright-wide-facet-probe",
+  "user_compile_required": true,
+  "game_tested": false,
+  "installed": false,
+  "default_probe_mode": 1,
+  "source_sha256": "FF0941B5D19F4A1AE922A9D88619D6960F02BDB92E875DF8D7174C715A1C55E9",
+  "source_shape": "Skyrim JCE030CutRefraction screen1; original CSV topology UV unchanged",
+  "adaptation": "orthogonal local basis; centred; width=1.36R height=.66R centre_height=.40R; source normals inverse transpose; source alpha remapped at boundary",
+  "hdr_copies_max": 1,
+  "texture_samples_max": 2,
+  "max_offset_pixels": 36,
+  "compilation": "not run by policy",
+  "diagnostics": "at most 3 pre-depth pre-mask projected bounding boxes per cast; GPU visibility unmeasured",
+  "resources": {
+    "jce_facets292.hlsl": "797EE5E26C6E750D1FE425017E56D572E9B63166D28EC1ACA92D3DD44015BEBE",
+    "jce_facets292.program": "EA8338C05B8257B55372744E78AF8FDC4560CF1680C5348B032A4F659EF41C83",
+    "jce.material": "397615DFB107AA47E09420F4486D0273C34BC10C0820C69D892508031777E186",
+    "jce_facets29.csv": "FCA82D54DB3080C3F847A32091AC23060B76C9E02D7703B88177770D9E713FC3",
+    "jce_source_optical_mask.dds": "A3F29383DE8BB46BB69B75475067DE5DD1238CCE41793CE6E04950B7749B19FD"
+  }
+}

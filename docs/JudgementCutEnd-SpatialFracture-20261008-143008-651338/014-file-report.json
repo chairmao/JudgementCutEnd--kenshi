@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\spatial-fracture-2.5-20261008.md",
+  "Role": "改进、依据和验收说明",
+  "Code location": "新2.5报告",
+  "Before": "没有本轮完整记录",
+  "Changes": "说明源证据、Kenshi适配、验证和未测试事项",
+  "Reasons": "区分确定事实、视觉目标与运行未知项",
+  "After": "可复核的2.5修改说明",
+  "Impact": "文档，无游戏行为变化",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": null,
+    "after_sha256": "4a56e526bee7a5736d0fcac3ac4b926fdea0b12ef80062f6b0a35b213ec44100"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

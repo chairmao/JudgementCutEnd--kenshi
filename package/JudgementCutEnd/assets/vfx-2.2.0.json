@@ -1,0 +1,124 @@
+{
+  "revision": "2.2-blue-flow-r2",
+  "source_version": "2.2.0-dev",
+  "audit": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-FogFlow-20261008-122847-062403",
+  "source_palette": {
+    "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\textures\\effects\\zjc\\gradients\\gradshockdisintegrate.dds",
+    "sha256": "9c69744602fe4506cd4a1d2d85949f831e8162f7a2d67ffd62f16110cb1b003f",
+    "nif": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\effects\\AP05\\JCE030CutAllActi.nif",
+    "nif_sha256": "72928b557ba226888285178122e6e568706d8b5546ec7627b71c979841c29986",
+    "block": {
+      "index": 238,
+      "type": "BSEffectShaderProperty",
+      "bytes": 179,
+      "name": "",
+      "extra_data": [],
+      "controller": -1,
+      "shader_flags": [
+        2147483760,
+        48
+      ],
+      "uv_offset": [
+        0.0,
+        0.0
+      ],
+      "uv_scale": [
+        1.0,
+        1.5
+      ],
+      "source_texture": "textures\\effects\\FXSmokeSoftSub.dds",
+      "clamp_and_lighting": [
+        3,
+        255,
+        0,
+        0
+      ],
+      "falloff": [
+        0.6427876353263855,
+        0.42261824011802673,
+        1.0,
+        0.699999988079071
+      ],
+      "base_color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "base_color_scale": 1.0,
+      "soft_falloff_depth": 8.0,
+      "palette_texture": "textures\\effects\\zjc\\gradients\\gradshockdisintegrate.dds"
+    },
+    "mapping": "中间行按密度采样；18%源色表 + 冷蓝基色适配，非Skyrim原渲染公式"
+  },
+  "video_observation": "4.4/10秒刀光淡蓝、空间雾稀薄零碎；不是对新版本的实机证明",
+  "layers": 9,
+  "clouds": 96,
+  "shell_quads": 0,
+  "dust_paths": 48,
+  "dust_segments_per_path": 3,
+  "dust_slots": 144,
+  "dust_lifetime_clip_seconds": [
+    1.65,
+    1.9
+  ],
+  "playback_rate": 3,
+  "clock_units": "clip seconds",
+  "noise_texture": "jce_fog_noise.tga",
+  "noise_octaves": [
+    [
+      3,
+      0.64
+    ],
+    [
+      5,
+      0.28
+    ],
+    [
+      9,
+      0.08
+    ]
+  ],
+  "noise_seed": [
+    17,
+    41
+  ],
+  "base_cloud_alpha": 0.115,
+  "smoke_alpha_before_atlas_max": 0.36,
+  "boundary_fade_normalized": [
+    0.82,
+    1
+  ],
+  "estimated_max_vertices": 17620,
+  "estimated_max_indices": 44286,
+  "shader_sample_counts": {
+    "Mist": 3,
+    "Smoke": 4
+  },
+  "native_compiled": true,
+  "shader_compiled": false,
+  "game_tested": false,
+  "installed": true,
+  "notes": [
+    "雾层为有界透明近似，不是真体积光线积分",
+    "r2仅改雾专用HLSL资源，与现有2.2 DLL合同兼容；无需重新编译C++",
+    "原生和HLSL编译均未由agent执行；下次游戏启动由引擎加载shader",
+    "保持雾/烟纹理采样次数，增加Mist每像素涡旋算术；真实GPU性能待测"
+  ],
+  "previous_revision": "2.2-blue-wisps-r1",
+  "flow": {
+    "mist": "高度相位涡旋、拉伸、错向输运和连续软密度",
+    "swirl_rad_per_clip_second": 0.32,
+    "primary_uv_per_clip_second": [
+      0.115,
+      -0.075
+    ],
+    "secondary_uv_per_clip_second": [
+      -0.105,
+      0.09
+    ],
+    "smoke": "原图连续插值前，以流场扭曲局部UV；边缘位移归零",
+    "smoke_uv_warp_gain": 0.24
+  },
+  "native_compiled_by": "user; same installed 2.2 DLL"
+}

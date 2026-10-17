@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_time.py",
+  "Role": "非编译行为验证",
+  "Code location": "暂停缓存/时间所有权生命周期模型",
+  "Before": "absent",
+  "Changes": "覆盖旧缺陷、1/2/3倍、暂停、取消、异常、重启、变速、换世界、100次重复；明确模型边界",
+  "Reasons": "用户要求修正演出结束后速度未恢复；日志证实取消后原始速度被0.001污染",
+  "After": "801a1db48f1f63c05dc6316e4fb07f70a96314be23b154001fdb90f0f368dbfb",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；暂停解除、速度恢复与异常路径待实机验收"
+}

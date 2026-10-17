@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_assets.py",
+  "Role": "资源生产脚本",
+  "Code location": "curve/pose/reference_soundtrack/main",
+  "Before": "0.1.2 实机失败版本；原字节已双备份",
+  "Changes": "连续全身轨道；独立左右肘极点；参考音效同步混音及来源记录",
+  "Reasons": "实测 IK 抽动和合成声音不符合演出；脊柱原有单帧跳变 44°",
+  "After": "源码/资源修订，等待用户编译与实机验证",
+  "Impact": "仅独立插件；旧DLL不得搭配新资源安装",
+  "Validation": "读回一致，保留 BOM 和 CRLF；中文与乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-151348-037666\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_assets.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-151348-037666\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_assets.py"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "未编译；未实机验收"
+}

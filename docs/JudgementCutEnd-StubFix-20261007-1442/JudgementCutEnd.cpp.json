@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "插件初始化的原生地址适配",
+  "Code location": "NativeAddress / startPlugin 两个解析调用",
+  "Before": "取成员函数地址得到 JudgementCutEnd+0x1969A 导入跳板，触发库断言",
+  "Changes": "直接读取已加载 KenshiLib 真实导出，验证 FUNC_BEGIN/FUNC_END 边界，再把指针传 GetRealAddress；两个启动绑定日志；诊断版本 0.1.2",
+  "Reasons": "dumpbin 精确匹配截图偏移及两个 KenshiLib 导出，Functions.cpp 原生桩表合同",
+  "After": "修改已写入；需要重新编译/部署才影响游戏运行",
+  "Impact": "仅限本插件项目/分发包，不写其他模组及运行游戏",
+  "Validation": "UTF-8/BOM/CRLF/中文严格回读；专项非编译检查随后另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF",
+    "sha256": "f118e6ac7bbec7a26efbcdd8dc8f2e6157af41a0767aaef1c27c8247bd84b1b5"
+  },
+  "Unresolved": "新 DLL 编译/安装和实机验收仍待完成"
+}

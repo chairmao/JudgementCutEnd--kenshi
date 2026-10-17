@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "工程/安装/测试状态",
+  "Code location": "源码与运行产物状态",
+  "Before": "已安装0.2.4未测试状态与本次日志冲突",
+  "Changes": "标记0.2.4实测拒绝、0.2.5待编译及已安装DLL未更新",
+  "Reasons": "不将源码修改或静态验证描述为安装与游戏验证成功",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；修复武器准备和演出放行，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-WeaponGateFix-20261007-181233-613608\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-WeaponGateFix-20261007-181233-613608\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.5待用户编译与实机验证；已安装DLL仍是0.2.4"
+}

@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+  "Role": "分发使用说明",
+  "Code location": "完整说明",
+  "Before": "0.2.3包说明",
+  "Changes": "0.2.4时序/装备伤害/编译安装与旧DLL警示",
+  "Reasons": "防止把分发目录尚未更新的DLL误当新版",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；新版源码、同步音轨与配置",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpeedWeapon-20261007-172113-138619\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpeedWeapon-20261007-172113-138619\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.4 DLL待用户编译，武器伤害与三倍速度待实机；未修改已安装模组"
+}

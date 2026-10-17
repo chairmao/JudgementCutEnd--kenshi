@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "只读验证器",
+  "Code location": "句柄ABI与冷却边界检查",
+  "Before": "旧静态检查允许错误的重载虚调用",
+  "Changes": "验证真实构造器所指虚表、非虚导出、五字段身份、目标去重与15秒边界",
+  "Reasons": "本次实测armed=0且旧DLL确实调用错误slot，不能只验证伤害倍率",
+  "After": "0.2.6源码修复句柄比较；已安装0.2.5不变",
+  "Impact": "仅 JudgementCutEnd；修复武器准备和演出放行，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-HandleCompareFix-20261007-183511-996072\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-HandleCompareFix-20261007-183511-996072\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.6待用户编译及实机验证；15秒冷却保持"
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+  "Role": "动画离线转换器",
+  "Code location": "main / C / primary / provenance",
+  "Before": "b0d697ca6c63ac5214aad811ae3bd91afe34e124dd5521512f6f8978e215e8f4",
+  "Changes": "修正完整坐标基准；显式解剖主轴；保留绑定和文件协议",
+  "Reasons": "用户报告头部与肢体扭转；骨轴与左右朝向数据核验及原NIF粒子调查",
+  "After": "51e23c393dfe1a53f97c55ea70fc7afc0e0ad8fc00f1f45eb2e36f44d3ca4f4a",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-RetargetFix-20261008-001321-234700\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-RetargetFix-20261008-001321-234700\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

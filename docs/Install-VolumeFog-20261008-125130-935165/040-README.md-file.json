@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+  "Role": "已部署2.3分发说明",
+  "Code location": "完整文件部署/安装身份",
+  "Before": "7abd6dee85aba473b93166fc53e3f2943ed34956af406587691af4a8d4c337cd",
+  "Changes": "2.3连续雾配套DLL/资源",
+  "Reasons": "用户请求更新mod；已验证PE64、导出入口、2.3内嵌版本与源码时间",
+  "After": "66bd0ab8fc2b8d1e88b0c48e372b86e17a19f944b35aedb91af8c7245aa5a971",
+  "Impact": "本项目和本地JudgementCutEnd mod；无游戏配置/存档/其他mod修改",
+  "Validation": "复制字节/哈希读回相等；UTF-8 no BOM; CRLF; unchanged byte copy or encoding preserved；未运行编译器或游戏测试",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-125013-4331855-Metadata\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-125013-4331855-Metadata\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 no BOM; CRLF; unchanged byte copy or encoding preserved"
+  },
+  "Unresolved": "新2.3实机雾气连贯性、深度遮挡与GPU帧率待用户按U测试"
+}

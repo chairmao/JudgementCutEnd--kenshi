@@ -1,0 +1,42 @@
+{
+  "source_version": "0.2.1",
+  "installed_dll_version": "0.2.0",
+  "compiled_this_turn": false,
+  "runtime_verified_new_pose": false,
+  "installed_dll_sha256": "bcaa81a2696ff59a045675d4e56cac3aef0f953347c855f7001e1bc4e79e2207",
+  "ogre_sha256": "7d3888d21398647519f10a89b1f300d8606f761ad159e6021a797b1b9b3df5f6",
+  "native_evidence": {
+    "Skeleton.updateTransforms": {
+      "range": "0x180344FC0,0x180345030",
+      "disassembly": "Microsoft (R) COFF/PE Dumper Version 10.00.30319.01\r\nCopyright (C) Microsoft Corporation.  All rights reserved.\r\n\r\n\r\nDump of file D:\\steam\\steamapps\\common\\Kenshi\\OgreMain_x64.dll\r\n\r\nFile Type: DLL\r\n\r\n  0000000180344FC0: mov         qword ptr [rsp+8],rbx\r\n  0000000180344FC5: mov         qword ptr [rsp+10h],rsi\r\n  0000000180344FCA: push        rdi\r\n  0000000180344FCB: sub         rsp,20h\r\n  0000000180344FCF: mov         rdi,qword ptr [rcx+000001C8h]\r\n  0000000180344FD6: mov         rbx,qword ptr [rcx+000001C0h]\r\n  0000000180344FDD: mov         rsi,rcx\r\n  0000000180344FE0: cmp         rbx,rdi\r\n  0000000180344FE3: je          0000000180345016\r\n  0000000180344FE5: mov         rcx,qword ptr [rbx]\r\n  0000000180344FE8: xor         r8d,r8d\r\n  0000000180344FEB: mov         dl,1\r\n  0000000180344FED: mov         rax,qword ptr [rcx]\r\n  0000000180344FF0: call        qword ptr [rax+00000198h]\r\n  0000000180344FF6: add         rbx,8\r\n  0000000180344FFA: cmp         rbx,rdi\r\n  0000000180344FFD: jne         0000000180344FE5\r\n  0000000180344FFF: mov         byte ptr [rsi+00000210h],0\r\n  0000000180345006: mov         rbx,qword ptr [rsp+30h]\r\n  000000018034500B: mov         rsi,qword ptr [rsp+38h]\r\n  0000000180345010: add         rsp,20h\r\n  0000000180345014: pop         rdi\r\n  0000000180345015: ret\r\n  0000000180345016: mov         rbx,qword ptr [rsp+30h]\r\n  000000018034501B: mov         rsi,qword ptr [rsp+38h]\r\n  0000000180345020: mov         byte ptr [rcx+00000210h],0\r\n  0000000180345027: add         rsp,20h\r\n  000000018034502B: pop         rdi\r\n  000000018034502C: ret\r\n  000000018034502D: int         3\r\n  000000018034502E: int         3\r\n  000000018034502F: int         3\r\n  0000000180345030: 40\r\n\r\n  Summary\r\n\r\n      5B6000 .text\r\n"
+    },
+    "Skeleton.manualDirty": {
+      "range": "0x180343F70,0x180343F80",
+      "disassembly": "Microsoft (R) COFF/PE Dumper Version 10.00.30319.01\r\nCopyright (C) Microsoft Corporation.  All rights reserved.\r\n\r\n\r\nDump of file D:\\steam\\steamapps\\common\\Kenshi\\OgreMain_x64.dll\r\n\r\nFile Type: DLL\r\n\r\n  0000000180343F70: mov         byte ptr [rcx+00000210h],1\r\n  0000000180343F77: ret\r\n  0000000180343F78: int         3\r\n  0000000180343F79: int         3\r\n  0000000180343F7A: int         3\r\n  0000000180343F7B: int         3\r\n  0000000180343F7C: int         3\r\n  0000000180343F7D: int         3\r\n  0000000180343F7E: int         3\r\n  0000000180343F7F: int         3\r\n  0000000180343F80: 48\r\n\r\n  Summary\r\n\r\n      5B6000 .text\r\n"
+    },
+    "Entity.cacheBoneMatrices": {
+      "range": "0x1800C2A30,0x1800C2AE0",
+      "disassembly": "Microsoft (R) COFF/PE Dumper Version 10.00.30319.01\r\nCopyright (C) Microsoft Corporation.  All rights reserved.\r\n\r\n\r\nDump of file D:\\steam\\steamapps\\common\\Kenshi\\OgreMain_x64.dll\r\n\r\nFile Type: DLL\r\n\r\n  00000001800C2A30: mov         qword ptr [rsp+8],rbx\r\n  00000001800C2A35: push        rdi\r\n  00000001800C2A36: sub         rsp,20h\r\n  00000001800C2A3A: mov         rax,qword ptr [80909B20h]\r\n  00000001800C2A41: mov         rbx,rcx\r\n  00000001800C2A44: mov         edi,dword ptr [rax+00000190h]\r\n  00000001800C2A4A: mov         rax,qword ptr [rcx+00000288h]\r\n  00000001800C2A51: cmp         dword ptr [rax],edi\r\n  00000001800C2A53: jne         00000001800C2A7B\r\n  00000001800C2A55: mov         rcx,qword ptr [rcx+00000300h]\r\n  00000001800C2A5C: test        rcx,rcx\r\n  00000001800C2A5F: je          00000001800C2A6E\r\n  00000001800C2A61: mov         rax,qword ptr [rcx]\r\n  00000001800C2A64: call        qword ptr [rax+00000248h]\r\n  00000001800C2A6A: test        al,al\r\n  00000001800C2A6C: jne         00000001800C2A7B\r\n  00000001800C2A6E: xor         al,al\r\n  00000001800C2A70: mov         rbx,qword ptr [rsp+30h]\r\n  00000001800C2A75: add         rsp,20h\r\n  00000001800C2A79: pop         rdi\r\n  00000001800C2A7A: ret\r\n  00000001800C2A7B: cmp         byte ptr [rbx+000002D8h],0\r\n  00000001800C2A82: jne         00000001800C2AB1\r\n  00000001800C2A84: mov         rax,qword ptr [rbx+00000288h]\r\n  00000001800C2A8B: cmp         dword ptr [rax],edi\r\n  00000001800C2A8D: je          00000001800C2AB1\r\n  00000001800C2A8F: mov         rcx,qword ptr [rbx+00000300h]\r\n  00000001800C2A96: mov         rdx,qword ptr [rbx+000001A8h]\r\n  00000001800C2A9D: lea         r9,[rcx+00000260h]\r\n  00000001800C2AA4: movss       xmm2,dword ptr [rcx+00000288h]\r\n  00000001800C2AAC: call        0000000180343200\r\n  00000001800C2AB1: mov         rcx,qword ptr [rbx+00000300h]\r\n  00000001800C2AB8: mov         rdx,qword ptr [rbx+00000278h]\r\n  00000001800C2ABF: mov         rax,qword ptr [rcx]\r\n  00000001800C2AC2: call        qword ptr [rax+000001F8h]\r\n  00000001800C2AC8: mov         r11,qword ptr [rbx+00000288h]\r\n  00000001800C2ACF: mov         rbx,qword ptr [rsp+30h]\r\n  00000001800C2AD4: mov         dword ptr [r11],edi\r\n  00000001800C2AD7: mov         al,1\r\n  00000001800C2AD9: add         rsp,20h\r\n  00000001800C2ADD: pop         rdi\r\n  00000001800C2ADE: ret\r\n  00000001800C2ADF: int         3\r\n  00000001800C2AE0: 88\r\n\r\n  Summary\r\n\r\n      5B6000 .text\r\n"
+    },
+    "Entity.updateAnimation.wrapper": {
+      "range": "0x1800C2940,0x1800C2960",
+      "disassembly": "Microsoft (R) COFF/PE Dumper Version 10.00.30319.01\r\nCopyright (C) Microsoft Corporation.  All rights reserved.\r\n\r\n\r\nDump of file D:\\steam\\steamapps\\common\\Kenshi\\OgreMain_x64.dll\r\n\r\nFile Type: DLL\r\n\r\n  00000001800C2940: sub         rsp,28h\r\n  00000001800C2944: cmp         qword ptr [rcx+00000300h],0\r\n  00000001800C294C: je          00000001800C2953\r\n  00000001800C294E: call        00000001800C1620\r\n  00000001800C2953: add         rsp,28h\r\n  00000001800C2957: ret\r\n  00000001800C2958: int         3\r\n  00000001800C2959: int         3\r\n  00000001800C295A: int         3\r\n  00000001800C295B: int         3\r\n  00000001800C295C: int         3\r\n  00000001800C295D: int         3\r\n  00000001800C295E: int         3\r\n  00000001800C295F: int         3\r\n  00000001800C2960: 48\r\n\r\n  Summary\r\n\r\n      5B6000 .text\r\n"
+    }
+  },
+  "finding": "骨骼更新清除 manual-dirty，身体缓存以该标记决定是否重算；旧姿势路径缺少蒙皮发布。该遗漏已修正，但尚未证明它是角色仅滑动的唯一原因。",
+  "changes": [
+    "移除插件相机写入",
+    "现有与包内 INI 设 CinematicCamera=0",
+    "逐身体/共享装备实例发布姿势并刷新蒙皮",
+    "临时阻止 AnimationState 重放且恢复原值",
+    "每次施放最多四条矩阵核对日志"
+  ],
+  "encoding": "保留原 UTF-8 BOM 状态及 CRLF；中文检查通过",
+  "verification": "98 项非编译检查通过",
+  "backups": [
+    "D:/CodexBackups/JudgementCutEnd-CameraPose-20261007-155730-373383",
+    "E:/AIWorkSpace/_backups/JudgementCutEnd-CameraPose-20261007-155730-373383",
+    "D:/CodexBackups/JudgementCutEnd-CameraPose-20261007-155858-468708",
+    "E:/AIWorkSpace/_backups/JudgementCutEnd-CameraPose-20261007-155858-468708"
+  ]
+}

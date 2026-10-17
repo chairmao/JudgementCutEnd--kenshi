@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\inspect_spatial_refraction.py",
+  "Role": "源资源只读取证工具",
+  "Code location": "inspect / curve_text",
+  "Before": "现有工具未读折射几何及变换",
+  "Changes": "增加SSE100严格网格、绑定、比例键和九条强度曲线解析",
+  "Reasons": "原NIF有九组LightingShader折射控制器，需要区分强度与Alpha",
+  "After": "可追溯提取源数据，输出只新建",
+  "Impact": "不执行游戏或覆盖源资源",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": null,
+    "after_sha256": "bf2c9a82e4935400b0f74f03f4cae59b5293bdb5d6c98b9d1088595d2a034db0"
+  },
+  "Unresolved": "原生Shader光照行为仍未移植"
+}

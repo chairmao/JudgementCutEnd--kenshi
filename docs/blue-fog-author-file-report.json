@@ -1,0 +1,13 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_blue_fog.py",
+  "Role": "蓝雾可复现作者脚本",
+  "Code location": "main/put和噪声生成",
+  "Before": "不存在",
+  "Changes": "添加当前固定基线的有界VFX生成、双备份与逐文件报告",
+  "Reasons": "用户授权更接近原版的蓝雾，需记录可复现输入",
+  "After": "新文件UTF-8/CRLF",
+  "Impact": "只修改本项目；不编译不部署",
+  "Validation": "ast.parse通过；字节读回与中文检查",
+  "Safety": "新文件无需覆盖备份；UTF-8无BOM/CRLF",
+  "Unresolved": "后续执行脚本与数值/跨层验证，最终实机待用户编译"
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\spatial-refraction-source-2.5.json",
+  "Role": "原NIF只读取证结果",
+  "Code location": "meshes / transforms / bindings / curves",
+  "Before": "前次仅确认九条控制器",
+  "Changes": "精确记录9网格、216位置/法线/UV、108三角及比例关键帧",
+  "Reasons": "为切裂拓扑和强度时序提供直接资源证据",
+  "After": "完整块解析通过，源文件不写入",
+  "Impact": "文档取证，不作为完整引擎模拟",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": null,
+    "after_sha256": "477b1fe2a99d00a06c67dec76c4abe43ef8ae8804b7233ef5ba3f0ba11f891ce"
+  },
+  "Unresolved": "源BSLightingShader的像素光照响应未确认"
+}

@@ -1,0 +1,481 @@
+{
+  "version": "1.2.1-dev",
+  "textures": [
+    {
+      "source": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\textures\\effects\\zjc\\4905\\blade_effect09.dds",
+      "source_sha256": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104",
+      "output": "jce_source_blade09.dds",
+      "output_sha256": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "source": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\textures\\effects\\zjc\\4905\\blade_effect08.dds",
+      "source_sha256": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57",
+      "output": "jce_source_blade08.dds",
+      "output_sha256": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "source": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\textures\\effects\\zjc\\fxsmokepuffanim01dark.dds",
+      "source_sha256": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b",
+      "output": "jce_source_dust.dds",
+      "output_sha256": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "source": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\textures\\effects\\zjc\\FXGlowSpotLinear.dds",
+      "source_sha256": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b",
+      "output": "jce_source_flash.dds",
+      "output_sha256": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "source": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\textures\\effects\\zjc\\fxspark.dds",
+      "source_sha256": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1",
+      "output": "jce_source_spark.dds",
+      "output_sha256": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "curves": [
+    {
+      "name": "screen_flash",
+      "nif": "JCE030ScreenFx.nif",
+      "nif_sha256": "20ec179575ee20357e4c8cc6a0130d2ccc19cf6239173e137dac06e34c4c5a40",
+      "sequence": 4,
+      "controller": 25,
+      "target": 107,
+      "node": "Flash02:0",
+      "frequency": 1.0,
+      "interpolator": 28,
+      "data": 29,
+      "interpolation": 2,
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "forward": -0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.05000000074505806,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.10000000149011612,
+          "value": 0.800000011920929,
+          "forward": -0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.20000000298023224,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.25,
+          "value": 0.8999999761581421,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.3499999940395355,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.4000000059604645,
+          "value": 0.699999988079071,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.44999998807907104,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 0.8500000238418579,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.550000011920929,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.6000000238418579,
+          "value": 0.5,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.6499999761581421,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.8999999761581421,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        }
+      ]
+    },
+    {
+      "name": "screen_veil",
+      "nif": "JCE030ScreenFx.nif",
+      "nif_sha256": "20ec179575ee20357e4c8cc6a0130d2ccc19cf6239173e137dac06e34c4c5a40",
+      "sequence": 4,
+      "controller": 33,
+      "target": 110,
+      "node": "Flash02:1",
+      "frequency": 1.0,
+      "interpolator": 36,
+      "data": 37,
+      "interpolation": 2,
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 1.100000023841858,
+          "forward": -0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.03999999910593033,
+          "value": 1.0,
+          "forward": 0.2501232922077179,
+          "backward": 0.28585517406463623
+        },
+        {
+          "time": 0.6000000238418579,
+          "value": 0.10000000149011612,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 2.5,
+          "value": 0.20276814699172974,
+          "forward": -0.5333333015441895,
+          "backward": -0.46666666865348816
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "forward": -0.0,
+          "backward": 0.0
+        }
+      ]
+    },
+    {
+      "name": "finish_glow",
+      "nif": "JCE040Finish.nif",
+      "nif_sha256": "d9ddf08565dd3f49e09bce4e17895066f334685c3846b42d9b2ad7a865467bcd",
+      "sequence": 5,
+      "controller": 34,
+      "target": 108,
+      "node": "Flash02:1",
+      "frequency": 1.0,
+      "interpolator": 37,
+      "data": 38,
+      "interpolation": 2,
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "forward": -0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.009999999776482582,
+          "value": 1.1299999952316284,
+          "forward": 0.2501232922077179,
+          "backward": 0.28585517406463623
+        },
+        {
+          "time": 0.25,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.33333298563957214,
+          "value": 0.0,
+          "forward": -0.5333333015441895,
+          "backward": -0.46666666865348816
+        },
+        {
+          "time": 0.4000000059604645,
+          "value": 0.0,
+          "forward": -0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        }
+      ]
+    },
+    {
+      "name": "finish_halo",
+      "nif": "JCE040Finish.nif",
+      "nif_sha256": "d9ddf08565dd3f49e09bce4e17895066f334685c3846b42d9b2ad7a865467bcd",
+      "sequence": 5,
+      "controller": 50,
+      "target": 120,
+      "node": "Torus01:0",
+      "frequency": 1.0,
+      "interpolator": 59,
+      "data": 60,
+      "interpolation": 2,
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "forward": -0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "value": 1.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.2666666805744171,
+          "value": 1.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.8333333730697632,
+          "value": 0.0,
+          "forward": -0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        }
+      ]
+    },
+    {
+      "name": "fracture_alpha",
+      "nif": "JCE030CutAllActi.nif",
+      "nif_sha256": "72928b557ba226888285178122e6e568706d8b5546ec7627b71c979841c29986",
+      "sequence": 4,
+      "controller": 190,
+      "target": 188,
+      "node": "GeoSphereRef:0",
+      "frequency": 1.159999966621399,
+      "interpolator": 196,
+      "data": 197,
+      "interpolation": 2,
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 1.0,
+          "forward": -0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.5,
+          "value": 1.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.5099999904632568,
+          "value": 0.8500000238418579,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 3.0,
+          "value": 0.5,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 4.0,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        }
+      ]
+    },
+    {
+      "name": "cut_flash",
+      "nif": "JCE030CutAllActi.nif",
+      "nif_sha256": "72928b557ba226888285178122e6e568706d8b5546ec7627b71c979841c29986",
+      "sequence": 4,
+      "controller": 25,
+      "target": 106,
+      "node": "Flash02:0",
+      "frequency": 1.159999966621399,
+      "interpolator": 28,
+      "data": 29,
+      "interpolation": 2,
+      "keys": [
+        {
+          "time": 0.0,
+          "value": 1.0,
+          "forward": -0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.10000000149011612,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.15000000596046448,
+          "value": 0.800000011920929,
+          "forward": -0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.25,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.30000001192092896,
+          "value": 0.8999999761581421,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.4000000059604645,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.44999998807907104,
+          "value": 0.699999988079071,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.550000011920929,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.6000000238418579,
+          "value": 0.8500000238418579,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.699999988079071,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.75,
+          "value": 0.5,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.8500000238418579,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 0.8999999761581421,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 0.0,
+          "forward": 0.0,
+          "backward": 0.0
+        }
+      ]
+    }
+  ],
+  "atlas": {
+    "texture": "jce_source_dust.dds",
+    "columns": 8,
+    "rows": 8,
+    "source": "原纹理64格可视核对",
+    "fps_adapter": 20
+  },
+  "event_mapping": {
+    "cut_source": 2.334,
+    "cut_runtime": 2.35,
+    "finish_source": 5.134,
+    "finish_runtime": 5.15,
+    "playback_rate": 3
+  },
+  "render_layers": 9,
+  "base_layers_preserved": 4,
+  "new_layers": [
+    "SourceBlade",
+    "SourceFeather",
+    "SourceDust",
+    "SourceFlash",
+    "SourceSpark"
+  ],
+  "runtime_dll_required": "1.2.1-dev",
+  "local_test_assets_only": true,
+  "limitations": [
+    "原NIF几何/发射器模拟未完整移植；用固定96路径和48雾片适配",
+    "烟尘atlas播放速率与HDR增益为Kenshi适配参数，不声称与Skyrim一致",
+    "Spark采用灰度强度加蓝白色，尚未完整实现原palette着色语义",
+    "原BSLightingShader屏幕效果仍以本插件既有空间HDR副本折射实现，无全屏接管",
+    "不代编译；不可把旧DLL与1.2.1资源验收状态混淆"
+  ],
+  "format_reference": "https://raw.githubusercontent.com/niftools/nifxml/develop/nif.xml",
+  "interpolation_reference": "https://github.com/niftools/nifskope/blob/develop/src/gl/glcontroller.cpp",
+  "credits": "原资源：ap05、elysees等；原模组含Bethesda/FO4纹理。仅本机测试，不声明可公开再分发。"
+}

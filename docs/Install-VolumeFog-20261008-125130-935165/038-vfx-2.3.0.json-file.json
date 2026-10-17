@@ -1,0 +1,16 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.3.0.json",
+  "Role": "Stage原生DLL及配套资源复制",
+  "Code location": "完整文件部署/安装身份",
+  "Before": "new file",
+  "Changes": "2.3连续雾配套DLL/资源",
+  "Reasons": "用户请求更新mod；已验证PE64、导出入口、2.3内嵌版本与源码时间",
+  "After": "a6e3f072717c6ed364de168559f7347fe2769779b5ec13b24ceabe787cfddcaa",
+  "Impact": "本项目和本地JudgementCutEnd mod；无游戏配置/存档/其他mod修改",
+  "Validation": "复制字节/哈希读回相等；UTF-8 no BOM; CRLF; unchanged byte copy or encoding preserved；未运行编译器或游戏测试",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM; CRLF; unchanged byte copy or encoding preserved"
+  },
+  "Unresolved": "新2.3实机雾气连贯性、深度遮挡与GPU帧率待用户按U测试"
+}

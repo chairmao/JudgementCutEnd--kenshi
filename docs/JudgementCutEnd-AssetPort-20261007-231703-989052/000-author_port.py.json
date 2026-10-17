@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+  "Role": "资源生产器",
+  "Code location": "足底补偿",
+  "Before": "8b18d9daa8e2a6f1cf0d9a8f3839e590f68ba779a11be10e9c7e487fd598e3b7",
+  "Changes": "同时纳入脚踝/足趾骨，避免只按足趾高度修正导致脚底低于地面",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "b587043f4334628a11a5b1ba0138ad2cccc6cbd0e300c6877729672548420942",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231703-989052\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231703-989052\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

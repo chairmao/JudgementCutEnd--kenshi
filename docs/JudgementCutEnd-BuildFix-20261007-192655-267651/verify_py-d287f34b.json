@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "非编译验证器",
+  "Code location": "main直接include检查",
+  "Before": "只核验部分类型头，没检测新CombatClass路径存在性",
+  "Changes": "检查全部直接引入的kenshi/core/ogre/mygui本地头文件存在性",
+  "Reasons": "191项行为/PE检查不能检查所有头路径；回归覆盖本次C1083根因",
+  "After": "0.2.9修正CombatClass头文件路径；已安装0.2.7不变",
+  "Impact": "仅 JudgementCutEnd；只修正依赖头文件路径并增加不编译检查，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-BuildFix-20261007-192655-267651\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BuildFix-20261007-192655-267651\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.9待用户编译Release|x64和实机验证；不代编译、不部署"
+}

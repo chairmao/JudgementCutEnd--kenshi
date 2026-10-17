@@ -1,0 +1,13 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_fast_audio.py",
+  "Role": "离线音效资产制作",
+  "Code location": "完整新文件",
+  "Before": "不存在",
+  "Changes": "独立制作2.233秒同步音效，保留原声采样率，带备份和证据",
+  "Reasons": "三倍演出需要重新安排音效触发，避免播放6.7秒旧轨道",
+  "After": "写入完成；未修改安装目录",
+  "Impact": "仅 JudgementCutEnd",
+  "Validation": "严格读回，UTF-8/CRLF，乱码扫描通过；运行验证另列",
+  "Safety": "新建不覆盖，UTF-8无BOM/CRLF",
+  "Unresolved": "新DLL待用户编译和实机验收"
+}

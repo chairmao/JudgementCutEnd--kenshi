@@ -1,0 +1,29 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+  "Role": "运行DLL/资源包",
+  "Code location": "JudgementCutEnd模组部署文件",
+  "Before": {
+    "sha256": "c0a5cbc54975ea770df65ac6057651d58cd34a6b4c3f651d7aaea6577fa016f0",
+    "size": 657,
+    "modified": "2026-10-08T12:41:50.928724",
+    "bom": null,
+    "crlf": 24,
+    "lf": 24
+  },
+  "Changes": "安装已核验2.4 DLL及对应资源，保持源文件字节",
+  "Reasons": "用户要求迅速更新最新模组",
+  "After": {
+    "sha256": "0342735b28f587606549276db1f68a92f193589eaf33d918e993463652e7b4c3",
+    "size": 1048
+  },
+  "Impact": "下次启动游戏加载2.4；游戏效果待验证",
+  "Validation": "逐文件SHA256一致；备份哈希已核验；未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-135445-1293763\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-135445-1293763\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.program"
+    ],
+    "encoding": "字节复制保留源编码、BOM与换行"
+  },
+  "Unresolved": "实机烟感、透明排序及帧率尚未验收"
+}

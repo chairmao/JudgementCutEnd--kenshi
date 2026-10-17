@@ -1,0 +1,23 @@
+{
+  "version": "2.9.6-dev",
+  "source_sha256": "B89315127854343BA3D10EB405B2B1E8848D22A2F8CECA037D6983DE720C1F67",
+  "scope": "optical content projection and own-visual-inclusive snapshot only",
+  "source_assets": 3,
+  "instances": 5,
+  "vertices": 120,
+  "triangles": 60,
+  "vertex_contract": "TEXCOORD4=float3 reference local position; VP output TEXCOORD7=float4 reference clip",
+  "HDR_copies_per_frame": 1,
+  "HDR_capture": "mode>=3: before section3 after own visual sections; modes0/1/2: before first own section",
+  "max_displacement_pixels": 36,
+  "geometry_and_colors": "unchanged from2.9.5",
+  "resources": {
+    "jce_facets296.hlsl": "790D496F063462765D6F063A62A37C04D328099D54075A406DB7061ADF7DBE49",
+    "jce_facets296.program": "D07EB67D1972A16BE48BEA462AAAB299EF0A6EEFBB6BF1B0A0A2EC80A2CD2F07",
+    "jce.material": "5871B9A342D16DD37D6EC468AA759B250A36C55FAA040BEF9D4E03AAF0973D3D",
+    "jce_facets29.csv": "FCA82D54DB3080C3F847A32091AC23060B76C9E02D7703B88177770D9E713FC3",
+    "jce_source_optical_mask.dds": "A3F29383DE8BB46BB69B75475067DE5DD1238CCE41793CE6E04950B7749B19FD"
+  },
+  "compilation": "not run by policy",
+  "runtime": "not verified"
+}

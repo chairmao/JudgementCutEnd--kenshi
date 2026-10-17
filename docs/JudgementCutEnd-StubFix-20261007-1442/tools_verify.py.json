@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "只读非编译验证",
+  "Code location": "工程优化与原生桩调用合同",
+  "Before": "未检查优化或真实导出地址路径",
+  "Changes": "新增 WPO/LTCG/增量链接和真实桩边界校验，更新双挂钩调用检查",
+  "Reasons": "本次断言是通过静态旧检查但实际绑定错误的缺口",
+  "After": "修改已写入；需要重新编译/部署才影响游戏运行",
+  "Impact": "仅限本插件项目/分发包，不写其他模组及运行游戏",
+  "Validation": "UTF-8/BOM/CRLF/中文严格回读；专项非编译检查随后另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8",
+    "line_endings": "CRLF",
+    "sha256": "04cd95d47f320ad549e9219c36c348fa4b4a579e704d1405f2ce2cc6781565d9"
+  },
+  "Unresolved": "新 DLL 编译/安装和实机验收仍待完成"
+}

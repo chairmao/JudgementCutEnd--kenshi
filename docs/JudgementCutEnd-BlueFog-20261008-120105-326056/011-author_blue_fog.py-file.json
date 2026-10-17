@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_blue_fog.py",
+  "Role": "可复现作者脚本",
+  "Code location": "生成两种FP早退/扫描标记字面量",
+  "Before": "作者初稿未包含即时性能修订；检测器标记本身被误判",
+  "Changes": "同步零Alpha早退；检测器用无损Unicode转义",
+  "Reasons": "生成端与实际shader一致，检查器标记不冒充乱码",
+  "After": "b1e26912728e3f7ab32aad48f9e1d50c526ccf0e77db9a17bf56264f5ee169ea",
+  "Impact": "仅本作者脚本，仍拒绝非原始基线重复覆写",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-BlueFog-20261008-120621-169731\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_blue_fog.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BlueFog-20261008-120621-169731\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_blue_fog.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "6add5817193cb6c99f88b0a97ad30771646dbeb2d1bfb470526978202d20a862"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+    "Role": "插件特效数据与绘制层",
+    "Code location": "LoadSourceFacets / WideFacetPoint / WideFacetNormal / SpatialFracture",
+    "Before": "C3C47FC0743AE1C60C89330097533BE3253DC0F9D324170BDE1235223EB80729",
+    "Changes": "源宽面正交基拟合为立向裂面；法线逆转置；增加有界投影日志；版本2.9.2",
+    "Reasons": "27E8D6视频仅局部错位；2.9.1宽面329×121且接近水平，启动日志不证明屏幕覆盖",
+    "After": "FF0941B5D19F4A1AE922A9D88619D6960F02BDB92E875DF8D7174C715A1C55E9",
+    "Impact": "仅自有特效；新DLL与292材质配套，旧资源保留",
+    "Validation": "写后字节、UTF8、CRLF、中文检查通过；后续专项静态检查",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JCE-UprightProbe292-20261010-002156\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JCE-UprightProbe292-20261010-002156\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+      ],
+      "encoding": "UTF-8 BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "按规则未编译；GPU实际覆盖、观感及性能待用户游戏测试"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_facets292.hlsl",
+    "Role": "GPU光学裂面",
+    "Code location": "jce_facet292_vp / jce_facet292_fp",
+    "Before": "new",
+    "Changes": "保留两次采样及36px预算；宽面内部完整替换，源遮罩柔边",
+    "Reasons": "原连续半透明混合弱化背景轮廓",
+    "After": "797EE5E26C6E750D1FE425017E56D572E9B63166D28EC1ACA92D3DD44015BEBE",
+    "Impact": "仅自有特效；新DLL与292材质配套，旧资源保留",
+    "Validation": "写后字节、UTF8、CRLF、中文检查通过；后续专项静态检查",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "按规则未编译；GPU实际覆盖、观感及性能待用户游戏测试"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_facets292.program",
+    "Role": "OGRE shader绑定",
+    "Code location": "Facet292_VP / Facet292_FP",
+    "Before": "new",
+    "Changes": "新资源名称，语义和自动矩阵参数不变",
+    "Reasons": "防止已有shader缓存/旧DLL误用新合同",
+    "After": "EA8338C05B8257B55372744E78AF8FDC4560CF1680C5348B032A4F659EF41C83",
+    "Impact": "仅自有特效；新DLL与292材质配套，旧资源保留",
+    "Validation": "写后字节、UTF8、CRLF、中文检查通过；后续专项静态检查",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "按规则未编译；GPU实际覆盖、观感及性能待用户游戏测试"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+    "Role": "材质绑定层",
+    "Code location": "JCE/Refraction",
+    "Before": "C182E1C4A7446EBFBAEB3A9BCC8EBAD442E56617DB5C9D2D5A0FC70E22550D08",
+    "Changes": "绑定Facet292；保留世界深度和Alpha混合及纹理槽位",
+    "Reasons": "配套立向宽面shader",
+    "After": "397615DFB107AA47E09420F4486D0273C34BC10C0820C69D892508031777E186",
+    "Impact": "仅自有特效；新DLL与292材质配套，旧资源保留",
+    "Validation": "写后字节、UTF8、CRLF、中文检查通过；后续专项静态检查",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JCE-UprightProbe292-20261010-002156\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+        "E:\\AIWorkSpace\\_backups\\JCE-UprightProbe292-20261010-002156\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material"
+      ],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "按规则未编译；GPU实际覆盖、观感及性能待用户游戏测试"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.9.2.json",
+    "Role": "发布合同记录",
+    "Code location": "2.9.2 source/resource hashes",
+    "Before": "new",
+    "Changes": "记录源身份、适配边界和待编译状态",
+    "Reasons": "让用户能核对配套版本，不冒称GPU验收",
+    "After": "E217397AEC19A808A8C158FB10E25A0B48D50EE8B95AF8EC23BF5357E34C917C",
+    "Impact": "仅自有特效；新DLL与292材质配套，旧资源保留",
+    "Validation": "写后字节、UTF8、CRLF、中文检查通过；后续专项静态检查",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "按规则未编译；GPU实际覆盖、观感及性能待用户游戏测试"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\upright-facet-2.9.2\\README.md",
+    "Role": "本次特效适配/验收文档",
+    "Code location": "完整新文档",
+    "Before": "new",
+    "Changes": "记录参考边界、行为、尺寸、验证及编译要求",
+    "Reasons": "防止将静态成功误称实机成功",
+    "After": "2D918F093B94092D1BC28AC3E4210EB1D36A851CE4EBCB6F05CB5AADC791B731",
+    "Impact": "不影响游戏逻辑",
+    "Validation": "UTF8/CRLF/中文与字节读回；关联1455项静态检查",
+    "Safety": {
+      "backups": "new file; no previous file",
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "待用户编译与游戏验收"
+  }
+]

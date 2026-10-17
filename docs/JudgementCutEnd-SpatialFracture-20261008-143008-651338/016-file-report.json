@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "机器可读项目状态",
+  "Code location": "当前源码/安装/验证状态",
+  "Before": "2.4源码与安装均最新",
+  "Changes": "将2.5源码和2.4安装状态分开，保留旧记录",
+  "Reasons": "防止旧编译成功状态归到2.5",
+  "After": "明确待用户编译/部署/测试",
+  "Impact": "文档状态，不改安装资源",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": "bc3a249de66a6024701531ef4842a64eeee8a965e9b691d8600ac7da7e1c0441",
+    "after_sha256": "de4025d52d01b2f3127d71c0bb4d0535380f7ba6d447f7cd8ef6880316cef353"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

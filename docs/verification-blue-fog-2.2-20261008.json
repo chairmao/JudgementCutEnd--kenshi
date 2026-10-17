@@ -1,0 +1,481 @@
+{
+  "passed": true,
+  "check_count": 114,
+  "checks": [
+    {
+      "name": "cpp exact original backed up to two roots",
+      "passed": true
+    },
+    {
+      "name": "complete source identity outside authorized VFX/log/version regions",
+      "passed": true
+    },
+    {
+      "name": "protected full function void RestoreTime(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void Begin(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void Finish(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void Tick(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void Damage(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void Pose(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void MakeResources(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void ReleaseGraphics(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void CaptureBackground(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void PrepareRefraction(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void Collect(",
+      "passed": true
+    },
+    {
+      "name": "protected full function bool InArea(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void FitSlashLayout(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void GroundRing(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void SourceSprite(",
+      "passed": true
+    },
+    {
+      "name": "protected full function void SourceSparks(",
+      "passed": true
+    },
+    {
+      "name": "protected full function intptr_t NativeAddress(",
+      "passed": true
+    },
+    {
+      "name": "unmodified material Glow",
+      "passed": true
+    },
+    {
+      "name": "unmodified material Glass",
+      "passed": true
+    },
+    {
+      "name": "unmodified material Refraction",
+      "passed": true
+    },
+    {
+      "name": "unmodified material SourceBlade",
+      "passed": true
+    },
+    {
+      "name": "unmodified material SourceFeather",
+      "passed": true
+    },
+    {
+      "name": "unmodified material SourceFlash",
+      "passed": true
+    },
+    {
+      "name": "unmodified material SourceSpark",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce.clip",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_glass.tga",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_mist.tga",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_phantom.bin",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_shards.csv",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_source_blade09.dds",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_source_dust.dds",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_source_flash.dds",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_source_spark.dds",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\slashes.csv",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\vfx-1.1.1.json",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\LICENSE",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\RE_Kenshi.json",
+      "passed": true
+    },
+    {
+      "name": "existing package/source unchanged package\\JudgementCutEnd\\README.md",
+      "passed": true
+    },
+    {
+      "name": "all installed artifacts unchanged",
+      "passed": true
+    },
+    {
+      "name": "all formal artifacts unchanged",
+      "passed": true
+    },
+    {
+      "name": "all external_dll artifacts unchanged",
+      "passed": true
+    },
+    {
+      "name": "original palette copied byte-for-byte and source still unchanged",
+      "passed": true
+    },
+    {
+      "name": "original NIF still unchanged",
+      "passed": true
+    },
+    {
+      "name": "shader brackets balanced after masking",
+      "passed": true
+    },
+    {
+      "name": "source C++ braces balanced after masking",
+      "passed": true
+    },
+    {
+      "name": "local-space VP matrix and texture-clock pass-through contract",
+      "passed": true
+    },
+    {
+      "name": "SDK provides exact four-component textureCoord virtual overload",
+      "passed": true
+    },
+    {
+      "name": "program actual entry jce_fog_vp",
+      "passed": true
+    },
+    {
+      "name": "program actual entry jce_mist_fp",
+      "passed": true
+    },
+    {
+      "name": "program actual entry jce_smoke_fp",
+      "passed": true
+    },
+    {
+      "name": "own shader material Mist",
+      "passed": true
+    },
+    {
+      "name": "texture register order Mist",
+      "passed": true
+    },
+    {
+      "name": "texture existence Mist",
+      "passed": true
+    },
+    {
+      "name": "world depth and normal alpha Mist",
+      "passed": true
+    },
+    {
+      "name": "own shader material SourceDust",
+      "passed": true
+    },
+    {
+      "name": "texture register order SourceDust",
+      "passed": true
+    },
+    {
+      "name": "texture existence SourceDust",
+      "passed": true
+    },
+    {
+      "name": "world depth and normal alpha SourceDust",
+      "passed": true
+    },
+    {
+      "name": "explicit sampler slots 0/1/2",
+      "passed": true
+    },
+    {
+      "name": "no density cutoff or dustDetail in new smoke",
+      "passed": true
+    },
+    {
+      "name": "strict zero-alpha early exits",
+      "passed": true
+    },
+    {
+      "name": "no game/scene depth read or fullscreen postprocess",
+      "passed": true
+    },
+    {
+      "name": "fixed cloud producer matches 96 slots",
+      "passed": true
+    },
+    {
+      "name": "halfball shell producer removed",
+      "passed": true
+    },
+    {
+      "name": "144 stable sorted stream segment slots",
+      "passed": true
+    },
+    {
+      "name": "mist four-component UV clock/radius",
+      "passed": true
+    },
+    {
+      "name": "smoke four-component UV frame/radius",
+      "passed": true
+    },
+    {
+      "name": "particle loops no allocation IO medical calls logging or material lookup",
+      "passed": true
+    },
+    {
+      "name": "v100 loops no C++11 constructs",
+      "passed": true
+    },
+    {
+      "name": "conservative geometry budget",
+      "passed": true
+    },
+    {
+      "name": "96 real slash records",
+      "passed": true
+    },
+    {
+      "name": "lifecycle real fps 15",
+      "passed": true
+    },
+    {
+      "name": "lifecycle real fps 30",
+      "passed": true
+    },
+    {
+      "name": "lifecycle real fps 60",
+      "passed": true
+    },
+    {
+      "name": "lifecycle real fps 144",
+      "passed": true
+    },
+    {
+      "name": "all 144 independent segments become visible",
+      "passed": true
+    },
+    {
+      "name": "no post-sheath new birth; END no remaining alpha",
+      "passed": true
+    },
+    {
+      "name": "perspective/overhead/path-aligned/degenerate eyes keep finite bounded smoke corners",
+      "passed": true
+    },
+    {
+      "name": "all quad edges transparent with soft interior",
+      "passed": true
+    },
+    {
+      "name": "hemisphere fade at same 350 radius, no hard exterior",
+      "passed": true
+    },
+    {
+      "name": "low-density smoke retained; original zero alpha stays zero",
+      "passed": true
+    },
+    {
+      "name": "both interpolated atlas frames inside original 64 cells",
+      "passed": true
+    },
+    {
+      "name": "bounded low-frequency RG noise field",
+      "passed": true
+    },
+    {
+      "name": "periodic noise bilinear seam is smooth",
+      "passed": true
+    },
+    {
+      "name": "palette adaptation retains blue/green/red separation without HDR clipping",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF readable Chinese JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF readable Chinese author_blue_fog.py",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF readable Chinese verify_blue_fog.py",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF readable Chinese jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF readable Chinese jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF readable Chinese jce.material",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF readable Chinese jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "encoding CRLF readable Chinese vfx-2.2.0.json",
+      "passed": true
+    },
+    {
+      "name": "CPP BOM preserved",
+      "passed": true
+    },
+    {
+      "name": "all new shader/material references resolve",
+      "passed": true
+    },
+    {
+      "name": "new source cannot pass old binary deployment guard",
+      "passed": true
+    }
+  ],
+  "native_compile_run": false,
+  "shader_compile_run": false,
+  "installed": false,
+  "game_tested": false,
+  "source_version": "2.2.0-dev",
+  "resource_revision": "2.2-blue-wisps-r1",
+  "conservative_geometry": {
+    "vertices": 17620,
+    "indices": 44286,
+    "previous_vertices": 19828,
+    "previous_indices": 47598
+  },
+  "lifecycle_samples": 80784,
+  "bounded_smoke_corners": 64512,
+  "noise_seam_max_byte_difference": 1,
+  "limitations": [
+    "未运行C++/HLSL编译器",
+    "模型与文本检查不能证明实际GPU行为/透明排序/帧率/最终视觉"
+  ]
+}

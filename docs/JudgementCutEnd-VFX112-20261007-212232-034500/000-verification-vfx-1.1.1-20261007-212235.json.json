@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-vfx-1.1.1-20261007-212235.json",
+  "Role": "非编译检查记录",
+  "Code location": "265项回归/特效核验",
+  "Before": "absent",
+  "Changes": "全部通过；真实游戏/C++编译仍未进行",
+  "Reasons": "用户提供参考图要求空间碎裂光影、每道多层残迹、整体灰色半球气氛",
+  "After": "6f55c7aeb1a861794c7a77f26d8b0ff78fcb902207d8c1e80250efac13104482",
+  "Impact": "仅JudgementCutEnd特效；伤害/控制/角色动作合同保持",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；游戏HDR/透明排序/性能待实测"
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+  "Role": "资源与编译边界静态检查",
+  "Code location": "源码版本和已编译产物身份",
+  "Before": "e59e306fe22d011eff6474ba0d7b5e174e3db8670be70123abc189085985bc34",
+  "Changes": "1.2.1须重新编译；不把旧1.2.0 DLL认作新特效实现",
+  "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+  "After": "dd2262271c2e96149cec68341f406bca425e10252da0e5f59459cdb6500a30a6",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

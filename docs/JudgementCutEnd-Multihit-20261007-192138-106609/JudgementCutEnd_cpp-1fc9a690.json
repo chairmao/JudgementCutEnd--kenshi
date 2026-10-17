@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "医疗批次生命周期",
+  "Code location": "Runtime::Damage目标边界",
+  "Before": "跨目标仍沿用前一回调前的caster/stats",
+  "Changes": "每目标重新解析施法者及stats和武器；失效结束剩余目标",
+  "Reasons": "同步医疗回调后不假设实体生命周期永远不变",
+  "After": "0.2.9源码按96条裂痕独立结算并增加大踉跄；已安装0.2.7不变",
+  "Impact": "仅 JudgementCutEnd；96次100%武器伤害与原生大踉跄反应，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Multihit-20261007-192138-106609\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Multihit-20261007-192138-106609\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.9待用户编译Release|x64和实机验证；不代编译、不部署"
+}

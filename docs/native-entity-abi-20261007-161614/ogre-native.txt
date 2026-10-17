@@ -1,0 +1,157 @@
+Microsoft (R) COFF/PE Dumper Version 10.00.30319.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file D:\steam\steamapps\common\Kenshi\OgreMain_x64.dll
+
+File Type: DLL
+
+  0000000180013A50: 48 8B 81 78 02 00  mov         rax,qword ptr [rcx+00000278h]
+                    00
+  0000000180013A57: C3                 ret
+  0000000180013A58: CC                 int         3
+  0000000180013A59: CC                 int         3
+  0000000180013A5A: CC                 int         3
+  0000000180013A5B: CC                 int         3
+  0000000180013A5C: CC                 int         3
+  0000000180013A5D: CC                 int         3
+  0000000180013A5E: CC                 int         3
+  0000000180013A5F: CC                 int         3
+  0000000180013A60: 0F B7 81 80 02 00  movzx       eax,word ptr [rcx+00000280h]
+                    00
+  0000000180013A67: C3                 ret
+  0000000180013A68: CC                 int         3
+  0000000180013A69: CC                 int         3
+  0000000180013A6A: CC                 int         3
+  0000000180013A6B: CC                 int         3
+  0000000180013A6C: CC                 int         3
+  0000000180013A6D: CC                 int         3
+  0000000180013A6E: CC                 int         3
+  0000000180013A6F: CC                 int         3
+  0000000180013A70: 33 C0              xor         eax,eax
+  0000000180013A72: 48 39 81 00 03 00  cmp         qword ptr [rcx+00000300h],rax
+                    00
+  0000000180013A79: 0F 95 C0           setne       al
+  0000000180013A7C: C3                 ret
+  0000000180013A7D: CC                 int         3
+  0000000180013A7E: CC                 int         3
+  0000000180013A7F: CC                 int         3
+  0000000180013A80: 48 8B 81 00 03 00  mov         rax,qword ptr [rcx+00000300h]
+                    00
+  0000000180013A87: C3                 ret
+  0000000180013A88: CC                 int         3
+  0000000180013A89: CC                 int         3
+  0000000180013A8A: CC                 int         3
+  0000000180013A8B: CC                 int         3
+  0000000180013A8C: CC                 int         3
+  0000000180013A8D: CC                 int         3
+  0000000180013A8E: CC                 int         3
+  0000000180013A8F: CC                 int         3
+  0000000180013A90: 8B 81 D0 02 00 00  mov         eax,dword ptr [rcx+000002D0h]
+  0000000180013A96: C3                 ret
+  0000000180013A97: CC                 int         3
+  0000000180013A98: CC                 int         3
+  0000000180013A99: CC                 int         3
+  0000000180013A9A: CC                 int         3
+  0000000180013A9B: CC                 int         3
+  0000000180013A9C: CC                 int         3
+  0000000180013A9D: CC                 int         3
+  0000000180013A9E: CC                 int         3
+  0000000180013A9F: CC                 int         3
+  0000000180013AA0: 8B 81 D4 02 00 00  mov         eax,dword ptr [rcx+000002D4h]
+  0000000180013AA6: C3                 ret
+  0000000180013AA7: CC                 int         3
+  0000000180013AA8: CC                 int         3
+  0000000180013AA9: CC                 int         3
+  0000000180013AAA: CC                 int         3
+  0000000180013AAB: CC                 int         3
+  0000000180013AAC: CC                 int         3
+  0000000180013AAD: CC                 int         3
+  0000000180013AAE: CC                 int         3
+  0000000180013AAF: CC                 int         3
+  0000000180013AB0: 33 C0              xor         eax,eax
+  0000000180013AB2: 48 39 81 90 02 00  cmp         qword ptr [rcx+00000290h],rax
+                    00
+  0000000180013AB9: 0F 95 C0           setne       al
+  0000000180013ABC: C3                 ret
+  0000000180013ABD: CC                 int         3
+  0000000180013ABE: CC                 int         3
+  0000000180013ABF: CC                 int         3
+  0000000180013AC0: 48 8B 81 90 02 00  mov         rax,qword ptr [rcx+00000290h]
+                    00
+  0000000180013AC7: C3                 ret
+  0000000180013AC8: CC                 int         3
+  0000000180013AC9: CC                 int         3
+  0000000180013ACA: CC                 int         3
+  0000000180013ACB: CC                 int         3
+  0000000180013ACC: CC                 int         3
+  0000000180013ACD: CC                 int         3
+  0000000180013ACE: CC                 int         3
+  0000000180013ACF: CC                 int         3
+  0000000180013AD0: 48 83 EC 28        sub         rsp,28h
+  0000000180013AD4: 48 83 B9 88 02 00  cmp         qword ptr [rcx+00000288h],0
+                    00 00
+  0000000180013ADC: 74 18              je          0000000180013AF6
+  0000000180013ADE: 48 8B 81 88 02 00  mov         rax,qword ptr [rcx+00000288h]
+                    00
+  0000000180013AE5: FF 08              dec         dword ptr [rax]
+  0000000180013AE7: 48 83 B9 00 03 00  cmp         qword ptr [rcx+00000300h],0
+                    00 00
+  0000000180013AEF: 74 05              je          0000000180013AF6
+  0000000180013AF1: E8 2A DB 0A 00     call        00000001800C1620
+  0000000180013AF6: 48 83 C4 28        add         rsp,28h
+  0000000180013AFA: C3                 ret
+  0000000180013AFB: CC                 int         3
+  0000000180013AFC: CC                 int         3
+  0000000180013AFD: CC                 int         3
+  0000000180013AFE: CC                 int         3
+  0000000180013AFF: CC                 int         3
+  0000000180013B00: 0F B6 81 68 02 00  movzx       eax,byte ptr [rcx+00000268h]
+                    00
+  0000000180013B07: C3                 ret
+  0000000180013B08: CC                 int         3
+  0000000180013B09: CC                 int         3
+  0000000180013B0A: CC                 int         3
+  0000000180013B0B: CC                 int         3
+  0000000180013B0C: CC                 int         3
+  0000000180013B0D: CC                 int         3
+  0000000180013B0E: CC                 int         3
+  0000000180013B0F: CC                 int         3
+  0000000180013B10: 0F B6 81 08 03 00  movzx       eax,byte ptr [rcx+00000308h]
+                    00
+  0000000180013B17: C3                 ret
+  0000000180013B18: CC                 int         3
+  0000000180013B19: CC                 int         3
+  0000000180013B1A: CC                 int         3
+  0000000180013B1B: CC                 int         3
+  0000000180013B1C: CC                 int         3
+  0000000180013B1D: CC                 int         3
+  0000000180013B1E: CC                 int         3
+  0000000180013B1F: CC                 int         3
+  0000000180013B20: 88 91 D8 02 00 00  mov         byte ptr [rcx+000002D8h],dl
+  0000000180013B26: C3                 ret
+  0000000180013B27: CC                 int         3
+  0000000180013B28: CC                 int         3
+  0000000180013B29: CC                 int         3
+  0000000180013B2A: CC                 int         3
+  0000000180013B2B: CC                 int         3
+  0000000180013B2C: CC                 int         3
+  0000000180013B2D: CC                 int         3
+  0000000180013B2E: CC                 int         3
+  0000000180013B2F: CC                 int         3
+  0000000180013B30: 0F B6 81 D8 02 00  movzx       eax,byte ptr [rcx+000002D8h]
+                    00
+  0000000180013B37: C3                 ret
+  0000000180013B38: CC                 int         3
+  0000000180013B39: CC                 int         3
+  0000000180013B3A: CC                 int         3
+  0000000180013B3B: CC                 int         3
+  0000000180013B3C: CC                 int         3
+  0000000180013B3D: CC                 int         3
+  0000000180013B3E: CC                 int         3
+  0000000180013B3F: CC                 int         3
+  0000000180013B40: 88
+
+  Summary
+
+      5B6000 .text

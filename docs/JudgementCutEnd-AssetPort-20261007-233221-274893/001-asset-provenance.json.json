@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-provenance.json",
+  "Role": "来源索引",
+  "Code location": "1.2.0实际动画来源",
+  "Before": "d01a022c0723143d50de16ebdf5672d466d069f35a93ae0610f46880039febad",
+  "Changes": "更正旧独立IK动画表述，关联真实解码/骨架/输出证据",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "45ad1426a9e9d4e0754c9dfe6914ec18dc15a68aec6509058907c5b480f67e57",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233221-274893\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-provenance.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233221-274893\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-provenance.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

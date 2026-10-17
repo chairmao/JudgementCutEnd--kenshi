@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "directory": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\2.0.0",
+  "zip": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-2.0.0-release.zip",
+  "zip_sha256": "4e47e90b637180c8fdf16002bab0e05469cb034d19ad363d6c896d0f74a066b7",
+  "zip_size": 8207693,
+  "original_internal_version": "1.2.1-dev",
+  "hashes_verified": true,
+  "source_and_runtime_file_count": 500,
+  "special_backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-Formal2Clean-20261008-013448-433715\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Formal2Clean-20261008-013448-433715\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases"
+  ],
+  "ide_cache_in_release_zip": false
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目状态",
+  "Code location": "资源版本与已编译DLL分别记录",
+  "Before": "132dee72ba660e0c52509a6863c63511c0f959ca1ce15ce0758b8620923ef9b9",
+  "Changes": "保留用户已编译DLL状态；将修正资源标为待部署、实机未验收",
+  "Reasons": "记录用户本次头部扭转修正、原模组特效读取结果与部署边界",
+  "After": "407a5d79d4c021e007386efb587bb9a1c25c3e43001795923044cca200c563cd",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-RetargetDelivery-20261008-002725-698374\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-RetargetDelivery-20261008-002725-698374\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "本轮资源修正无需重编译；游戏内外观验收未完成"
+}

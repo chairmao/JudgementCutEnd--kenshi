@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目行为与构建说明",
+  "Code location": "版本摘要及0.2.5章节",
+  "Before": "文档将0.2.4标为等待测试，并错误描述收鞘缓存",
+  "Changes": "记录实测回归和已纠正假设、原生准备/恢复流程、当前旧DLL状态",
+  "Reasons": "避免源码修复与已安装DLL混淆，明确原生缓存证据与实机未知边界",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；修复武器准备和演出放行，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-WeaponGateFix-20261007-181233-613608\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-WeaponGateFix-20261007-181233-613608\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.5待用户编译与实机验证；已安装DLL仍是0.2.4"
+}

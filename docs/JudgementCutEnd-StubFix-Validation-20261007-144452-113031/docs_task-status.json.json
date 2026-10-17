@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "状态记录",
+  "Code location": "实测版本 / 静态检查数量",
+  "Before": "检查数量仍为旧 59 项，旧版实测与新版字段混用",
+  "Changes": "记录 62 项通过，明确测试失败版本是 0.1.1，新 0.1.2 未测",
+  "Reasons": "62 项静态检查输出与新增 verification-evidence.json 桩表验证均已通过",
+  "After": "修改已写入；需要重新编译/部署才影响游戏运行",
+  "Impact": "仅限本插件项目/分发包，不写其他模组及运行游戏",
+  "Validation": "UTF-8/BOM/CRLF/中文严格回读；专项非编译检查随后另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-StubFix-Validation-20261007-144452-113031\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-StubFix-Validation-20261007-144452-113031\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8",
+    "line_endings": "CRLF",
+    "sha256": "015f9b739652c957d9f3eb1b0e739741952c9fa80ac6a09123a230dfc55166ff"
+  },
+  "Unresolved": "新 DLL 编译/安装和实机验收仍待完成"
+}

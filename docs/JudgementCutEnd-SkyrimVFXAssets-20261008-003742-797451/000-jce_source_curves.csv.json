@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+  "Role": "运行时源曲线",
+  "Code location": "6条原Alpha曲线及归一化切线",
+  "Before": "absent",
+  "Changes": "按实际引用导出，禁止按文件中出现顺序猜测用途",
+  "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+  "After": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证"
+}

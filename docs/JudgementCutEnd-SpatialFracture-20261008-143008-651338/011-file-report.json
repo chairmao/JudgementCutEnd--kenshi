@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "空间折射失败兼容路径",
+  "Code location": "OpticalVertex / Draw section3 fallback",
+  "Before": "旧两分量UV占位可能与新四分量UV声明不一致",
+  "Changes": "零Alpha占位也用OpticalVertex四分量UV；正常顶点Alpha默认1",
+  "Reasons": "中途capture失效进入下一帧BeginUpdate仍需相同顶点声明",
+  "After": "失败仅关闭光学层，不影响其他层和声明一致性",
+  "Impact": "仅故障分支/光学顶点Alpha参数，无伤害或时间改动",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338-fallback-144927-050393\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338-fallback-144927-050393\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "utf-8-sig",
+    "line_endings": "CRLF",
+    "original_sha256": "47b2613e6f98b45aa86bfbca58624c27cd7e5bc55e149c902a182d8a57370082",
+    "after_sha256": "26272a145e6e5e9863d3a4aa476f571e1a495b81d8dea33d9279a7344c05cb24"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

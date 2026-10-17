@@ -1,0 +1,23 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+  "Role": "游戏模组部署说明",
+  "Code location": "JudgementCutEnd模组部署文件",
+  "Before": {
+    "sha256": "d3697cadba0d8f9b2667b23eaf7c32f7d3f6eb23947ec7c109f65ef63051d00e"
+  },
+  "Changes": "更新2.4用户构建已核验、已部署状态；未声明实机效果通过",
+  "Reasons": "用户要求迅速更新最新模组",
+  "After": {
+    "sha256": "a04a0dc7da8724eaa7a58d53ff7f19c3c4fbfb091d098951824ec29cc99e6663"
+  },
+  "Impact": "下次启动游戏加载2.4；游戏效果待验证",
+  "Validation": "逐文件SHA256一致；备份哈希已核验；未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\install-smoke-2.4-20261008-135444-045060-state\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\install-smoke-2.4-20261008-135444-045060-state\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8无BOM / CRLF"
+  },
+  "Unresolved": "实机烟感、透明排序及帧率尚未验收"
+}

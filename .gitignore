@@ -1,0 +1,41 @@
+# JudgementCutEnd 仓库忽略规则
+# 原则：只把「源码 + 文档 + 可复现模组的美术/音频资源」放进 git；
+# 历史发行包、离线预览、编译产物一律排除（体积与二进制污染）。
+
+# ---------- 编译产物 / IDE 临时文件 ----------
+obj/
+bin/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+.vs/
+
+# 用户本地编译出的 DLL/PDB 不进仓库；分发走 GitHub Releases 附件
+package/JudgementCutEnd/*.dll
+package/JudgementCutEnd/*.pdb
+package/JudgementCutEnd/logs/
+
+# ---------- 历史发行包与离线预览 ----------
+# releases/ 约 309 MB（9 个 zip、50 MB 的 .db、44 MB 的 .mp4），
+# GitHub 单文件上限 100 MB 且会永久撑大仓库历史，故整目录排除。
+releases/
+# preview/ 是 3.3 MB 的离线 HTML 场景预览（index.html + scene.json），不属于源码。
+preview/
+
+# ---------- 通用大文件与运行时残留（兜底） ----------
+*.zip
+*.7z
+*.rar
+*.db
+*.mp4
+*.pdb
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
+
+# ---------- 仅供本地协作的内部说明，不公开 ----------
+# AGENTS.md 记录本机备份路径与协作规则，只在本机生效，不随公开仓库分发。
+AGENTS.md

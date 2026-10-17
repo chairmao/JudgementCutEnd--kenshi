@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+  "Role": "发布操作说明",
+  "Code location": "施放/冷却/诊断/版本",
+  "Before": "15秒冷却说明",
+  "Changes": "更新0.2.7无冷却覆盖重播与伤害规则；156非编译检查",
+  "Reasons": "提供与发布配置一致的使用指南",
+  "After": "0.2.7源码取消冷却并支持按键覆盖；已安装0.2.5不变",
+  "Impact": "仅 JudgementCutEnd；取消冷却并清理后重新施放，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Recast-20261007-184705-410089\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Recast-20261007-184705-410089\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.7待用户编译及实机验证；不代编译或安装旧DLL"
+}

@@ -1,0 +1,1028 @@
+[
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "_JudgementCutEnd.info",
+    "Before": {
+      "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\_JudgementCutEnd.info"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce.clip",
+    "Before": {
+      "sha256": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce.material",
+    "Before": {
+      "sha256": "2c4d3c8c7c28cac7265c3646770018547e791b3689bfe3ce9cc46852137a0757"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "063eb537912d9c0cccf0971833226f1554bf7cb02144575d750490d3079e699b",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_atmosphere.hlsl",
+    "Before": {
+      "sha256": "3faea07a452294deadc0b33d9c61b0865a818110b8e12faf4ece7e943709c6cf"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "3faea07a452294deadc0b33d9c61b0865a818110b8e12faf4ece7e943709c6cf",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_atmosphere.program",
+    "Before": {
+      "sha256": "0342735b28f587606549276db1f68a92f193589eaf33d918e993463652e7b4c3"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "0342735b28f587606549276db1f68a92f193589eaf33d918e993463652e7b4c3",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.program"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_fog_noise.tga",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_fog_noise.tga",
+    "Before": {
+      "sha256": "dbe2c8d4c3b987a5d88a5725a1debd4e7a42bad0d6858639af89cf03c40a9e5b"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "dbe2c8d4c3b987a5d88a5725a1debd4e7a42bad0d6858639af89cf03c40a9e5b",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_fog_noise.tga"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_fog_noise.tga",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_fog_noise.tga"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glass.tga",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_glass.tga",
+    "Before": {
+      "sha256": "7f15077985314b170b80b785c5f067cf887bc41fe3fbd84b2ae07b17638941ab"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "7f15077985314b170b80b785c5f067cf887bc41fe3fbd84b2ae07b17638941ab",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_glass.tga"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glass.tga",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glass.tga"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_glow.tga",
+    "Before": {
+      "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_glow.tga"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_mist.tga",
+    "Before": {
+      "sha256": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_mist.tga"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_optics.csv",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_optics.csv",
+    "Before": {
+      "sha256": null
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "209acb9243bd215ec03b22b8b0a76b8a2481ca392b0e82902247f25a29a1f871",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_optics.csv"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_phantom.bin",
+    "Before": {
+      "sha256": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_phantom.bin"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_refraction.hlsl",
+    "Before": {
+      "sha256": "3c854b96b9982067353eb1c7ff7b4eec661831b4c9955f9c97bd71f2785e78ae"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "d30e976dee21ee67933f3c4fb00575679bdcf52386773904f9d0f45b73e73dc3",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.hlsl"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.program",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_refraction.program",
+    "Before": {
+      "sha256": "e1d50bf3af0250cb6e6f1135ce7bf85369c759b64bd769c5e4759c05434e2361"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "c5f956aea2671fb5d6a307d411cb0950c83792e2fd741eed343807ebb161946c",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.program",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.program"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_sequence.wav",
+    "Before": {
+      "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_sequence.wav"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_sequence_fast.wav",
+    "Before": {
+      "sha256": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_sequence_fast.wav"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_shards.csv",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_shards.csv",
+    "Before": {
+      "sha256": "7ba2eafb15e7a78b95c23bb8402dc87c6d58ac497869b9547c06f2caff44c3e6"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "7ba2eafb15e7a78b95c23bb8402dc87c6d58ac497869b9547c06f2caff44c3e6",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_shards.csv"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_shards.csv",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_shards.csv"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source.material",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source.material",
+    "Before": {
+      "sha256": "b9d602cb7ecc3644dd646e988bc9d41187a69569a1ca7ee5cdb2a6db5c1dcd1f"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "b9d602cb7ecc3644dd646e988bc9d41187a69569a1ca7ee5cdb2a6db5c1dcd1f",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source.material",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source.material"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_blade08.dds",
+    "Before": {
+      "sha256": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_blade08.dds"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade08.dds"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade09.dds",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_blade09.dds",
+    "Before": {
+      "sha256": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_blade09.dds"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade09.dds",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade09.dds"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_curves.csv",
+    "Before": {
+      "sha256": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_curves.csv"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_curves.csv"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_dust.dds",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_dust.dds",
+    "Before": {
+      "sha256": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_dust.dds"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_dust.dds",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_dust.dds"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_flash.dds",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_flash.dds",
+    "Before": {
+      "sha256": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_flash.dds"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_flash.dds",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_flash.dds"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_fog_palette.dds",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_fog_palette.dds",
+    "Before": {
+      "sha256": "9c69744602fe4506cd4a1d2d85949f831e8162f7a2d67ffd62f16110cb1b003f"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "9c69744602fe4506cd4a1d2d85949f831e8162f7a2d67ffd62f16110cb1b003f",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_fog_palette.dds"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_fog_palette.dds",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_fog_palette.dds"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_smoke_wisps.dds",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_smoke_wisps.dds",
+    "Before": {
+      "sha256": "ab0d433161b2088da9cd236af685d46a0b1aa8b1afefdead600fd4f108b48047"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "ab0d433161b2088da9cd236af685d46a0b1aa8b1afefdead600fd4f108b48047",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_smoke_wisps.dds"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_smoke_wisps.dds",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_smoke_wisps.dds"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_soft_smoke.dds",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_soft_smoke.dds",
+    "Before": {
+      "sha256": "66e28eb641a21ebd3fd7b32f0c40286a6971e329f82d835e0ad5348ec2d20692"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "66e28eb641a21ebd3fd7b32f0c40286a6971e329f82d835e0ad5348ec2d20692",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_soft_smoke.dds"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_soft_smoke.dds",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_soft_smoke.dds"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_spark.dds",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_spark.dds",
+    "Before": {
+      "sha256": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_spark.dds"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_spark.dds",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_spark.dds"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_texture.hlsl",
+    "Before": {
+      "sha256": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.hlsl"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\jce_source_texture.program",
+    "Before": {
+      "sha256": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.program"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\slashes.csv",
+    "Before": {
+      "sha256": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\slashes.csv"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\vfx-1.1.0.json",
+    "Before": {
+      "sha256": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.1.0.json"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.1.json",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\vfx-1.1.1.json",
+    "Before": {
+      "sha256": "3b13ad798f4f2157f9dd0897ce41d0fc1223e3e1e7a1aff506062fe06b0bad06"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "3b13ad798f4f2157f9dd0897ce41d0fc1223e3e1e7a1aff506062fe06b0bad06",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.1.1.json"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.1.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.1.json"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\vfx-1.2.1.json",
+    "Before": {
+      "sha256": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.2.1.json"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.2.1.json"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.2.0.json",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\vfx-2.2.0.json",
+    "Before": {
+      "sha256": "5a447a0cc3c5aa13bc81ff19d8cd4d9a29164668bd475939454dc1227b11771f"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "5a447a0cc3c5aa13bc81ff19d8cd4d9a29164668bd475939454dc1227b11771f",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.2.0.json"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.2.0.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.2.0.json"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.3.0.json",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\vfx-2.3.0.json",
+    "Before": {
+      "sha256": "089900134de3b2cdf90e332ff355e20e054d9e8e2cdb3de567a752be671f21a4"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "089900134de3b2cdf90e332ff355e20e054d9e8e2cdb3de567a752be671f21a4",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.3.0.json"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.3.0.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.3.0.json"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.4.0.json",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\vfx-2.4.0.json",
+    "Before": {
+      "sha256": "287fe0afed36ec7521c871fd0f204b966df9193ef51f20d4be0b8611de54665b"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "287fe0afed36ec7521c871fd0f204b966df9193ef51f20d4be0b8611de54665b",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.4.0.json"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.4.0.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.4.0.json"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.5.0.json",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "assets\\vfx-2.5.0.json",
+    "Before": {
+      "sha256": null
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "aaaf030fbfb3daf5d26b933dcc57639d7b604fd050ddb712b18b3acbce305c6c",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.5.0.json"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "JudgementCutEnd.dll",
+    "Before": {
+      "sha256": "348c087b2f32c4dbbfdaff791406e0fa379712e25e750110428162d613147fcc"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "3ed7242398a930cde9c6b40e79a63866cb19c15a7a94a1f681cb1fec9db44892",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "JudgementCutEnd.ini",
+    "Before": {
+      "sha256": "15f65bf08fc7a166ccaf4157e117c82f3291d199464a7ca356f37033fc6f4bd6"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "15f65bf08fc7a166ccaf4157e117c82f3291d199464a7ca356f37033fc6f4bd6",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "JudgementCutEnd.mod",
+    "Before": {
+      "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.mod"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "LICENSE",
+    "Before": {
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "LICENSE-NOTICE.md",
+    "Before": {
+      "sha256": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "RE_Kenshi.json",
+    "Before": {
+      "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\RE_Kenshi.json"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  },
+  {
+    "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+    "Role": "JudgementCutEnd运行包文件",
+    "Code location": "README.md",
+    "Before": {
+      "sha256": "a04a0dc7da8724eaa7a58d53ff7f19c3c4fbfb091d098951824ec29cc99e6663"
+    },
+    "Changes": "用户编译2.5对应DLL与完整配套包逐字节同步",
+    "Reasons": "用户请求更新mod；避免DLL与新折射资源混装",
+    "After": {
+      "sha256": "a04a0dc7da8724eaa7a58d53ff7f19c3c4fbfb091d098951824ec29cc99e6663",
+      "source": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    },
+    "Impact": "仅本mod运行文件；游戏尚未加载新版本",
+    "Validation": "源/安装字节及双备份一致；安装工具检查PE64、实际入口导出、版本和源码时间戳",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+      ],
+      "encoding": "原始字节复制，保留BOM/编码/换行"
+    },
+    "Unresolved": "GPU Shader及实机观感/性能未验证"
+  }
+]

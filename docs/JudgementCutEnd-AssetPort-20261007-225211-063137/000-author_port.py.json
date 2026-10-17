@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+  "Role": "动画转换工具",
+  "Code location": "male/female compatibility",
+  "Before": "3e69b8198b88efe02e5ea9b51fb86822c3dd0f540caf757fe927d8c531a5a34f",
+  "Changes": "女性骨序不同；名称集合核验替代顺序假设，消费方仍按骨名绑定",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "c82fae3f20e0a2297b4bb7f8b7bd1de43ba8e5343f0731b2c3fe84b37966c622",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-225211-063137\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-225211-063137\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

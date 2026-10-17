@@ -1,0 +1,709 @@
+{
+  "installed": true,
+  "version": "2.2.0-dev",
+  "resource_revision": "2.2-blue-wisps-r1",
+  "file_count": 37,
+  "dll_sha256": "595e7ca964dbfd23fc29c22bc9adaa5679cf1aa0a45fce4dcea820018312dcdd",
+  "dll_size": 369152,
+  "installation_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "backup_directories": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036"
+  ],
+  "per_file_reports": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\Install-BlueFog-2.2-20261008-121543",
+  "all_package_hashes_match": true,
+  "game_running_at_install": false,
+  "agent_ran_compiler": false,
+  "game_tested": false,
+  "stage_checks": "PE64/exact RE_Kenshi entry export/source version/timestamp/game process passed",
+  "files": [
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "_JudgementCutEnd.info",
+      "Before": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce.clip",
+      "Before": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce.material",
+      "Before": "65e1776ffe87965f3b89b2c0b173d44fbb0964fc997b74653f5871eeebdd26eb",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "71c4d44b2f781da88da572a6a4689f9b6adefe215ecd38a7507e49c8188e1b65",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_atmosphere.hlsl",
+      "Before": "absent",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "ac570629c84b9304ac479435ead6bc364bd5eee6fe55cb6ca1d0dc2a3a870ac1",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_atmosphere.program",
+      "Before": "absent",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "6222f47db8472601b50e242f6ace3e3e289b7e4581e32a39db08ba65fe45cfd9",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_fog_noise.tga",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_fog_noise.tga",
+      "Before": "absent",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "dbe2c8d4c3b987a5d88a5725a1debd4e7a42bad0d6858639af89cf03c40a9e5b",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glass.tga",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_glass.tga",
+      "Before": "7f15077985314b170b80b785c5f067cf887bc41fe3fbd84b2ae07b17638941ab",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "7f15077985314b170b80b785c5f067cf887bc41fe3fbd84b2ae07b17638941ab",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glass.tga",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glass.tga"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_glow.tga",
+      "Before": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_mist.tga",
+      "Before": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_phantom.bin",
+      "Before": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_refraction.hlsl",
+      "Before": "3c854b96b9982067353eb1c7ff7b4eec661831b4c9955f9c97bd71f2785e78ae",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "3c854b96b9982067353eb1c7ff7b4eec661831b4c9955f9c97bd71f2785e78ae",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.hlsl"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_refraction.program",
+      "Before": "e1d50bf3af0250cb6e6f1135ce7bf85369c759b64bd769c5e4759c05434e2361",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "e1d50bf3af0250cb6e6f1135ce7bf85369c759b64bd769c5e4759c05434e2361",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.program",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.program"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_sequence.wav",
+      "Before": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_sequence_fast.wav",
+      "Before": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_shards.csv",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_shards.csv",
+      "Before": "7ba2eafb15e7a78b95c23bb8402dc87c6d58ac497869b9547c06f2caff44c3e6",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "7ba2eafb15e7a78b95c23bb8402dc87c6d58ac497869b9547c06f2caff44c3e6",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_shards.csv",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_shards.csv"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source.material",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_source.material",
+      "Before": "685d8cac629eed4f9abe17ac3ef5c11d206f92d6f953f3aff3aa4a7304fca3fe",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "bef15e8112ce8029ccb0858b49a53a9e4f9ffda434115b30b5b475891855ed88",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source.material",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source.material"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_source_blade08.dds",
+      "Before": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade08.dds"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade09.dds",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_source_blade09.dds",
+      "Before": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade09.dds",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade09.dds"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_source_curves.csv",
+      "Before": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_curves.csv"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_dust.dds",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_source_dust.dds",
+      "Before": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_dust.dds",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_dust.dds"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_flash.dds",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_source_flash.dds",
+      "Before": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_flash.dds",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_flash.dds"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_fog_palette.dds",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_source_fog_palette.dds",
+      "Before": "absent",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "9c69744602fe4506cd4a1d2d85949f831e8162f7a2d67ffd62f16110cb1b003f",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_spark.dds",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_source_spark.dds",
+      "Before": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_spark.dds",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_spark.dds"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_source_texture.hlsl",
+      "Before": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.hlsl"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\jce_source_texture.program",
+      "Before": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\slashes.csv",
+      "Before": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\vfx-1.1.0.json",
+      "Before": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.1.json",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\vfx-1.1.1.json",
+      "Before": "3b13ad798f4f2157f9dd0897ce41d0fc1223e3e1e7a1aff506062fe06b0bad06",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "3b13ad798f4f2157f9dd0897ce41d0fc1223e3e1e7a1aff506062fe06b0bad06",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.1.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.1.json"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\vfx-1.2.1.json",
+      "Before": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.2.1.json"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-2.2.0.json",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "assets\\vfx-2.2.0.json",
+      "Before": "absent",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "4e44f2b9b5bb3ae703bf787a732ae78b7959554f76a687cd2f3d7f235134a8e6",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "JudgementCutEnd.dll",
+      "Before": "eace738bd15cb03be6591db50ea12d4107cf6585526c8e0ad7e7fe2cfd09da4c",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "595e7ca964dbfd23fc29c22bc9adaa5679cf1aa0a45fce4dcea820018312dcdd",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "JudgementCutEnd.ini",
+      "Before": "15f65bf08fc7a166ccaf4157e117c82f3291d199464a7ca356f37033fc6f4bd6",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "15f65bf08fc7a166ccaf4157e117c82f3291d199464a7ca356f37033fc6f4bd6",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "JudgementCutEnd.mod",
+      "Before": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "LICENSE",
+      "Before": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "LICENSE-NOTICE.md",
+      "Before": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "RE_Kenshi.json",
+      "Before": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "Role": "本地JudgementCutEnd运行DLL/资源",
+      "Code location": "README.md",
+      "Before": "32b14d9fbe9175d517be2d455fb87261babbfc0190e416f0d5a4f3b2a3bbaf14",
+      "Changes": "从已核验分发包成套复制",
+      "Reasons": "用户明确要求迅速更新已编译2.2模组",
+      "After": "32b14d9fbe9175d517be2d455fb87261babbfc0190e416f0d5a4f3b2a3bbaf14",
+      "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+      "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+        ],
+        "encoding": "binary; byte-identical copy"
+      },
+      "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+    }
+  ]
+}

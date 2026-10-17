@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+  "Role": "特效静态/解释模型核验",
+  "Code location": "资源、固定光区、半球雾、刀痕拖尾与旧DLL保留检查",
+  "Before": "76b8eefc1486f1600c156735dad55fb939bf3c68abe73d6dec9eefc4ca827e6e",
+  "Changes": "删除过时落地要求；核验所有96条残迹、完整灰雾半球和无下落；修正已安装DLL合同",
+  "Reasons": "用户提供参考图要求空间碎裂光影、每道多层残迹、整体灰色半球气氛",
+  "After": "ab478b31630355ead5a2f76ce0d1efe6372cfc4a0021560c41709690cdb71cab",
+  "Impact": "仅JudgementCutEnd特效；伤害/控制/角色动作合同保持",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFX112-20261007-211529-238350\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFX112-20261007-211529-238350\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；游戏HDR/透明排序/性能待实测"
+}

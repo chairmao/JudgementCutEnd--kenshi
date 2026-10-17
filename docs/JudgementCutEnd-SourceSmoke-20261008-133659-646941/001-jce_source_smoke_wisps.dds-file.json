@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_smoke_wisps.dds",
+  "Role": "原蓝色烟丝图集",
+  "Code location": "4×4独立烟形",
+  "Before": "原包没有蓝烟丝资源",
+  "Changes": "复制原SmokeParticles01，按烟形变体取格",
+  "Reasons": "JCE010IntroBodyFlame 46→51，SubTex85关闭",
+  "After": "ab0d433161b2088da9cd236af685d46a0b1aa8b1afefdead600fd4f108b48047",
+  "Impact": "仅新烟丝材质采样，保留源字节",
+  "Validation": "即时字节读回、编码/CRLF/中文乱码检查通过；跨层与几何模型验证另记 verification.json；未编译、未GPU/游戏测试。",
+  "Safety": {
+    "backups": [],
+    "encoding": "binary",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 用户Release|x64编译、GPU材质加载、实际透明叠加/帧率和最终观感。"
+}

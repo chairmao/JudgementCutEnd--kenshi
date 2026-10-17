@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1",
+  "Role": "非编译部署工具",
+  "Code location": "复制前源码/产物新旧检查",
+  "Before": "正确 C++ 入口的旧 DLL 仍可重复安装",
+  "Changes": "要求 DLL 不早于 cpp/vcxproj 最新修改，过旧时复制前拒绝",
+  "Reasons": "当前已安装 0.1.1 入口正确但地址解析仍失败，必须等新编译",
+  "After": "修改已写入；需要重新编译/部署才影响游戏运行",
+  "Impact": "仅限本插件项目/分发包，不写其他模组及运行游戏",
+  "Validation": "UTF-8/BOM/CRLF/中文严格回读；专项非编译检查随后另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF",
+    "sha256": "d1b0df543cb9fdd46404c22018eb81cf9e00f987d3b60833cf7106d83088608a"
+  },
+  "Unresolved": "新 DLL 编译/安装和实机验收仍待完成"
+}

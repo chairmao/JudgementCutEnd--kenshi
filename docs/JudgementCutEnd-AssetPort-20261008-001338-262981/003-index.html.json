@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+  "Role": "离线预览",
+  "Code location": "embedded DATA",
+  "Before": "62f3a0cc7a57d5ee0299c25ceb918097bdc743dfb7ad41463f79f6f656558bfb",
+  "Changes": "同步实际HKX动作和网格资源",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "6912bef8449d5b3eb4ad31abb58ad6870bac7fda502dee1d20bd3837fc66d1ba",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261008-001338-262981\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261008-001338-262981\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

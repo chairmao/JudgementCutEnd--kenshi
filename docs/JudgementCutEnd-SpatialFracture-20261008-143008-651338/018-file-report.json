@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目入口文档",
+  "Code location": "当前部署状态",
+  "Before": "2.5待用户编译和部署",
+  "Changes": "记录2.5用户编译产物与包已完整部署",
+  "Reasons": "避免入口文档与实际安装矛盾",
+  "After": "准确的验收入口",
+  "Impact": "只改当前状态，历史保持",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516-status-20261008-150012-978536\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516-status-20261008-150012-978536\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": "9896f01ecabfdaeceb35b24673c3f39f6b6d447b189d732dd692e86ed0177785",
+    "after_sha256": "8cf5a016fad1c9a98b39b832b4f3273f9a9449ee82306b85a3a2d85330bdefb0"
+  },
+  "Unresolved": "GPU效果和性能待游戏验收"
+}

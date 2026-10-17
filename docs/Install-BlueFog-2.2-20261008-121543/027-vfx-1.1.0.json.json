@@ -1,0 +1,19 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+  "Role": "本地JudgementCutEnd运行DLL/资源",
+  "Code location": "assets\\vfx-1.1.0.json",
+  "Before": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c",
+  "Changes": "从已核验分发包成套复制",
+  "Reasons": "用户明确要求迅速更新已编译2.2模组",
+  "After": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c",
+  "Impact": "仅JudgementCutEnd目录；不修改其他模组、mods.cfg、存档",
+  "Validation": "与package SHA-256一致；双备份原文件哈希一致；文本保持原编码/换行",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-121543-6325036\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF; exact bytes preserved"
+  },
+  "Unresolved": "游戏实际shader加载/视觉/帧率待用户测试"
+}

@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-member-layout-fix-20261008.json",
+  "Role": "布局修正验证",
+  "Code location": "日志/SDK合同/源码范围/受影响回归",
+  "Before": "absent",
+  "Changes": "保存实际失败证据及519项静态和合同检查，明确尚未编译及本机具体成员长度未记录",
+  "Reasons": "用户报告U键无反应，修正已授权成员地址绑定范围内的错误布局拒绝",
+  "After": "3c6213b2c048e46bc0d9caf2a8b04a6ae27fa9624ab33768e961b20333e3d79b",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

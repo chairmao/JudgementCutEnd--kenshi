@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_phantom.bin",
+  "Role": "幻影网格资源",
+  "Code location": "JCEPHM2 bounded frames",
+  "Before": "e25e159541ecb17cf597ead4d99419211aa91aedabcb95b4f342d8772dc453bd",
+  "Changes": "198顶点/256三角立体人形与衣摆；实际HKX姿态烘焙，无实体克隆",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261008-001338-262981\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_phantom.bin",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261008-001338-262981\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_phantom.bin"
+    ],
+    "encoding": "binary"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

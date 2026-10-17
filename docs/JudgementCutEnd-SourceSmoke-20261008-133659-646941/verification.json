@@ -1,0 +1,228 @@
+{
+  "result": "passed",
+  "checks": [
+    {
+      "name": "插入内容仅有const兼容性调整",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C++差异位于授权VFX范围 73",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C++差异位于授权VFX范围 76",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C++差异位于授权VFX范围 560",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C++差异位于授权VFX范围 1230",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C++差异位于授权VFX范围 1234",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "C++差异位于授权VFX范围 1354",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "授权变更之外的全文完全一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "伤害、输入、时间恢复、原生绑定、姿势、清理及旧刀光逐函数一致",
+      "passed": true,
+      "detail": [
+        "bool SameDamageWeapon(",
+        "void PrepareWeapon(",
+        "void RestoreWeapon(",
+        "void ReleaseRefraction(",
+        "void PrepareRefraction(",
+        "void CaptureBackground(",
+        "void RestoreTime(",
+        "void Begin(",
+        "void ReleaseGraphics(",
+        "void Finish(",
+        "unsigned RefreshSkin(",
+        "void Pose(",
+        "float AreaRadius(",
+        "void FitSlashLayout(",
+        "bool InArea(",
+        "void Collect(",
+        "void Damage(",
+        "void Ribbon(",
+        "void GroundRing(",
+        "Vector3 BoundFx(",
+        "Vector3 BoundAtmosphere(",
+        "void SlashAfterimages(",
+        "void Phantom(",
+        "void Phantoms(",
+        "void ShardPosition(",
+        "void Glass(",
+        "void SourceQuad(",
+        "void SourceSprite(",
+        "void SourceSlashes(",
+        "void SourceFlashes(",
+        "void StartLayer(",
+        "void Tick(",
+        "intptr_t NativeAddress(",
+        "void SourceDust(",
+        "void SourceSparks("
+      ]
+    },
+    {
+      "name": "原VP和尘烟shader不变",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "原刀光/羽光/闪光/火花材质全文前缀不变",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "忽略字符串与注释后的括号平衡",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "所有GPU程序名唯一且材质引用解析成功",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "两套新入口与shader源一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "材质纹理引用全部存在",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "原DDS字节一致 jce_source_soft_smoke.dds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "512x512且实际透明空隙 jce_source_soft_smoke.dds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "原DDS字节一致 jce_source_smoke_wisps.dds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "512x512且实际透明空隙 jce_source_smoke_wisps.dds",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "原NIF尺寸序列 band",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "原NIF尺寸序列 wisp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "几何上限包含新增固定槽且不越界",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "144槽出生/消散CPU模型：收刀无新生，END透明清空",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "float32烟形/时钟解包及半纹素图集隔离",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "实际烟丝几何位移CPU模型",
+      "passed": true,
+      "detail": {
+        "slots_without_generation_change": 77,
+        "real_seconds": 0.1,
+        "min_units": 7.298066275316971,
+        "max_units": 30.725096958710186
+      }
+    },
+    {
+      "name": "其他原项目文件逐字节不变",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "现有installed逐文件哈希不变",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "现有formal逐文件哈希不变",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "生成DLL未改动",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "编码/CRLF/中文 package\\JudgementCutEnd\\assets\\jce_source.material",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "编码/CRLF/中文 JudgementCutEnd.cpp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "编码/CRLF/中文 package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "编码/CRLF/中文 package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "编码/CRLF/中文 package\\JudgementCutEnd\\assets\\jce.material",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "native_compiled": false,
+  "shader_compiled": false,
+  "game_tested": false,
+  "installed_new_revision": false,
+  "bounds": {
+    "vertices": 19668,
+    "indices": 47358
+  },
+  "limitations": [
+    "静态及CPU模型不证明GPU透明排序、雾感或实际帧率",
+    "重建源NIF烟层行为，未完整执行Skyrim粒子或物理引擎"
+  ]
+}

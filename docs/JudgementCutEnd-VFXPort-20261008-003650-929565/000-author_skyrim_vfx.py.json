@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_skyrim_vfx.py",
+  "Role": "本机源特效移植工具",
+  "Code location": "DDS和sequence关联曲线导出",
+  "Before": "absent",
+  "Changes": "保留原资源来源；双备份和分层材质；明确适配边界",
+  "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+  "After": "22fe65b536014520df46208c146b1606c3ecf74553ea59fd5489767959ab90b1",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

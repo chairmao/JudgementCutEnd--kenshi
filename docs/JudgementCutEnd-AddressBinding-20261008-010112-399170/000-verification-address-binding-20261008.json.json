@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-address-binding-20261008.json",
+  "Role": "绑定修正验证证据",
+  "Code location": "修改范围/地址合同/静态回归",
+  "Before": "absent",
+  "Changes": "记录整个CPP非授权段不变、SDK前校验及全部1346项原回归通过；额外10项绑定检查",
+  "Reasons": "用户明确要求JudgementCutEnd.cpp不使用字符串函数签名，改为函数地址式绑定",
+  "After": "74b0532f323aa2d2692ae081885231d8fb3d8e0ac7fcbc1f26d859f6c54d2cad",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

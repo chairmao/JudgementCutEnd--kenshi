@@ -1,0 +1,179 @@
+--- JudgementCutEnd.cpp 0.2.3
++++ JudgementCutEnd.cpp 0.2.4
+@@ -10,6 +10,9 @@
+ #include <kenshi/Character.h>
+ // 原生伤害值与部位日志需要完整类型，不能依赖 Character.h 的前置声明。
+ #include <kenshi/Damages.h>
++// 使用原生 CharStats 武器伤害公式和装备类型；不直接写武器系数或临时切换 stats 武器。
++#include <kenshi/CharStats.h>
++#include <kenshi/Gear.h>
+ #include <kenshi/GameData.h>
+ #include <kenshi/PlayerInterface.h>
+ #include <kenshi/InputHandler.h>
+@@ -47,6 +50,9 @@
+ using Ogre::Quaternion;
+ const char* GROUP="JudgementCutEnd/Resources/v1";
+ const float DRAW=2.1f, CUT=2.35f, SHEATH=5.15f, END=6.7f;
++// 轨道/裂痕仍用原剪辑秒，真实时钟统一乘三；保持所有动作和特效事件同步。
++// 世界降速、冷却和卡顿门槛仍用真实秒，不能随演出倍率一起变化。
++const float PLAYBACK_RATE=3.f;
+ struct Guard { CRITICAL_SECTION* p; Guard(CRITICAL_SECTION& c):p(&c){EnterCriticalSection(p);} ~Guard(){LeaveCriticalSection(p);} };
+ CRITICAL_SECTION gate;
+ volatile LONG ready=0, started=0, frameThread=0;
+@@ -67,7 +73,7 @@
+     if(GetFileAttributesExW(path.c_str(),GetFileExInfoStandard,&a)&&a.nFileSizeLow>2*1024*1024)
+         MoveFileExW(path.c_str(),(path+L".1").c_str(),MOVEFILE_REPLACE_EXISTING);
+     SYSTEMTIME t;GetLocalTime(&t);char prefix[100];
+-    sprintf_s(prefix,"%04u-%02u-%02u %02u:%02u:%02u.%03u [JCE 0.2.3] ",t.wYear,t.wMonth,t.wDay,t.wHour,t.wMinute,t.wSecond,t.wMilliseconds);
++    sprintf_s(prefix,"%04u-%02u-%02u %02u:%02u:%02u.%03u [JCE 0.2.4] ",t.wYear,t.wMonth,t.wDay,t.wHour,t.wMinute,t.wSecond,t.wMilliseconds);
+     std::ofstream f(path.c_str(),std::ios::binary|std::ios::app);f<<prefix<<message<<"\r\n";
+ }
+ intptr_t NativeAddress(const char* exportedName) {
+@@ -127,9 +133,9 @@
+ } skin;
+ 
+ struct Settings {
+-    float radius,slow,cutDamage,bluntDamage,cooldown;
++    float radius,slow,damageMultiplier,cooldown;
+     unsigned maxTargets,castKey; bool damage,sound;
+-    Settings():radius(150),slow(.001f),cutDamage(50),bluntDamage(20),cooldown(15),maxTargets(32),castKey('U'),damage(true),sound(true){}
++    Settings():radius(150),slow(.001f),damageMultiplier(44),cooldown(15),maxTargets(32),castKey('U'),damage(true),sound(true){}
+     void Load(){
+         std::ifstream f((directory+L"JudgementCutEnd.ini").c_str());std::string line;
+         while(std::getline(f,line)) {
+@@ -138,8 +144,9 @@
+             // 用户要求斩击半径至少五倍：默认 30 -> 150；上限同步提高，不能加载后又截成 60。
+             if(k=="Radius")radius=Clamp(v,5,300);
+             else if(k=="WorldSpeed")slow=Clamp(v,.001f,.1f);
+-            else if(k=="CutDamage")cutDamage=Clamp(v,0,200);
+-            else if(k=="BluntDamage")bluntDamage=Clamp(v,0,100);
++            // 4400% 是原生攻击的 44 倍总倍率；弃用固定 HP，旧配置不退回 50/20。
++            else if(k=="DamageMultiplier")damageMultiplier=Clamp(v,0,100);
++            else if(k=="CutDamage"||k=="BluntDamage")Log("config_ignored legacy fixed damage; use DamageMultiplier");
+             else if(k=="Cooldown")cooldown=Clamp(v,0,120);
+             else if(k=="MaxTargets")maxTargets=unsigned(Clamp(v,1,64));
+             // 配置存 Windows 虚拟键值，只接受 A-Z/F1-F12 的整数；按用户要求默认单键 U。
+@@ -202,7 +209,7 @@
+ struct BoneState {Ogre::OldBone* bone;Quaternion previous;Vector3 previousPosition;};
+ struct Ghost {float birth;std::vector<Vector3> joints;};
+ struct Runtime : Ogre::SceneManager::Listener, Ogre::RenderObjectListener {
+-    Settings settings;GameWorld* world;hand caster;
++    Settings settings;GameWorld* world;hand caster,castWeapon;
+     AnimationClass* animation;Ogre::OldSkeletonInstance* skeleton;
+     std::vector<BoneState> bones;std::vector<hand> targets;std::vector<Ghost> ghosts;
+     Ogre::SceneManager* scene;Ogre::SceneNode* node;Ogre::ManualObject* geometry;
+@@ -212,6 +219,24 @@
+     unsigned castId,poseCalls,queueCalls,renderCalls,poseDiagnostics;unsigned long lastQueuedFrame;double lastSummary;bool listenersAdded,queueWarning;
+     Runtime():world(0),animation(0),skeleton(0),scene(0),node(0),geometry(0),beginning(0),nextAllowed(0),time(0),previousSpeed(1),active(false),cutDone(false),damageDone(false),resourcesAdded(false),section(false),wasKey(false),soundOwned(false),poseSeen(false),wrongThreadNoted(false),castId(0),poseCalls(0),queueCalls(0),renderCalls(0),poseDiagnostics(0),lastQueuedFrame(0),lastSummary(0),listenersAdded(false),queueWarning(false){}
+     Character* Resolve() {return caster.getCharacter();}
++    Weapon* DamageWeapon(Character* c){
++        // CharStats::weapon 是原生伤害计算使用的装备 hand（包括收鞘）；背包备用武器不叠加。
++        // 每次就地解析 serial hand，不跨帧持有 Item*/Weapon*；这里只允许近战装备。
++        CharStats* stats=c?c->getStats():0;
++        Item* item=stats&&stats->hasWeapon()?stats->weapon.getItem():0;
++        Weapon* weapon=item?item->isWeapon():0;
++        return weapon&&weapon->isSword()?weapon:0;
++    }
++    bool SameDamageWeapon(Character* c){
++        Weapon* weapon=DamageWeapon(c);
++        return weapon&&castWeapon==weapon->getHandle();
++    }
++    bool ValidDamage(const Damages& d){
++        // 正负护甲穿透保持原公式；所有通道先拒绝 NaN/Inf，伤害通道不允许负值。
++        return Finite(d.cut)&&Finite(d.blunt)&&Finite(d.pierce)&&Finite(d.extraStun)
++            &&Finite(d.bleedMult)&&Finite(d.armourPenetration)
++            &&d.cut>=0&&d.blunt>=0&&d.pierce>=0&&d.extraStun>=0&&d.bleedMult>=0;
++    }
+     bool CharacterReady(Character* c){return c&&c->isValid()&&!c->isDestroyed()&&!c->isDead()&&!c->medical.unconcious&&!c->isRagdoll()&&!c->isBeingCarried();}
+     Renderer* Render(){return world&&world->render?static_cast<Renderer*>(world->render):0;}
+     bool SameRenderer(){Renderer* r=Render();return r&&r->getSceneManager()==scene;}
+@@ -270,6 +295,10 @@
+     }
+     void Begin(Character* c,double now){
+         if(!CharacterReady(c)||!c->isPlayerCharacter()||c->isCarryingSomething)throw std::runtime_error("Select an able player humanoid");
++        // 伤害模式必须有原生属性系统当前使用的近战武器；纯特效模式仍可空手施放。
++        // 不替换武器、不调用 setWeapon 修改全局/派生状态；中途换装即取消，防止公式串用。
++        castWeapon.setNull();
++        if(settings.damage){Weapon* weapon=DamageWeapon(c);if(!weapon)throw std::runtime_error("Equip a melee weapon for weapon-scaled damage");castWeapon=weapon->getHandle();}
+         animation=c->getAnimationClass();if(!animation||!animation->isHuman()||!animation->skeleton||!animation->node||!animation->getIsActivated())throw std::runtime_error("No active humanoid skeleton");
+         skeleton=animation->skeleton;bones.clear();
+         // 保留可见身体身份校验，但必须由真实 DLL 接口取值；错误内联偏移曾误拒绝所有施放。
+@@ -298,9 +327,9 @@
+         for(size_t i=0;i<bones.size();++i)bones[i].bone->setManuallyControlled(true);
+         // active 在全部前提具备后发布；全状态都由 gate 保护，不插入共享 Skeleton 动画缓存。
+         active=true;++castId;world->setFrameSpeedMultiplier(settings.slow);
+-        if(settings.sound){soundOwned=PlaySoundW((directory+L"assets\\jce_sequence.wav").c_str(),0,SND_FILENAME|SND_ASYNC|SND_NODEFAULT)!=FALSE;}
++        if(settings.sound){soundOwned=PlaySoundW((directory+L"assets\\jce_sequence_fast.wav").c_str(),0,SND_FILENAME|SND_ASYNC|SND_NODEFAULT)!=FALSE;}
+         // 用户自行选择镜头距离与朝向；演出开始、结束都不写相机或跟随目标。
+-        std::ostringstream s;s<<"cast_begin id="<<castId<<" caster="<<caster.toString()<<" speed_before="<<previousSpeed<<" slow="<<settings.slow<<" tracks="<<bones.size()<<" radius="<<settings.radius<<" damage="<<settings.damage<<" cut="<<settings.cutDamage<<" blunt="<<settings.bluntDamage;Log(s.str());
++        std::ostringstream s;s<<"cast_begin id="<<castId<<" caster="<<caster.toString()<<" speed_before="<<previousSpeed<<" slow="<<settings.slow<<" tracks="<<bones.size()<<" radius="<<settings.radius<<" damage="<<settings.damage<<" weapon="<<castWeapon.toString()<<" damage_multiplier="<<settings.damageMultiplier<<" playback_rate="<<PLAYBACK_RATE<<" real_duration="<<END/PLAYBACK_RATE<<" sound_started="<<soundOwned;Log(s.str());
+     }
+     void ReleaseGraphics(bool validScene){
+         if(validScene&&scene){
+@@ -413,16 +442,34 @@
+     void Damage(){
+         // 先标记不可重复，逐个重验 hand/敌对/范围；一次伤害只走一次游戏 addWound。
+         damageDone=true;Character* c=Resolve();if(!c)return;unsigned applied=0,skipped=0;
++        if(settings.damage&&!SameDamageWeapon(c)){Log("sheath_damage_skipped: weapon_changed_or_missing");return;}
++        CharStats* stats=settings.damage?c->getStats():0;
++        if(settings.damage&&!stats){Log("sheath_damage_skipped: stats_unavailable");return;}
+         for(size_t i=0;i<targets.size();++i){
+             Character* v=targets[i].getCharacter();
+             if(!v||!v->isValid()||v->isDestroyed()||v->isDead()||v->isPlayerCharacter()||!c->isEnemy(v,true)||(v->getPosition()-anchor).squaredLength()>settings.radius*settings.radius){++skipped;continue;}
+             if(settings.damage){
+-                Damages d(settings.cutDamage,settings.bluntDamage,0,1,0);int material=0;AttackDirection::Enum direction=AttackDirection::FRONT;
+-                // 使用原生身体部位/伤害入口，不硬写 HP，不传空 CombatTechnique。
+-                // 只记录返回部位及传入引用的结算后值，不将未实测的护甲/犯罪语义标成已确认。
++                // 与原生 attackImpactCheck 相同：先对这个目标计算完整武器/属性/种族伤害，
++                // 再应用 impact power。44 是总倍率而非加 44 倍；不是重复调用 44 次 addWound。
++                // Damages::multiply 仅乘 cut/blunt/pierce/extraStun，保留流血/穿透的语义与单位。
++                Damages d=stats->getTotalAttackDamageFor(v);
++                if(!ValidDamage(d)){++skipped;Log("sheath_damage_invalid_base id="+Number(castId));continue;}
++                const float baseCut=d.cut,baseBlunt=d.blunt,basePierce=d.pierce,baseStun=d.extraStun;
++                const float bleed=d.bleedMult,penetration=d.armourPenetration;
++                d.multiply(settings.damageMultiplier);
++                if(!ValidDamage(d)||d.cut+d.blunt+d.pierce+d.extraStun<=0){++skipped;continue;}
++                const float scaledCut=d.cut,scaledBlunt=d.blunt,scaledPierce=d.pierce,scaledStun=d.extraStun;
++                int material=0;AttackDirection::Enum direction=AttackDirection::FRONT;
++                // 原生受伤入口选部位并结算一次；不硬写 HP，不传空 CombatTechnique。
++                // before/after 参数不是最终 HP 损失；护甲/韧性/犯罪/经验仍须实机确认。
+                 GameData* part=v->medical.addWound(false,CUT_DEFAULT,d,material,c,direction,0);
+                 if(part){
+-                    ++applied;std::ostringstream hit;hit<<"sheath_hit id="<<castId<<" target="<<targets[i].toString()<<" bodypart="<<part->stringID<<" cut_argument_after="<<d.cut<<" blunt_argument_after="<<d.blunt;Log(hit.str());
++                    ++applied;std::ostringstream hit;hit<<"sheath_hit id="<<castId<<" target="<<targets[i].toString()<<" weapon="<<castWeapon.toString()
++                        <<" bodypart="<<part->stringID<<" multiplier="<<settings.damageMultiplier
++                        <<" base_cut="<<baseCut<<" base_blunt="<<baseBlunt<<" base_pierce="<<basePierce<<" base_stun="<<baseStun
++                        <<" scaled_cut="<<scaledCut<<" scaled_blunt="<<scaledBlunt<<" scaled_pierce="<<scaledPierce<<" scaled_stun="<<scaledStun
++                        <<" bleed_mult="<<bleed<<" armour_penetration="<<penetration
++                        <<" cut_argument_after="<<d.cut<<" blunt_argument_after="<<d.blunt;Log(hit.str());
+                 }else ++skipped;
+             }
+         }
+@@ -508,14 +555,16 @@
+             if(w->isLoadingFromASaveGame()){Finish("loading");return;}
+             if(w->isPaused()||!Foreground()||(GetAsyncKeyState(VK_ESCAPE)&0x8000)||!key||!key->controlEnabled){Finish("cancelled_pause_focus_or_escape");return;}
+             Character* c=Resolve();if(!CharacterReady(c)||!SameAnimation(c)){Finish("caster_unavailable");return;}
++            if(settings.damage&&!SameDamageWeapon(c)){Finish("weapon_changed_or_missing");return;}
+             if(!SameRenderer()){Finish("scene_replaced");return;}
+             if(fabs(w->getFrameSpeedMultiplier()-settings.slow)>.00005f){Finish("speed_changed_externally");return;}
+             if((c->getPosition()-anchor).squaredLength()>4){Finish("caster_moved");return;}
+             double elapsed=now-beginning;
+             // 卡顿跨过多个事件时依序处理，只触发一次；过久停顿取消，禁止回来补一刀。
+-            if(elapsed-time>1.5){Finish("frame_stall");return;}
+-            time=float(elapsed);
+-            if(!poseSeen&&time>.5f){Finish("pose_hook_not_observed");return;}
++            // time 是剪辑秒，必须除回倍率再与真实间隔比较，否则加速后会漏检卡顿。
++            if(elapsed-double(time)/PLAYBACK_RATE>1.5){Finish("frame_stall");return;}
++            time=float(elapsed*PLAYBACK_RATE);
++            if(!poseSeen&&elapsed>.5){Finish("pose_hook_not_observed");return;}
+             Pose(animation);
+             if(!cutDone&&time>=CUT){cutDone=true;Collect();}
+             if(!damageDone&&time>=SHEATH)Damage();
+@@ -585,6 +634,6 @@
+         if(h1!=KenshiLib::SUCCESS||h2!=KenshiLib::SUCCESS||!originalFrame||!originalPose)throw std::runtime_error("Hook installation incomplete; plugin remains inactive");
+         InterlockedExchange(&ready,1);
+         // 启动日志输出实际生效键值，修改 ini 后必须重启游戏才能读取。
+-        std::ostringstream s;s<<"plugin_ready; single VK="<<runtime->settings.castKey<<" casts (85=U); Escape cancels; resources=1; version=0.2.3";Log(s.str());
++        std::ostringstream s;s<<"plugin_ready; single VK="<<runtime->settings.castKey<<" casts (85=U); Escape cancels; resources=1; version=0.2.4";Log(s.str());
+     }catch(const std::exception& e){Log(std::string("plugin_disabled: ")+e.what());ErrorLog(std::string("JudgementCutEnd: ")+e.what());}
+ }

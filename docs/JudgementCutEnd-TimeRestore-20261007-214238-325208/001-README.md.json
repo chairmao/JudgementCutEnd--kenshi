@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目入口文档",
+  "Code location": "当前版本/时间修复/编译状态",
+  "Before": "418c5d26d6d0076d74d04af96d5047ed67e21e8a084cc794671a8f7d4a1a95b3",
+  "Changes": "说明1.1.2源码与1.1.1已编译产物的区别，链接修复证据",
+  "Reasons": "用户要求修正演出结束后速度未恢复；日志证实取消后原始速度被0.001污染",
+  "After": "aa1188befa490e2bce11734e0c224374b271c0034846660f1623124f32637aae",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-TimeRestore-20261007-214238-325208\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-TimeRestore-20261007-214238-325208\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；暂停解除、速度恢复与异常路径待实机验收"
+}

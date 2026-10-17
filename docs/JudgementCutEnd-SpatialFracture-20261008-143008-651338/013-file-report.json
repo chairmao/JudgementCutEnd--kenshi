@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.5.0.json",
+  "Role": "VFX版本与资源合同",
+  "Code location": "新2.5资源描述",
+  "Before": "只有2.4烟层描述",
+  "Changes": "记录9条来源曲线、8个平面、渲染顺序、预算与验证边界",
+  "Reasons": "避免把改进实现误记为原NIF直接执行或已经实测",
+  "After": "明确2.5源码待编译和部署",
+  "Impact": "文档描述，运行时不读取",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": null,
+    "after_sha256": "aaaf030fbfb3daf5d26b933dcc57639d7b604fd050ddb712b18b3acbce305c6c"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

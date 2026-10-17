@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "非编译验证器",
+  "Code location": "main / timeline / resource checks",
+  "Before": "111项静态检查、旧6.7秒状态模型",
+  "Changes": "三倍时序、同步音轨、装备和原生伤害计算合同及边界检查",
+  "Reasons": "新逻辑涉及真实时间/剪辑时间以及逐目标伤害，必须分别验证",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；新版源码、同步音轨与配置",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpeedWeapon-20261007-172113-138619\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpeedWeapon-20261007-172113-138619\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.4 DLL待用户编译，武器伤害与三倍速度待实机；未修改已安装模组"
+}

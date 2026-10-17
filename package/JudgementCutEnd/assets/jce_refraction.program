@@ -1,0 +1,48 @@
+// 自有光学程序，沿用宿主POSITION/COLOR/TEXCOORD0和worldviewproj_matrix合同；不改公共shader。
+vertex_program JCE/Refraction_VP hlsl
+{
+    source jce_refraction.hlsl
+    entry_point jce_refraction_vp
+    target vs_4_0
+    default_params
+    {
+        param_named_auto worldViewProjMatrix worldviewproj_matrix
+    }
+}
+fragment_program JCE/Refraction28_FP hlsl
+{
+    source jce_refraction.hlsl
+    entry_point jce_refraction_fp
+    target ps_4_0
+    default_params
+    {
+        param_named_auto viewport viewport_size
+        param_named captureValid float 0
+        param_named screenState float4 0 0 0 0
+        param_named cutPlane0 float4 0 0 0 0
+        param_named cutPlane1 float4 0 0 0 0
+        param_named cutPlane2 float4 0 0 0 0
+        param_named cutPlane3 float4 0 0 0 0
+        param_named cutPlane4 float4 0 0 0 0
+        param_named cutPlane5 float4 0 0 0 0
+        param_named cutPlane6 float4 0 0 0 0
+        param_named cutPlane7 float4 0 0 0 0
+        param_named cutState0 float4 0 0 0 0
+        param_named cutState1 float4 0 0 0 0
+        param_named cutState2 float4 0 0 0 0
+        param_named cutState3 float4 0 0 0 0
+        param_named cutState4 float4 0 0 0 0
+        param_named cutState5 float4 0 0 0 0
+        param_named cutState6 float4 0 0 0 0
+        param_named cutState7 float4 0 0 0 0
+        // 2.8与CPU/shader的独立切面生命期一致；w承载退场相位，默认全零无背景覆盖。
+        param_named cutLife0 float4 0 0 0 0
+        param_named cutLife1 float4 0 0 0 0
+        param_named cutLife2 float4 0 0 0 0
+        param_named cutLife3 float4 0 0 0 0
+        param_named cutLife4 float4 0 0 0 0
+        param_named cutLife5 float4 0 0 0 0
+        param_named cutLife6 float4 0 0 0 0
+        param_named cutLife7 float4 0 0 0 0
+    }
+}

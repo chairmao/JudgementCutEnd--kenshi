@@ -1,0 +1,29 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+  "Role": "运行DLL/资源包",
+  "Code location": "JudgementCutEnd模组部署文件",
+  "Before": {
+    "sha256": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50",
+    "size": 1603,
+    "modified": "2026-10-07T23:34:53.161457",
+    "bom": null,
+    "crlf": 14,
+    "lf": 14
+  },
+  "Changes": "安装已核验2.4 DLL及对应资源，保持源文件字节",
+  "Reasons": "用户要求迅速更新最新模组",
+  "After": {
+    "sha256": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50",
+    "size": 1603
+  },
+  "Impact": "下次启动游戏加载2.4；游戏效果待验证",
+  "Validation": "逐文件SHA256一致；备份哈希已核验；未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-135445-1293763\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-135445-1293763\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md"
+    ],
+    "encoding": "字节复制保留源编码、BOM与换行"
+  },
+  "Unresolved": "实机烟感、透明排序及帧率尚未验收"
+}

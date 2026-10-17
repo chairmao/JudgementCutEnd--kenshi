@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+  "Role": "特效回归",
+  "Code location": "新动画与第四折射层合同",
+  "Before": "cb572d42bd5c5369735c20f5175711ee0ba47506aedd002311569d2e85535443",
+  "Changes": "按显式升级替换旧动画不变断言；保留冻结1.0、伤害、声音、空间范围和JS解释运行",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "c4c3b0d9409ec77ffebd2b2dbe9c77f8d3cac623f55a4722d5c486bd84863571",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

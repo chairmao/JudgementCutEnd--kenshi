@@ -1,0 +1,363 @@
+{
+  "installed_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "version": "0.1.1",
+  "file_count": 13,
+  "export": "?startPlugin@@YAXXZ",
+  "dll_sha256": "17ffd966c1ab0fd97934c092b1d56cdc37295858b7a269f2a9b07efacdfdcacd",
+  "staged_dll_backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll"
+  ],
+  "backup_roots": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632"
+  ],
+  "per_file_reports": [
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "Role": "RE_Kenshi 插件成品，修正 C++ 导出与输入诊断",
+      "Code location": "JudgementCutEnd.dll",
+      "Before": {
+        "bytes": 341504,
+        "sha256": "2cac2a2d129018e742f0349e2553927169661a44356cb98cbe25af38b92ad41a"
+      },
+      "Changes": "替换为 0.1.1 成品/配置/说明",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 345088,
+        "sha256": "17ffd966c1ab0fd97934c092b1d56cdc37295858b7a269f2a9b07efacdfdcacd"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll"
+        ],
+        "encoding": "binary / byte-exact"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "Role": "运行参数，新增 CastKeyVK=119，其他数值保持原值",
+      "Code location": "JudgementCutEnd.ini",
+      "Before": {
+        "bytes": 312,
+        "sha256": "95f5b6a70929aebb113fcc8f5a4afb332571919cca28930441132db2a451394c"
+      },
+      "Changes": "替换为 0.1.1 成品/配置/说明",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 527,
+        "sha256": "4967a0e343296e0e5a5ffb359edd15aacad8676e5e9c73efc0d965b6924494dd"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "Role": "插件清单/模组元数据/原创资源/许可",
+      "Code location": "JudgementCutEnd.mod",
+      "Before": {
+        "bytes": 117,
+        "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b"
+      },
+      "Changes": "与分发包同步复制，内容不变",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 117,
+        "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod"
+        ],
+        "encoding": "binary / byte-exact"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "Role": "插件清单/模组元数据/原创资源/许可",
+      "Code location": "LICENSE",
+      "Before": {
+        "bytes": 35823,
+        "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+      },
+      "Changes": "与分发包同步复制，内容不变",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 35823,
+        "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "Role": "插件清单/模组元数据/原创资源/许可",
+      "Code location": "LICENSE-NOTICE.md",
+      "Before": {
+        "bytes": 731,
+        "sha256": "87db8a2bece159bf8a09ca72b4904c27a3e3fc0998139c5990f73816fc4b8b60"
+      },
+      "Changes": "与分发包同步复制，内容不变",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 731,
+        "sha256": "87db8a2bece159bf8a09ca72b4904c27a3e3fc0998139c5990f73816fc4b8b60"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "Role": "分发说明，同步 0.1.1/F8 和日志诊断",
+      "Code location": "README.md",
+      "Before": {
+        "bytes": 783,
+        "sha256": "294dee88a2da64891a0136ef5812091409b8e2791599727432fe26e652b2d6c0"
+      },
+      "Changes": "替换为 0.1.1 成品/配置/说明",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 1115,
+        "sha256": "74e815ee1722664d38aea89a29d49eb8523b0c6097916191351bafc3fd2638cc"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "Role": "插件清单/模组元数据/原创资源/许可",
+      "Code location": "RE_Kenshi.json",
+      "Before": {
+        "bytes": 54,
+        "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5"
+      },
+      "Changes": "与分发包同步复制，内容不变",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 54,
+        "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "Role": "插件清单/模组元数据/原创资源/许可",
+      "Code location": "_JudgementCutEnd.info",
+      "Before": {
+        "bytes": 307,
+        "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3"
+      },
+      "Changes": "与分发包同步复制，内容不变",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 307,
+        "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "Role": "插件清单/模组元数据/原创资源/许可",
+      "Code location": "assets/jce.clip",
+      "Before": {
+        "bytes": 239654,
+        "sha256": "4c6a838f15ec69114eb7b45231915abe54ec8af61dfadc2fcc060a7aec6f1ebf"
+      },
+      "Changes": "与分发包同步复制，内容不变",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 239654,
+        "sha256": "4c6a838f15ec69114eb7b45231915abe54ec8af61dfadc2fcc060a7aec6f1ebf"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "Role": "插件清单/模组元数据/原创资源/许可",
+      "Code location": "assets/jce.material",
+      "Before": {
+        "bytes": 519,
+        "sha256": "2a5c44eb23d91eed4e21fe8426c2f1c21c4e38e23180b15423bcc0320f0e27ee"
+      },
+      "Changes": "与分发包同步复制，内容不变",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 519,
+        "sha256": "2a5c44eb23d91eed4e21fe8426c2f1c21c4e38e23180b15423bcc0320f0e27ee"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "Role": "插件清单/模组元数据/原创资源/许可",
+      "Code location": "assets/jce_glow.tga",
+      "Before": {
+        "bytes": 32786,
+        "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481"
+      },
+      "Changes": "与分发包同步复制，内容不变",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 32786,
+        "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga"
+        ],
+        "encoding": "binary / byte-exact"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "Role": "插件清单/模组元数据/原创资源/许可",
+      "Code location": "assets/jce_sequence.wav",
+      "Before": {
+        "bytes": 295514,
+        "sha256": "c69ce8ccc528aa4609369596b4559734ed9cbd6be80e1c9bde1b290ba14e9036"
+      },
+      "Changes": "与分发包同步复制，内容不变",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 295514,
+        "sha256": "c69ce8ccc528aa4609369596b4559734ed9cbd6be80e1c9bde1b290ba14e9036"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav"
+        ],
+        "encoding": "binary / byte-exact"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "Role": "插件清单/模组元数据/原创资源/许可",
+      "Code location": "assets/slashes.csv",
+      "Before": {
+        "bytes": 8991,
+        "sha256": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b"
+      },
+      "Changes": "与分发包同步复制，内容不变",
+      "Reasons": "用户已编译并要求更新本地模组 DLL 和相关内容",
+      "After": {
+        "bytes": 8991,
+        "sha256": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b"
+      },
+      "Impact": "只影响 JudgementCutEnd，运行游戏尚未测试",
+      "Validation": "安装目标与分发包逐字节一致；双备份一致；适用文本 UTF-8/CRLF/中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-143250-6874632\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "等待用户启动游戏验证 plugin_ready 与 Ctrl+Shift+F8"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "Role": "本项目状态记录",
+      "Code location": "compiled/installed/status/pending",
+      "Before": "源码 0.1.1 待编译、安装旧 DLL",
+      "Changes": "记录用户编译与本次安装完成，仍待实机验证",
+      "Reasons": "新 DLL/目标哈希一致，导出已核验",
+      "After": "installed_0.1.1_pending_runtime_test",
+      "Impact": "仅文档元数据",
+      "Validation": "JSON 回读及 UTF-8/CRLF 中文检查通过",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-InstallMetadata-20261007-143342-618856\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InstallMetadata-20261007-143342-618856\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+        ],
+        "encoding": "UTF-8"
+      },
+      "Unresolved": "游戏实际加载、演出仍需测试"
+    }
+  ],
+  "game_tested": false,
+  "config_default": "Ctrl+Shift+F8 / CastKeyVK=119"
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+  "Role": "动画转换工具",
+  "Code location": "humanoid required bones",
+  "Before": "c82fae3f20e0a2297b4bb7f8b7bd1de43ba8e5343f0731b2c3fe84b37966c622",
+  "Changes": "仅约束实际控制的23骨，允许男女装饰骨差异",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "7a58afa38a59b7ec4bf570f5943eddcfb399cdb25a2e9303eef7f7f3f7952f06",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-225250-674245\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-225250-674245\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

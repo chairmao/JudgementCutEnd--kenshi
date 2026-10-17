@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "演出/空间查询/原生医疗",
+  "Code location": "LoadAssets / AreaRadius / InArea / Collect / Damage / Draw",
+  "Before": "裂痕最大外缘218.7与伤害150不一致；早期快照+32人截断",
+  "Changes": "共用资产包围球；全敌人结算时扫描；边界环；固定同一中心；详细命中日志最多16条；记录原生部位权重语义；版本0.2.8",
+  "Reasons": "43条裂痕超出旧球；原生addWound读取hitChance*hitChanceMult累计权重并随机选择",
+  "After": "0.2.8源码统一特效与伤害范围；已安装0.2.7不变",
+  "Impact": "仅 JudgementCutEnd；统一裂痕外缘、范围环和结算筛选，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Range-20261007-190223-206453\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Range-20261007-190223-206453\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.8待用户编译及实机验证；不代编译，不改变部位选择"
+}

@@ -1,0 +1,38 @@
+{
+  "revision": "2.3-volume-flow-r1",
+  "source_version": "2.3.0-dev",
+  "previous_resource_revision": "2.2-blue-flow-r2",
+  "audit": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VolumeFog-20261008-124150-858878",
+  "evidence_video": "C:\\Users\\周凡稀\\AppData\\Local\\Temp\\steam\\40680D~1.MP4",
+  "atmosphere": "32 view-aligned slices integrating one advected density field in fixed 350 hemisphere",
+  "fog_slices": 32,
+  "fog_clock_units": "clip seconds, 3x real playback",
+  "fog_step_normalized": 0.0625,
+  "optical_depth": "0.85 * phase * normalized_step * hemisphere_boundary * density",
+  "cloud_sprites": 0,
+  "dust_slots": 144,
+  "dust_paths": 48,
+  "dust_strength_vs_2_2": 0.25,
+  "source_spark_slots": 128,
+  "layers": 9,
+  "vertex_upper_bound": 17364,
+  "index_upper_bound": 43902,
+  "sample_counts": {
+    "Mist": 3,
+    "Smoke": 4
+  },
+  "native_compiled": true,
+  "shader_compiled": false,
+  "installed": true,
+  "game_tested": false,
+  "compatibility": "2.3 DLL supplies normalized thickness in vertex alpha; cannot mix this Mist shader with 2.2 cloud DLL",
+  "limits": [
+    "此为32层体积切片积分近似，不是完整3D纹理raymarch",
+    "真实遮挡依赖各切片depth_check；透明物体互排序与薄地形交线需实机确认",
+    "相机内外/俯视CPU覆盖通过，不冒称游戏效果",
+    "不代编译；用户Release|x64构建后再部署，旧安装r2全程不动",
+    "几何数量更少不代表GPU成本更少：连续覆盖扩大透明像素面积，虽球外早退与采样数不变，实机帧率待测。"
+  ],
+  "native_compiled_by": "user; PE64/export/embedded version/source timestamp checked by Stage",
+  "native_DLL_sha256": "46e5acec4b142e51d5d3a12b265500fa0cba1ba2df63eb784ce98a3ef81a1a36"
+}

@@ -1,0 +1,1192 @@
+{
+  "static_passed": true,
+  "check_count": 219,
+  "checks": [
+    {
+      "name": "backup D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "backup E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "backup D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "backup E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "backup D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "backup E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "backup D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "backup E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "backup D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "backup E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "backup D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce.material",
+      "passed": true
+    },
+    {
+      "name": "backup E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce.material",
+      "passed": true
+    },
+    {
+      "name": "backup D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "backup E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "backup D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "backup E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "backup D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "backup E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / package/JudgementCutEnd/assets/jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "backup D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / docs/task-status.json",
+      "passed": true
+    },
+    {
+      "name": "backup E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642 / docs/task-status.json",
+      "passed": true
+    },
+    {
+      "name": "complete C++ scope limited to five VFX functions and version",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void Begin(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void Finish(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void Tick(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void Damage(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void Pose(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void RestoreTime(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void Collect(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void FitSlashLayout(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void ReleaseGraphics(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void ReleaseRefraction(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void PrepareRefraction(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void CaptureBackground(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void MakeResources(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void Ribbon(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void GroundRing(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void Mist(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void HazeVertex(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void SourceQuad(",
+      "passed": true
+    },
+    {
+      "name": "protected unchanged void SourceSprite(",
+      "passed": true
+    },
+    {
+      "name": "Draw only revision log changed",
+      "passed": true
+    },
+    {
+      "name": "only Ribbon and GroundRing use energy Vertex",
+      "passed": true
+    },
+    {
+      "name": "energy producer shared RGB peak and alpha half",
+      "passed": true
+    },
+    {
+      "name": "Glow decodes alpha once and returns zero for zero energy",
+      "passed": true
+    },
+    {
+      "name": "Glow energy in RGB and ONE ONE blend",
+      "passed": true
+    },
+    {
+      "name": "ordinary source alpha not decoded",
+      "passed": true
+    },
+    {
+      "name": "shared scalar HDR compression",
+      "passed": true
+    },
+    {
+      "name": "old vertex white saturation reproduced",
+      "passed": true
+    },
+    {
+      "name": "Glow hue/zero energy 0",
+      "passed": true
+    },
+    {
+      "name": "Glow hue/zero energy 0.05",
+      "passed": true
+    },
+    {
+      "name": "Glow hue/zero energy 0.4",
+      "passed": true
+    },
+    {
+      "name": "Glow hue/zero energy 0.8",
+      "passed": true
+    },
+    {
+      "name": "Glow hue/zero energy 1.6",
+      "passed": true
+    },
+    {
+      "name": "Glow hue/zero energy 2",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "entry exists JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/MistBase27_FP",
+      "passed": true
+    },
+    {
+      "name": "entry exists JCE/MistBase27_FP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/Smoke_FP",
+      "passed": true
+    },
+    {
+      "name": "entry exists JCE/Smoke_FP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/SourceSmokeRibbon27_FP",
+      "passed": true
+    },
+    {
+      "name": "entry exists JCE/SourceSmokeRibbon27_FP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/SourceSmokeWisp27_FP",
+      "passed": true
+    },
+    {
+      "name": "entry exists JCE/SourceSmokeWisp27_FP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/Refraction_VP",
+      "passed": true
+    },
+    {
+      "name": "entry exists JCE/Refraction_VP",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/Refraction27_FP",
+      "passed": true
+    },
+    {
+      "name": "entry exists JCE/Refraction27_FP",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / captureValid",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / screenState",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutPlane0",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutPlane1",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutPlane2",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutPlane3",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutPlane4",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutPlane5",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutPlane6",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutPlane7",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutState0",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutState1",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutState2",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutState3",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutState4",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutState5",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutState6",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutState7",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutLife0",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutLife1",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutLife2",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutLife3",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutLife4",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutLife5",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutLife6",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Refraction27_FP / cutLife7",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/SourceTexture27_FP",
+      "passed": true
+    },
+    {
+      "name": "entry exists JCE/SourceTexture27_FP",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/SourceTexture27_FP / hdrGain",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/SourceTexture27_FP / grayscale",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/SourceTexture27_FP / colourTint",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/SourceTexture27_FP / dustDetail",
+      "passed": true
+    },
+    {
+      "name": "unique program JCE/Glow27_FP",
+      "passed": true
+    },
+    {
+      "name": "entry exists JCE/Glow27_FP",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Glow27_FP / hdrGain",
+      "passed": true
+    },
+    {
+      "name": "uniform JCE/Glow27_FP / colourTint",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce.material / JCE/Glow27_FP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce.material / JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce.material / JCE/MistBase27_FP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce.material / JCE/Refraction_VP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce.material / JCE/Refraction27_FP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce_source.material / JCE/SourceTexture27_FP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce_source.material / JCE/SourceTexture27_FP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce_source.material / JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce_source.material / JCE/Smoke_FP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce_source.material / JCE/SourceTexture27_FP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce_source.material / JCE/SourceTexture27_FP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce_source.material / JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce_source.material / JCE/SourceSmokeRibbon27_FP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce_source.material / JCE/Fog_VP",
+      "passed": true
+    },
+    {
+      "name": "material resolves jce_source.material / JCE/SourceSmokeWisp27_FP",
+      "passed": true
+    },
+    {
+      "name": "Glow material owns new program",
+      "passed": true
+    },
+    {
+      "name": "Glow uniform defaults match",
+      "passed": true
+    },
+    {
+      "name": "low frequency repeat texture Mist",
+      "passed": true
+    },
+    {
+      "name": "low frequency repeat texture SourceSmokeRibbon",
+      "passed": true
+    },
+    {
+      "name": "low frequency repeat texture SourceSmokeWisp",
+      "passed": true
+    },
+    {
+      "name": "two field noise samples",
+      "passed": true
+    },
+    {
+      "name": "volume and aux share local density field",
+      "passed": true
+    },
+    {
+      "name": "continuous blue palette has no gray palette read",
+      "passed": true
+    },
+    {
+      "name": "soft density / weak atlas / edge transparency",
+      "passed": true
+    },
+    {
+      "name": "fixed atlas and half texel",
+      "passed": true
+    },
+    {
+      "name": "atlas mip remains disabled",
+      "passed": true
+    },
+    {
+      "name": "legacy dust algorithm unchanged",
+      "passed": true
+    },
+    {
+      "name": "dust/ribbon/wisp lower weighting",
+      "passed": true
+    },
+    {
+      "name": "slice normalized Beer Lambert alpha",
+      "passed": true
+    },
+    {
+      "name": "density model (0, 16)",
+      "passed": true
+    },
+    {
+      "name": "density model (0, 32)",
+      "passed": true
+    },
+    {
+      "name": "density model (0, 64)",
+      "passed": true
+    },
+    {
+      "name": "density model (0.1, 16)",
+      "passed": true
+    },
+    {
+      "name": "density model (0.1, 32)",
+      "passed": true
+    },
+    {
+      "name": "density model (0.1, 64)",
+      "passed": true
+    },
+    {
+      "name": "density model (0.5, 16)",
+      "passed": true
+    },
+    {
+      "name": "density model (0.5, 32)",
+      "passed": true
+    },
+    {
+      "name": "density model (0.5, 64)",
+      "passed": true
+    },
+    {
+      "name": "density model (1, 16)",
+      "passed": true
+    },
+    {
+      "name": "density model (1, 32)",
+      "passed": true
+    },
+    {
+      "name": "density model (1, 64)",
+      "passed": true
+    },
+    {
+      "name": "denser volume remains bounded",
+      "passed": true
+    },
+    {
+      "name": "four edges transparent (0, 0.5)",
+      "passed": true
+    },
+    {
+      "name": "four edges transparent (1, 0.5)",
+      "passed": true
+    },
+    {
+      "name": "four edges transparent (0.5, 0)",
+      "passed": true
+    },
+    {
+      "name": "four edges transparent (0.5, 1)",
+      "passed": true
+    },
+    {
+      "name": "RGBA 512 periodic texture reproducible",
+      "passed": true
+    },
+    {
+      "name": "new texture hash",
+      "passed": true
+    },
+    {
+      "name": "periodic seam gradient 0",
+      "passed": true
+    },
+    {
+      "name": "periodic seam gradient 1",
+      "passed": true
+    },
+    {
+      "name": "pixel grain power bounded 0",
+      "passed": true
+    },
+    {
+      "name": "pixel grain power bounded 1",
+      "passed": true
+    },
+    {
+      "name": "pixel grain power bounded 2",
+      "passed": true
+    },
+    {
+      "name": "pixel grain power bounded 3",
+      "passed": true
+    },
+    {
+      "name": "density flows across .3 clip second",
+      "passed": true
+    },
+    {
+      "name": "density continuous across tiny time increment",
+      "passed": true
+    },
+    {
+      "name": "one scene copy sample",
+      "passed": true
+    },
+    {
+      "name": "local cold multiplier",
+      "passed": true
+    },
+    {
+      "name": "refraction only cold multiplier code changed",
+      "passed": true
+    },
+    {
+      "name": "fixed geometry budget unchanged",
+      "passed": true
+    },
+    {
+      "name": "metadata does not claim compilation or game test",
+      "passed": true
+    },
+    {
+      "name": "installed DLL remains verified 2.6",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce.material",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "installed asset unchanged jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "formal 2.5 frozen archive unchanged",
+      "passed": true
+    },
+    {
+      "name": "encoding JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "CRLF JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "balanced delimiters JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "encoding jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "CRLF jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "balanced delimiters jce_atmosphere.hlsl",
+      "passed": true
+    },
+    {
+      "name": "encoding jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "CRLF jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "balanced delimiters jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "encoding jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "CRLF jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "balanced delimiters jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "encoding jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "CRLF jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "balanced delimiters jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "encoding jce.material",
+      "passed": true
+    },
+    {
+      "name": "CRLF jce.material",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved jce.material",
+      "passed": true
+    },
+    {
+      "name": "balanced delimiters jce.material",
+      "passed": true
+    },
+    {
+      "name": "encoding jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "CRLF jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "balanced delimiters jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "encoding jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "CRLF jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "balanced delimiters jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "encoding jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "CRLF jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "balanced delimiters jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "encoding generate_cloud_field27.py",
+      "passed": true
+    },
+    {
+      "name": "CRLF generate_cloud_field27.py",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved generate_cloud_field27.py",
+      "passed": true
+    },
+    {
+      "name": "Python syntax generate_cloud_field27.py",
+      "passed": true
+    },
+    {
+      "name": "encoding verify_four_fixes27.py",
+      "passed": true
+    },
+    {
+      "name": "CRLF verify_four_fixes27.py",
+      "passed": true
+    },
+    {
+      "name": "Chinese preserved verify_four_fixes27.py",
+      "passed": true
+    },
+    {
+      "name": "Python syntax verify_four_fixes27.py",
+      "passed": true
+    }
+  ],
+  "metrics": {
+    "maximum_single_glow_rgb": [
+      0.19808126410835217,
+      0.8496162528216704,
+      1.2189616252821671
+    ],
+    "uniform_path_alpha_old": 0.27385096292630906,
+    "uniform_path_alpha_new": 0.8504313807773649,
+    "high_frequency_fraction_0": 4.877325036151741e-05,
+    "high_frequency_fraction_1": 4.8747197629314314e-05,
+    "high_frequency_fraction_2": 4.889350834058201e-05,
+    "high_frequency_fraction_3": 4.8666004112744424e-05,
+    "flow_mean_delta_0_3_clip_seconds": 0.11945790935339572,
+    "flow_mean_delta_0_0001_clip_seconds": 4.71826045487873e-05
+  },
+  "compiled": false,
+  "game_tested": false,
+  "performance_measured": false,
+  "limits": "源码合同与数值模型；未代替HLSL编译、GPU混合/曝光/性能和游戏验收",
+  "time_verification": {
+    "static_passed": true,
+    "checks": [
+      {
+        "name": "restore before renderer/resolve/bone/weapon operations",
+        "passed": true
+      },
+      {
+        "name": "restore independent of active flag",
+        "passed": true
+      },
+      {
+        "name": "ownership published before slow setter",
+        "passed": true
+      },
+      {
+        "name": "pending blocks replacement of baseline",
+        "passed": true
+      },
+      {
+        "name": "idle resume recovery before new input snapshot",
+        "passed": true
+      },
+      {
+        "name": "no pause override or field writes",
+        "passed": true
+      },
+      {
+        "name": "old world guarded before calls",
+        "passed": true
+      },
+      {
+        "name": "restore verified by native getter before release",
+        "passed": true
+      },
+      {
+        "name": "bounded failure logging",
+        "passed": true
+      },
+      {
+        "name": "distinct pause/focus/escape diagnostics",
+        "passed": true
+      },
+      {
+        "name": "restore completed base=1",
+        "passed": true
+      },
+      {
+        "name": "restore escape base=1",
+        "passed": true
+      },
+      {
+        "name": "restore focus base=1",
+        "passed": true
+      },
+      {
+        "name": "restore loading base=1",
+        "passed": true
+      },
+      {
+        "name": "restore pose_error base=1",
+        "passed": true
+      },
+      {
+        "name": "restore frame_stall base=1",
+        "passed": true
+      },
+      {
+        "name": "restore begin_after_slow_failed base=1",
+        "passed": true
+      },
+      {
+        "name": "restore restart base=1",
+        "passed": true
+      },
+      {
+        "name": "pause remains paused base=1",
+        "passed": true
+      },
+      {
+        "name": "pending cannot overwrite baseline base=1",
+        "passed": true
+      },
+      {
+        "name": "unpause restores original base=1",
+        "passed": true
+      },
+      {
+        "name": "next cast snapshots normal speed base=1",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 1 -> 1",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 1 -> 2",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 1 -> 3",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 1 -> 0.5",
+        "passed": true
+      },
+      {
+        "name": "restore completed base=2",
+        "passed": true
+      },
+      {
+        "name": "restore escape base=2",
+        "passed": true
+      },
+      {
+        "name": "restore focus base=2",
+        "passed": true
+      },
+      {
+        "name": "restore loading base=2",
+        "passed": true
+      },
+      {
+        "name": "restore pose_error base=2",
+        "passed": true
+      },
+      {
+        "name": "restore frame_stall base=2",
+        "passed": true
+      },
+      {
+        "name": "restore begin_after_slow_failed base=2",
+        "passed": true
+      },
+      {
+        "name": "restore restart base=2",
+        "passed": true
+      },
+      {
+        "name": "pause remains paused base=2",
+        "passed": true
+      },
+      {
+        "name": "pending cannot overwrite baseline base=2",
+        "passed": true
+      },
+      {
+        "name": "unpause restores original base=2",
+        "passed": true
+      },
+      {
+        "name": "next cast snapshots normal speed base=2",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 2 -> 1",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 2 -> 2",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 2 -> 3",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 2 -> 0.5",
+        "passed": true
+      },
+      {
+        "name": "restore completed base=3",
+        "passed": true
+      },
+      {
+        "name": "restore escape base=3",
+        "passed": true
+      },
+      {
+        "name": "restore focus base=3",
+        "passed": true
+      },
+      {
+        "name": "restore loading base=3",
+        "passed": true
+      },
+      {
+        "name": "restore pose_error base=3",
+        "passed": true
+      },
+      {
+        "name": "restore frame_stall base=3",
+        "passed": true
+      },
+      {
+        "name": "restore begin_after_slow_failed base=3",
+        "passed": true
+      },
+      {
+        "name": "restore restart base=3",
+        "passed": true
+      },
+      {
+        "name": "pause remains paused base=3",
+        "passed": true
+      },
+      {
+        "name": "pending cannot overwrite baseline base=3",
+        "passed": true
+      },
+      {
+        "name": "unpause restores original base=3",
+        "passed": true
+      },
+      {
+        "name": "next cast snapshots normal speed base=3",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 3 -> 1",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 3 -> 2",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 3 -> 3",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 3 -> 0.5",
+        "passed": true
+      },
+      {
+        "name": "manual resume speed preserved",
+        "passed": true
+      },
+      {
+        "name": "old world never written on replacement",
+        "passed": true
+      },
+      {
+        "name": "invalid world releases without dereference/write",
+        "passed": true
+      },
+      {
+        "name": "setter exception retains baseline",
+        "passed": true
+      },
+      {
+        "name": "setter exception retry restores",
+        "passed": true
+      },
+      {
+        "name": "unverified setter retains ownership",
+        "passed": true
+      },
+      {
+        "name": "unverified setter retry restores",
+        "passed": true
+      },
+      {
+        "name": "invalid speed deferred 0",
+        "passed": true
+      },
+      {
+        "name": "invalid speed deferred nan",
+        "passed": true
+      },
+      {
+        "name": "invalid speed deferred inf",
+        "passed": true
+      },
+      {
+        "name": "old bug reproduced: poisoned baseline persists",
+        "passed": true
+      },
+      {
+        "name": "100 repeated casts and pause cancellations do not drift",
+        "passed": true
+      }
+    ],
+    "check_count": 70,
+    "compiled": false,
+    "game_tested": false,
+    "model_limit": "接口合同模型及源码绑定检查，不能代替实际C++和游戏验证"
+  },
+  "total_check_count": 289,
+  "source_cpp_sha256": "ed21355a589864dbc886b342241c9042fb7dad8b11f42d7c0395818981c1e032"
+}

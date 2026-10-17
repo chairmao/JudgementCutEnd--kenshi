@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目入口说明",
+  "Code location": "当前状态/发行与编译入口",
+  "Before": "2bf6d844376245fb5465066b4ed864c4931d3325f7915cd639723b9b82252d56",
+  "Changes": "以冻结正式2.0和开发2.1替换过期当前描述；保留历史记录并明确编译验收边界",
+  "Reasons": "用户指定冻结正式版2.0并改进粒子；沿用已授权JudgementCutEnd.cpp特效绘制范围",
+  "After": "915e7a5cb73766346ba3b7bc318d488316b4306ab282f5421a3ab0e9aca6c463",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Particle21-20261008-014456-490201\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Particle21-20261008-014456-490201\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

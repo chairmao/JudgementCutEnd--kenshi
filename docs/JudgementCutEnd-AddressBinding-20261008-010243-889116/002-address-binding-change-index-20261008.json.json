@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\address-binding-change-index-20261008.json",
+  "Role": "本轮逐文件索引",
+  "Code location": "具体变更与双备份",
+  "Before": "absent",
+  "Changes": "单独保留每个文件的11字段记录，供审查修改范围与回滚",
+  "Reasons": "用户明确要求JudgementCutEnd.cpp不使用字符串函数签名，改为函数地址式绑定",
+  "After": "443d1023f9b8cb3f821483899a76144b0c255debaab20c8c9e64b6fd49bd0976",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

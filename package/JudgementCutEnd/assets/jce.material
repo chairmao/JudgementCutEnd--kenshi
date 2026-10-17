@@ -1,0 +1,119 @@
+material JCE/Glow
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref Basic_Coloured_Texture_VP {}
+            // 2.7：Vertex的Alpha传亮度，RGB保留色相比值；能量由自有程序解码后叠加。
+            // 共享标量压缩HDR峰值，原场景深度仍检测；不覆盖游戏Basic程序。
+            fragment_program_ref JCE/Glow27_FP
+            {
+                param_named hdrGain float 1.35
+                param_named colourTint float3 0.25 0.82 1
+            }
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            scene_blend add
+            texture_unit
+            {
+                texture jce_glow.tga
+                tex_address_mode clamp
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// 2.7.1：整体切片雾暂时停用；保留段布局兼容DLL，不再显示蓝色半圆幕布。
+material JCE/Mist
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref JCE/Fog_VP {}
+            fragment_program_ref JCE/MistDisabled271_FP {}
+            // 普通透明混合保留背景与蓝色层次；写深度关闭，世界深度检测/双面保持。
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            scene_blend alpha_blend
+            texture_unit
+            {
+                texture jce_cloud_field27.tga
+                tex_address_mode wrap
+                filtering trilinear
+            }
+            texture_unit
+            {
+                texture jce_source_fog_palette.dds
+                tex_address_mode clamp
+                filtering trilinear
+            }
+        }
+    }
+}
+material JCE/Glass
+{
+    technique
+    {
+        pass
+        {
+            vertex_program_ref Basic_Coloured_Texture_VP {}
+            fragment_program_ref Basic_Texture_FP
+            {
+                // 仅光学高光/幻影偏冷蓝；灰色背景Mist与场景折射不染整屏颜色。
+                param_named colour float4 0.78 0.91 1 1
+            }
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            // 乘源Alpha再叠加光，确保零Alpha帧没有高光；纯add会忽略顶点Alpha。
+            scene_blend src_alpha one
+            texture_unit
+            {
+                texture jce_glass.tga
+                tex_address_mode clamp
+                colour_op modulate
+            }
+        }
+    }
+}
+
+// 独立背景副本在施放前绑定，首段绘制前完成GPU复制；仍保留世界深度遮挡和正常Alpha混合。
+material JCE/Refraction
+{
+    technique
+    {
+        pass
+        {
+            // 2.9.2增加宽面枢轴/轴向；t0为源光斑Alpha遮罩，t1仍是独立HDR副本。
+            // 2.9.4使用第四UV的逐片揭开/偏折数据；源纹理、深度与混合合同保持不变。
+            vertex_program_ref JCE/Facet297_VP {}
+            fragment_program_ref JCE/Facet297_FP {}
+            lighting off
+            depth_write off
+            depth_check on
+            cull_hardware none
+            scene_blend alpha_blend
+            texture_unit
+            {
+                texture jce_source_optical_mask.dds
+                tex_address_mode clamp
+                filtering bilinear
+            }
+            texture_unit
+            {
+                // 解析时占位，PrepareRefraction替换为JCE/SceneCopy；失败时本材质不提交。
+                texture jce_glow.tga
+                tex_address_mode clamp
+                filtering bilinear
+            }
+        }
+    }
+}

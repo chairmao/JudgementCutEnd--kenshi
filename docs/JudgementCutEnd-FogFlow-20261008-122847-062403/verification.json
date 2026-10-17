@@ -1,0 +1,832 @@
+{
+  "resource_revision": "2.2-blue-flow-r2",
+  "non_compiling": true,
+  "checks": [
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\bin\\Release\\JudgementCutEnd.dll",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_fog_noise.tga",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_glass.tga",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_mist.tga",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_phantom.bin",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_shards.csv",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_blade09.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_dust.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_flash.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_fog_palette.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_spark.dds",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.program",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\slashes.csv",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.1.1.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.2.0.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\RE_Kenshi.json",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-1.0.0.zip",
+      "passed": true
+    },
+    {
+      "name": "unchanged E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\releases\\JudgementCutEnd-2.0.0-release.zip",
+      "passed": true
+    },
+    {
+      "name": "protected function jce_fog_vp",
+      "passed": true
+    },
+    {
+      "name": "protected function jce_fog_edge",
+      "passed": true
+    },
+    {
+      "name": "protected function jce_fog_boundary",
+      "passed": true
+    },
+    {
+      "name": "protected function jce_fog_colour",
+      "passed": true
+    },
+    {
+      "name": "protected function jce_smoke_frame",
+      "passed": true
+    },
+    {
+      "name": "balanced braces",
+      "passed": true
+    },
+    {
+      "name": "vertex time contract retained",
+      "passed": true
+    },
+    {
+      "name": "mist noise sample count retained",
+      "passed": true
+    },
+    {
+      "name": "smoke noise sample count retained",
+      "passed": true
+    },
+    {
+      "name": "no global time/uniform added",
+      "passed": true
+    },
+    {
+      "name": "CRLF/no BOM",
+      "passed": true
+    },
+    {
+      "name": "r2 visible field change >3x r1 at50ms",
+      "passed": true
+    },
+    {
+      "name": "r2 stronger soft density contrast",
+      "passed": true
+    },
+    {
+      "name": "no single frame density jump",
+      "passed": true
+    },
+    {
+      "name": "not made more opaque on average",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 0.01, 0.5, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 0.01, 0.5, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 0.5, 0.5, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 0.5, 0.5, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 0.8, 0.8, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 0.8, 0.8, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 1, 1, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 1, 1, 1)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0, 1, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 0, 0.6, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 0, 0.6, 1)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0, 0, 0.6)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 1, 0.7, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0, 1, 0.7, 1)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0, 1, 0.7)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 0, 0, 0.1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 0, 0, 1.1)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0.1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 0.01, 0.5, 0.1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 0.01, 0.5, 1.1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 0.5, 0.5, 0.1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 0.5, 0.5, 1.1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 0.8, 0.8, 0.1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 0.8, 0.8, 1.1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 1, 1, 0.1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 1, 1, 1.1)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0.1, 1, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 0, 0.6, 0.1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 0, 0.6, 1.1)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0.1, 0, 0.6)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 1, 0.7, 0.1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.1, 1, 0.7, 1.1)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0.1, 1, 0.7)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 0, 0, 0.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 0, 0, 1.99)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0.99, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 0.01, 0.5, 0.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 0.01, 0.5, 1.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 0.5, 0.5, 0.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 0.5, 0.5, 1.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 0.8, 0.8, 0.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 0.8, 0.8, 1.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 1, 1, 0.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 1, 1, 1.99)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0.99, 1, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 0, 0.6, 0.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 0, 0.6, 1.99)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0.99, 0, 0.6)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 1, 0.7, 0.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (0.99, 1, 0.7, 1.99)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (0.99, 1, 0.7)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 0, 0, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 0, 0, 2)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (1, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 0.01, 0.5, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 0.01, 0.5, 2)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 0.5, 0.5, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 0.5, 0.5, 2)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 0.8, 0.8, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 0.8, 0.8, 2)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 1, 1, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 1, 1, 2)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (1, 1, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 0, 0.6, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 0, 0.6, 2)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (1, 0, 0.6)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 1, 0.7, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (1, 1, 0.7, 2)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (1, 1, 0.7)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 0, 0, 7.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 0, 0, 8.99)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (7.99, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 0.01, 0.5, 7.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 0.01, 0.5, 8.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 0.5, 0.5, 7.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 0.5, 0.5, 8.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 0.8, 0.8, 7.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 0.8, 0.8, 8.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 1, 1, 7.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 1, 1, 8.99)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (7.99, 1, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 0, 0.6, 7.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 0, 0.6, 8.99)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (7.99, 0, 0.6)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 1, 0.7, 7.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (7.99, 1, 0.7, 8.99)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (7.99, 1, 0.7)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 0, 0, 63.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 0, 0, 64.99000000000001)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (63.99, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 0.01, 0.5, 63.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 0.01, 0.5, 64.99000000000001)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 0.5, 0.5, 63.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 0.5, 0.5, 64.99000000000001)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 0.8, 0.8, 63.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 0.8, 0.8, 64.99000000000001)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 1, 1, 63.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 1, 1, 64.99000000000001)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (63.99, 1, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 0, 0.6, 63.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 0, 0.6, 64.99000000000001)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (63.99, 0, 0.6)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 1, 0.7, 63.99)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (63.99, 1, 0.7, 64.99000000000001)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (63.99, 1, 0.7)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 0, 0, 64)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 0, 0, 65)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (64, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 0.01, 0.5, 64)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 0.01, 0.5, 65)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 0.5, 0.5, 64)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 0.5, 0.5, 65)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 0.8, 0.8, 64)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 0.8, 0.8, 65)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 1, 1, 64)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 1, 1, 65)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (64, 1, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 0, 0.6, 64)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 0, 0.6, 65)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (64, 0, 0.6)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 1, 0.7, 64)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (64, 1, 0.7, 65)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (64, 1, 0.7)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 0, 0, 128)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 0, 0, 129)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (128, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 0.01, 0.5, 128)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 0.01, 0.5, 129)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 0.5, 0.5, 128)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 0.5, 0.5, 129)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 0.8, 0.8, 128)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 0.8, 0.8, 129)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 1, 1, 128)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 1, 1, 129)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (128, 1, 1)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 0, 0.6, 128)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 0, 0.6, 129)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (128, 0, 0.6)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 1, 0.7, 128)",
+      "passed": true
+    },
+    {
+      "name": "atlas bounded (128, 1, 0.7, 129)",
+      "passed": true
+    },
+    {
+      "name": "edge displacement zero (128, 1, 0.7)",
+      "passed": true
+    }
+  ],
+  "check_count": 199,
+  "CPU_density_probe": {
+    "method": "真实noise纹理、固定局部坐标、双线性重复采样，模拟像素密度层；不包括GPU栅格、深度遮挡、96层排序、烟图实际像素和屏幕合成",
+    "point_count": 697,
+    "clip_playback_rate": 3,
+    "results": {
+      "r1": {
+        "std_density": 0.04800424384680456,
+        "mean_density": 0.6793574632105317,
+        "mean_change_1_real_frame": 0.0004475313419204279,
+        "mean_change_50ms_real": 0.0013138906804464202,
+        "mean_change_full_cut": 0.02258188844923536,
+        "min_density": 0.5787105747686901,
+        "max_density": 0.7887747753218299
+      },
+      "r2": {
+        "std_density": 0.23674741351690082,
+        "mean_density": 0.5005227919880727,
+        "mean_change_1_real_frame": 0.012208146229511083,
+        "mean_change_50ms_real": 0.03603479459680971,
+        "mean_change_full_cut": 0.24754850202048317,
+        "min_density": 0.06335527586427743,
+        "max_density": 0.9387647676203463
+      }
+    }
+  },
+  "runtime_evidence_before_change": "2026-10-08 12:21:54.900 cast27 t=0; 12:21:56.897 t=6.06409; 12:21:57.118 time_restored after=1; 12:17/12:20 parsing jce_atmosphere.program",
+  "runtime_test_after_change": false,
+  "GPU_cost": "雾/烟纹理采样次数不变；Mist新增每像素sincos/旋转，不能保证帧率；未编译/未实测",
+  "protected": "CPP/DLL/全部其它包资源/正式版1.0与2.0逐项SHA不变"
+}

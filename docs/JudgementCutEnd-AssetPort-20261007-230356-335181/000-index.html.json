@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+  "Role": "离线预览",
+  "Code location": "pose/phantom/focus controls",
+  "Before": "52b581e9d7b9e58355ac808c822c4d090c31dc7422a14ca87de5b015918fda20",
+  "Changes": "真实位移与旋转插值，网格残影，动作近看；静态预览不代替游戏验证",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "9a818488cbce07acf8dd8e3b7eb7af48a7bb3d41eb4017bea3963e8adc8abb6b",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-230356-335181\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-230356-335181\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

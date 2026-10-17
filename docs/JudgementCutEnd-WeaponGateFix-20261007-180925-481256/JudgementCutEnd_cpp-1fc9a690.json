@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "独立RE_Kenshi运行插件",
+  "Code location": "Runtime::Begin/PrepareWeapon/Damage/Tick/Finish",
+  "Before": "0.2.4以战斗缓存当装备栏且武器检查拒绝整个施放；日志反复收到U随后拒绝",
+  "Changes": "原生主/副武器选择，正常拔刀建立缓存，伤害资格与视觉解耦；按所有权收刀；版本0.2.5",
+  "Reasons": "本机drawWeapon 0x5DB4F0在0x5DB79E调用跳板0x9B92，实际指向CharStats::setWeapon 0x897060；hasWeapon只读缓存hand",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；修复武器准备和演出放行，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-WeaponGateFix-20261007-180925-481256\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-WeaponGateFix-20261007-180925-481256\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.5待用户编译与实机验证；已安装DLL仍是0.2.4"
+}

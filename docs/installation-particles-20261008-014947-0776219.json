@@ -1,0 +1,347 @@
+{
+  "version": "2.1.0-dev",
+  "installed_local": "2026-10-08T01:49:47.0718034+08:00",
+  "installed_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "dll_sha256": "eace738bd15cb03be6591db50ea12d4107cf6585526c8e0ad7e7fe2cfd09da4c",
+  "dll_size": 368640,
+  "dll_modified_local": "2026-10-08T01:48:05.4853051+08:00",
+  "backup_directories": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261008-014946-5580569",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-014946-5580569"
+  ],
+  "backups_byte_verified": true,
+  "installed_hashes_verified": true,
+  "file_count": 32,
+  "pe64_export_and_version_checked": true,
+  "agent_ran_compiler": false,
+  "game_tested": false,
+  "previous_files": [
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "size": 307,
+      "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "size": 365568,
+      "sha256": "61edde0416bde310e8f4901c82e117b674d1292598023b016f5a0734e953bae7"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "size": 2096,
+      "sha256": "15f65bf08fc7a166ccaf4157e117c82f3291d199464a7ca356f37033fc6f4bd6"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "size": 117,
+      "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "size": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "size": 1603,
+      "sha256": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "size": 54,
+      "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "size": 4262,
+      "sha256": "32b14d9fbe9175d517be2d455fb87261babbfc0190e416f0d5a4f3b2a3bbaf14"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glass.tga",
+      "size": 16402,
+      "sha256": "7f15077985314b170b80b785c5f067cf887bc41fe3fbd84b2ae07b17638941ab"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "size": 32786,
+      "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga",
+      "size": 65554,
+      "sha256": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_phantom.bin",
+      "size": 959092,
+      "sha256": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "size": 1277,
+      "sha256": "3c854b96b9982067353eb1c7ff7b4eec661831b4c9955f9c97bd71f2785e78ae"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "size": 367,
+      "sha256": "e1d50bf3af0250cb6e6f1135ce7bf85369c759b64bd769c5e4759c05434e2361"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+      "size": 197024,
+      "sha256": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "size": 590984,
+      "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_shards.csv",
+      "size": 19989,
+      "sha256": "7ba2eafb15e7a78b95c23bb8402dc87c6d58ac497869b9547c06f2caff44c3e6"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+      "size": 262272,
+      "sha256": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_blade09.dds",
+      "size": 262272,
+      "sha256": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+      "size": 1361,
+      "sha256": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_dust.dds",
+      "size": 349680,
+      "sha256": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_flash.dds",
+      "size": 174896,
+      "sha256": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_spark.dds",
+      "size": 5600,
+      "sha256": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+      "size": 765,
+      "sha256": "818386b8728d4434bca0055f8e06ce4a655a3db7c920a0c81ef737ce370d7cc5"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program",
+      "size": 347,
+      "sha256": "6580a1a04e1c34f659386f5888513747820246f3d56ed07f631c00fe3a22ce9a"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source.material",
+      "size": 3749,
+      "sha256": "84f52799071875ab550508c9ebfb8cdd1d21539fe993d085fb02fbad1488e656"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "size": 954004,
+      "sha256": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "size": 3220,
+      "sha256": "883fea341a7885eabeee4602814d9baca312365b2f91d9d01253bc5ebd992ba4"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "size": 8991,
+      "sha256": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+      "size": 335,
+      "sha256": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.1.json",
+      "size": 477,
+      "sha256": "3b13ad798f4f2157f9dd0897ce41d0fc1223e3e1e7a1aff506062fe06b0bad06"
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+      "size": 13059,
+      "sha256": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "size": 365568,
+      "sha256": "61edde0416bde310e8f4901c82e117b674d1292598023b016f5a0734e953bae7"
+    }
+  ],
+  "installed_files": [
+    {
+      "relative_path": "_JudgementCutEnd.info",
+      "size": 307,
+      "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3"
+    },
+    {
+      "relative_path": "JudgementCutEnd.dll",
+      "size": 368640,
+      "sha256": "eace738bd15cb03be6591db50ea12d4107cf6585526c8e0ad7e7fe2cfd09da4c"
+    },
+    {
+      "relative_path": "JudgementCutEnd.ini",
+      "size": 2096,
+      "sha256": "15f65bf08fc7a166ccaf4157e117c82f3291d199464a7ca356f37033fc6f4bd6"
+    },
+    {
+      "relative_path": "JudgementCutEnd.mod",
+      "size": 117,
+      "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b"
+    },
+    {
+      "relative_path": "LICENSE",
+      "size": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    {
+      "relative_path": "LICENSE-NOTICE.md",
+      "size": 1603,
+      "sha256": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50"
+    },
+    {
+      "relative_path": "RE_Kenshi.json",
+      "size": 54,
+      "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5"
+    },
+    {
+      "relative_path": "README.md",
+      "size": 4262,
+      "sha256": "32b14d9fbe9175d517be2d455fb87261babbfc0190e416f0d5a4f3b2a3bbaf14"
+    },
+    {
+      "relative_path": "assets\\jce_glass.tga",
+      "size": 16402,
+      "sha256": "7f15077985314b170b80b785c5f067cf887bc41fe3fbd84b2ae07b17638941ab"
+    },
+    {
+      "relative_path": "assets\\jce_glow.tga",
+      "size": 32786,
+      "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481"
+    },
+    {
+      "relative_path": "assets\\jce_mist.tga",
+      "size": 65554,
+      "sha256": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c"
+    },
+    {
+      "relative_path": "assets\\jce_phantom.bin",
+      "size": 959092,
+      "sha256": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7"
+    },
+    {
+      "relative_path": "assets\\jce_refraction.hlsl",
+      "size": 1277,
+      "sha256": "3c854b96b9982067353eb1c7ff7b4eec661831b4c9955f9c97bd71f2785e78ae"
+    },
+    {
+      "relative_path": "assets\\jce_refraction.program",
+      "size": 367,
+      "sha256": "e1d50bf3af0250cb6e6f1135ce7bf85369c759b64bd769c5e4759c05434e2361"
+    },
+    {
+      "relative_path": "assets\\jce_sequence_fast.wav",
+      "size": 197024,
+      "sha256": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad"
+    },
+    {
+      "relative_path": "assets\\jce_sequence.wav",
+      "size": 590984,
+      "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611"
+    },
+    {
+      "relative_path": "assets\\jce_shards.csv",
+      "size": 19989,
+      "sha256": "7ba2eafb15e7a78b95c23bb8402dc87c6d58ac497869b9547c06f2caff44c3e6"
+    },
+    {
+      "relative_path": "assets\\jce_source_blade08.dds",
+      "size": 262272,
+      "sha256": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57"
+    },
+    {
+      "relative_path": "assets\\jce_source_blade09.dds",
+      "size": 262272,
+      "sha256": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104"
+    },
+    {
+      "relative_path": "assets\\jce_source_curves.csv",
+      "size": 1361,
+      "sha256": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134"
+    },
+    {
+      "relative_path": "assets\\jce_source_dust.dds",
+      "size": 349680,
+      "sha256": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b"
+    },
+    {
+      "relative_path": "assets\\jce_source_flash.dds",
+      "size": 174896,
+      "sha256": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b"
+    },
+    {
+      "relative_path": "assets\\jce_source_spark.dds",
+      "size": 5600,
+      "sha256": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1"
+    },
+    {
+      "relative_path": "assets\\jce_source_texture.hlsl",
+      "size": 1431,
+      "sha256": "31fdfa2dd767d25f0c503413035bc91109e98a0f3de6e1c9d00f036afe175b55"
+    },
+    {
+      "relative_path": "assets\\jce_source_texture.program",
+      "size": 465,
+      "sha256": "e19c82f7a9a0aad7d443b6ef0e546defb1bb3e9bc85decc8203ee3c436071810"
+    },
+    {
+      "relative_path": "assets\\jce_source.material",
+      "size": 3882,
+      "sha256": "b0e6028297b6bd04436f760b05209047d82c9d25f0cc9d92542a30c5ce0a4e22"
+    },
+    {
+      "relative_path": "assets\\jce.clip",
+      "size": 954004,
+      "sha256": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99"
+    },
+    {
+      "relative_path": "assets\\jce.material",
+      "size": 3220,
+      "sha256": "883fea341a7885eabeee4602814d9baca312365b2f91d9d01253bc5ebd992ba4"
+    },
+    {
+      "relative_path": "assets\\slashes.csv",
+      "size": 8991,
+      "sha256": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214"
+    },
+    {
+      "relative_path": "assets\\vfx-1.1.0.json",
+      "size": 335,
+      "sha256": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c"
+    },
+    {
+      "relative_path": "assets\\vfx-1.1.1.json",
+      "size": 477,
+      "sha256": "3b13ad798f4f2157f9dd0897ce41d0fc1223e3e1e7a1aff506062fe06b0bad06"
+    },
+    {
+      "relative_path": "assets\\vfx-1.2.1.json",
+      "size": 13059,
+      "sha256": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "RE_Kenshi渲染与演出运行层",
+  "Code location": "Mist / SlashAfterimages / Phantoms / Glass / Draw",
+  "Before": "e1a4245e8e7d4eb855253cdfba524ded6cfcb97ba91504e050f9062205949281",
+  "Changes": "连续灰色半球；96道各6层刀痕；16路径各4层掠影；移除镜片边框与下落；1.1.1-dev标识",
+  "Reasons": "用户提供参考图要求空间碎裂光影、每道多层残迹、整体灰色半球气氛",
+  "After": "d601211b752652a68d8b3e98b08df22092c0bbeed070f682da8e5d5e7c5ae3b9",
+  "Impact": "仅JudgementCutEnd特效；伤害/控制/角色动作合同保持",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFX112-20261007-211045-344981\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFX112-20261007-211045-344981\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF"
+  },
+  "Unresolved": "未编译；游戏HDR/透明排序/性能待实测"
+}

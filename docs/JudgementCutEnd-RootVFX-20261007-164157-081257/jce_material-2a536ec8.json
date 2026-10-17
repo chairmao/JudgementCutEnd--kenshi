@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+  "Role": "本插件HDR粒子材质",
+  "Code location": "Basic_Texture_FP colour uniform",
+  "Before": "默认colour=1",
+  "Changes": "RGB浮点乘数4，alpha保持1",
+  "Reasons": "本机basic.hlsl/basic.frag支持该参数；增强蓝白光带，避免顶点颜色截断",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-RootVFX-20261007-164157-081257\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-RootVFX-20261007-164157-081257\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

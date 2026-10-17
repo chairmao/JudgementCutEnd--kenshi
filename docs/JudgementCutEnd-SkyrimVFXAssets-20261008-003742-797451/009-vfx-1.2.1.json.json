@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+  "Role": "移植来源清单",
+  "Code location": "源哈希、curve引用及明确适配项",
+  "Before": "absent",
+  "Changes": "区分精确复制、准确曲线读取和Kenshi适配行为",
+  "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+  "After": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证"
+}

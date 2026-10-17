@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+  "Role": "自有材质",
+  "Code location": "JCE/Refraction",
+  "Before": "5b4d2b5abe1cab1611c8c7c1d5f3cbf2b46fd623a398794fab57e6e4441b0233",
+  "Changes": "新增第四段Alpha折射，与原三段资源共存",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "883fea341a7885eabeee4602814d9baca312365b2f91d9d01253bc5ebd992ba4",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-230139-408967\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-230139-408967\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

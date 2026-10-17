@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+  "Role": "升级合同核验",
+  "Code location": "来源/动画/网格/折射/损坏输入",
+  "Before": "absent",
+  "Changes": "独立解析真实二进制网格；覆盖截断、越界、NaN、同源预览与局部资源所有权",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "b7a1c15714fd93e4f09e3b7c381a0faba7a32e9b767a49fbc2c46152eefcda16",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

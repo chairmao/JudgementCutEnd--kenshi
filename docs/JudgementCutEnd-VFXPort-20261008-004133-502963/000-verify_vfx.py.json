@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+  "Role": "静态特效回归",
+  "Code location": "分层回调和几何预算",
+  "Before": "1d160e2ceb7f61d650ee7b58e1738bf077969420916efea8a91672bf68d65b19",
+  "Changes": "按新九层核验，保留正式1.0、玩法和原4层全部回归",
+  "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+  "After": "d1a47b3616ae550e1ad34d5d50a45636497dafce87a4cf8bbe4c1584c73b347a",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

@@ -1,0 +1,24 @@
+{
+  "result": "installed",
+  "version": "2.4.0-dev",
+  "resource_revision": "2.4-source-smoke-r1",
+  "directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "dll_sha256": "348c087b2f32c4dbbfdaff791406e0fa379712e25e750110428162d613147fcc",
+  "size": 377856,
+  "package_file_count": 41,
+  "all_package_files_byte_identical": true,
+  "backup_directories": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261008-135445-1293763",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-135445-1293763"
+  ],
+  "state_backup_directories": [
+    "D:\\CodexBackups\\install-smoke-2.4-20261008-135444-045060-state",
+    "E:\\AIWorkSpace\\_backups\\install-smoke-2.4-20261008-135444-045060-state"
+  ],
+  "native_compiled_by": "user",
+  "agent_ran_compiler": false,
+  "game_tested": false,
+  "mods_cfg_changed": false,
+  "saves_changed": false,
+  "formal_releases_unchanged": true
+}

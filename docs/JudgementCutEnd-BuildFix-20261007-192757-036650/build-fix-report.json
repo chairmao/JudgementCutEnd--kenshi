@@ -1,0 +1,13 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\build-fix-0.2.9-header-20261007-192757-037775.md",
+  "Role": "编译失败原因及修正证据",
+  "Code location": "完整报告",
+  "Before": "新文件不存在",
+  "Changes": "记录C1083、实际头文件路径、源码修正、192项非编译检查及逐文件报告",
+  "Reasons": "交付修复结果，区分静态检查和实际编译",
+  "After": "新报告可查",
+  "Impact": "仅JudgementCutEnd文档",
+  "Validation": "新文件UTF-8无BOM/CRLF，读回一致",
+  "Safety": "exclusive create，不覆盖旧文件",
+  "Unresolved": "待用户重新编译Release|x64，未代编译/部署"
+}

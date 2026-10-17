@@ -1,0 +1,85 @@
+{
+  "resource_revision": "1.2.0-r1",
+  "static_passed": true,
+  "native_compilation_run": false,
+  "game_tested": false,
+  "port_check_count": 49,
+  "retarget_check_count": 830,
+  "additional_checks": {
+    "base": 228,
+    "vfx": 43,
+    "time": 70
+  },
+  "head_direction_comparison": [
+    {
+      "clip_time": 0.5,
+      "before": {
+        "face_error_deg": 47.814588387009024,
+        "top_error_deg": 47.86217976625924
+      },
+      "after": {
+        "face_error_deg": 0.6098381752681433,
+        "top_error_deg": 0.08625440351039748
+      }
+    },
+    {
+      "clip_time": 1,
+      "before": {
+        "face_error_deg": 108.4756340764104,
+        "top_error_deg": 111.45598934192431
+      },
+      "after": {
+        "face_error_deg": 0.6098381306951826,
+        "top_error_deg": 0.08625448891965441
+      }
+    },
+    {
+      "clip_time": 1.5,
+      "before": {
+        "face_error_deg": 113.0871911784466,
+        "top_error_deg": 116.10289034028114
+      },
+      "after": {
+        "face_error_deg": 0.6098383249413483,
+        "top_error_deg": 0.08625449250706953
+      }
+    },
+    {
+      "clip_time": 2,
+      "before": {
+        "face_error_deg": 105.820664465509,
+        "top_error_deg": 107.5914870595595
+      },
+      "after": {
+        "face_error_deg": 0.6098381829246756,
+        "top_error_deg": 0.08625440380617994
+      }
+    },
+    {
+      "clip_time": 2.1,
+      "before": {
+        "face_error_deg": 87.74379260458396,
+        "top_error_deg": 88.42433446387338
+      },
+      "after": {
+        "face_error_deg": 0.6098382123794037,
+        "top_error_deg": 0.08625439923845349
+      }
+    }
+  ],
+  "protocols_unchanged": [
+    "JCECLIP2",
+    "JCEPHM2"
+  ],
+  "updated_runtime_resources": {
+    "jce.clip": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99",
+    "jce_phantom.bin": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7"
+  },
+  "source_cpp_sha256": "9799f2a44f62d2841e974b649c82aecbec05fc447b4a8f8547d66b547b7a050d",
+  "dll_sha256": "9a5d8be528cb21dbbef50015b50c0997cdeca4819e015f8be4fd56dca6c1a833",
+  "limitations": [
+    "标准男女骨架静态检查；凯瑟琳实机头部/面部蒙皮验收仍未完成",
+    "原动画本身在瞬移和回身阶段包含身体转向；不以钳制头部替代重定向"
+  ],
+  "installed_resources_current": false
+}

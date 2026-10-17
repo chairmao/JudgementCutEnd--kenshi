@@ -1,0 +1,13 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\recast-0.2.7.md",
+  "Role": "汇总行为/验证/即时报告",
+  "Code location": "全部",
+  "Before": "不存在",
+  "Changes": "新建无冷却覆盖修复报告",
+  "Reasons": "可审计源码与实际安装版本",
+  "After": "文档完整",
+  "Impact": "仅项目文档",
+  "Validation": "UTF-8 CRLF读回一致，中文扫描通过",
+  "Safety": "独占新建，无既有文件需备份",
+  "Unresolved": "0.2.7尚未编译/安装/实测"
+}

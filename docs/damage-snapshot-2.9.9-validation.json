@@ -1,0 +1,839 @@
+{
+  "source_version": "2.9.9-dev",
+  "source_sha256": "864E26B40E2DB4CE66CDEF0B10CB3A9BB3C895D22294A2ED75113B7E7CDBF35F",
+  "vfx_baseline": "2.9.8 accepted",
+  "source_policy": "u_key_damage_snapshot",
+  "equipment_changes_after_capture": "ignored",
+  "attack_parameters_frozen": true,
+  "target_list_frozen": false,
+  "target_armor": "native addWound at settlement",
+  "static_validation": {
+    "static_passed": true,
+    "checks": [
+      {
+        "name": "源码UTF-8 BOM/CRLF保留",
+        "passed": true
+      },
+      {
+        "name": "U键冻结公共基准和种族加成",
+        "passed": true
+      },
+      {
+        "name": "结算不读取攻击方缓存或武器",
+        "passed": true
+      },
+      {
+        "name": "跨帧卸武器不撤销",
+        "passed": true
+      },
+      {
+        "name": "快照数值校验与有界种族表",
+        "passed": true
+      },
+      {
+        "name": "种族分类保留原生优先级",
+        "passed": true
+      },
+      {
+        "name": "伤害仍经原生护甲/随机部位",
+        "passed": true
+      },
+      {
+        "name": "加载/换世界逐击阻止结算",
+        "passed": true
+      },
+      {
+        "name": "结束和重放清理旧快照",
+        "passed": true
+      },
+      {
+        "name": "初始装备核验保留",
+        "passed": true
+      },
+      {
+        "name": "不接管已移交武器清理",
+        "passed": true
+      },
+      {
+        "name": "诊断每次一份快照并限制目标详情",
+        "passed": true
+      },
+      {
+        "name": "全部特效绘制保持2.9.8",
+        "passed": true
+      },
+      {
+        "name": "骨骼刷新/姿势/范围/目标收集/踉跄保持2.9.8",
+        "passed": true
+      },
+      {
+        "name": "角色/时间/输入基础逻辑保持2.9.8",
+        "passed": true
+      },
+      {
+        "name": "图形释放保持2.9.8",
+        "passed": true
+      },
+      {
+        "name": "姿势/帧钩子保持2.9.8",
+        "passed": true
+      },
+      {
+        "name": "授权差异行25",
+        "passed": true
+      },
+      {
+        "name": "授权差异行27",
+        "passed": true
+      },
+      {
+        "name": "授权差异行120",
+        "passed": true
+      },
+      {
+        "name": "授权差异行551",
+        "passed": true
+      },
+      {
+        "name": "授权差异行552",
+        "passed": true
+      },
+      {
+        "name": "授权差异行583",
+        "passed": true
+      },
+      {
+        "name": "授权差异行587",
+        "passed": true
+      },
+      {
+        "name": "授权差异行594",
+        "passed": true
+      },
+      {
+        "name": "授权差异行597",
+        "passed": true
+      },
+      {
+        "name": "授权差异行600",
+        "passed": true
+      },
+      {
+        "name": "授权差异行608",
+        "passed": true
+      },
+      {
+        "name": "授权差异行615",
+        "passed": true
+      },
+      {
+        "name": "授权差异行823",
+        "passed": true
+      },
+      {
+        "name": "授权差异行889",
+        "passed": true
+      },
+      {
+        "name": "授权差异行1026",
+        "passed": true
+      },
+      {
+        "name": "授权差异行1032",
+        "passed": true
+      },
+      {
+        "name": "授权差异行1034",
+        "passed": true
+      },
+      {
+        "name": "授权差异行1036",
+        "passed": true
+      },
+      {
+        "name": "授权差异行1042",
+        "passed": true
+      },
+      {
+        "name": "授权差异行1049",
+        "passed": true
+      },
+      {
+        "name": "授权差异行1051",
+        "passed": true
+      },
+      {
+        "name": "授权差异行1069",
+        "passed": true
+      },
+      {
+        "name": "授权差异行1975",
+        "passed": true
+      },
+      {
+        "name": "授权差异行2048",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:JudgementCutEnd.dll",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:JudgementCutEnd.ini",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:JudgementCutEnd.mod",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:LICENSE",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:LICENSE-NOTICE.md",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:README.md",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:RE_Kenshi.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:_JudgementCutEnd.info",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce.clip",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce.material",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_atmosphere.hlsl",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_atmosphere.program",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_cloud_field27.tga",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets29.csv",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets29.hlsl",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets29.program",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets291.hlsl",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets291.program",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets292.hlsl",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets292.program",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets294.hlsl",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets294.program",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets296.hlsl",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets296.program",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets297.hlsl",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_facets297.program",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_fog_noise.tga",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_glass.tga",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_glow.tga",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_mist.tga",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_optics.csv",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_phantom.bin",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_refraction.hlsl",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_refraction.program",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_sequence.wav",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_sequence_fast.wav",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_shards.csv",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source.material",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_blade08.dds",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_blade09.dds",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_curves.csv",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_dust.dds",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_flash.dds",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_fog_palette.dds",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_optical_mask.dds",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_smoke_wisps.dds",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_soft_smoke.dds",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_spark.dds",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_texture.hlsl",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:jce_source_texture.program",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:slashes.csv",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-1.1.0.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-1.1.1.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-1.2.1.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.2.0.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.3.0.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.4.0.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.5.0.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.6.0.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.7.0.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.7.1.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.7.2.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.8.0.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.8.1.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.8.2.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.8.3.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.8.4.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.9.0.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.9.1.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.9.2.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.9.3.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.9.4.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.9.5.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.9.6.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.9.7.json",
+        "passed": true
+      },
+      {
+        "name": "包资源未变化:vfx-2.9.8.json",
+        "passed": true
+      },
+      {
+        "name": "已核对资源非空",
+        "passed": true
+      },
+      {
+        "name": "游戏DLL仍为2.9.8",
+        "passed": true
+      },
+      {
+        "name": "工具Python语法",
+        "passed": true
+      },
+      {
+        "name": "原生证据版本匹配",
+        "passed": true
+      },
+      {
+        "name": "原生空目标明确跳过目标分支",
+        "passed": true
+      },
+      {
+        "name": "空目标仍经skillMultDamage",
+        "passed": true
+      },
+      {
+        "name": "原生种族键为RaceData.data",
+        "passed": true
+      },
+      {
+        "name": "机器人类型来自RaceData.robot",
+        "passed": true
+      },
+      {
+        "name": "原生护甲穿透来自bonusArmourPenetration",
+        "passed": true
+      },
+      {
+        "name": "常见范围浮点舍入相对差小于百万分之一",
+        "passed": true
+      }
+    ],
+    "asset_count": 76,
+    "rounding_relative_error": 8.869738925443547e-08,
+    "source_sha256": "864E26B40E2DB4CE66CDEF0B10CB3A9BB3C895D22294A2ED75113B7E7CDBF35F",
+    "compiled": false,
+    "game_tested": false
+  },
+  "time_regression": {
+    "static_passed": true,
+    "checks": [
+      {
+        "name": "restore before renderer/resolve/bone/weapon operations",
+        "passed": true
+      },
+      {
+        "name": "restore independent of active flag",
+        "passed": true
+      },
+      {
+        "name": "ownership published before slow setter",
+        "passed": true
+      },
+      {
+        "name": "pending blocks replacement of baseline",
+        "passed": true
+      },
+      {
+        "name": "idle resume recovery before new input snapshot",
+        "passed": true
+      },
+      {
+        "name": "no pause override or field writes",
+        "passed": true
+      },
+      {
+        "name": "old world guarded before calls",
+        "passed": true
+      },
+      {
+        "name": "restore verified by native getter before release",
+        "passed": true
+      },
+      {
+        "name": "bounded failure logging",
+        "passed": true
+      },
+      {
+        "name": "distinct pause/focus/escape diagnostics",
+        "passed": true
+      },
+      {
+        "name": "restore completed base=1",
+        "passed": true
+      },
+      {
+        "name": "restore escape base=1",
+        "passed": true
+      },
+      {
+        "name": "restore focus base=1",
+        "passed": true
+      },
+      {
+        "name": "restore loading base=1",
+        "passed": true
+      },
+      {
+        "name": "restore pose_error base=1",
+        "passed": true
+      },
+      {
+        "name": "restore frame_stall base=1",
+        "passed": true
+      },
+      {
+        "name": "restore begin_after_slow_failed base=1",
+        "passed": true
+      },
+      {
+        "name": "restore restart base=1",
+        "passed": true
+      },
+      {
+        "name": "pause remains paused base=1",
+        "passed": true
+      },
+      {
+        "name": "pending cannot overwrite baseline base=1",
+        "passed": true
+      },
+      {
+        "name": "unpause restores original base=1",
+        "passed": true
+      },
+      {
+        "name": "next cast snapshots normal speed base=1",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 1 -> 1",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 1 -> 2",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 1 -> 3",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 1 -> 0.5",
+        "passed": true
+      },
+      {
+        "name": "restore completed base=2",
+        "passed": true
+      },
+      {
+        "name": "restore escape base=2",
+        "passed": true
+      },
+      {
+        "name": "restore focus base=2",
+        "passed": true
+      },
+      {
+        "name": "restore loading base=2",
+        "passed": true
+      },
+      {
+        "name": "restore pose_error base=2",
+        "passed": true
+      },
+      {
+        "name": "restore frame_stall base=2",
+        "passed": true
+      },
+      {
+        "name": "restore begin_after_slow_failed base=2",
+        "passed": true
+      },
+      {
+        "name": "restore restart base=2",
+        "passed": true
+      },
+      {
+        "name": "pause remains paused base=2",
+        "passed": true
+      },
+      {
+        "name": "pending cannot overwrite baseline base=2",
+        "passed": true
+      },
+      {
+        "name": "unpause restores original base=2",
+        "passed": true
+      },
+      {
+        "name": "next cast snapshots normal speed base=2",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 2 -> 1",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 2 -> 2",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 2 -> 3",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 2 -> 0.5",
+        "passed": true
+      },
+      {
+        "name": "restore completed base=3",
+        "passed": true
+      },
+      {
+        "name": "restore escape base=3",
+        "passed": true
+      },
+      {
+        "name": "restore focus base=3",
+        "passed": true
+      },
+      {
+        "name": "restore loading base=3",
+        "passed": true
+      },
+      {
+        "name": "restore pose_error base=3",
+        "passed": true
+      },
+      {
+        "name": "restore frame_stall base=3",
+        "passed": true
+      },
+      {
+        "name": "restore begin_after_slow_failed base=3",
+        "passed": true
+      },
+      {
+        "name": "restore restart base=3",
+        "passed": true
+      },
+      {
+        "name": "pause remains paused base=3",
+        "passed": true
+      },
+      {
+        "name": "pending cannot overwrite baseline base=3",
+        "passed": true
+      },
+      {
+        "name": "unpause restores original base=3",
+        "passed": true
+      },
+      {
+        "name": "next cast snapshots normal speed base=3",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 3 -> 1",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 3 -> 2",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 3 -> 3",
+        "passed": true
+      },
+      {
+        "name": "preserve manual/external speed 3 -> 0.5",
+        "passed": true
+      },
+      {
+        "name": "manual resume speed preserved",
+        "passed": true
+      },
+      {
+        "name": "old world never written on replacement",
+        "passed": true
+      },
+      {
+        "name": "invalid world releases without dereference/write",
+        "passed": true
+      },
+      {
+        "name": "setter exception retains baseline",
+        "passed": true
+      },
+      {
+        "name": "setter exception retry restores",
+        "passed": true
+      },
+      {
+        "name": "unverified setter retains ownership",
+        "passed": true
+      },
+      {
+        "name": "unverified setter retry restores",
+        "passed": true
+      },
+      {
+        "name": "invalid speed deferred 0",
+        "passed": true
+      },
+      {
+        "name": "invalid speed deferred nan",
+        "passed": true
+      },
+      {
+        "name": "invalid speed deferred inf",
+        "passed": true
+      },
+      {
+        "name": "old bug reproduced: poisoned baseline persists",
+        "passed": true
+      },
+      {
+        "name": "100 repeated casts and pause cancellations do not drift",
+        "passed": true
+      }
+    ],
+    "check_count": 70,
+    "compiled": false,
+    "game_tested": false,
+    "model_limit": "接口合同模型及源码绑定检查，不能代替实际C++和游戏验证"
+  },
+  "legacy_suite": {
+    "passed": false,
+    "checks_completed": 108,
+    "failed_check": "manual render submission and camera/shadow isolation",
+    "same_failure_in_accepted_baseline": [
+      "geometry->_updateRenderQueue("
+    ]
+  },
+  "compiled": false,
+  "game_tested": false,
+  "installed_version": "2.9.8-dev",
+  "backups": [
+    "D:/CodexBackups/JCE-DamageFix-20261010-204750",
+    "E:/AIWorkSpace/_backups/JCE-DamageFix-20261010-204750",
+    "D:/CodexBackups/JCE-DamageSnapshot-20261010-204750",
+    "E:/AIWorkSpace/_backups/JCE-DamageSnapshot-20261010-204750"
+  ],
+  "limits": [
+    "第三方对getTotalAttackDamageFor非空目标的定制钩子兼容未验证",
+    "乘法顺序变更存在微小浮点舍入差",
+    "后续四肢资格/完整无武器施放限制尚未实施"
+  ]
+}

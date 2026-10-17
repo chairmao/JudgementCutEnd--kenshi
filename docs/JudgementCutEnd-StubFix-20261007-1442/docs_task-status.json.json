@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "状态记录",
+  "Code location": "版本/实测断言/待办",
+  "Before": "0.1.1 已安装待测试",
+  "Changes": "记录 0.1.1 运行失败、0.1.2 待重新编译",
+  "Reasons": "用户截图与 RE_Kenshi 日志一致",
+  "After": "修改已写入；需要重新编译/部署才影响游戏运行",
+  "Impact": "仅限本插件项目/分发包，不写其他模组及运行游戏",
+  "Validation": "UTF-8/BOM/CRLF/中文严格回读；专项非编译检查随后另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-StubFix-20261007-1442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8",
+    "line_endings": "CRLF",
+    "sha256": "36943ca0b58dea7bfbd7e7db2ca66120e8f49010f6bb64bc2f8eea7b2956dbf5"
+  },
+  "Unresolved": "新 DLL 编译/安装和实机验收仍待完成"
+}

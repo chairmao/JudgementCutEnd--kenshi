@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+  "Role": "非编译核验",
+  "Code location": "材质透明度/演出结束",
+  "Before": "ab478b31630355ead5a2f76ce0d1efe6372cfc4a0021560c41709690cdb71cab",
+  "Changes": "核验高光源Alpha混合，修正文档注释",
+  "Reasons": "用户提供参考图要求空间碎裂光影、每道多层残迹、整体灰色半球气氛",
+  "After": "577243a17bdaf6d548a3a0fc7f4e72c4fb218c6c67a99edb66ec75933a0f70c2",
+  "Impact": "仅JudgementCutEnd特效；伤害/控制/角色动作合同保持",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFX112-20261007-211630-676027\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFX112-20261007-211630-676027\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；游戏HDR/透明排序/性能待实测"
+}

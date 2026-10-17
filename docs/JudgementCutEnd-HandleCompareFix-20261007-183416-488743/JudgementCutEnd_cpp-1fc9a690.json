@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "RE_Kenshi运行插件",
+  "Code location": "SameHand/Runtime::SameDamageWeapon/Collect/PrepareWeapon/Tick/Finish",
+  "Before": "0.2.5伤害资格总为false；原生hand==hand被编为槽0的hand==bool；冷却不提示剩余",
+  "Changes": "用非虚原生比较检查武器及目标去重；补充cache_after和冷却剩余；版本0.2.6",
+  "Reasons": "已安装0.2.5反汇编0x477C/0x4796调用[rbx]，游戏hand虚表槽0=0xCD0C0(bool)，槽1=0xCD020(hand)；18:24:34日志相同武器编号仍armed=0",
+  "After": "0.2.6源码修复句柄比较；已安装0.2.5不变",
+  "Impact": "仅 JudgementCutEnd；修复武器准备和演出放行，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-HandleCompareFix-20261007-183416-488743\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-HandleCompareFix-20261007-183416-488743\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.6待用户编译及实机验证；15秒冷却保持"
+}

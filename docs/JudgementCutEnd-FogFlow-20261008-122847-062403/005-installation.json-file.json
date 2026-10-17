@@ -1,0 +1,18 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-FogFlow-20261008-122847-062403\\installation.json",
+  "Role": "本次资源部署证据",
+  "Code location": "安装身份/备份/保护区",
+  "Before": "无r2部署记录",
+  "Changes": "记录两个资源已复制、37项包比对",
+  "Reasons": "保证加载路径真实匹配",
+  "After": "4e969275795235497c6df4e670754b1177d2510ea043f4619d87271f908a3ded",
+  "Impact": "记录型文件",
+  "Validation": "逐字节读回、UTF-8/CRLF和乱码检查；JSON可解析；本轮不编译，最终游戏观感待用户验收",
+  "Safety": {
+    "backup_paths": [],
+    "encoding": "UTF-8 no BOM",
+    "line_endings": "CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "新r2着色器未在游戏验证；保留现有2.2 DLL，无需重新编译C++"
+}

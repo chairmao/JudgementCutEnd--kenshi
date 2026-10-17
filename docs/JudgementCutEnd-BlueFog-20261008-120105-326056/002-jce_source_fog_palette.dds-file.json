@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_fog_palette.dds",
+  "Role": "本机ap05色表资源",
+  "Code location": "JCE030CutAllActi.nif烟雾材质palette引用",
+  "Before": "原烟雾渐变未在本插件实际采样",
+  "Changes": "原DDS逐字节复制；来源NIF和纹理SHA写入baseline",
+  "Reasons": "提供蓝紫颜色层次",
+  "After": "9c69744602fe4506cd4a1d2d85949f831e8162f7a2d67ffd62f16110cb1b003f",
+  "Impact": "仅烟雾材质使用；原模组文件只读，18%混合为Kenshi适配而非完全照搬",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "binary",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

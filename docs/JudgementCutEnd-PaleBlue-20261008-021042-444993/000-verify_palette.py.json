@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_palette.py",
+  "Role": "仅颜色修订的只读验证",
+  "Code location": "源码/DLL完整字节、材质/Shader契约、原NIF颜色、Alpha及原资产保护",
+  "Before": "absent",
+  "Changes": "验证RGB染色之外逻辑不变；区分数值曝光模型与真实HDR画面",
+  "Reasons": "用户要求今天最后一版仅调淡蓝颜色，对照本地Skyrim原模组；不修改C++或游戏逻辑",
+  "After": "1f57b55798dfc68c9cd9ada9e90b4de7108977d69e91f157d1c83f51303f38fe",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "本轮仅材质/shader资源；不需DLL重编译，真实HDR画面待游戏验收"
+}

@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "特效空间片区",
+  "Code location": "SpatialFracture bandRatio",
+  "Before": "严格原网格比值检查捕获了手工小数转录偏差",
+  "Changes": "从已精确解析的网格上下界自动生成全部8个比例",
+  "Reasons": "禁止用近似转录替代真实资源比值",
+  "After": "每个常量与原几何比值在float误差内一致",
+  "Impact": "只修正折射带宽常量，其余代码字节不变",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338-ratio-144645-445954\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338-ratio-144645-445954\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "utf-8-sig",
+    "line_endings": "CRLF",
+    "original_sha256": "29ba5fa25a1a39715b59a93eeb20c0568e96be67a950e69f72794f0814bc333b",
+    "after_sha256": "47b2613e6f98b45aa86bfbca58624c27cd7e5bc55e149c902a182d8a57370082"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

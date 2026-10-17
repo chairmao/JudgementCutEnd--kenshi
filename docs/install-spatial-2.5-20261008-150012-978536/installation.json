@@ -1,0 +1,237 @@
+{
+  "version": "2.5.0-dev",
+  "resource_revision": "2.5-spatial-partition-r1",
+  "compiled_by": "user",
+  "agent_ran_compiler": false,
+  "PE64_export_version_timestamp_checked": true,
+  "installed_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "dll_sha256": "3ed7242398a930cde9c6b40e79a63866cb19c15a7a94a1f681cb1fec9db44892",
+  "dll_size": 387072,
+  "package_file_count": 43,
+  "files": [
+    {
+      "relative": "_JudgementCutEnd.info",
+      "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+      "size": 307
+    },
+    {
+      "relative": "assets\\jce.clip",
+      "sha256": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99",
+      "size": 954004
+    },
+    {
+      "relative": "assets\\jce.material",
+      "sha256": "063eb537912d9c0cccf0971833226f1554bf7cb02144575d750490d3079e699b",
+      "size": 3769
+    },
+    {
+      "relative": "assets\\jce_atmosphere.hlsl",
+      "sha256": "3faea07a452294deadc0b33d9c61b0865a818110b8e12faf4ece7e943709c6cf",
+      "size": 8228
+    },
+    {
+      "relative": "assets\\jce_atmosphere.program",
+      "sha256": "0342735b28f587606549276db1f68a92f193589eaf33d918e993463652e7b4c3",
+      "size": 1048
+    },
+    {
+      "relative": "assets\\jce_fog_noise.tga",
+      "sha256": "dbe2c8d4c3b987a5d88a5725a1debd4e7a42bad0d6858639af89cf03c40a9e5b",
+      "size": 262188
+    },
+    {
+      "relative": "assets\\jce_glass.tga",
+      "sha256": "7f15077985314b170b80b785c5f067cf887bc41fe3fbd84b2ae07b17638941ab",
+      "size": 16402
+    },
+    {
+      "relative": "assets\\jce_glow.tga",
+      "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+      "size": 32786
+    },
+    {
+      "relative": "assets\\jce_mist.tga",
+      "sha256": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c",
+      "size": 65554
+    },
+    {
+      "relative": "assets\\jce_optics.csv",
+      "sha256": "209acb9243bd215ec03b22b8b0a76b8a2481ca392b0e82902247f25a29a1f871",
+      "size": 1321
+    },
+    {
+      "relative": "assets\\jce_phantom.bin",
+      "sha256": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7",
+      "size": 959092
+    },
+    {
+      "relative": "assets\\jce_refraction.hlsl",
+      "sha256": "d30e976dee21ee67933f3c4fb00575679bdcf52386773904f9d0f45b73e73dc3",
+      "size": 4565
+    },
+    {
+      "relative": "assets\\jce_refraction.program",
+      "sha256": "c5f956aea2671fb5d6a307d411cb0950c83792e2fd741eed343807ebb161946c",
+      "size": 1389
+    },
+    {
+      "relative": "assets\\jce_sequence.wav",
+      "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+      "size": 590984
+    },
+    {
+      "relative": "assets\\jce_sequence_fast.wav",
+      "sha256": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+      "size": 197024
+    },
+    {
+      "relative": "assets\\jce_shards.csv",
+      "sha256": "7ba2eafb15e7a78b95c23bb8402dc87c6d58ac497869b9547c06f2caff44c3e6",
+      "size": 19989
+    },
+    {
+      "relative": "assets\\jce_source.material",
+      "sha256": "b9d602cb7ecc3644dd646e988bc9d41187a69569a1ca7ee5cdb2a6db5c1dcd1f",
+      "size": 7109
+    },
+    {
+      "relative": "assets\\jce_source_blade08.dds",
+      "sha256": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57",
+      "size": 262272
+    },
+    {
+      "relative": "assets\\jce_source_blade09.dds",
+      "sha256": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104",
+      "size": 262272
+    },
+    {
+      "relative": "assets\\jce_source_curves.csv",
+      "sha256": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134",
+      "size": 1361
+    },
+    {
+      "relative": "assets\\jce_source_dust.dds",
+      "sha256": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b",
+      "size": 349680
+    },
+    {
+      "relative": "assets\\jce_source_flash.dds",
+      "sha256": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b",
+      "size": 174896
+    },
+    {
+      "relative": "assets\\jce_source_fog_palette.dds",
+      "sha256": "9c69744602fe4506cd4a1d2d85949f831e8162f7a2d67ffd62f16110cb1b003f",
+      "size": 21984
+    },
+    {
+      "relative": "assets\\jce_source_smoke_wisps.dds",
+      "sha256": "ab0d433161b2088da9cd236af685d46a0b1aa8b1afefdead600fd4f108b48047",
+      "size": 349664
+    },
+    {
+      "relative": "assets\\jce_source_soft_smoke.dds",
+      "sha256": "66e28eb641a21ebd3fd7b32f0c40286a6971e329f82d835e0ad5348ec2d20692",
+      "size": 349700
+    },
+    {
+      "relative": "assets\\jce_source_spark.dds",
+      "sha256": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1",
+      "size": 5600
+    },
+    {
+      "relative": "assets\\jce_source_texture.hlsl",
+      "sha256": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f",
+      "size": 1584
+    },
+    {
+      "relative": "assets\\jce_source_texture.program",
+      "sha256": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51",
+      "size": 615
+    },
+    {
+      "relative": "assets\\slashes.csv",
+      "sha256": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214",
+      "size": 8991
+    },
+    {
+      "relative": "assets\\vfx-1.1.0.json",
+      "sha256": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c",
+      "size": 335
+    },
+    {
+      "relative": "assets\\vfx-1.1.1.json",
+      "sha256": "3b13ad798f4f2157f9dd0897ce41d0fc1223e3e1e7a1aff506062fe06b0bad06",
+      "size": 477
+    },
+    {
+      "relative": "assets\\vfx-1.2.1.json",
+      "sha256": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e",
+      "size": 13059
+    },
+    {
+      "relative": "assets\\vfx-2.2.0.json",
+      "sha256": "5a447a0cc3c5aa13bc81ff19d8cd4d9a29164668bd475939454dc1227b11771f",
+      "size": 3469
+    },
+    {
+      "relative": "assets\\vfx-2.3.0.json",
+      "sha256": "089900134de3b2cdf90e332ff355e20e054d9e8e2cdb3de567a752be671f21a4",
+      "size": 1825
+    },
+    {
+      "relative": "assets\\vfx-2.4.0.json",
+      "sha256": "287fe0afed36ec7521c871fd0f204b966df9193ef51f20d4be0b8611de54665b",
+      "size": 2564
+    },
+    {
+      "relative": "assets\\vfx-2.5.0.json",
+      "sha256": "aaaf030fbfb3daf5d26b933dcc57639d7b604fd050ddb712b18b3acbce305c6c",
+      "size": 1699
+    },
+    {
+      "relative": "JudgementCutEnd.dll",
+      "sha256": "3ed7242398a930cde9c6b40e79a63866cb19c15a7a94a1f681cb1fec9db44892",
+      "size": 387072
+    },
+    {
+      "relative": "JudgementCutEnd.ini",
+      "sha256": "15f65bf08fc7a166ccaf4157e117c82f3291d199464a7ca356f37033fc6f4bd6",
+      "size": 2096
+    },
+    {
+      "relative": "JudgementCutEnd.mod",
+      "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+      "size": 117
+    },
+    {
+      "relative": "LICENSE",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "size": 35823
+    },
+    {
+      "relative": "LICENSE-NOTICE.md",
+      "sha256": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50",
+      "size": 1603
+    },
+    {
+      "relative": "RE_Kenshi.json",
+      "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+      "size": 54
+    },
+    {
+      "relative": "README.md",
+      "sha256": "a04a0dc7da8724eaa7a58d53ff7f19c3c4fbfb091d098951824ec29cc99e6663",
+      "size": 5623
+    }
+  ],
+  "backup_roots": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516"
+  ],
+  "byte_identity_verified": true,
+  "backup_identity_verified": true,
+  "special_2_4_archive_unchanged": true,
+  "game_tested": false,
+  "shader_compiled_by_agent": false
+}

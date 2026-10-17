@@ -1,0 +1,177 @@
+{
+  "created_at": "2026-10-07T14:06:30.229152",
+  "project": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd",
+  "version": "0.1.0",
+  "compiled": false,
+  "installed": false,
+  "game_tested": false,
+  "static_check_count": 52,
+  "backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-132741-849216",
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-133403-959480",
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-133606-150386",
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-134128-806809",
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-134612-794062",
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-135325-493016",
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-135612-530504",
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-140042-006445",
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-140230-102026",
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-140438-480935",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-132741-849216",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-133403-959480",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-133606-150386",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-134128-806809",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-134612-794062",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-135325-493016",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-135612-530504",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140042-006445",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140230-102026",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140438-480935"
+  ],
+  "files": {
+    ".gitignore": {
+      "size": 128,
+      "sha256": "8576be571465d57d8375f5e5e391167bf0d00f86cb42e0b38c54452c87d9274b"
+    },
+    "AGENTS.md": {
+      "size": 552,
+      "sha256": "b952e5f730a31cbea848d0555b38fab6267a8885ded770603be647ee62fd1808"
+    },
+    "JudgementCutEnd.cpp": {
+      "size": 27992,
+      "sha256": "1c1d0649c43eabf645e4381ccc70cdfa089d33ae78141e45f9c8c9884d0c9a02"
+    },
+    "JudgementCutEnd.sln": {
+      "size": 605,
+      "sha256": "738220a49849b653b8894e808333333fcafc5d960ae0a926e2aeaf353ad15952"
+    },
+    "JudgementCutEnd.vcxproj": {
+      "size": 2498,
+      "sha256": "9ce12d74203325b4251623f5be3560e06518bc3223a0d07046500c3e2955d18f"
+    },
+    "LICENSE": {
+      "size": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    "LICENSE-NOTICE.md": {
+      "size": 731,
+      "sha256": "87db8a2bece159bf8a09ca72b4904c27a3e3fc0998139c5990f73816fc4b8b60"
+    },
+    "README.md": {
+      "size": 7153,
+      "sha256": "de9579870bf8ceb81169cd543e1d6227382cd8b376d2c403a5c3ec3cb9f17b1a"
+    },
+    "docs/asset-change-reports.json": {
+      "size": 4373,
+      "sha256": "bbb6e6ee5a23ccbb8c62afd18e064025563293a073fe370099ea9be6b107e49e"
+    },
+    "docs/asset-provenance.json": {
+      "size": 1941,
+      "sha256": "4553fcd0ddeca8d1522bb033b825dd1cfcacae510182678e5f03c2a98a9c5ecc"
+    },
+    "docs/camera-correction-reports.json": {
+      "size": 5487,
+      "sha256": "48cb06aee04544628647fbc8bfdf5732e74892c35fb6600cf240907ab287130f"
+    },
+    "docs/change-report.md": {
+      "size": 51312,
+      "sha256": "29a32df2492da6009f8fb7cf53938f7e0483eb8538d87646de7a0beab49dc17f"
+    },
+    "docs/dependency-review-reports.json": {
+      "size": 5420,
+      "sha256": "131734bffe102c8a643bbd216974d19e0011d1142890aa5a792600499000df6b"
+    },
+    "docs/handoff-change-reports.json": {
+      "size": 6337,
+      "sha256": "9646f0802c2fae3dc77847a0cca16900981354490c4205ecb393cf30af4116cf"
+    },
+    "docs/implementation-review.md": {
+      "size": 5583,
+      "sha256": "b56c72334674ccdfc497c5aaa6965bac0f6676535114e6b02142c2df7b8baf07"
+    },
+    "docs/native-evidence.json": {
+      "size": 3120,
+      "sha256": "04ef11346f54aaa1dea1e2d71b6b3980ca4d895d28937d9d34b0b94b200e014a"
+    },
+    "docs/task-status.json": {
+      "size": 518,
+      "sha256": "b7c1e3bcec79d32fbce1566d61c1c39655e495fde35fb02c0539d31d07b68503"
+    },
+    "docs/verification.json": {
+      "size": 5213,
+      "sha256": "40f6df2f594fbca2acb27e9664c0b0ba95c06b4f910e32672ebdff2384363de4"
+    },
+    "preview/index.html": {
+      "size": 609529,
+      "sha256": "82b8d796117c6fe609538bd760b7248e6bf0c9f693a83bb1163fcc6f385b1d06"
+    },
+    "preview/scene.json": {
+      "size": 603808,
+      "sha256": "50866a0d392cdc76ca88f0562f1d122b2b4b2e3068c7c395c8c29b4fe868a2d4"
+    },
+    "preview/slash-preview.png": {
+      "size": 161965,
+      "sha256": "d70c108be1ffa7eca9449da584e7eec318c26b7ef7fdd1fdb72ce6bc69ae07e9"
+    },
+    "tools/author_assets.py": {
+      "size": 11778,
+      "sha256": "201143aadbb7eeb47212f0015e0494d7e76e05c641840a4835c7d6ae3e941d0f"
+    },
+    "tools/Stage-LocalMod.ps1": {
+      "size": 3440,
+      "sha256": "fde056ddab452c9ceb15d2e6a7dce33da223cba79ff35e2ca985480158c6a3dd"
+    },
+    "tools/verify.py": {
+      "size": 8802,
+      "sha256": "a320e7cb67216710d3ea54f0cf5a75d780048d4bb8c699755fff881c12722bb0"
+    },
+    "package/JudgementCutEnd/JudgementCutEnd.ini": {
+      "size": 312,
+      "sha256": "95f5b6a70929aebb113fcc8f5a4afb332571919cca28930441132db2a451394c"
+    },
+    "package/JudgementCutEnd/JudgementCutEnd.mod": {
+      "size": 117,
+      "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b"
+    },
+    "package/JudgementCutEnd/LICENSE": {
+      "size": 35823,
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    "package/JudgementCutEnd/LICENSE-NOTICE.md": {
+      "size": 731,
+      "sha256": "87db8a2bece159bf8a09ca72b4904c27a3e3fc0998139c5990f73816fc4b8b60"
+    },
+    "package/JudgementCutEnd/README.md": {
+      "size": 783,
+      "sha256": "294dee88a2da64891a0136ef5812091409b8e2791599727432fe26e652b2d6c0"
+    },
+    "package/JudgementCutEnd/RE_Kenshi.json": {
+      "size": 54,
+      "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5"
+    },
+    "package/JudgementCutEnd/_JudgementCutEnd.info": {
+      "size": 307,
+      "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3"
+    },
+    "package/JudgementCutEnd/assets/jce.clip": {
+      "size": 239654,
+      "sha256": "4c6a838f15ec69114eb7b45231915abe54ec8af61dfadc2fcc060a7aec6f1ebf"
+    },
+    "package/JudgementCutEnd/assets/jce.material": {
+      "size": 519,
+      "sha256": "2a5c44eb23d91eed4e21fe8426c2f1c21c4e38e23180b15423bcc0320f0e27ee"
+    },
+    "package/JudgementCutEnd/assets/jce_glow.tga": {
+      "size": 32786,
+      "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481"
+    },
+    "package/JudgementCutEnd/assets/jce_sequence.wav": {
+      "size": 295514,
+      "sha256": "c69ce8ccc528aa4609369596b4559734ed9cbd6be80e1c9bde1b290ba14e9036"
+    },
+    "package/JudgementCutEnd/assets/slashes.csv": {
+      "size": 8991,
+      "sha256": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b"
+    }
+  }
+}

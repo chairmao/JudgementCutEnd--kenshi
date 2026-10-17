@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.4.0.json",
+  "Role": "特效修订元数据",
+  "Code location": "2.4-source-smoke-r1",
+  "Before": "缺少原烟带/烟丝配置与来源",
+  "Changes": "记录合同、固定数量、源哈希、预算、未编译未安装状态",
+  "Reasons": "避免静态验证被当成实机成功",
+  "After": "287fe0afed36ec7521c871fd0f204b966df9193ef51f20d4be0b8611de54665b",
+  "Impact": "说明性元数据，不改变游戏配置",
+  "Validation": "即时字节读回、编码/CRLF/中文乱码检查通过；跨层与几何模型验证另记 verification.json；未编译、未GPU/游戏测试。",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 用户Release|x64编译、GPU材质加载、实际透明叠加/帧率和最终观感。"
+}

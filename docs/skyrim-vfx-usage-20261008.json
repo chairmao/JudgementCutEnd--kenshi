@@ -1,0 +1,1239 @@
+{
+  "source": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Judgement Cut End - ap05's Remake.esp",
+  "sha256": "a9958a21b03251af51b4fb7b145fd919b13e50624f6f5615a62adcdf40d39a59",
+  "record_count": 226,
+  "records": [
+    {
+      "form_id": "0x2000889",
+      "type": "ENCH",
+      "editor_id": "JCE_Timestop_obef",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x2000887"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 100,
+          "duration_seconds": 6
+        }
+      ]
+    },
+    {
+      "form_id": "0x2000846",
+      "type": "SPEL",
+      "editor_id": "JCE030_Cutall_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008a6"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x2000847",
+      "type": "SPEL",
+      "editor_id": "JCE010_Intro_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x2000896",
+        "0x2000891"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 4
+        },
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 7
+        }
+      ]
+    },
+    {
+      "form_id": "0x2000848",
+      "type": "SPEL",
+      "editor_id": "JCE020_Draw_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008a4"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 1
+        }
+      ]
+    },
+    {
+      "form_id": "0x2000849",
+      "type": "SPEL",
+      "editor_id": "JCE030_Cut3D_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x2000877"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x200084a",
+      "type": "SPEL",
+      "editor_id": "JCE030_CutRefrac_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x2000878",
+        "0x2000874"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 4
+        },
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 4
+        }
+      ]
+    },
+    {
+      "form_id": "0x200084b",
+      "type": "SPEL",
+      "editor_id": "JCE020_GroundFX_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x2000858"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x200084c",
+      "type": "SPEL",
+      "editor_id": "JCE030_Dust_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x200087e"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x200084d",
+      "type": "SPEL",
+      "editor_id": "JCE040_EndDust_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x200087f"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 7
+        }
+      ]
+    },
+    {
+      "form_id": "0x200084e",
+      "type": "SPEL",
+      "editor_id": "JCE040_Finish_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x200085b"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x200084f",
+      "type": "SPEL",
+      "editor_id": "JCE030_Spark_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x200085c"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x2000850",
+      "type": "SPEL",
+      "editor_id": "JCE040_EndSpark_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x200085d"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x2000851",
+      "type": "SPEL",
+      "editor_id": "JCE040_Sheath_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x200085e"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x2000861",
+      "type": "SPEL",
+      "editor_id": "JCE040_ScreenFX_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x200085f"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x200088a",
+      "type": "SPEL",
+      "editor_id": "JCE_Damage_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x2000863",
+        "0x20008ef"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 80,
+          "duration_seconds": 0
+        },
+        {
+          "magnitude": 0.0,
+          "area": 80,
+          "duration_seconds": 0
+        }
+      ]
+    },
+    {
+      "form_id": "0x200088b",
+      "type": "SPEL",
+      "editor_id": "JCE_Timestop_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x2000887"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 73,
+          "duration_seconds": 4
+        }
+      ]
+    },
+    {
+      "form_id": "0x2000897",
+      "type": "SPEL",
+      "editor_id": "JCE_TimestopPlayer_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x2000882"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 1.0,
+          "area": 0,
+          "duration_seconds": 5
+        }
+      ]
+    },
+    {
+      "form_id": "0x200089a",
+      "type": "SPEL",
+      "editor_id": "JCEYamato_01_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x200089d",
+        "0x20008b8"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 7
+        },
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 8
+        }
+      ]
+    },
+    {
+      "form_id": "0x200089b",
+      "type": "SPEL",
+      "editor_id": "JCEYamato_02_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x200089e"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 1
+        }
+      ]
+    },
+    {
+      "form_id": "0x200089c",
+      "type": "SPEL",
+      "editor_id": "JCEYamato_03_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x200089f"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008ac",
+      "type": "SPEL",
+      "editor_id": "JCEWeatherTrigger",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008aa"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 4
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008ae",
+      "type": "SPEL",
+      "editor_id": "JCEInvulnerability",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008b5"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 7
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008af",
+      "type": "SPEL",
+      "editor_id": "JCEEndTrigger",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008b0"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 7
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008b1",
+      "type": "SPEL",
+      "editor_id": "JCEInvisible",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008b2"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 1
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008b4",
+      "type": "SPEL",
+      "editor_id": "JCEVisible",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008b3"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 1
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008bb",
+      "type": "SPEL",
+      "editor_id": "JCE050_OutFlame_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008b9"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008bc",
+      "type": "SPEL",
+      "editor_id": "JCE_JudgementCutEnd_Spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008d2",
+        "0x20008de",
+        "0x20008ee"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 0
+        },
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 0
+        },
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 0
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008c2",
+      "type": "SPEL",
+      "editor_id": "JCEYamato_sfx_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008c3"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 3
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008c7",
+      "type": "SPEL",
+      "editor_id": "JCE_Voice_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008c8",
+        "0x20008cb",
+        "0x20008c8",
+        "0x20008cb"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 0
+        },
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 0
+        },
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 0
+        },
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 0
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008d0",
+      "type": "SPEL",
+      "editor_id": "JCE_castJCE_Spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008bd",
+        "0x20008ed"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 2
+        },
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 0
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008d5",
+      "type": "SPEL",
+      "editor_id": "JCECooldown_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008d6"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 0.0,
+          "area": 0,
+          "duration_seconds": 60
+        }
+      ]
+    },
+    {
+      "form_id": "0x20008f5",
+      "type": "SPEL",
+      "editor_id": "JCE_Stagger_spell",
+      "models": [],
+      "model_exists_in_mod": [],
+      "effect_forms": [
+        "0x20008f3"
+      ],
+      "effect_data": [
+        {
+          "magnitude": 100.0,
+          "area": 73,
+          "duration_seconds": 0
+        }
+      ]
+    },
+    {
+      "form_id": "0x2000868",
+      "type": "ACTI",
+      "editor_id": "zjc_FXActivator",
+      "models": [
+        "MarkerX.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200088e",
+      "type": "ACTI",
+      "editor_id": "JCE030Cut3D_Activator",
+      "models": [
+        "effects\\AP05\\JCE030Cut3Dacti.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200088f",
+      "type": "ACTI",
+      "editor_id": "JCE010Intro_Activator",
+      "models": [
+        "effects\\AP05\\JCE010Intro01.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000893",
+      "type": "ACTI",
+      "editor_id": "JCE030Cut3D2_Activator",
+      "models": [
+        "effects\\AP05\\JCE030Cut3D2acti.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000894",
+      "type": "ACTI",
+      "editor_id": "JCE030Cut3D3_Activator",
+      "models": [
+        "effects\\AP05\\JCE030Cut3D3acti.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x20008a7",
+      "type": "ACTI",
+      "editor_id": "JCE030CutAll_Activator",
+      "models": [
+        "effects\\AP05\\JCE030CutallActi.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x20008bf",
+      "type": "STAT",
+      "editor_id": "JCE_Marker_stat",
+      "models": [
+        "effects\\AP05\\JCESpellArt.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000854",
+      "type": "HAZD",
+      "editor_id": "JCE010Intro_hzd",
+      "models": [
+        "effects\\AP05\\JCE010Intro.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200087d",
+      "type": "HAZD",
+      "editor_id": "JCE030Cut3D_hzd",
+      "models": [
+        "effects\\AP05\\JCE030Cut3D.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000817",
+      "type": "EXPL",
+      "editor_id": "nouse",
+      "models": [
+        "effects\\AP05\\JCE010Intro.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000864",
+      "type": "EXPL",
+      "editor_id": "JCE010Intro_expl2",
+      "models": [
+        "effects\\AP05\\JCE010Intro01.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000869",
+      "type": "EXPL",
+      "editor_id": "zjc_fx_start_hand",
+      "models": [
+        "effects\\jc\\sfx1hand.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200086a",
+      "type": "EXPL",
+      "editor_id": "zjc_fx_start_root",
+      "models": [
+        "effects\\jc\\sfx1root.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200086b",
+      "type": "EXPL",
+      "editor_id": "zjc_fx_action_handL",
+      "models": [
+        "effects\\jc\\sfx2handL.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200086c",
+      "type": "EXPL",
+      "editor_id": "zjc_fx_action_root",
+      "models": [
+        "effects\\jc\\sfx2root.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000872",
+      "type": "EXPL",
+      "editor_id": "zjc_fx_action_handR",
+      "models": [
+        "effects\\jc\\sfx2handR.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000873",
+      "type": "EXPL",
+      "editor_id": "zjc_fx_action_rootdust",
+      "models": [
+        "effects\\jc\\sfx2rootdust.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200087a",
+      "type": "EXPL",
+      "editor_id": "JCE030Cut3D_expl",
+      "models": [
+        "effects\\AP05\\JCE030Cut3D.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200087b",
+      "type": "EXPL",
+      "editor_id": "JCE030CutRefracImod_expl",
+      "models": [
+        "effects\\AP05\\JCE030CutRefraction.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200087c",
+      "type": "EXPL",
+      "editor_id": "JCE030CutALL_expl",
+      "models": [
+        "effects\\AP05\\JCE030Cutall.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000880",
+      "type": "EXPL",
+      "editor_id": "JCE030Dust_expl",
+      "models": [
+        "effects\\AP05\\JCE030Dust.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000881",
+      "type": "EXPL",
+      "editor_id": "JCE040EndDust_expl",
+      "models": [
+        "effects\\AP05\\JCE040EndDust.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000886",
+      "type": "EXPL",
+      "editor_id": "JCE_Damage_expl",
+      "models": [
+        "Effects\\FXEmptyObject.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000888",
+      "type": "EXPL",
+      "editor_id": "JCE_Timestop_expl",
+      "models": [
+        "Effects\\FXEmptyObject.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000890",
+      "type": "EXPL",
+      "editor_id": "JCE010Intro_expl3",
+      "models": [
+        "effects\\AP05\\JCE010Intro02.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x20008a5",
+      "type": "EXPL",
+      "editor_id": "JCE020Draw_expl",
+      "models": [
+        "effects\\AP05\\JCE020Draw.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x20008cd",
+      "type": "EXPL",
+      "editor_id": "JCE030CutRefrac_expl",
+      "models": [
+        "effects\\AP05\\JCE030CutRefraction.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000812",
+      "type": "ARTO",
+      "editor_id": "JCE030Cutall",
+      "models": [
+        "effects\\AP05\\JCE030Cutall.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000813",
+      "type": "ARTO",
+      "editor_id": "JCE030CutRefraction",
+      "models": [
+        "effects\\AP05\\JCE030CutRefraction.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000816",
+      "type": "ARTO",
+      "editor_id": "JCE030ScreenFx",
+      "models": [
+        "effects\\AP05\\JCE030ScreenFx.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200081a",
+      "type": "ARTO",
+      "editor_id": "JCE020Draw",
+      "models": [
+        "effects\\AP05\\JCE020Draw.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200081d",
+      "type": "ARTO",
+      "editor_id": "JCE020GroundFx",
+      "models": [
+        "effects\\AP05\\JCE020GroundFx.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200081e",
+      "type": "ARTO",
+      "editor_id": "JCE030Cut3D",
+      "models": [
+        "effects\\AP05\\JCE030Cut3D.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200082d",
+      "type": "ARTO",
+      "editor_id": "JCE030Dust",
+      "models": [
+        "effects\\AP05\\JCE030Dust.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200082e",
+      "type": "ARTO",
+      "editor_id": "JCE040EndDust",
+      "models": [
+        "effects\\AP05\\JCE040EndDust.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x200082f",
+      "type": "ARTO",
+      "editor_id": "JCE040Finish",
+      "models": [
+        "effects\\AP05\\JCE040Finish.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000833",
+      "type": "ARTO",
+      "editor_id": "JCE030Spark",
+      "models": [
+        "effects\\AP05\\JCE030Spark.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000834",
+      "type": "ARTO",
+      "editor_id": "JCE040EndSpark",
+      "models": [
+        "effects\\AP05\\JCE040EndSpark.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000839",
+      "type": "ARTO",
+      "editor_id": "JCE040Sheath",
+      "models": [
+        "effects\\AP05\\JCE040Sheath.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000870",
+      "type": "ARTO",
+      "editor_id": "JCE010IntroBodyFlame",
+      "models": [
+        "effects\\AP05\\JCE010IntroBodyFlame.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000892",
+      "type": "ARTO",
+      "editor_id": "JCE050Hit",
+      "models": [
+        "effects\\AP05\\JCE050Hit.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x2000899",
+      "type": "ARTO",
+      "editor_id": "Yamato_Equip_arto",
+      "models": [
+        "effects\\AP05\\Yamato.nif"
+      ],
+      "model_exists_in_mod": [
+        false
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x20008a0",
+      "type": "ARTO",
+      "editor_id": "JCEYamato_01_arto",
+      "models": [
+        "effects\\AP05\\JCEYamato01.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x20008a1",
+      "type": "ARTO",
+      "editor_id": "JCEYamato_02_arto",
+      "models": [
+        "effects\\AP05\\JCEYamato02.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x20008a2",
+      "type": "ARTO",
+      "editor_id": "JCEYamato_03_arto",
+      "models": [
+        "effects\\AP05\\JCEYamato03.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x20008b7",
+      "type": "ARTO",
+      "editor_id": "JCEYamato_01FX_arto",
+      "models": [
+        "effects\\AP05\\JCEYamato01FX.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x20008f0",
+      "type": "ARTO",
+      "editor_id": "JCEuiActivation_arto",
+      "models": [
+        "effects\\AP05\\JCEuiActivation.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    },
+    {
+      "form_id": "0x20008f1",
+      "type": "ARTO",
+      "editor_id": "JCEuiReady_arto",
+      "models": [
+        "effects\\AP05\\JCEuiReady.nif"
+      ],
+      "model_exists_in_mod": [
+        true
+      ],
+      "effect_forms": [],
+      "effect_data": []
+    }
+  ],
+  "limitations": [
+    "未将目录中每个NIF都认定为实际施放会用到；ESP含旧版/未使用的模型记录",
+    "EFID/EFIT与MODL已精确读取；MGEF内部DATA/VMAD属性引用及原渲染器最终行为仍未完整解析"
+  ]
+}

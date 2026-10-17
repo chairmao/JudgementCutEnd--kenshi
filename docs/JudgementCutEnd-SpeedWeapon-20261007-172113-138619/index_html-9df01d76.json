@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+  "Role": "动作预览",
+  "Code location": "frame/clock/时间说明",
+  "Before": "6.7秒预览",
+  "Changes": "三倍时钟显示2.23真实秒，原数据和拖动时轴不重写",
+  "Reasons": "便于用户预览实际加速，避免预览仍慢于游戏",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；新版源码、同步音轨与配置",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpeedWeapon-20261007-172113-138619\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpeedWeapon-20261007-172113-138619\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.4 DLL待用户编译，武器伤害与三倍速度待实机；未修改已安装模组"
+}

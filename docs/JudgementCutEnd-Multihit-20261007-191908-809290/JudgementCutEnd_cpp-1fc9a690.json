@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "主线程演出/医疗与原生战斗反应",
+  "Code location": "Settings::Load / Runtime::Damage / Runtime::Stagger",
+  "Before": "每敌人一次44倍医疗入口；没有显式大踉跄",
+  "Changes": "实际裂痕数逐击100%基准；独立Damages副本；逐击重验；部位次数汇总；最后原生大踉跄优先及普通回退",
+  "Reasons": "用户确认96次；addWound选择部位且修改伤害引用；原生chooseStumbleAnim/startStumble/_getHit反应接口经本机导出和反汇编核验",
+  "After": "0.2.9源码按96条裂痕独立结算并增加大踉跄；已安装0.2.7不变",
+  "Impact": "仅 JudgementCutEnd；96次100%武器伤害与原生大踉跄反应，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Multihit-20261007-191908-809290\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Multihit-20261007-191908-809290\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.9待用户编译Release|x64和实机验证；不代编译、不部署"
+}

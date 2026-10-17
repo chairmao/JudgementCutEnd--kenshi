@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+  "Role": "同源预览数据，保留原骨骼轨道并同步特效",
+  "Code location": "完整特效资源",
+  "Before": "已双备份",
+  "Changes": "确定性重现1.1.0特效资产",
+  "Reasons": "新增雾气与碎裂视觉，不改原动画/音频",
+  "After": "资源已生成",
+  "Impact": "仅JudgementCutEnd分发包",
+  "Validation": "逐字节读回一致，文本UTF-8/CRLF/中文扫描",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFXAssets-20261007-204827-167810\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXAssets-20261007-204827-167810\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json"
+    ],
+    "encoding": "文本UTF-8无BOM/CRLF；TGA保持二进制"
+  },
+  "Unresolved": "需用户编译/实机验证"
+}

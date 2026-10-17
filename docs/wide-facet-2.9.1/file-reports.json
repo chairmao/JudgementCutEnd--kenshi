@@ -1,0 +1,190 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+    "Role": "验证收尾版本合同",
+    "Code location": "日志前缀/metadata源哈希",
+    "Before": "802C619A4F717E71972DF27A0DE5E70B9E140F2615535CF0C9670F0874EC9BEA",
+    "Changes": "补齐2.9.1日志前缀并同步源哈希",
+    "Reasons": "日志与运行DLL版本必须一致",
+    "After": "C3C47FC0743AE1C60C89330097533BE3253DC0F9D324170BDE1235223EB80729",
+    "Impact": "仅版本描述，不改演出",
+    "Validation": "UTF8/BOM/CRLF和字节校验；随后静态验证",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JCE-WideProbe291-20261009-235338-VersionLog\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JCE-WideProbe291-20261009-235338-VersionLog\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+      ],
+      "encoding": "UTF-8 BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "实际编译/游戏尚未验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.9.1.json",
+    "Role": "验证收尾版本合同",
+    "Code location": "日志前缀/metadata源哈希",
+    "Before": "AEE24DB96E8B8C440ED62525516EEC5FC11940A4D92D7DC25B0C0A3E095C98E4",
+    "Changes": "补齐2.9.1日志前缀并同步源哈希",
+    "Reasons": "日志与运行DLL版本必须一致",
+    "After": "B5F3A40F0DF5D1E8ABE4A68B7FA1E83379D22F3CFCDF543279E8368D13C4F276",
+    "Impact": "仅版本描述，不改演出",
+    "Validation": "UTF8/BOM/CRLF和字节校验；随后静态验证",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JCE-WideProbe291-20261009-235338-VersionLog\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.9.1.json",
+        "E:\\AIWorkSpace\\_backups\\JCE-WideProbe291-20261009-235338-VersionLog\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.9.1.json"
+      ],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "实际编译/游戏尚未验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+    "Role": "特效材质合同",
+    "Code location": "JCE/Refraction pass",
+    "Before": "9EFFF5BA42F9B90CE870FE5DB35242188D08C6B4DFE9D1879A6644075483FD0D",
+    "Changes": "Refraction绑定新程序和原始光斑遮罩；混合与世界深度不变",
+    "Reasons": "2.9视频宽面缺乏明确背景错位；本轮先隔离验证，不扩增裂面/刀光/粒子",
+    "After": "C182E1C4A7446EBFBAEB3A9BCC8EBAD442E56617DB5C9D2D5A0FC70E22550D08",
+    "Impact": "2.9.1 native vertex contract and shader must deploy together; runtime default is isolated wide facet",
+    "Validation": "逐字复制/UTF-8及CRLF/中文读回检查通过；静态与模型验证随后记录",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JCE-WideProbe291-20261009-235338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+        "E:\\AIWorkSpace\\_backups\\JCE-WideProbe291-20261009-235338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material"
+      ],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "未代编译；实际材质响应、游戏可见性、GPU性能尚未验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_facets291.hlsl",
+    "Role": "宽面一致偏折着色器",
+    "Code location": "Facet291 VP/FP",
+    "Before": "new",
+    "Changes": "面枢轴投影、源Alpha遮罩、移除宽面重复强度混合；两次采样仍一份HDR副本",
+    "Reasons": "2.9视频宽面缺乏明确背景错位；本轮先隔离验证，不扩增裂面/刀光/粒子",
+    "After": "81D9563E19CA25DE4F264F57C687CEA1CFAAAC011CEE30C72EF845238212B3E3",
+    "Impact": "2.9.1 native vertex contract and shader must deploy together; runtime default is isolated wide facet",
+    "Validation": "逐字复制/UTF-8及CRLF/中文读回检查通过；静态与模型验证随后记录",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "未代编译；实际材质响应、游戏可见性、GPU性能尚未验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_facets291.program",
+    "Role": "GPU程序注册",
+    "Code location": "新程序声明",
+    "Before": "new",
+    "Changes": "使用独立Facet291名避免旧合同混装",
+    "Reasons": "2.9视频宽面缺乏明确背景错位；本轮先隔离验证，不扩增裂面/刀光/粒子",
+    "After": "B8A505525147A558E7B2A6E3480E1E444602CFD0B5D0D352E82B573A3431CE79",
+    "Impact": "2.9.1 native vertex contract and shader must deploy together; runtime default is isolated wide facet",
+    "Validation": "逐字复制/UTF-8及CRLF/中文读回检查通过；静态与模型验证随后记录",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "未代编译；实际材质响应、游戏可见性、GPU性能尚未验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_optical_mask.dds",
+    "Role": "源光斑Alpha遮罩",
+    "Code location": "Refraction t0",
+    "Before": "new",
+    "Changes": "原DDS按字节复制；只作柔边遮罩，绝不当法线贴图",
+    "Reasons": "2.9视频宽面缺乏明确背景错位；本轮先隔离验证，不扩增裂面/刀光/粒子",
+    "After": "A3F29383DE8BB46BB69B75475067DE5DD1238CCE41793CE6E04950B7749B19FD",
+    "Impact": "2.9.1 native vertex contract and shader must deploy together; runtime default is isolated wide facet",
+    "Validation": "逐字复制/UTF-8及CRLF/中文读回检查通过；静态与模型验证随后记录",
+    "Safety": {
+      "backups": [],
+      "encoding": "binary",
+      "line_endings": "not applicable"
+    },
+    "Unresolved": "未代编译；实际材质响应、游戏可见性、GPU性能尚未验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+    "Role": "特效配置、顶点生产与绘制",
+    "Code location": "Settings/LoadSourceFacets/视觉顶点/SpatialFracture",
+    "Before": "9B46FDD60E3543474B7DDCC419572B47E8C48A705B009A0AD717CD909095AD0C",
+    "Changes": "独立宽面适配、固定声明隔离模式、面枢轴/轴向顶点合同和每阶段有界日志",
+    "Reasons": "2.9视频宽面缺乏明确背景错位；本轮先隔离验证，不扩增裂面/刀光/粒子",
+    "After": "802C619A4F717E71972DF27A0DE5E70B9E140F2615535CF0C9670F0874EC9BEA",
+    "Impact": "2.9.1 native vertex contract and shader must deploy together; runtime default is isolated wide facet",
+    "Validation": "逐字复制/UTF-8及CRLF/中文读回检查通过；静态与模型验证随后记录",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JCE-WideProbe291-20261009-235338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JCE-WideProbe291-20261009-235338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+      ],
+      "encoding": "UTF-8 BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "未代编译；实际材质响应、游戏可见性、GPU性能尚未验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+    "Role": "验证模式配置",
+    "Code location": "OpticalProbeMode",
+    "Before": "15F65BF08FC7A166CCAF4157E117C82F3291D199464A7CA356F37033FC6F4BD6",
+    "Changes": "默认单宽面；可切回叠加或完整三面",
+    "Reasons": "2.9视频宽面缺乏明确背景错位；本轮先隔离验证，不扩增裂面/刀光/粒子",
+    "After": "E4C81032B55FE74C7D21A5CBDABBAEE2AF67E8A484D218E009EFCE2DABF17D85",
+    "Impact": "2.9.1 native vertex contract and shader must deploy together; runtime default is isolated wide facet",
+    "Validation": "逐字复制/UTF-8及CRLF/中文读回检查通过；静态与模型验证随后记录",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JCE-WideProbe291-20261009-235338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini",
+        "E:\\AIWorkSpace\\_backups\\JCE-WideProbe291-20261009-235338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.ini"
+      ],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "未代编译；实际材质响应、游戏可见性、GPU性能尚未验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+    "Role": "资源出处",
+    "Code location": "2.9.1 section",
+    "Before": "56EC43F6472C87ABA798197816A3916BD6F5420805F1EBB8797CCF3DD122257A",
+    "Changes": "追加源遮罩与适配边界",
+    "Reasons": "2.9视频宽面缺乏明确背景错位；本轮先隔离验证，不扩增裂面/刀光/粒子",
+    "After": "B6C7A9E3723CEDF9C2DC5C3CCFA72E250EC2F350A615842D1F46C6B6EA81F64D",
+    "Impact": "2.9.1 native vertex contract and shader must deploy together; runtime default is isolated wide facet",
+    "Validation": "逐字复制/UTF-8及CRLF/中文读回检查通过；静态与模型验证随后记录",
+    "Safety": {
+      "backups": [
+        "D:\\CodexBackups\\JCE-WideProbe291-20261009-235338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+        "E:\\AIWorkSpace\\_backups\\JCE-WideProbe291-20261009-235338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md"
+      ],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "未代编译；实际材质响应、游戏可见性、GPU性能尚未验证"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.9.1.json",
+    "Role": "版本与安装合同",
+    "Code location": "metadata",
+    "Before": "new",
+    "Changes": "明确隔离模式和源码/资源哈希；未安装未测试",
+    "Reasons": "2.9视频宽面缺乏明确背景错位；本轮先隔离验证，不扩增裂面/刀光/粒子",
+    "After": "AEE24DB96E8B8C440ED62525516EEC5FC11940A4D92D7DC25B0C0A3E095C98E4",
+    "Impact": "2.9.1 native vertex contract and shader must deploy together; runtime default is isolated wide facet",
+    "Validation": "逐字复制/UTF-8及CRLF/中文读回检查通过；静态与模型验证随后记录",
+    "Safety": {
+      "backups": [],
+      "encoding": "UTF-8 no BOM",
+      "line_endings": "CRLF"
+    },
+    "Unresolved": "未代编译；实际材质响应、游戏可见性、GPU性能尚未验证"
+  }
+]

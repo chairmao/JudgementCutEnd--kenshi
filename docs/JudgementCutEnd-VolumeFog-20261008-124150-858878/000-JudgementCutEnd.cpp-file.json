@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "特效几何层和一次性身份日志",
+  "Code location": "HazeVertex/HazeQuad/Mist、SourceDust强度、版本标记",
+  "Before": "96个离散云片，视频角色周围清透、远侧蓝团",
+  "Changes": "32个全半球深度切片；归一化光学步长；去顶点挤压；降低装饰尾烟4倍",
+  "Reasons": "新视频显示仅UV流动不足；球体视线覆盖必须连续",
+  "After": "c421a6d1bb36d74e37b3e640de46d102eba7a8e8e7645b3cfc9c559fc10dd83f",
+  "Impact": "只改雾特效与版本/日志；按键、刀光、伤害、动画、世界速度恢复完整保护",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF",
+    "before_sha256": "cc66e596f5db61a56cdcdfd6b8b06d3322ddd234a3d1f063173085dd075644fc"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

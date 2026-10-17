@@ -1,0 +1,98 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+    "Role": "插件直接类型依赖",
+    "Code location": "直接依赖/验证/证据段落",
+    "Before": "原文件已双备份",
+    "Changes": "本地头文件递归核验发现 Damages 只有前置声明；加入完整定义及明确 GameData 依赖",
+    "Reasons": "本地头文件递归核验发现 Damages 只有前置声明；加入完整定义及明确 GameData 依赖",
+    "After": "源码与验证合同一致",
+    "Impact": "本项目",
+    "Validation": "回读、编码、CRLF、中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "Unresolved": "未编译/未实机测试"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+    "Role": "只读静态验证",
+    "Code location": "直接依赖/验证/证据段落",
+    "Before": "原文件已双备份",
+    "Changes": "验证源码显式包含伤害值和身体部位日志的完整类型",
+    "Reasons": "验证源码显式包含伤害值和身体部位日志的完整类型",
+    "After": "源码与验证合同一致",
+    "Impact": "本项目",
+    "Validation": "回读、编码、CRLF、中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "Unresolved": "未编译/未实机测试"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+    "Role": "交付说明",
+    "Code location": "直接依赖/验证/证据段落",
+    "Before": "原文件已双备份",
+    "Changes": "更新直接依赖检查后的 52 项数量",
+    "Reasons": "更新直接依赖检查后的 52 项数量",
+    "After": "源码与验证合同一致",
+    "Impact": "本项目",
+    "Validation": "回读、编码、CRLF、中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "Unresolved": "未编译/未实机测试"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\implementation-review.md",
+    "Role": "实现审查",
+    "Code location": "直接依赖/验证/证据段落",
+    "Before": "原文件已双备份",
+    "Changes": "更新完整依赖的源码行号与 52 项检查数量",
+    "Reasons": "更新完整依赖的源码行号与 52 项检查数量",
+    "After": "源码与验证合同一致",
+    "Impact": "本项目",
+    "Validation": "回读、编码、CRLF、中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\implementation-review.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\implementation-review.md"
+    ],
+    "Unresolved": "未编译/未实机测试"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification.json",
+    "Role": "验证结果",
+    "Code location": "直接依赖/验证/证据段落",
+    "Before": "原文件已双备份",
+    "Changes": "52 项检查通过，不声明 C++ 编译通过",
+    "Reasons": "52 项检查通过，不声明 C++ 编译通过",
+    "After": "源码与验证合同一致",
+    "Impact": "本项目",
+    "Validation": "回读、编码、CRLF、中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification.json"
+    ],
+    "Unresolved": "未编译/未实机测试"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+    "Role": "交付状态",
+    "Code location": "直接依赖/验证/证据段落",
+    "Before": "原文件已双备份",
+    "Changes": "同步静态检查数量，保留未编译/未安装/未实测状态",
+    "Reasons": "同步静态检查数量，保留未编译/未安装/未实测状态",
+    "After": "源码与验证合同一致",
+    "Impact": "本项目",
+    "Validation": "回读、编码、CRLF、中文检查；Python AST 如适用",
+    "Safety": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-140438-480935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "Unresolved": "未编译/未实机测试"
+  }
+]

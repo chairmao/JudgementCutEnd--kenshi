@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+  "Role": "自有像素着色器",
+  "Code location": "dustDetail分支",
+  "Before": "818386b8728d4434bca0055f8e06ce4a655a3db7c920a0c81ef737ce370d7cc5",
+  "Changes": "仅烟尘压低灰底并柔化边缘；其他四种原纹理层保留原路径；不新增纹理采样",
+  "Reasons": "用户指定冻结正式版2.0并改进粒子；沿用已授权JudgementCutEnd.cpp特效绘制范围",
+  "After": "31fdfa2dd767d25f0c503413035bc91109e98a0f3de6e1c9d00f036afe175b55",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Particle21-20261008-013810-446532\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Particle21-20261008-013810-446532\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

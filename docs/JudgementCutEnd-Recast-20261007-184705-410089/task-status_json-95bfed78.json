@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目状态及验收边界",
+  "Code location": "source_version / source_configuration / pending",
+  "Before": "0.2.6等待编译",
+  "Changes": "声明0.2.7源版本、零冷却、覆盖合同；安装仍0.2.5",
+  "Reasons": "区分当前源代码与旧DLL的实际状态",
+  "After": "0.2.7源码取消冷却并支持按键覆盖；已安装0.2.5不变",
+  "Impact": "仅 JudgementCutEnd；取消冷却并清理后重新施放，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Recast-20261007-184705-410089\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Recast-20261007-184705-410089\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.7待用户编译及实机验证；不代编译或安装旧DLL"
+}

@@ -1,0 +1,696 @@
+{
+  "source_version": "1.2.0-dev",
+  "created_local": "2026-10-07T23:39:46.771084",
+  "compiled": false,
+  "game_tested": false,
+  "checks_total": 387,
+  "reports": {
+    "verify_vfx": {
+      "static_passed": true,
+      "base_check_count": 226,
+      "vfx_check_count": 43,
+      "checks": [
+        {
+          "name": "original regression suite",
+          "passed": true
+        },
+        {
+          "name": "formal 1.0 release tag and original build marker",
+          "passed": true
+        },
+        {
+          "name": "every frozen source/runtime hash preserved",
+          "passed": true
+        },
+        {
+          "name": "formal ZIP CRC",
+          "passed": true
+        },
+        {
+          "name": "formal ZIP payload equals frozen directory",
+          "passed": true
+        },
+        {
+          "name": "all damage, 350 boundary, native stagger logic byte-equivalent",
+          "passed": true
+        },
+        {
+          "name": "bounded root pose uses snapshot and retained skin publication",
+          "passed": true
+        },
+        {
+          "name": "input and real timeline unchanged except reviewed time restoration",
+          "passed": true
+        },
+        {
+          "name": "unchanged animation/audio/base glow jce_sequence.wav",
+          "passed": true
+        },
+        {
+          "name": "unchanged animation/audio/base glow jce_sequence_fast.wav",
+          "passed": true
+        },
+        {
+          "name": "unchanged animation/audio/base glow jce_glow.tga",
+          "passed": true
+        },
+        {
+          "name": "same 96 geometric slash paths and lifetimes",
+          "passed": true
+        },
+        {
+          "name": "spread births inside cut to sheath",
+          "passed": true
+        },
+        {
+          "name": "16 distinct moving paths with full phantom lifetime before damage",
+          "passed": true
+        },
+        {
+          "name": "192 independent optical facets from all 96 slashes",
+          "passed": true
+        },
+        {
+          "name": "bounded finite nondegenerate fragment assets",
+          "passed": true
+        },
+        {
+          "name": "valid 32-bit top-left TGA jce_mist.tga",
+          "passed": true
+        },
+        {
+          "name": "valid 32-bit top-left TGA jce_glass.tga",
+          "passed": true
+        },
+        {
+          "name": "neutral RGB texture with transparent alpha rim and cloud noise",
+          "passed": true
+        },
+        {
+          "name": "three separate existing shader-compatible materials",
+          "passed": true
+        },
+        {
+          "name": "material texture exists jce_glow.tga",
+          "passed": true
+        },
+        {
+          "name": "material texture exists jce_mist.tga",
+          "passed": true
+        },
+        {
+          "name": "material texture exists jce_glass.tga",
+          "passed": true
+        },
+        {
+          "name": "material texture exists jce_glass.tga",
+          "passed": true
+        },
+        {
+          "name": "material texture exists jce_glow.tga",
+          "passed": true
+        },
+        {
+          "name": "new shard loader validates count and corruption before hooks",
+          "passed": true
+        },
+        {
+          "name": "three material sections and render callback coverage",
+          "passed": true
+        },
+        {
+          "name": "unique graphical object retained and cleanup still owns all sections",
+          "passed": true
+        },
+        {
+          "name": "new layers use existing graphics API and no cloned gameplay entities",
+          "passed": true
+        },
+        {
+          "name": "per-cast diagnostic stage flags bounded",
+          "passed": true
+        },
+        {
+          "name": "hard bounded geometry",
+          "passed": true
+        },
+        {
+          "name": "C++ delimiter structure",
+          "passed": true
+        },
+        {
+          "name": "preview JavaScript syntax",
+          "passed": true
+        },
+        {
+          "name": "preview finite coordinates, fixed spatial glints, full hemisphere haze, 16 phantom events",
+          "passed": true
+        },
+        {
+          "name": "observed build and unchanged package/installed DLL identities",
+          "passed": true
+        },
+        {
+          "name": "no falling or outlined mirrors in runtime drawing",
+          "passed": true
+        },
+        {
+          "name": "all 96 paths emit six delayed sweep echoes",
+          "passed": true
+        },
+        {
+          "name": "six trail births complete for last slash before sheath",
+          "passed": true
+        },
+        {
+          "name": "grey continuous shell and ordered volumetric lattice",
+          "passed": true
+        },
+        {
+          "name": "no local class template in v100 sorting",
+          "passed": true
+        },
+        {
+          "name": "bounded four phantom echoes",
+          "passed": true
+        },
+        {
+          "name": "optical additive blend honors vertex alpha",
+          "passed": true
+        },
+        {
+          "name": "end-of-cast optical light clears in place",
+          "passed": true
+        }
+      ],
+      "geometry_upper_bound": {
+        "vertices": 18348,
+        "indices": 45378
+      },
+      "preview_model": {
+        "facet_vertices_checked": 77760,
+        "phantom_paths": 16,
+        "stationary_facet_frames": 25920,
+        "haze_cells_checked": 22680,
+        "draw_operations": 2341517
+      },
+      "compiled": false,
+      "game_tested": false,
+      "frozen_release": "1.0.0",
+      "development_version": "1.2.0-dev"
+    },
+    "verify_time": {
+      "static_passed": true,
+      "checks": [
+        {
+          "name": "restore before renderer/resolve/bone/weapon operations",
+          "passed": true
+        },
+        {
+          "name": "restore independent of active flag",
+          "passed": true
+        },
+        {
+          "name": "ownership published before slow setter",
+          "passed": true
+        },
+        {
+          "name": "pending blocks replacement of baseline",
+          "passed": true
+        },
+        {
+          "name": "idle resume recovery before new input snapshot",
+          "passed": true
+        },
+        {
+          "name": "no pause override or field writes",
+          "passed": true
+        },
+        {
+          "name": "old world guarded before calls",
+          "passed": true
+        },
+        {
+          "name": "restore verified by native getter before release",
+          "passed": true
+        },
+        {
+          "name": "bounded failure logging",
+          "passed": true
+        },
+        {
+          "name": "distinct pause/focus/escape diagnostics",
+          "passed": true
+        },
+        {
+          "name": "restore completed base=1",
+          "passed": true
+        },
+        {
+          "name": "restore escape base=1",
+          "passed": true
+        },
+        {
+          "name": "restore focus base=1",
+          "passed": true
+        },
+        {
+          "name": "restore loading base=1",
+          "passed": true
+        },
+        {
+          "name": "restore pose_error base=1",
+          "passed": true
+        },
+        {
+          "name": "restore frame_stall base=1",
+          "passed": true
+        },
+        {
+          "name": "restore begin_after_slow_failed base=1",
+          "passed": true
+        },
+        {
+          "name": "restore restart base=1",
+          "passed": true
+        },
+        {
+          "name": "pause remains paused base=1",
+          "passed": true
+        },
+        {
+          "name": "pending cannot overwrite baseline base=1",
+          "passed": true
+        },
+        {
+          "name": "unpause restores original base=1",
+          "passed": true
+        },
+        {
+          "name": "next cast snapshots normal speed base=1",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 1 -> 1",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 1 -> 2",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 1 -> 3",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 1 -> 0.5",
+          "passed": true
+        },
+        {
+          "name": "restore completed base=2",
+          "passed": true
+        },
+        {
+          "name": "restore escape base=2",
+          "passed": true
+        },
+        {
+          "name": "restore focus base=2",
+          "passed": true
+        },
+        {
+          "name": "restore loading base=2",
+          "passed": true
+        },
+        {
+          "name": "restore pose_error base=2",
+          "passed": true
+        },
+        {
+          "name": "restore frame_stall base=2",
+          "passed": true
+        },
+        {
+          "name": "restore begin_after_slow_failed base=2",
+          "passed": true
+        },
+        {
+          "name": "restore restart base=2",
+          "passed": true
+        },
+        {
+          "name": "pause remains paused base=2",
+          "passed": true
+        },
+        {
+          "name": "pending cannot overwrite baseline base=2",
+          "passed": true
+        },
+        {
+          "name": "unpause restores original base=2",
+          "passed": true
+        },
+        {
+          "name": "next cast snapshots normal speed base=2",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 2 -> 1",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 2 -> 2",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 2 -> 3",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 2 -> 0.5",
+          "passed": true
+        },
+        {
+          "name": "restore completed base=3",
+          "passed": true
+        },
+        {
+          "name": "restore escape base=3",
+          "passed": true
+        },
+        {
+          "name": "restore focus base=3",
+          "passed": true
+        },
+        {
+          "name": "restore loading base=3",
+          "passed": true
+        },
+        {
+          "name": "restore pose_error base=3",
+          "passed": true
+        },
+        {
+          "name": "restore frame_stall base=3",
+          "passed": true
+        },
+        {
+          "name": "restore begin_after_slow_failed base=3",
+          "passed": true
+        },
+        {
+          "name": "restore restart base=3",
+          "passed": true
+        },
+        {
+          "name": "pause remains paused base=3",
+          "passed": true
+        },
+        {
+          "name": "pending cannot overwrite baseline base=3",
+          "passed": true
+        },
+        {
+          "name": "unpause restores original base=3",
+          "passed": true
+        },
+        {
+          "name": "next cast snapshots normal speed base=3",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 3 -> 1",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 3 -> 2",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 3 -> 3",
+          "passed": true
+        },
+        {
+          "name": "preserve manual/external speed 3 -> 0.5",
+          "passed": true
+        },
+        {
+          "name": "manual resume speed preserved",
+          "passed": true
+        },
+        {
+          "name": "old world never written on replacement",
+          "passed": true
+        },
+        {
+          "name": "invalid world releases without dereference/write",
+          "passed": true
+        },
+        {
+          "name": "setter exception retains baseline",
+          "passed": true
+        },
+        {
+          "name": "setter exception retry restores",
+          "passed": true
+        },
+        {
+          "name": "unverified setter retains ownership",
+          "passed": true
+        },
+        {
+          "name": "unverified setter retry restores",
+          "passed": true
+        },
+        {
+          "name": "invalid speed deferred 0",
+          "passed": true
+        },
+        {
+          "name": "invalid speed deferred nan",
+          "passed": true
+        },
+        {
+          "name": "invalid speed deferred inf",
+          "passed": true
+        },
+        {
+          "name": "old bug reproduced: poisoned baseline persists",
+          "passed": true
+        },
+        {
+          "name": "100 repeated casts and pause cancellations do not drift",
+          "passed": true
+        }
+      ],
+      "check_count": 70,
+      "compiled": false,
+      "game_tested": false,
+      "model_limit": "接口合同模型及源码绑定检查，不能代替实际C++和游戏验证"
+    },
+    "verify_port": {
+      "passed": true,
+      "checks": [
+        {
+          "name": "actual source HKX and XPMSSE skeleton identity",
+          "passed": true
+        },
+        {
+          "name": "source normal animation, actual 211 frames and 242 tracks",
+          "passed": true
+        },
+        {
+          "name": "retarget 23 named bones at 60 Hz",
+          "passed": true
+        },
+        {
+          "name": "clip and phantom hashes match producer record",
+          "passed": true
+        },
+        {
+          "name": "offline GPL decoder files pinned",
+          "passed": true
+        },
+        {
+          "name": "root horizontal travel removed and vertical floor correction explicit",
+          "passed": true
+        },
+        {
+          "name": "source drawing and sheath event times recorded",
+          "passed": true
+        },
+        {
+          "name": "mesh valid exact bounded topology and allocation",
+          "passed": true
+        },
+        {
+          "name": "binary topology equals preview",
+          "passed": true
+        },
+        {
+          "name": "all baked binary vertices equal preview within float precision",
+          "passed": true
+        },
+        {
+          "name": "reject empty",
+          "passed": true
+        },
+        {
+          "name": "reject header truncated",
+          "passed": true
+        },
+        {
+          "name": "reject end truncated",
+          "passed": true
+        },
+        {
+          "name": "reject extra data",
+          "passed": true
+        },
+        {
+          "name": "reject wrong magic",
+          "passed": true
+        },
+        {
+          "name": "reject huge frame allocation",
+          "passed": true
+        },
+        {
+          "name": "reject huge vertex allocation",
+          "passed": true
+        },
+        {
+          "name": "reject invalid triangle index",
+          "passed": true
+        },
+        {
+          "name": "reject nonfinite vertex",
+          "passed": true
+        },
+        {
+          "name": "reject huge vertex",
+          "passed": true
+        },
+        {
+          "name": "reject NaN fps",
+          "passed": true
+        },
+        {
+          "name": "runtime validates mesh dimensions before allocation",
+          "passed": true
+        },
+        {
+          "name": "v1 compatible and v2 root-only positions",
+          "passed": true
+        },
+        {
+          "name": "baked sample stable at last frame and bounded simultaneous bodies",
+          "passed": true
+        },
+        {
+          "name": "zero alpha fallback keeps material section nonempty",
+          "passed": true
+        },
+        {
+          "name": "copy before own section and once per frame",
+          "passed": true
+        },
+        {
+          "name": "copy source is bound RTV, destination independent",
+          "passed": true
+        },
+        {
+          "name": "copy rejects format dimensions arrays mip multisample changes",
+          "passed": true
+        },
+        {
+          "name": "shader SRV state restored in render callback",
+          "passed": true
+        },
+        {
+          "name": "no CPU readback or global camera/compositor edits",
+          "passed": true
+        },
+        {
+          "name": "getter COM refs owned and immediate context released",
+          "passed": true
+        },
+        {
+          "name": "own texture removed even after material reset error",
+          "passed": true
+        },
+        {
+          "name": "render copy disabled independently on capture failure",
+          "passed": true
+        },
+        {
+          "name": "own HLSL interface matches existing coloured vertex program",
+          "passed": true
+        },
+        {
+          "name": "captured viewport projection and bounded pixel distortion",
+          "passed": true
+        },
+        {
+          "name": "version gate before copying old DLL",
+          "passed": true
+        },
+        {
+          "name": "current source version marker 1.2.0",
+          "passed": true
+        },
+        {
+          "name": "source and existing native build clearly separated",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese JudgementCutEnd.cpp",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese author_port.py",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese verify_port.py",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese verify.py",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese verify_vfx.py",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese Stage-LocalMod.ps1",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese index.html",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese scene.json",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese jce_refraction.hlsl",
+          "passed": true
+        },
+        {
+          "name": "encoding and Chinese jce_refraction.program",
+          "passed": true
+        }
+      ],
+      "check_count": 48,
+      "compiled": false,
+      "game_tested": false,
+      "mesh_bytes": 959092,
+      "source_version": "1.2.0-dev"
+    }
+  },
+  "stage_old_dll_rejected_before_copy": true,
+  "powershell_AST_errors": 0
+}

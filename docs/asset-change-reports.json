@@ -1,0 +1,41 @@
+[
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+    "Role": "403 帧连续全身编排，完整父子朝向链的四元数局部增量",
+    "Code location": "whole generated resource",
+    "Before": "existing, backed up",
+    "Changes": "created/reproduced deterministically",
+    "Reasons": "JCE resource contract v1",
+    "After": "ready for runtime loading",
+    "Impact": "new plugin only",
+    "Validation": "strict readback and encoding scan",
+    "Safety": "dual external backups if overwritten; UTF-8/CRLF text or binary asset",
+    "Unresolved": "game rendering not tested"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+    "Role": "独立预览用同源骨骼、动作和裂痕数据",
+    "Code location": "whole generated resource",
+    "Before": "existing, backed up",
+    "Changes": "created/reproduced deterministically",
+    "Reasons": "JCE resource contract v1",
+    "After": "ready for runtime loading",
+    "Impact": "new plugin only",
+    "Validation": "strict readback and encoding scan",
+    "Safety": "dual external backups if overwritten; UTF-8/CRLF text or binary asset",
+    "Unresolved": "game rendering not tested"
+  },
+  {
+    "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+    "Role": "同步离线预览内嵌动作/骨架/裂痕合同",
+    "Code location": "whole generated resource",
+    "Before": "existing, backed up",
+    "Changes": "created/reproduced deterministically",
+    "Reasons": "JCE resource contract v1",
+    "After": "ready for runtime loading",
+    "Impact": "new plugin only",
+    "Validation": "strict readback and encoding scan",
+    "Safety": "dual external backups if overwritten; UTF-8/CRLF text or binary asset",
+    "Unresolved": "game rendering not tested"
+  }
+]

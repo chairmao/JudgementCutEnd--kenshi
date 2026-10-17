@@ -1,0 +1,249 @@
+{
+  "static_passed": true,
+  "checks": [
+    {
+      "name": "Python AST author_assets.py",
+      "passed": true
+    },
+    {
+      "name": "Python AST verify.py",
+      "passed": true
+    },
+    {
+      "name": "v100 ABI",
+      "passed": true
+    },
+    {
+      "name": "only own C++ translation unit",
+      "passed": true
+    },
+    {
+      "name": "all import libraries configured",
+      "passed": true
+    },
+    {
+      "name": "existing dependencies",
+      "passed": true
+    },
+    {
+      "name": "Boost autolink search path",
+      "passed": true
+    },
+    {
+      "name": "all four Boost autolink libraries present",
+      "passed": true
+    },
+    {
+      "name": "manifest single entry",
+      "passed": true
+    },
+    {
+      "name": "zero-record mod header",
+      "passed": true
+    },
+    {
+      "name": "no game data record",
+      "passed": true
+    },
+    {
+      "name": "track count matches contract",
+      "passed": true
+    },
+    {
+      "name": "track names distinct",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 Spine",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 Spine",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 Spine1",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 Spine1",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 Spine2",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 Spine2",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L UpperArm",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L UpperArm",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L Forearm",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L Forearm",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 L Hand",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 L Hand",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 Head",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 Head",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R UpperArm",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R UpperArm",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R Forearm",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R Forearm",
+      "passed": true
+    },
+    {
+      "name": "frames finite, ordered, normalized: Bip01 R Hand",
+      "passed": true
+    },
+    {
+      "name": "preview/runtime identical: Bip01 R Hand",
+      "passed": true
+    },
+    {
+      "name": "embedded HTML equals scene data",
+      "passed": true
+    },
+    {
+      "name": "bone lengths preserved",
+      "passed": true
+    },
+    {
+      "name": "feet planted without root motion",
+      "passed": true
+    },
+    {
+      "name": "nontrivial draw/sheath movement",
+      "passed": true
+    },
+    {
+      "name": "96 independent stable slashes",
+      "passed": true
+    },
+    {
+      "name": "TGA dimensions and size",
+      "passed": true
+    },
+    {
+      "name": "WAV full timeline",
+      "passed": true
+    },
+    {
+      "name": "game shader contract",
+      "passed": true
+    },
+    {
+      "name": "HDR queue exists",
+      "passed": true
+    },
+    {
+      "name": "native damage types fully included",
+      "passed": true
+    },
+    {
+      "name": "no skeleton resource mutation",
+      "passed": true
+    },
+    {
+      "name": "native binding and one hook per entry",
+      "passed": true
+    },
+    {
+      "name": "damage follows native addWound once",
+      "passed": true
+    },
+    {
+      "name": "targets revalidate by handle",
+      "passed": true
+    },
+    {
+      "name": "scope serializes only caster",
+      "passed": true
+    },
+    {
+      "name": "world/camera restoration",
+      "passed": true
+    },
+    {
+      "name": "camera target uses world-space contract",
+      "passed": true
+    },
+    {
+      "name": "sheath commits once at multiple FPS",
+      "passed": true
+    },
+    {
+      "name": "long stall cancels before deferred damage",
+      "passed": true
+    },
+    {
+      "name": "short stall orders crossing events",
+      "passed": true
+    },
+    {
+      "name": "UTF-8 Chinese and CRLF verified",
+      "passed": true
+    }
+  ],
+  "metrics": {
+    "bone_length_error": 6.217248937900877e-15,
+    "foot_drift": 0,
+    "right_hand_motion": 7.150060255389479,
+    "frames": 403,
+    "tracks": 10
+  },
+  "compiled": false,
+  "game_tested": false,
+  "agent_compilation_run": false,
+  "user_cpp_object_present": true,
+  "user_link_success": false,
+  "fixed_build_verified": false,
+  "reason": "User previous build produced x64 object but link failed LNK1104; Boost stage/lib search path now fixed.",
+  "files": {
+    "JudgementCutEnd.vcxproj": {
+      "sha256": "2f4c4f0999b208f1576f18054caa5b12db1ac16f1ea3dc712afc5e12692a5f94"
+    },
+    "tools/verify.py": {
+      "sha256": "67d3857693b8a0e39207d1a2acac6e7ac68909a3cdc4f303bbb037b1b52cd9a6"
+    },
+    "obj/Release/JudgementCutEnd.log": {
+      "sha256": "d9f2f3f6c3f6a451f84f2c1164fad9b79c4304f1b786f3522093c258f61d2d82"
+    },
+    "obj/Release/JudgementCutEnd.obj": {
+      "sha256": "3b1d33d00b65cc406e0227fc34ccc4399f143ec102147a4182d5817b7c6b4401"
+    }
+  }
+}

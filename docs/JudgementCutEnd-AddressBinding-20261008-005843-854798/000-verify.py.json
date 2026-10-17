@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "既有基础静态回归",
+  "Code location": "两个目标绑定与SDK前置校验断言",
+  "Before": "35babf9d1beae656c0fb30ecae303ca7b8a688f2cbdd003df9783cd7516b81fa",
+  "Changes": "按用户要求验证成员地址式绑定，保留两钩子数量与桩表校验，禁止目标符号字符串回退",
+  "Reasons": "用户明确要求JudgementCutEnd.cpp不使用字符串函数签名，改为函数地址式绑定",
+  "After": "c43c6c3846d3fb21057df51a9cdaa5f7b35ee887f28e1bc75dc1935f237520f7",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AddressBinding-20261008-005843-854798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AddressBinding-20261008-005843-854798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "工程安装状态",
+  "Code location": "安装版本、产物摘要、pending",
+  "Before": "源码0.3.0、安装0.2.9",
+  "Changes": "记录用户编译DLL已整体安装",
+  "Reasons": "用户要求更新mod，文件一致性检查通过",
+  "After": "已安装0.3.0，等待游戏测试",
+  "Impact": "仅本项目状态记录",
+  "Validation": "JSON解析、UTF-8/CRLF/中文及复制SHA256检查通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InstallReport-20261007-200228-339506\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InstallReport-20261007-200228-339506\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8无BOM/CRLF"
+  },
+  "Unresolved": "实机尚未验证"
+}

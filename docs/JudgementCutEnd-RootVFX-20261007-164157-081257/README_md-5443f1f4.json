@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目说明与版本验收边界",
+  "Code location": "版本概览 / 0.2.3 / 参数 / 验证",
+  "Before": "0.2.2仍描述为未测试，默认半径30",
+  "Changes": "记录用户实测、纠正蒙皮发布结论、说明新数值与待编译边界",
+  "Reasons": "文档必须对应已测试DLL与新源码，不能把静态通过当实际动作成功",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-RootVFX-20261007-164157-081257\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-RootVFX-20261007-164157-081257\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

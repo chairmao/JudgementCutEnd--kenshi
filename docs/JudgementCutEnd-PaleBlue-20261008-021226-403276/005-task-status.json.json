@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "当前资源/安装事实状态",
+  "Code location": "色调版本与本轮检查范围",
+  "Before": "4f6bdfcf7e59a0712c128868557abffcc55b709f51c99ac8958b1b1fbec67dd6",
+  "Changes": "标记资源版已安装、不需重编DLL及实机尚未确认；正式2.0身份保持",
+  "Reasons": "用户要求今天最后一版仅调淡蓝颜色，对照本地Skyrim原模组；不修改C++或游戏逻辑",
+  "After": "2dc303c0c0afd34f0dd6eddb4da01fae13a152ec95523811d5d66b56d4c96494",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-PaleBlue-20261008-021226-403276\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-PaleBlue-20261008-021226-403276\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "本轮仅材质/shader资源；不需DLL重编译，真实HDR画面待游戏验收"
+}

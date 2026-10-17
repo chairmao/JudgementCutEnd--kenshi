@@ -1,0 +1,23 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "当前机器可读安装状态",
+  "Code location": "JudgementCutEnd模组部署文件",
+  "Before": {
+    "sha256": "43a87e8b30e28035d68ae5c453408db1415a72e3488848bf7015989ca8a88175"
+  },
+  "Changes": "更新2.4用户构建已核验、已部署状态；未声明实机效果通过",
+  "Reasons": "用户要求迅速更新最新模组",
+  "After": {
+    "sha256": "bc3a249de66a6024701531ef4842a64eeee8a965e9b691d8600ac7da7e1c0441"
+  },
+  "Impact": "下次启动游戏加载2.4；游戏效果待验证",
+  "Validation": "逐文件SHA256一致；备份哈希已核验；未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\install-smoke-2.4-20261008-135444-045060-state\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\install-smoke-2.4-20261008-135444-045060-state\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8无BOM / CRLF"
+  },
+  "Unresolved": "实机烟感、透明排序及帧率尚未验收"
+}

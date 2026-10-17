@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "项目入口及版本状态",
+  "Code location": "当前版本状态与烟层设计/验证说明",
+  "Before": "旧版本状态",
+  "Changes": "记录2.4源码与资源已修改，编译/安装/游戏验证待用户完成，保留历史及正式版",
+  "Reasons": "旧README当前标题停留2.1，需明确新源码和已安装2.3分离",
+  "After": "74e6f9041673b51373bf8c2cf4c6320f2eeb82b761165018618eb0ccaa44fed5",
+  "Impact": "仅文档及状态，不运行游戏/编译器，不部署",
+  "Validation": "UTF-8无BOM/CRLF读回和中文检查通过；JSON可解析或Markdown可读",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941-Docs\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941-Docs\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 / CRLF",
+    "before_sha256": "e675b88325f476f8929d839381b5b001fe7eda0267d26fc6b71b7caa81acaca0"
+  },
+  "Unresolved": "用户编译后验证透明排序、效果与帧率"
+}

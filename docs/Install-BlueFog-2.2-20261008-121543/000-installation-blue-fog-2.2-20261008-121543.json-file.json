@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\installation-blue-fog-2.2-20261008-121543.json",
+  "Role": "安装审计",
+  "Code location": "新2.2安装身份/逐文件报告",
+  "Before": "无",
+  "Changes": "记录实际DLL/资源/双备份/字节验证",
+  "Reasons": "本轮部署需可核验",
+  "After": "8b163836fd4e6f53802a204d6b08ca8716f0e5c6ff60584e8c061c58bc4af7ce",
+  "Impact": "游戏运行结果待用户测试",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

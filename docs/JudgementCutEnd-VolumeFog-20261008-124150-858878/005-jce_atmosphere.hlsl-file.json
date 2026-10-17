@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+  "Role": "Mist像素层边界早退",
+  "Code location": "jce_mist_fp",
+  "Before": "球外和地下透明片元仍采样",
+  "Changes": "在采样前按原半球边界早退，光学公式使用同一边界",
+  "Reasons": "连续切片覆盖比旧云片广，需避免透明区浪费",
+  "After": "e6905100971c45b54a79acdec42e37103415439ba1fc00e810de220161be9756",
+  "Impact": "不改变雾有效域或密度，减少无效像素成本",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VolumeFog-20261008-124150-858878-BoundaryGuard\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VolumeFog-20261008-124150-858878-BoundaryGuard\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "6a626c83cc65e1f8bcdd037b6992596b74a300632cf53b8ea5ef61586f337fc9"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

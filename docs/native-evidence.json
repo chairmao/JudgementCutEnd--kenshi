@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-07T13:47:25.602196",
+  "files": {
+    "D:\\steam\\steamapps\\common\\Kenshi\\kenshi_x64.exe": {
+      "size": 36713984,
+      "sha256": "504b362cde850d56afb1cea6f5b7b0ee014d9dd7b47e188599d91c804502cd3e"
+    },
+    "D:\\steam\\steamapps\\common\\Kenshi\\KenshiLib.dll": {
+      "size": 951808,
+      "sha256": "5b6240622d06801dc39896e385efb834b8e1fe2fcdf86067d071ae7a04f6c83b"
+    },
+    "D:\\steam\\steamapps\\common\\Kenshi\\OgreMain_x64.dll": {
+      "size": 10207744,
+      "sha256": "7d3888d21398647519f10a89b1f300d8606f761ad159e6021a797b1b9b3df5f6"
+    },
+    "D:\\steam\\steamapps\\common\\Kenshi\\MyGUIEngine_x64.dll": {
+      "size": 3857408,
+      "sha256": "fea6f1f935703812485bd6606ff4d3ceea172ece131ed4c6dcbf7a7e25b083a8"
+    },
+    "D:\\steam\\steamapps\\common\\Kenshi\\RE_Kenshi\\RVAs\\Steam_1.0.65.br": {
+      "size": 30520,
+      "sha256": "573c395997ed8d93dd837e27f89a440323089edd1ba93f68291631b448f9cbd0"
+    }
+  },
+  "native": {
+    "AnimationClass.updateAnimationTransforms": {
+      "slot": 621,
+      "rva": "0x5B0B20",
+      "body": "ret 0; rejected as hook"
+    },
+    "AnimationClass._NV_update": {
+      "rva": "0x5B5E30",
+      "body": "nonempty checked"
+    },
+    "AnimationClassHuman._NV_update": {
+      "rva": "0x5C4CC0",
+      "base_call": "0x5C4CC9 -> thunk 0x3DD16 -> 0x5B5E30"
+    },
+    "GameWorld._NV_mainLoop_GPUSensitiveStuff": {
+      "slot": 3649,
+      "rva": "0x787E70",
+      "thread_barriers": "references _AINonRenderThread+0x68 at entry and late body"
+    },
+    "MedicalSystem.addWound": {
+      "slot": 4865,
+      "rva": "0x64FE40",
+      "status": "export and executable body confirmed; gameplay semantics need runtime test"
+    },
+    "GameWorld.getFrameSpeedMultiplier": {
+      "slot": 3624,
+      "rva": "0x66BCD0",
+      "body": "movss xmm0,[rcx+0x700]; ret"
+    },
+    "GameWorld.setFrameSpeedMultiplier": {
+      "slot": 3625,
+      "rva": "0x787170",
+      "body": "writes float rcx+0x700; reads pause byte rcx+0x8B9 for update notification"
+    },
+    "GameWorld.isPaused": {
+      "slot": 3628,
+      "rva": "0xDEDC0",
+      "body": "movzx eax,byte ptr [rcx+0x8B9]; ret"
+    }
+  },
+  "render": {
+    "shader": "data/materials/forward/basic.program",
+    "technique": "Basic_Coloured_Texture_VP + Basic_Texture_FP",
+    "queue": 83,
+    "queue_evidence": "data/materials/compositors/main.compositor:55-60, HDR fog/particles 82-85",
+    "camera": {
+      "lookAt_rva": "0x81800",
+      "body": "updates view then subtracts real world position Camera+0x580 from target and calls setDirection",
+      "local_position": "getPosition RVA0x810C0 returns Camera+0x548",
+      "derived_position": "getDerivedPosition RVA0x82C40 returns Camera+0x564",
+      "target_space": "scene world point, not parent-local"
+    }
+  },
+  "unconfirmed": [
+    "native pose callback scheduling at runtime",
+    "game skinning/visible attachments",
+    "camera local transform interplay",
+    "damage and armour/crime gameplay consequences",
+    "installed DLL not built"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "安装状态",
+  "Code location": "布局修正DLL身份",
+  "Before": "549719d66eccd44838158cd5ef58b9c919f4bc15450d39a845a950171c3dcf0d",
+  "Changes": "已安装当前修正版，保留上一轮失败证据；未声称游戏启动或U已恢复成功",
+  "Reasons": "用户明确要求迅速更新含成员布局修正的模组",
+  "After": "591de1ec73d3e0047fc2f55b7c55c9c0b896f63b338350a06b3f6e4a360457aa",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-LayoutInstall-20261008-011656-024301\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-LayoutInstall-20261008-011656-024301\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "用户DLL已部署并核验；游戏启动和U施放尚待实测"
+}

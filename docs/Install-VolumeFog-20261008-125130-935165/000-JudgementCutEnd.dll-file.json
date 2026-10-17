@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll",
+  "Role": "Stage原生DLL及配套资源复制",
+  "Code location": "完整文件部署/安装身份",
+  "Before": "595e7ca964dbfd23fc29c22bc9adaa5679cf1aa0a45fce4dcea820018312dcdd",
+  "Changes": "2.3连续雾配套DLL/资源",
+  "Reasons": "用户请求更新mod；已验证PE64、导出入口、2.3内嵌版本与源码时间",
+  "After": "46e5acec4b142e51d5d3a12b265500fa0cba1ba2df63eb784ce98a3ef81a1a36",
+  "Impact": "本项目和本地JudgementCutEnd mod；无游戏配置/存档/其他mod修改",
+  "Validation": "复制字节/哈希读回相等；binary；未运行编译器或游戏测试",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-125013-4331855\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-125013-4331855\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll"
+    ],
+    "encoding": "binary"
+  },
+  "Unresolved": "新2.3实机雾气连贯性、深度遮挡与GPU帧率待用户按U测试"
+}

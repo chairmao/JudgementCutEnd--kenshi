@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+  "Role": "五个独立材质层",
+  "Code location": "刀光、残迹、烟尘、闪光、光屑",
+  "Before": "absent",
+  "Changes": "保留灰色整体半球，在其内部按原纹理叠加空间效果",
+  "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+  "After": "84f52799071875ab550508c9ebfb8cdd1d21539fe993d085fb02fbad1488e656",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证"
+}

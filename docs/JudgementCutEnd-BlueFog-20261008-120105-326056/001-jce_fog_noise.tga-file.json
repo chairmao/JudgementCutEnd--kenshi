@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_fog_noise.tga",
+  "Role": "周期低频密度纹理",
+  "Code location": "256² RGBA / R和G两个平滑场",
+  "Before": "无连续密度场",
+  "Changes": "可复现3/5/9频率云场，wrap采样，只有8%细尺度",
+  "Reasons": "大雾片内部需缓慢变化而非固定颗粒",
+  "After": "dbe2c8d4c3b987a5d88a5725a1debd4e7a42bad0d6858639af89cf03c40a9e5b",
+  "Impact": "仅自有雾shader；无每帧CPU纹理生成",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "binary",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

@@ -1,0 +1,213 @@
+2026-10-07 14:47:35.149 [JCE 0.1.2] native_binding export=?_NV_mainLoop_GPUSensitiveStuff@GameWorld@@QEAAXM@Z stub_rva=0x1b0cc target=0x7ff7a1a77e70
+2026-10-07 14:47:35.149 [JCE 0.1.2] native_binding export=?_NV_update@AnimationClass@@QEAAXM@Z stub_rva=0x169bc target=0x7ff7a18a5e30
+2026-10-07 14:47:35.248 [JCE 0.1.2] plugin_ready; Ctrl+Shift+VK=119 casts (119=F8); Escape cancels; resources=1; version=0.1.2
+2026-10-07 14:48:49.671 [JCE 0.1.2] frame_hook_seen thread=33532
+2026-10-07 14:50:20.549 [JCE 0.1.2] cast_key_detected vk=119
+2026-10-07 14:50:20.554 [JCE 0.1.2] cast_begin id=1 caster=1-2836303616-229-1009033216-1 speed_before=1 slow=0.001 tracks=10 radius=30 damage=1 cut=50 blunt=20
+2026-10-07 14:50:22.564 [JCE 0.1.2] cast_progress id=1 t=2.01489 pose_calls=110 vertices=264
+2026-10-07 14:50:22.912 [JCE 0.1.2] cut_snapshot id=1 targets=0 scanned=0
+2026-10-07 14:50:24.579 [JCE 0.1.2] cast_progress id=1 t=4.03068 pose_calls=245 vertices=556
+2026-10-07 14:50:25.709 [JCE 0.1.2] sheath_damage id=1 enabled=1 applied=0 skipped=0
+2026-10-07 14:50:26.581 [JCE 0.1.2] cast_progress id=1 t=6.03226 pose_calls=376 vertices=8
+2026-10-07 14:50:27.268 [JCE 0.1.2] cast_end id=1 reason=completed pose_calls=422 world_valid=1
+2026-10-07 14:50:43.121 [JCE 0.1.2] cast_key_detected vk=119
+2026-10-07 14:50:43.122 [JCE 0.1.2] cast_begin id=2 caster=1-2836303616-229-1009033216-1 speed_before=1 slow=0.001 tracks=10 radius=30 damage=1 cut=50 blunt=20
+2026-10-07 14:50:45.136 [JCE 0.1.2] cast_progress id=2 t=2.0147 pose_calls=139 vertices=264
+2026-10-07 14:50:45.480 [JCE 0.1.2] cut_snapshot id=2 targets=0 scanned=0
+2026-10-07 14:50:47.148 [JCE 0.1.2] cast_progress id=2 t=4.02776 pose_calls=261 vertices=556
+2026-10-07 14:50:48.285 [JCE 0.1.2] sheath_damage id=2 enabled=1 applied=0 skipped=0
+2026-10-07 14:50:49.159 [JCE 0.1.2] cast_progress id=2 t=6.03847 pose_calls=388 vertices=8
+2026-10-07 14:50:49.834 [JCE 0.1.2] cast_end id=2 reason=completed pose_calls=435 world_valid=1
+2026-10-07 14:55:20.715 [JCE 0.1.2] cast_key_detected vk=119
+2026-10-07 14:55:20.720 [JCE 0.1.2] cast_begin id=3 caster=1-2836303616-229-1009033216-1 speed_before=1 slow=0.001 tracks=10 radius=30 damage=1 cut=50 blunt=20
+2026-10-07 14:55:22.715 [JCE 0.1.2] cast_progress id=3 t=2.0005 pose_calls=126 vertices=264
+2026-10-07 14:55:23.068 [JCE 0.1.2] cut_snapshot id=3 targets=0 scanned=0
+2026-10-07 14:55:24.725 [JCE 0.1.2] cast_progress id=3 t=4.00985 pose_calls=256 vertices=564
+2026-10-07 14:55:25.879 [JCE 0.1.2] sheath_damage id=3 enabled=1 applied=0 skipped=0
+2026-10-07 14:55:26.738 [JCE 0.1.2] cast_progress id=3 t=6.02324 pose_calls=380 vertices=8
+2026-10-07 14:55:27.434 [JCE 0.1.2] cast_end id=3 reason=completed pose_calls=424 world_valid=1
+2026-10-07 14:55:31.580 [JCE 0.1.2] cast_key_detected vk=119
+2026-10-07 14:55:31.581 [JCE 0.1.2] cast_blocked: cooldown
+2026-10-07 14:55:33.519 [JCE 0.1.2] cast_key_detected vk=119
+2026-10-07 14:55:33.520 [JCE 0.1.2] cast_blocked: cooldown
+2026-10-07 14:55:34.280 [JCE 0.1.2] cast_key_detected vk=119
+2026-10-07 14:55:34.282 [JCE 0.1.2] cast_blocked: cooldown
+2026-10-07 14:55:35.014 [JCE 0.1.2] cast_key_detected vk=119
+2026-10-07 14:55:35.015 [JCE 0.1.2] cast_blocked: cooldown
+2026-10-07 14:55:36.014 [JCE 0.1.2] cast_key_detected vk=119
+2026-10-07 14:55:36.014 [JCE 0.1.2] cast_blocked: cooldown
+2026-10-07 14:55:39.198 [JCE 0.1.2] cast_key_detected vk=119
+2026-10-07 14:55:39.199 [JCE 0.1.2] cast_blocked: cooldown
+2026-10-07 14:55:40.914 [JCE 0.1.2] cast_key_detected vk=119
+2026-10-07 14:55:40.920 [JCE 0.1.2] cast_blocked: cooldown
+2026-10-07 15:45:23.876 [JCE 0.2.0] native_binding export=?_NV_mainLoop_GPUSensitiveStuff@GameWorld@@QEAAXM@Z stub_rva=0x1b0cc target=0x7ff7534b7e70
+2026-10-07 15:45:23.876 [JCE 0.2.0] native_binding export=?_NV_update@AnimationClassHuman@@QEAAXM@Z stub_rva=0x16efc target=0x7ff7532f4cc0
+2026-10-07 15:45:23.979 [JCE 0.2.0] plugin_ready; Ctrl+Shift+VK=119 casts (119=F8); Escape cancels; resources=1; version=0.2.0
+2026-10-07 15:46:26.729 [JCE 0.2.0] frame_hook_seen thread=18108
+2026-10-07 15:47:22.858 [JCE 0.2.0] cast_key_detected vk=119
+2026-10-07 15:47:22.862 [JCE 0.2.0] vfx_material_loaded group=JudgementCutEnd/Resources/v1
+2026-10-07 15:47:22.865 [JCE 0.2.0] cast_begin id=1 caster=1-2836303616-229-1009033216-1 speed_before=1 slow=0.001 tracks=23 radius=30 damage=1 cut=50 blunt=20
+2026-10-07 15:47:22.895 [JCE 0.2.0] vfx_queue_submitted id=1
+2026-10-07 15:47:22.896 [JCE 0.2.0] vfx_render_callback id=1
+2026-10-07 15:47:24.866 [JCE 0.2.0] cast_progress id=1 t=2.00825 pose_calls=131 queue_calls=130 render_calls=130 vertices=264
+2026-10-07 15:47:25.209 [JCE 0.2.0] cut_snapshot id=1 targets=0 scanned=0
+2026-10-07 15:47:26.879 [JCE 0.2.0] cast_progress id=1 t=4.02153 pose_calls=270 queue_calls=269 render_calls=269 vertices=564
+2026-10-07 15:47:28.020 [JCE 0.2.0] sheath_damage id=1 enabled=1 applied=0 skipped=0
+2026-10-07 15:47:28.889 [JCE 0.2.0] cast_progress id=1 t=6.03187 pose_calls=403 queue_calls=402 render_calls=402 vertices=8
+2026-10-07 15:47:29.572 [JCE 0.2.0] cast_end id=1 reason=completed pose_calls=451 queue_calls=450 render_calls=450 world_valid=1
+2026-10-07 15:47:40.166 [JCE 0.2.0] cast_key_detected vk=119
+2026-10-07 15:47:40.168 [JCE 0.2.0] cast_blocked: cooldown
+2026-10-07 15:47:43.069 [JCE 0.2.0] cast_key_detected vk=119
+2026-10-07 15:47:43.070 [JCE 0.2.0] cast_blocked: cooldown
+2026-10-07 15:47:48.410 [JCE 0.2.0] cast_key_detected vk=119
+2026-10-07 15:47:48.412 [JCE 0.2.0] vfx_material_loaded group=JudgementCutEnd/Resources/v1
+2026-10-07 15:47:48.412 [JCE 0.2.0] cast_begin id=2 caster=1-2836303616-229-1009033216-1 speed_before=1 slow=0.001 tracks=23 radius=30 damage=1 cut=50 blunt=20
+2026-10-07 15:47:48.450 [JCE 0.2.0] vfx_queue_submitted id=2
+2026-10-07 15:47:48.451 [JCE 0.2.0] vfx_render_callback id=2
+2026-10-07 15:47:50.414 [JCE 0.2.0] cast_progress id=2 t=2.00417 pose_calls=98 queue_calls=97 render_calls=97 vertices=264
+2026-10-07 15:47:50.765 [JCE 0.2.0] cut_snapshot id=2 targets=0 scanned=0
+2026-10-07 15:47:52.419 [JCE 0.2.0] cast_progress id=2 t=4.00821 pose_calls=199 queue_calls=198 render_calls=198 vertices=564
+2026-10-07 15:47:53.575 [JCE 0.2.0] sheath_damage id=2 enabled=1 applied=0 skipped=0
+2026-10-07 15:47:54.439 [JCE 0.2.0] cast_progress id=2 t=6.0283 pose_calls=299 queue_calls=298 render_calls=298 vertices=8
+2026-10-07 15:47:55.126 [JCE 0.2.0] cast_end id=2 reason=completed pose_calls=334 queue_calls=333 render_calls=333 world_valid=1
+2026-10-07 15:48:07.633 [JCE 0.2.0] cast_key_detected vk=119
+2026-10-07 15:48:07.635 [JCE 0.2.0] cast_blocked: cooldown
+2026-10-07 15:48:09.927 [JCE 0.2.0] cast_key_detected vk=119
+2026-10-07 15:48:09.934 [JCE 0.2.0] cast_blocked: cooldown
+2026-10-07 15:48:14.222 [JCE 0.2.0] cast_key_detected vk=119
+2026-10-07 15:48:14.222 [JCE 0.2.0] vfx_material_loaded group=JudgementCutEnd/Resources/v1
+2026-10-07 15:48:14.223 [JCE 0.2.0] cast_begin id=3 caster=1-2836303616-229-1009033216-1 speed_before=1 slow=0.001 tracks=23 radius=30 damage=1 cut=50 blunt=20
+2026-10-07 15:48:14.259 [JCE 0.2.0] vfx_queue_submitted id=3
+2026-10-07 15:48:14.260 [JCE 0.2.0] vfx_render_callback id=3
+2026-10-07 15:48:16.239 [JCE 0.2.0] cast_progress id=3 t=2.01744 pose_calls=116 queue_calls=115 render_calls=115 vertices=264
+2026-10-07 15:48:16.582 [JCE 0.2.0] cut_snapshot id=3 targets=0 scanned=0
+2026-10-07 15:48:18.253 [JCE 0.2.0] cast_progress id=3 t=4.03223 pose_calls=241 queue_calls=240 render_calls=240 vertices=556
+2026-10-07 15:48:19.379 [JCE 0.2.0] sheath_damage id=3 enabled=1 applied=0 skipped=0
+2026-10-07 15:48:20.268 [JCE 0.2.0] cast_progress id=3 t=6.04649 pose_calls=363 queue_calls=362 render_calls=362 vertices=8
+2026-10-07 15:48:20.943 [JCE 0.2.0] cast_end id=3 reason=completed pose_calls=402 queue_calls=401 render_calls=401 world_valid=1
+2026-10-07 16:07:12.183 [JCE 0.2.1] native_binding export=?_NV_mainLoop_GPUSensitiveStuff@GameWorld@@QEAAXM@Z stub_rva=0x1b0cc target=0x7ff7fd477e70
+2026-10-07 16:07:12.184 [JCE 0.2.1] native_binding export=?_NV_update@AnimationClassHuman@@QEAAXM@Z stub_rva=0x16efc target=0x7ff7fd2b4cc0
+2026-10-07 16:07:12.284 [JCE 0.2.1] plugin_ready; Ctrl+Shift+VK=119 casts (119=F8); Escape cancels; resources=1; version=0.2.1
+2026-10-07 16:08:02.931 [JCE 0.2.1] frame_hook_seen thread=29716
+2026-10-07 16:09:05.106 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:05.107 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:08.882 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:08.882 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:09.721 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:09.722 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:10.483 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:10.484 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:11.106 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:11.107 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:11.438 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:11.438 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:15.244 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:15.244 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:18.278 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:18.280 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:20.064 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:20.064 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:20.574 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:20.575 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:20.790 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:20.790 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:20.970 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:20.970 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:21.370 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:21.371 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:22.027 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:22.027 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:22.193 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:22.193 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:22.364 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:22.364 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:22.499 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:22.500 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:22.644 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:22.644 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:22.921 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:22.921 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:24.240 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:24.242 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:25.083 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:25.085 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:26.048 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:26.050 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:26.934 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:26.934 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:27.398 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:27.400 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:27.748 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:27.748 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:27.987 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:27.987 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:28.192 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:28.192 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:28.350 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:28.350 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:28.490 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:28.490 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:32.759 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:32.760 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:33.577 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:33.577 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:34.223 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:34.223 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:34.869 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:34.870 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:35.256 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:35.256 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:35.447 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:35.448 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:35.606 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:35.606 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:35.758 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:35.759 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:35.957 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:35.958 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:36.127 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:36.127 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:36.358 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:36.360 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:36.762 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:36.763 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:42.577 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:42.578 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:42.841 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:42.841 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:43.098 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:43.098 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:45.803 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:45.804 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:46.169 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:46.170 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:46.358 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:46.361 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:46.530 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:46.531 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:46.714 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:46.715 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:46.914 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:46.915 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:47.146 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:47.147 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:47.463 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:47.463 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:47.895 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:47.895 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:48.255 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:48.255 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:48.643 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:48.643 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:48.951 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:48.952 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:49.223 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:49.224 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:09:59.338 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:09:59.343 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:10:00.006 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:10:00.008 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:10:00.290 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:10:00.291 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch
+2026-10-07 16:10:00.564 [JCE 0.2.1] cast_key_detected vk=119
+2026-10-07 16:10:00.564 [JCE 0.2.1] cast_rejected: Visible body/skeleton mismatch

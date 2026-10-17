@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1",
+  "Role": "本地安装脚本",
+  "Code location": "复制前版本检查",
+  "Before": "d1b0df543cb9fdd46404c22018eb81cf9e00f987d3b60833cf7106d83088608a",
+  "Changes": "PE入口、版本标记和源码时间戳全部通过后才复制；拒绝1.1.2旧DLL配新动画",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "646b9bb9c64d11d577956227101fb3d342748a2a1753ad1d70983570faef81f4",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1"
+    ],
+    "encoding": "UTF-8 BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

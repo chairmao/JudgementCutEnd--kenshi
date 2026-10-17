@@ -1,0 +1,110 @@
+{
+  "files": [
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "sha256": "26272a145e6e5e9863d3a4aa476f571e1a495b81d8dea33d9279a7344c05cb24",
+      "encoding": "UTF-8 BOM",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "sha256": "9896f01ecabfdaeceb35b24673c3f39f6b6d447b189d732dd692e86ed0177785",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\spatial-fracture-2.5-20261008.md",
+      "sha256": "4a56e526bee7a5736d0fcac3ac4b926fdea0b12ef80062f6b0a35b213ec44100",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\spatial-fracture-2.5-task.json",
+      "sha256": "a51c2b416bfa94138b4c914b095724231e46631da3ca3199235c90ea851fa2d1",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\spatial-refraction-source-2.5.json",
+      "sha256": "477b1fe2a99d00a06c67dec76c4abe43ef8ae8804b7233ef5ba3f0ba11f891ce",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "sha256": "de4025d52d01b2f3127d71c0bb4d0535380f7ba6d447f7cd8ef6880316cef353",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "sha256": "063eb537912d9c0cccf0971833226f1554bf7cb02144575d750490d3079e699b",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_optics.csv",
+      "sha256": "209acb9243bd215ec03b22b8b0a76b8a2481ca392b0e82902247f25a29a1f871",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "sha256": "d30e976dee21ee67933f3c4fb00575679bdcf52386773904f9d0f45b73e73dc3",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "sha256": "c5f956aea2671fb5d6a307d411cb0950c83792e2fd741eed343807ebb161946c",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-2.5.0.json",
+      "sha256": "aaaf030fbfb3daf5d26b933dcc57639d7b604fd050ddb712b18b3acbce305c6c",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\inspect_spatial_refraction.py",
+      "sha256": "bf2c9a82e4935400b0f74f03f4cae59b5293bdb5d6c98b9d1088595d2a034db0",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_spatial_fracture.py",
+      "sha256": "8d93ab2a1473d09065d916ba0854d3e6e6dada57be6fc74ade4196b314a8a6ca",
+      "encoding": "UTF-8",
+      "line_endings": "CRLF"
+    }
+  ],
+  "file_reports": [
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\000-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\001-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\002-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\003-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\004-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\005-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\006-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\007-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\008-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\009-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\010-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\011-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\012-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\013-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\014-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\015-file-report.json",
+    "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\016-file-report.json"
+  ],
+  "static_check_count": 105,
+  "time_model_check_count": 70,
+  "compilation_run": false,
+  "installation_run": false,
+  "game_test_run": false,
+  "backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\time-native-evidence-1.1.2.json",
+  "Role": "只读运行/接口证据",
+  "Code location": "日志和实际RVA槽映射",
+  "Before": "absent",
+  "Changes": "保存直接证据、推断、缺失信息；不靠头文件旧RVA猜测",
+  "Reasons": "用户要求修正演出结束后速度未恢复；日志证实取消后原始速度被0.001污染",
+  "After": "a5cb609dd86402de344cca48314702f75cbc9270abd3aafbd1407f6915d760b8",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；暂停解除、速度恢复与异常路径待实机验收"
+}

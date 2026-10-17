@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+  "Role": "原烟带/烟丝材质",
+  "Code location": "新增SourceSmokeRibbon/SourceSmokeWisp",
+  "Before": "未有主烟材质",
+  "Changes": "分别绑定新原烟图和像素程序，普通透明/无深度写入/双面",
+  "Reasons": "原模组不同烟层不能复用尘烟图集",
+  "After": "b9d602cb7ecc3644dd646e988bc9d41187a69569a1ca7ee5cdb2a6db5c1dcd1f",
+  "Impact": "旧5种材质原样；新增两个自有材质",
+  "Validation": "即时字节读回、编码/CRLF/中文乱码检查通过；跨层与几何模型验证另记 verification.json；未编译、未GPU/游戏测试。",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "bef15e8112ce8029ccb0858b49a53a9e4f9ffda434115b30b5b475891855ed88"
+  },
+  "Unresolved": "[MISSING] 用户Release|x64编译、GPU材质加载、实际透明叠加/帧率和最终观感。"
+}

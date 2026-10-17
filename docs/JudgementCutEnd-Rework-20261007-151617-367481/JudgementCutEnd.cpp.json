@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "人形姿势挂钩与有界诊断",
+  "Code location": "startPlugin/Runtime::Draw",
+  "Before": "0.1.2 实机失败版本；原字节已双备份",
+  "Changes": "改挂人形 update 的结束位置；队列缺席提示仅一次",
+  "Reasons": "基类在 Human::update 开头被调用，后续人形逻辑仍可覆盖基类返回时写入的姿势；SDK 与运行时确认存在该导出",
+  "After": "源码/资源修订，等待用户编译与实机验证",
+  "Impact": "仅独立插件；旧DLL不得搭配新资源安装",
+  "Validation": "读回一致，保留 BOM 和 CRLF；中文与乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-151617-367481\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-151617-367481\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "未编译；未实机验收"
+}

@@ -1,0 +1,1018 @@
+{
+  "resource_revision": "2.1-pale-blue-r1",
+  "runtime_dll_required": "2.1.0-dev",
+  "cpp_changed": false,
+  "dll_recompile_required": false,
+  "native_compile_run": false,
+  "shader_compile_run": false,
+  "game_tested": false,
+  "sources": [
+    {
+      "file": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\effects\\AP05\\JCE030CutAllActi.nif",
+      "sha256": "72928b557ba226888285178122e6e568706d8b5546ec7627b71c979841c29986",
+      "materials": [
+        {
+          "index": 106,
+          "type": "BSEffectShaderProperty",
+          "bytes": 129,
+          "name": "",
+          "extra_data": [],
+          "controller": 24,
+          "shader_flags": [
+            3221225560,
+            48
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\FXGlowSpotLinear.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            0.9063077569007874,
+            0.08715580403804779,
+            1.0,
+            1.0
+          ],
+          "base_color": [
+            0.2549999952316284,
+            0.2549999952316284,
+            0.2549999952316284,
+            1.0
+          ],
+          "base_color_scale": 1.0,
+          "soft_falloff_depth": 256.0,
+          "palette_texture": ""
+        },
+        {
+          "index": 109,
+          "type": "BSEffectShaderProperty",
+          "bytes": 129,
+          "name": "",
+          "extra_data": [],
+          "controller": 32,
+          "shader_flags": [
+            3221225560,
+            48
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\FXGlowSpotLinear.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            0.9063077569007874,
+            0.08715599775314331,
+            1.0,
+            1.0
+          ],
+          "base_color": [
+            0.2549019753932953,
+            0.2549019753932953,
+            0.2549019753932953,
+            0.0
+          ],
+          "base_color_scale": 1.0,
+          "soft_falloff_depth": 256.0,
+          "palette_texture": ""
+        },
+        {
+          "index": 113,
+          "type": "BSEffectShaderProperty",
+          "bytes": 134,
+          "name": "",
+          "extra_data": [],
+          "controller": 46,
+          "shader_flags": [
+            3221225592,
+            48
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\fxsparkfieldgreysmall.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            0.9063077569007874,
+            0.3420201539993286,
+            1.0,
+            0.0
+          ],
+          "base_color": [
+            0.14610514044761658,
+            0.6218661665916443,
+            1.0,
+            0.0
+          ],
+          "base_color_scale": 2.0,
+          "soft_falloff_depth": 255.0,
+          "palette_texture": ""
+        },
+        {
+          "index": 120,
+          "type": "BSEffectShaderProperty",
+          "bytes": 172,
+          "name": "",
+          "extra_data": [],
+          "controller": -1,
+          "shader_flags": [
+            3758096400,
+            32
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\fxspark.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color_scale": 15.0,
+          "soft_falloff_depth": 100.0,
+          "palette_texture": "textures\\effects\\zjc\\gradients\\gradbaneofthedead.dds"
+        },
+        {
+          "index": 126,
+          "type": "BSPSysSimpleColorModifier",
+          "bytes": 85,
+          "name": "BSPSysSimpleColorModifier:3",
+          "order": 3000,
+          "target": 118,
+          "active": true,
+          "fade_in_percent": 0.05000000074505806,
+          "fade_out_percent": 0.8999999761581421,
+          "color_intervals": [
+            0.0,
+            0.15000000596046448,
+            0.1599999964237213,
+            1.0
+          ],
+          "colors": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "index": 141,
+          "type": "BSEffectShaderProperty",
+          "bytes": 132,
+          "name": "",
+          "extra_data": [],
+          "controller": -1,
+          "shader_flags": [
+            3221225472,
+            16
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\4905\\blade_effect09.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "base_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color_scale": 15.0,
+          "soft_falloff_depth": 100.0,
+          "palette_texture": ""
+        },
+        {
+          "index": 144,
+          "type": "BSEffectShaderProperty",
+          "bytes": 132,
+          "name": "",
+          "extra_data": [],
+          "controller": -1,
+          "shader_flags": [
+            3221225472,
+            16
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\4905\\blade_effect08.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "base_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color_scale": 0.10000000149011612,
+          "soft_falloff_depth": 100.0,
+          "palette_texture": ""
+        },
+        {
+          "index": 165,
+          "type": "BSEffectShaderProperty",
+          "bytes": 179,
+          "name": "",
+          "extra_data": [],
+          "controller": -1,
+          "shader_flags": [
+            3758096400,
+            32
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\fxwhiteflare01.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color_scale": 33.0,
+          "soft_falloff_depth": 100.0,
+          "palette_texture": "textures\\effects\\zjc\\gradients\\gradbaneofthedead.dds"
+        },
+        {
+          "index": 172,
+          "type": "BSPSysSimpleColorModifier",
+          "bytes": 85,
+          "name": "BSPSysSimpleColorModifier:3",
+          "order": 3000,
+          "target": 156,
+          "active": true,
+          "fade_in_percent": 0.05000000074505806,
+          "fade_out_percent": 0.5,
+          "color_intervals": [
+            0.0,
+            0.25,
+            0.5,
+            1.0
+          ],
+          "colors": [
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "index": 188,
+          "type": "BSEffectShaderProperty",
+          "bytes": 88,
+          "name": "",
+          "extra_data": [],
+          "controller": 189,
+          "shader_flags": [
+            3221225536,
+            48
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            1.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          "base_color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "base_color_scale": 0.0,
+          "soft_falloff_depth": 2000.0,
+          "palette_texture": ""
+        },
+        {
+          "index": 210,
+          "type": "BSEffectShaderProperty",
+          "bytes": 180,
+          "name": "",
+          "extra_data": [],
+          "controller": -1,
+          "shader_flags": [
+            3758096400,
+            32
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\LensFlare01vertical.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color_scale": 5.0,
+          "soft_falloff_depth": 10.0,
+          "palette_texture": "textures\\effects\\zjc\\gradients\\gradlinealpha.dds"
+        },
+        {
+          "index": 217,
+          "type": "BSPSysSimpleColorModifier",
+          "bytes": 85,
+          "name": "BSPSysSimpleColorModifier:3",
+          "order": 3000,
+          "target": 201,
+          "active": true,
+          "fade_in_percent": 0.05000000074505806,
+          "fade_out_percent": 0.10000000149011612,
+          "color_intervals": [
+            0.0,
+            0.4300000071525574,
+            0.6499999761581421,
+            1.0
+          ],
+          "colors": [
+            [
+              1.0,
+              1.0,
+              1.0,
+              0.5
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        },
+        {
+          "index": 238,
+          "type": "BSEffectShaderProperty",
+          "bytes": 179,
+          "name": "",
+          "extra_data": [],
+          "controller": -1,
+          "shader_flags": [
+            2147483760,
+            48
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.5
+          ],
+          "source_texture": "textures\\effects\\FXSmokeSoftSub.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            0.6427876353263855,
+            0.42261824011802673,
+            1.0,
+            0.699999988079071
+          ],
+          "base_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color_scale": 1.0,
+          "soft_falloff_depth": 8.0,
+          "palette_texture": "textures\\effects\\zjc\\gradients\\gradshockdisintegrate.dds"
+        },
+        {
+          "index": 245,
+          "type": "BSPSysSimpleColorModifier",
+          "bytes": 85,
+          "name": "BSPSysSimpleColorModifier:3",
+          "order": 3000,
+          "target": 237,
+          "active": true,
+          "fade_in_percent": 0.10000000149011612,
+          "fade_out_percent": 0.8999999761581421,
+          "color_intervals": [
+            0.0,
+            0.05000000074505806,
+            0.25,
+            1.0
+          ],
+          "colors": [
+            [
+              0.1764705926179886,
+              0.1764705926179886,
+              0.1764705926179886,
+              0.0
+            ],
+            [
+              0.4745098352432251,
+              0.4745098352432251,
+              0.4745098352432251,
+              1.0
+            ],
+            [
+              0.22352942824363708,
+              0.22352942824363708,
+              0.22352942824363708,
+              0.0
+            ]
+          ]
+        },
+        {
+          "index": 256,
+          "type": "BSEffectShaderProperty",
+          "bytes": 132,
+          "name": "",
+          "extra_data": [],
+          "controller": -1,
+          "shader_flags": [
+            3221225472,
+            16
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\4905\\blade_effect09.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            1.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "base_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color_scale": 7.0,
+          "soft_falloff_depth": 100.0,
+          "palette_texture": ""
+        }
+      ]
+    },
+    {
+      "file": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\effects\\AP05\\JCE030ScreenFx.nif",
+      "sha256": "20ec179575ee20357e4c8cc6a0130d2ccc19cf6239173e137dac06e34c4c5a40",
+      "materials": [
+        {
+          "index": 107,
+          "type": "BSEffectShaderProperty",
+          "bytes": 129,
+          "name": "",
+          "extra_data": [],
+          "controller": 24,
+          "shader_flags": [
+            3221225480,
+            48
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\FXGlowSpotLinear.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            0.9063077569007874,
+            0.08715580403804779,
+            1.0,
+            1.0
+          ],
+          "base_color": [
+            0.2549019753932953,
+            0.2549019753932953,
+            0.2549019753932953,
+            1.0
+          ],
+          "base_color_scale": 15.0,
+          "soft_falloff_depth": 2048.0,
+          "palette_texture": ""
+        },
+        {
+          "index": 110,
+          "type": "BSEffectShaderProperty",
+          "bytes": 88,
+          "name": "",
+          "extra_data": [],
+          "controller": 32,
+          "shader_flags": [
+            3221225480,
+            48
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            0.9063077569007874,
+            0.08715599775314331,
+            1.0,
+            1.0
+          ],
+          "base_color": [
+            0.2549019753932953,
+            0.2549019753932953,
+            0.2549019753932953,
+            0.0
+          ],
+          "base_color_scale": 1.0,
+          "soft_falloff_depth": 256.0,
+          "palette_texture": ""
+        },
+        {
+          "index": 114,
+          "type": "BSEffectShaderProperty",
+          "bytes": 130,
+          "name": "",
+          "extra_data": [],
+          "controller": 46,
+          "shader_flags": [
+            3221225592,
+            48
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\fxsparkfieldgreysmall.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            0.9063077569007874,
+            0.3420201539993286,
+            1.0,
+            0.0
+          ],
+          "base_color": [
+            0.14610514044761658,
+            0.6218661665916443,
+            1.0,
+            0.0
+          ],
+          "base_color_scale": 2.0,
+          "soft_falloff_depth": 128.0,
+          "palette_texture": ""
+        },
+        {
+          "index": 121,
+          "type": "BSEffectShaderProperty",
+          "bytes": 180,
+          "name": "",
+          "extra_data": [],
+          "controller": -1,
+          "shader_flags": [
+            3758096400,
+            32
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\zjc\\LensFlare01vertical.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "base_color_scale": 15.0,
+          "soft_falloff_depth": 10.0,
+          "palette_texture": "textures\\effects\\zjc\\gradients\\gradlinealpha.dds"
+        },
+        {
+          "index": 127,
+          "type": "BSPSysSimpleColorModifier",
+          "bytes": 85,
+          "name": "BSPSysSimpleColorModifier:3",
+          "order": 3000,
+          "target": 119,
+          "active": true,
+          "fade_in_percent": 0.05000000074505806,
+          "fade_out_percent": 0.10000000149011612,
+          "color_intervals": [
+            1.0,
+            0.4300000071525574,
+            0.6499999761581421,
+            1.0
+          ],
+          "colors": [
+            [
+              1.0,
+              1.0,
+              1.0,
+              0.5
+            ],
+            [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "file": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\effects\\AP05\\JCE040Finish.nif",
+      "sha256": "d9ddf08565dd3f49e09bce4e17895066f334685c3846b42d9b2ad7a865467bcd",
+      "materials": [
+        {
+          "index": 108,
+          "type": "BSEffectShaderProperty",
+          "bytes": 88,
+          "name": "",
+          "extra_data": [],
+          "controller": 33,
+          "shader_flags": [
+            3221225480,
+            48
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            0.9063077569007874,
+            0.08715599775314331,
+            1.0,
+            1.0
+          ],
+          "base_color": [
+            0.2549999952316284,
+            0.2549999952316284,
+            0.2549999952316284,
+            0.0
+          ],
+          "base_color_scale": 1.2999999523162842,
+          "soft_falloff_depth": 256.0,
+          "palette_texture": ""
+        },
+        {
+          "index": 120,
+          "type": "BSEffectShaderProperty",
+          "bytes": 130,
+          "name": "",
+          "extra_data": [],
+          "controller": 47,
+          "shader_flags": [
+            3221225592,
+            48
+          ],
+          "uv_offset": [
+            0.0,
+            0.0
+          ],
+          "uv_scale": [
+            1.0,
+            1.0
+          ],
+          "source_texture": "textures\\effects\\fxsparkfieldgreysmall.dds",
+          "clamp_and_lighting": [
+            3,
+            255,
+            0,
+            0
+          ],
+          "falloff": [
+            0.9063077569007874,
+            0.3420201539993286,
+            1.0,
+            0.0
+          ],
+          "base_color": [
+            0.14610514044761658,
+            0.6218661665916443,
+            1.0,
+            0.0
+          ],
+          "base_color_scale": 2.0,
+          "soft_falloff_depth": 128.0,
+          "palette_texture": ""
+        }
+      ]
+    }
+  ],
+  "palettes": {
+    "SourceBlade": {
+      "gain": 2.4,
+      "tint": [
+        0.56,
+        0.8,
+        1.0
+      ]
+    },
+    "SourceFeather": {
+      "gain": 1.4,
+      "tint": [
+        0.48,
+        0.74,
+        1.0
+      ]
+    },
+    "SourceDust": {
+      "gain": 1.0,
+      "tint": [
+        0.66,
+        0.88,
+        1.0
+      ]
+    },
+    "SourceFlash": {
+      "gain": 1.8,
+      "tint": [
+        0.7,
+        0.9,
+        1.0
+      ]
+    },
+    "SourceSpark": {
+      "gain": 2.4,
+      "tint": [
+        0.52,
+        0.8,
+        1.0
+      ]
+    }
+  },
+  "basic_palette": {
+    "Glow": [
+      1,
+      2,
+      3.2,
+      1
+    ],
+    "Glass": [
+      0.78,
+      0.91,
+      1,
+      1
+    ],
+    "Mist": "unchanged neutral grey"
+  },
+  "before": {
+    "cpp_sha256": "61f10be1a013bfe06c0075a79b9359d4cb30a5bf425dcd5af70f7dc3b1993e33",
+    "dll_sha256": "eace738bd15cb03be6591db50ea12d4107cf6585526c8e0ad7e7fe2cfd09da4c",
+    "files": {
+      "jce.material": {
+        "sha256": "883fea341a7885eabeee4602814d9baca312365b2f91d9d01253bc5ebd992ba4",
+        "text": "material JCE/Glow\n{\n    technique\n    {\n        pass\n        {\n            vertex_program_ref Basic_Coloured_Texture_VP {}\n            // 原版 basic_fp 返回 texture * colour * vertexColour；HDR 增益放在浮点 uniform，\n            // 不依赖归一化顶点颜色容纳 >1，也不改游戏公共着色器；仍保留世界深度遮挡。\n            fragment_program_ref Basic_Texture_FP\n            {\n                param_named colour float4 4 4 4 1\n            }\n            lighting off\n            depth_write off\n            depth_check on\n            cull_hardware none\n            scene_blend add\n            texture_unit\n            {\n                texture jce_glow.tga\n                tex_address_mode clamp\n                colour_op modulate\n            }\n        }\n    }\n}\n\n// JCE_VFX110_BEGIN：三个独立材质段：灰雾Alpha混合、刀痕/空间裂光加法混合；不修改公共着色器。\nmaterial JCE/Mist\n{\n    technique\n    {\n        pass\n        {\n            vertex_program_ref Basic_Coloured_Texture_VP {}\n            fragment_program_ref Basic_Texture_FP\n            {\n                param_named colour float4 1 1 1 1\n            }\n            lighting off\n            depth_write off\n            depth_check on\n            cull_hardware none\n            scene_blend alpha_blend\n            texture_unit\n            {\n                texture jce_mist.tga\n                tex_address_mode clamp\n                colour_op modulate\n            }\n        }\n    }\n}\nmaterial JCE/Glass\n{\n    technique\n    {\n        pass\n        {\n            vertex_program_ref Basic_Coloured_Texture_VP {}\n            fragment_program_ref Basic_Texture_FP\n            {\n                param_named colour float4 1 1 1 1\n            }\n            lighting off\n            depth_write off\n            depth_check on\n            cull_hardware none\n            // 乘源Alpha再叠加光，确保零Alpha帧没有高光；纯add会忽略顶点Alpha。\n            scene_blend src_alpha one\n            texture_unit\n            {\n                texture jce_glass.tga\n                tex_address_mode clamp\n                colour_op modulate\n            }\n        }\n    }\n}\n\n// 独立背景副本在施放前绑定，首段绘制前完成GPU复制；仍保留世界深度遮挡和正常Alpha混合。\nmaterial JCE/Refraction\n{\n    technique\n    {\n        pass\n        {\n            vertex_program_ref Basic_Coloured_Texture_VP {}\n            fragment_program_ref JCE/Refraction_FP {}\n            lighting off\n            depth_write off\n            depth_check on\n            cull_hardware none\n            scene_blend alpha_blend\n            texture_unit\n            {\n                texture jce_glass.tga\n                tex_address_mode clamp\n                filtering bilinear\n            }\n            texture_unit\n            {\n                // 解析时占位，PrepareRefraction替换为JCE/SceneCopy；失败时本材质不提交。\n                texture jce_glow.tga\n                tex_address_mode clamp\n                filtering bilinear\n            }\n        }\n    }\n}\n"
+      },
+      "jce_source.material": {
+        "sha256": "b0e6028297b6bd04436f760b05209047d82c9d25f0cc9d92542a30c5ce0a4e22",
+        "text": "// 本机ap05原纹理层；亮度按Kenshi HDR适配，非照搬Skyrim数值。\nmaterial JCE/SourceBlade\n{\n    technique\n    {\n        pass\n        {\n            vertex_program_ref Basic_Coloured_Texture_VP {}\n            fragment_program_ref JCE/SourceTexture_FP\n            {\n                param_named hdrGain float 3\n                param_named grayscale float 0\n            }\n            lighting off\n            depth_write off\n            depth_check on\n            cull_hardware none\n            scene_blend src_alpha one\n            texture_unit\n            {\n                texture jce_source_blade09.dds\n                tex_address_mode clamp\n                filtering bilinear\n            }\n        }\n    }\n}\n// 本机ap05原纹理层；亮度按Kenshi HDR适配，非照搬Skyrim数值。\nmaterial JCE/SourceFeather\n{\n    technique\n    {\n        pass\n        {\n            vertex_program_ref Basic_Coloured_Texture_VP {}\n            fragment_program_ref JCE/SourceTexture_FP\n            {\n                param_named hdrGain float 1.6\n                param_named grayscale float 0\n            }\n            lighting off\n            depth_write off\n            depth_check on\n            cull_hardware none\n            scene_blend src_alpha one\n            texture_unit\n            {\n                texture jce_source_blade08.dds\n                tex_address_mode clamp\n                filtering bilinear\n            }\n        }\n    }\n}\n// 本机ap05原纹理层；亮度按Kenshi HDR适配，非照搬Skyrim数值。\nmaterial JCE/SourceDust\n{\n    technique\n    {\n        pass\n        {\n            vertex_program_ref Basic_Coloured_Texture_VP {}\n            fragment_program_ref JCE/SourceTexture_FP\n            {\n                param_named hdrGain float 1\n                param_named grayscale float 0\n                // 仅本烟尘材质收紧轮廓，刀光等四层使用默认0。\n                param_named dustDetail float 1\n            }\n            lighting off\n            depth_write off\n            depth_check on\n            cull_hardware none\n            scene_blend alpha_blend\n            texture_unit\n            {\n                texture jce_source_dust.dds\n                tex_address_mode clamp\n                filtering bilinear\n            }\n        }\n    }\n}\n// 本机ap05原纹理层；亮度按Kenshi HDR适配，非照搬Skyrim数值。\nmaterial JCE/SourceFlash\n{\n    technique\n    {\n        pass\n        {\n            vertex_program_ref Basic_Coloured_Texture_VP {}\n            fragment_program_ref JCE/SourceTexture_FP\n            {\n                param_named hdrGain float 3\n                param_named grayscale float 0\n            }\n            lighting off\n            depth_write off\n            depth_check on\n            cull_hardware none\n            scene_blend src_alpha one\n            texture_unit\n            {\n                texture jce_source_flash.dds\n                tex_address_mode clamp\n                filtering bilinear\n            }\n        }\n    }\n}\n// 本机ap05原纹理层；亮度按Kenshi HDR适配，非照搬Skyrim数值。\nmaterial JCE/SourceSpark\n{\n    technique\n    {\n        pass\n        {\n            vertex_program_ref Basic_Coloured_Texture_VP {}\n            fragment_program_ref JCE/SourceTexture_FP\n            {\n                param_named hdrGain float 4\n                param_named grayscale float 1\n            }\n            lighting off\n            depth_write off\n            depth_check on\n            cull_hardware none\n            scene_blend src_alpha one\n            texture_unit\n            {\n                texture jce_source_spark.dds\n                tex_address_mode clamp\n                filtering bilinear\n            }\n        }\n    }\n}\n"
+      },
+      "jce_source_texture.hlsl": {
+        "sha256": "31fdfa2dd767d25f0c503413035bc91109e98a0f3de6e1c9d00f036afe175b55",
+        "text": "// 同原有Basic_Coloured_Texture_VP接口；HDR增益独立于归一化顶点颜色。\n// 透明度同时乘原DDS Alpha与演出曲线，防止演出前后零Alpha仍发光。\nTexture2D sourceTexture : register(t0);\nSamplerState sourceSampler : register(s0);\nuniform float hdrGain;\nuniform float grayscale;\n// 仅SourceDust启用细雾轮廓；默认0使刀光、拖尾、闪光和光屑保持2.0原像素路径。\nuniform float dustDetail;\nstruct JCE_SOURCE_FRAGMENT {float4 pos:SV_Position;float4 colour:COLOR;float4 texCoord:TEXCOORD0;};\nfloat4 jce_source_texture_fp(JCE_SOURCE_FRAGMENT input):SV_Target {\n    float4 source=sourceTexture.Sample(sourceSampler,input.texCoord.xy);\n    float mask=dot(source.rgb,float3(.2126,.7152,.0722));\n    float3 colour=lerp(source.rgb,mask.xxx,saturate(grayscale));\n    float detail=1;\n    if(dustDetail>.5){\n        // 使用原8x8图集Alpha提取稠密细丝，压低低密度灰底；不扭曲UV、不采样邻格。\n        // 局部边缘柔化避免拉长后的雾片露出矩形边界；动画和流向由各独立粒子时钟/刀路提供。\n        float2 local=frac(input.texCoord.xy*8);\n        float edge=min(min(local.x,1-local.x),min(local.y,1-local.y));\n        float core=smoothstep(.025,.32,source.a);\n        detail=(.25+.75*core)*smoothstep(0,.10,edge);\n    }\n    return float4(colour*input.colour.rgb*hdrGain,source.a*input.colour.a*detail);\n}\n"
+      },
+      "jce_source_texture.program": {
+        "sha256": "e19c82f7a9a0aad7d443b6ef0e546defb1bb3e9bc85decc8203ee3c436071810",
+        "text": "// 原纹理专用shader；只在本插件资源组使用，不覆盖游戏Basic_*程序。\nfragment_program JCE/SourceTexture_FP hlsl\n{\n    source jce_source_texture.hlsl\n    entry_point jce_source_texture_fp\n    target ps_4_0\n    default_params\n    {\n        param_named hdrGain float 1\n        param_named grayscale float 0\n        // 缺省关闭细雾处理，兼容原刀光/闪光/光屑材质。\n        param_named dustDetail float 0\n    }\n}\n"
+      }
+    }
+  },
+  "after": {
+    "jce.material": "65e1776ffe87965f3b89b2c0b173d44fbb0964fc997b74653f5871eeebdd26eb",
+    "jce_source.material": "685d8cac629eed4f9abe17ac3ef5c11d206f92d6f953f3aff3aa4a7304fca3fe",
+    "jce_source_texture.hlsl": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f",
+    "jce_source_texture.program": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51"
+  },
+  "limitations": [
+    "淡蓝映射与HDR增益为Kenshi适配，未逐字复现Skyrim渲染器",
+    "未实现原palette查表；Spark仍以灰度强度叠加淡蓝色",
+    "实际HDR曝光/泛光与观感需实机确认"
+  ]
+}

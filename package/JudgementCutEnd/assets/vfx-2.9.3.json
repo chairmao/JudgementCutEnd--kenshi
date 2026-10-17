@@ -1,0 +1,32 @@
+{
+  "source_version": "2.9.3-dev",
+  "resource_revision": "2.9.3-independent-facets",
+  "user_compile_required": true,
+  "game_tested": false,
+  "installed": false,
+  "default_probe_mode": 3,
+  "source_sha256": "28386280C06793279859B5684938E3FBCABF41B2DC48F8957F634F8AE5581C8F",
+  "source_shape": "Skyrim JCE030CutRefraction screen1; original CSV topology UV unchanged",
+  "adaptation": "Three screen1 instances, independent pivots/uniform scales/yaw/roll and path clocks 0/24/48; source geometry/UV/mask unchanged; world transforms are Kenshi adaptation, not imported BG3 rotation keys",
+  "hdr_copies_max": 1,
+  "texture_samples_max": 2,
+  "max_offset_pixels": 36,
+  "compilation": "not run by policy",
+  "diagnostics": "At most 9 facet stage entries plus 1 activation entry per cast; pre-depth/pre-mask bounds; GPU unmeasured",
+  "resources": {
+    "jce_facets292.hlsl": "797EE5E26C6E750D1FE425017E56D572E9B63166D28EC1ACA92D3DD44015BEBE",
+    "jce_facets292.program": "EA8338C05B8257B55372744E78AF8FDC4560CF1680C5348B032A4F659EF41C83",
+    "jce.material": "397615DFB107AA47E09420F4486D0273C34BC10C0820C69D892508031777E186",
+    "jce_facets29.csv": "FCA82D54DB3080C3F847A32091AC23060B76C9E02D7703B88177770D9E713FC3",
+    "jce_source_optical_mask.dds": "A3F29383DE8BB46BB69B75475067DE5DD1238CCE41793CE6E04950B7749B19FD"
+  },
+  "instances": 3,
+  "vertices": 72,
+  "triangles": 36,
+  "legacy_single_modes": [
+    1,
+    2
+  ],
+  "shader_revision_reused": "2.9.2 unchanged ABI",
+  "overlap": "nearest facet samples the shared original snapshot; no cumulative refraction"
+}

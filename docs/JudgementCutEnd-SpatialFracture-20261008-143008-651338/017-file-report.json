@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目安装状态",
+  "Code location": "2.5部署状态",
+  "Before": "源码2.5待编译，安装2.4",
+  "Changes": "记录用户产物和完整包已部署、哈希及备份验证",
+  "Reasons": "用户请求快速更新，状态应与安装一致",
+  "After": "2.5已安装待游戏验收",
+  "Impact": "文档，无代码修改",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-145907-8035516-status-20261008-150012-978536\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-145907-8035516-status-20261008-150012-978536\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": "de4025d52d01b2f3127d71c0bb4d0535380f7ba6d447f7cd8ef6880316cef353",
+    "after_sha256": "3333c256f8aa6beaccada772f5664f41ee2e7c1d53f5df1e07d6a13fc31da709"
+  },
+  "Unresolved": "游戏实测未进行"
+}

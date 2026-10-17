@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+  "Role": "Ogre像素程序注册",
+  "Code location": "MistBase24/Ribbon24/Wisp24",
+  "Before": "仅Mist与Dust程序",
+  "Changes": "独立注册2.4原烟程序与薄底雾程序",
+  "Reasons": "避免程序对象误复用，明确各材质消费者",
+  "After": "0342735b28f587606549276db1f68a92f193589eaf33d918e993463652e7b4c3",
+  "Impact": "没有新增编译调用；运行时由游戏编译HLSL",
+  "Validation": "即时字节读回、编码/CRLF/中文乱码检查通过；跨层与几何模型验证另记 verification.json；未编译、未GPU/游戏测试。",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.program"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "c0a5cbc54975ea770df65ac6057651d58cd34a6b4c3f651d7aaea6577fa016f0"
+  },
+  "Unresolved": "[MISSING] 用户Release|x64编译、GPU材质加载、实际透明叠加/帧率和最终观感。"
+}

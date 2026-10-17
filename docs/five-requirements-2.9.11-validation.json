@@ -1,0 +1,25 @@
+{
+  "version": "2.9.11-dev",
+  "source_sha256": "E565CF55922E8944C87BBD408F50C71BF06F0B0088BAF30B5F08AB9A6BBD6E61",
+  "checks": {
+    "verify_five_requirements": 36,
+    "verify_caster_safety": 33,
+    "verify_damage_snapshot": 142,
+    "verify_time": 70
+  },
+  "total_checks": 281,
+  "scope_diff_verified": true,
+  "compiled": false,
+  "deployed": false,
+  "game_tested": false,
+  "game_dll_sha256": "7050DFBA3820F90C246C496A685E9C9BD15A9B3308F177B3BC7445EE2260AD33",
+  "backup_roots": [
+    "D:\\CodexBackups\\JCE-FiveRequirements-20261010-213313-65f044",
+    "E:\\AIWorkSpace\\_backups\\JCE-FiveRequirements-20261010-213313-65f044"
+  ],
+  "limits": [
+    "源码/原生机器码合同及离线模型，不是v100编译或游戏执行",
+    "旧综合verify.py有既存特效字符串断言失配，不宣称全综合套件通过",
+    "安装仍2.9.8-dev，需编译2.9.11-dev后更新"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+  "Role": "发布使用与边界说明",
+  "Code location": "空间范围/原生部位/版本",
+  "Before": "已安装0.2.7说明",
+  "Changes": "新增真实AOE与部位公式；区分0.2.8未编译与0.2.7已安装",
+  "Reasons": "避免配置半径、伤害球及部位碰撞含义混淆",
+  "After": "0.2.8源码统一特效与伤害范围；已安装0.2.7不变",
+  "Impact": "仅 JudgementCutEnd；统一裂痕外缘、范围环和结算筛选，不改其他项目/已安装DLL",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Range-20261007-190641-403369\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Range-20261007-190641-403369\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 without BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "0.2.8待用户编译及实机验证；不代编译，不改变部位选择"
+}

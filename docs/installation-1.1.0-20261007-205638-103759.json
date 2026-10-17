@@ -1,0 +1,344 @@
+{
+  "version": "1.1.0-dev",
+  "installed_local": "2026-10-07T20:56:38.103759",
+  "compiled_by": "user",
+  "agent_ran_compiler": false,
+  "game_tested": false,
+  "file_count": 18,
+  "dll_sha256": "b39df600979fa39e2a1ba83fc4c5dc64848c6833847d27445a4dc9cb8c849450",
+  "backup_stamp": "JudgementCutEnd-20261007-205517-2726040",
+  "formal_release_verified_files": 248,
+  "formal_zip_verified": true,
+  "files": [
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "_JudgementCutEnd.info",
+      "Before": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info"
+        ],
+        "encoding": "UTF-8; source bytes preserved"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "assets\\jce.clip",
+      "Before": "7d0f7c4cf49b459f056eab1813911f31e2fe8496e3043c82315cdeaa9f6f07fb",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "7d0f7c4cf49b459f056eab1813911f31e2fe8496e3043c82315cdeaa9f6f07fb",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "assets\\jce.material",
+      "Before": "c7bb6d436a7cc55f69d7c35c01ecc28e3d8a6a1905f2bd9492962dd2b627aad0",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "944c6bf42683bdb3c911abce17adf3999520e1f3eb28d7e3463275f614d7ad66",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material"
+        ],
+        "encoding": "UTF-8; source bytes preserved"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glass.tga",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "assets\\jce_glass.tga",
+      "Before": "absent",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "18ea20addefd5181b9d3a5d7a7689f08dc058aee0e9b25982b7cb95dbd5fa239",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "assets\\jce_glow.tga",
+      "Before": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "assets\\jce_mist.tga",
+      "Before": "absent",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "6d0f65c793a61c31874691b0ab826beddf66acb54b3db0ca416edc546aadba7c",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "assets\\jce_sequence.wav",
+      "Before": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "assets\\jce_sequence_fast.wav",
+      "Before": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_shards.csv",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "assets\\jce_shards.csv",
+      "Before": "absent",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "44dfd047badd18ab7ae844007cc37a43162d4e79fd9a0a50808d46f604259d60",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8; source bytes preserved"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "assets\\slashes.csv",
+      "Before": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "5c8f81088a29825fef2ddcac97d4093789cc447b89aff9915029888b33e20214",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv"
+        ],
+        "encoding": "UTF-8; source bytes preserved"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\vfx-1.1.0.json",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "assets\\vfx-1.1.0.json",
+      "Before": "absent",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "f9c04cbd04d46b22f7b955eab034e6311440594e7212c1a8ceacf3e526b6414c",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8; source bytes preserved"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "JudgementCutEnd.dll",
+      "Before": "7454b6e5a400826f33a8c8327c430acea0d938d5102ddf51e892899025b71234",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "b39df600979fa39e2a1ba83fc4c5dc64848c6833847d27445a4dc9cb8c849450",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "JudgementCutEnd.ini",
+      "Before": "efee78917fe47c57b75e32a3ffd8c03f67b6b644f29eeb9ed3e9c5a7fc7405d8",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "d644b737a0e5038ce47b9d22d6f3ceb973d1c1d1e90c18a7d2e4a19b0c5be637",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+        ],
+        "encoding": "UTF-8; source bytes preserved"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "JudgementCutEnd.mod",
+      "Before": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "LICENSE",
+      "Before": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE"
+        ],
+        "encoding": "binary"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "LICENSE-NOTICE.md",
+      "Before": "b614791d4b45d2ba65f8f09bef1b10577adf0d0a8d7729c611afe64b9d13ace3",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "b614791d4b45d2ba65f8f09bef1b10577adf0d0a8d7729c611afe64b9d13ace3",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md"
+        ],
+        "encoding": "UTF-8; source bytes preserved"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "RE_Kenshi.json",
+      "Before": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json"
+        ],
+        "encoding": "UTF-8; source bytes preserved"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "Role": "游戏本地模组分发文件",
+      "Code location": "README.md",
+      "Before": "5658069470cd4fcf66e0adc02ec3478b7078960ebd1ede6b1ff020579d7e7328",
+      "Changes": "安装1.1.0-dev分发文件",
+      "Reasons": "用户要求迅速更新mod",
+      "After": "a7eea8aae7c141bb9107fead95ba212fbd3a2782eb7d6394e4c5011cefc6962a",
+      "Impact": "仅JudgementCutEnd模组",
+      "Validation": "package/install SHA256 identical",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-205517-2726040\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+        ],
+        "encoding": "UTF-8; source bytes preserved"
+      },
+      "Unresolved": "实机视觉与性能待测试"
+    }
+  ]
+}

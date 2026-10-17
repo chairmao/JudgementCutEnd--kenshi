@@ -1,0 +1,99 @@
+{
+  "version": "0.2.0",
+  "installed_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "compiled_by": "user",
+  "dll_sha256": "bcaa81a2696ff59a045675d4e56cac3aef0f953347c855f7001e1bc4e79e2207",
+  "file_count": 13,
+  "files": [
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+      "matches_package": true,
+      "encoding": "UTF-8 without BOM",
+      "line_endings": "CRLF"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "sha256": "7d0f7c4cf49b459f056eab1813911f31e2fe8496e3043c82315cdeaa9f6f07fb",
+      "matches_package": true,
+      "encoding": "UTF-8 without BOM",
+      "line_endings": "CRLF"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "sha256": "2a5c44eb23d91eed4e21fe8426c2f1c21c4e38e23180b15423bcc0320f0e27ee",
+      "matches_package": true,
+      "encoding": "UTF-8 without BOM",
+      "line_endings": "CRLF"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+      "matches_package": true
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+      "matches_package": true
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "sha256": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b",
+      "matches_package": true,
+      "encoding": "UTF-8 without BOM",
+      "line_endings": "CRLF"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "sha256": "bcaa81a2696ff59a045675d4e56cac3aef0f953347c855f7001e1bc4e79e2207",
+      "matches_package": true
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "sha256": "4967a0e343296e0e5a5ffb359edd15aacad8676e5e9c73efc0d965b6924494dd",
+      "matches_package": true,
+      "encoding": "UTF-8 without BOM",
+      "line_endings": "CRLF"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+      "matches_package": true
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+      "matches_package": true,
+      "encoding": "UTF-8 without BOM",
+      "line_endings": "CRLF"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "sha256": "60993760b9974a6fae1ee4c584f784311c0778e270d0ead19abd6c1ad15bd9bf",
+      "matches_package": true,
+      "encoding": "UTF-8 without BOM",
+      "line_endings": "CRLF"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+      "matches_package": true,
+      "encoding": "UTF-8 without BOM",
+      "line_endings": "CRLF"
+    },
+    {
+      "file": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "sha256": "841ad52b0b53caf6f3274236fbd2bbf04506b71e7269b1060b9989dd35d39292",
+      "matches_package": true,
+      "encoding": "UTF-8 without BOM",
+      "line_endings": "CRLF"
+    }
+  ],
+  "backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-154349-7291339",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-154349-7291339"
+  ],
+  "validation": "13 files byte-identical to package; DLL byte-identical to user build and contains 0.2.0/VFX diagnostics; UTF-8/Chinese checked",
+  "game_tested": false,
+  "game_config_or_saves_modified": false
+}

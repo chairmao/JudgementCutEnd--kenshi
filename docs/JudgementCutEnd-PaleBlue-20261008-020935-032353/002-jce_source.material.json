@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+  "Role": "五层颜色uniform消费者",
+  "Code location": "SourceBlade/Feather/Dust/Flash/Spark",
+  "Before": "b0e6028297b6bd04436f760b05209047d82c9d25f0cc9d92542a30c5ce0a4e22",
+  "Changes": "独立淡蓝色调与适量HDR增益；混合、Alpha、雾细节、遮挡和纹理引用保持",
+  "Reasons": "用户要求今天最后一版仅调淡蓝颜色，对照本地Skyrim原模组；不修改C++或游戏逻辑",
+  "After": "685d8cac629eed4f9abe17ac3ef5c11d206f92d6f953f3aff3aa4a7304fca3fe",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-PaleBlue-20261008-020935-032353\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-PaleBlue-20261008-020935-032353\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "本轮仅材质/shader资源；不需DLL重编译，真实HDR画面待游戏验收"
+}

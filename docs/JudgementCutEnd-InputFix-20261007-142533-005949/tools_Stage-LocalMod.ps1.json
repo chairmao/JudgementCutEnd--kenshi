@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1",
+  "Role": "非编译打包/安装工具",
+  "Code location": "Get-PeExportNames / staging 前检查",
+  "Before": "仅检查 PE/x64，错误导出 DLL 也能安装",
+  "Changes": "复制前解析实际 PE 导出表并拒绝缺少 C++ 入口的 DLL；对截断/越界导出表拒绝处理",
+  "Reasons": "本次 DLL 虽然为 x64 却只有 C 导出，必须把入口 ABI 验证补到部署边界",
+  "After": "修改已写入；需要重新编译/部署才影响游戏运行",
+  "Impact": "仅限本插件项目/分发包，不写其他模组及运行游戏",
+  "Validation": "UTF-8/BOM/CRLF/中文严格回读；专项非编译检查随后另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InputFix-20261007-142533-005949\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InputFix-20261007-142533-005949\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF",
+    "sha256": "18580f5f84eaf3754fcd15641b6bbf034c35a16bf5da3efbea0e27f1d8fc14fd"
+  },
+  "Unresolved": "新 DLL 编译/安装和实机验收仍待完成"
+}

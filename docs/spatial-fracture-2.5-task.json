@@ -1,0 +1,15 @@
+{
+  "baseline": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-SpatialFracture-20261008-143008-651338\\baseline.json",
+  "audit": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpatialFracture-20261008-143008-651338",
+  "session": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-SpatialFracture-20261008-143008-651338",
+  "source_version": "2.5.0-dev",
+  "resource_revision": "2.5-spatial-partition-r1",
+  "changed_existing": [
+    "JudgementCutEnd.cpp",
+    "package/JudgementCutEnd/assets/jce_refraction.hlsl",
+    "package/JudgementCutEnd/assets/jce_refraction.program",
+    "package/JudgementCutEnd/assets/jce.material",
+    "README.md",
+    "docs/task-status.json"
+  ]
+}

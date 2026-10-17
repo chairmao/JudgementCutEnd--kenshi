@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+  "Role": "模组分发说明",
+  "Code location": "版本/时间修复/验收状态",
+  "Before": "aa9b345485933dc404a779360772f5855278eb9001e29aa71d072cb64d4d70d7",
+  "Changes": "同步已编译1.1.2说明，保留既有玩法及1.1.1视觉说明",
+  "Reasons": "用户授权迅速更新mod；新DLL已核验1.1.2-dev时间修复标记",
+  "After": "c3afa3cec4baae35860a99243050258947935c49f288b313b956aa6d6bdfc8d6",
+  "Impact": "仅JudgementCutEnd时间所有权恢复；保留伤害/视觉/按键/角色姿势合同",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Install112-20261007-215410-990526\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Install112-20261007-215410-990526\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；暂停解除、速度恢复与异常路径待实机验收"
+}

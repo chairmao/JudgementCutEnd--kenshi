@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "独立插件镜头行为与骨骼到蒙皮发布",
+  "Code location": "Settings/Begin/Pose/RefreshSkin/Finish/Draw",
+  "Before": "0.2.0 强制视角；写骨骼后更新变换会清除 manual-dirty，未刷新身体缓存",
+  "Changes": "移除相机控制；旧 CinematicCamera 值忽略；验证可见身体骨架；发布 dirty 和实例蒙皮刷新/有限诊断；版本 0.2.1",
+  "Reasons": "用户明确要求取消锁定视角并反馈人物无动作；本机 Ogre +0x344FC0 清 dirty、+0xC2A30 依赖 dirty 的缓存证据",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-CameraPose-20261007-155730-373383\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-CameraPose-20261007-155730-373383\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

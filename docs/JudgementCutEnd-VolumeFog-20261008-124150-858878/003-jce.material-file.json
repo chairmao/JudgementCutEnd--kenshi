@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+  "Role": "Ogre材质绑定",
+  "Code location": "JCE/Mist",
+  "Before": "r2云团shader",
+  "Changes": "绑定r3专用像素程序",
+  "Reasons": "确保真实加载几何/Alpha新合同",
+  "After": "d623879f08884fde2a13d0059f34938108c6815abe6dca1d5925d7378bdb596d",
+  "Impact": "其它三材质字节保持",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "71c4d44b2f781da88da572a6a4689f9b6adefe215ecd38a7507e49c8188e1b65"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

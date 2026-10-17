@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "演出CPU绘制/生命周期",
+  "Code location": "新SourceSmoke*绘制、资源预载、Draw9/10、版本/有界日志",
+  "Before": "只有噪声底雾及尘烟辅助",
+  "Changes": "重建原烟带和烟丝；导入200/64点尺寸曲线；独立出生运动旋转消散；11固定层",
+  "Reasons": "原NIF证据及2.3视频均匀遮罩反馈",
+  "After": "650613ba0a5c3792e5842e32335527eb05e92fb7deb2d86ebfb152cfbf99c05b",
+  "Impact": "不动伤害、U、动画、时间恢复、原生绑定、视角；增加固定几何且须新DLL",
+  "Validation": "即时字节读回、编码/CRLF/中文乱码检查通过；跨层与几何模型验证另记 verification.json；未编译、未GPU/游戏测试。",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF",
+    "before_sha256": "c421a6d1bb36d74e37b3e640de46d102eba7a8e8e7645b3cfc9c559fc10dd83f"
+  },
+  "Unresolved": "[MISSING] 用户Release|x64编译、GPU材质加载、实际透明叠加/帧率和最终观感。"
+}

@@ -1,0 +1,230 @@
+{
+  "version": "0.2.0",
+  "authorization": "用户针对无特效/动作抽动/错误音效要求修正；仅 JudgementCutEnd 独立项目",
+  "result": "源码和资源修订完成，未编译、未安装、未实机验收",
+  "verification": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-0.2.0-20261007-153735-517426.json",
+  "static_checks": 94,
+  "metrics": {
+    "bone_length_error": 6.217248937900877e-15,
+    "foot_drift": 0,
+    "right_hand_motion": 5.9732055889744835,
+    "frames": 403,
+    "tracks": 23,
+    "max_single_frame_rotation_degrees": 10.88434553702598
+  },
+  "audio_metrics": {
+    "peak_pcm16": 22247,
+    "clipped_samples": 0,
+    "seconds": 6.7
+  },
+  "confirmed_old_defects": [
+    "脊柱轨道在 2.083333 到 2.1 秒之间突跳 44 度",
+    "仅控制 10 条上半身轨道，完整父节点链未受本动作控制",
+    "旧音轨为自行合成，与提供的参考 WAV 不一致",
+    "计时完成和生成顶点不能证明特效进入渲染入口"
+  ],
+  "corrections": [
+    "23 条轨道、403 帧与平滑滤波；进入退出混合捕获姿态",
+    "完整人形 update 后施加姿势；未将原生末尾的标记重置认定为旧版覆写骨骼的证据",
+    "场景节点统一坐标，显式加载材质，粒子阶段一次提交与单对象绘制诊断",
+    "五段参考 WAV 同步重混；原始参考文件只读"
+  ],
+  "evidence_boundary": [
+    "旧特效完全不显示的唯一根因未确认；新提交路径须编译并实机核验",
+    "非 Skyrim HKX 转换，动画是为 Kenshi 骨架新制作的 IK 姿势；无蒙皮验证，不能承诺与参考演出等同",
+    "渲染回调不保证最终像素可见",
+    "伤害/护甲/犯罪语义、其他插件兼容、性能和长期内存变化须实测"
+  ],
+  "ogre_primary_sources": [
+    "https://raw.githubusercontent.com/OGRECave/ogre-next/v2-0/OgreMain/src/OgreManualObject.cpp",
+    "https://raw.githubusercontent.com/OGRECave/ogre-next/v2-0/OgreMain/src/OgreSceneManager.cpp",
+    "https://raw.githubusercontent.com/OGRECave/ogre-next/v2-0/OgreMain/src/OgreCamera.cpp",
+    "https://raw.githubusercontent.com/OGRECave/ogre-next/v2-0/OgreMain/src/Math/Array/OgreObjectMemoryManager.cpp"
+  ],
+  "safety": {
+    "small_files_dual_backup": true,
+    "text": "保留原编码/BOM和CRLF，新文本UTF-8无BOM/CRLF；中文读回无乱码",
+    "game_other_projects_saves": "本轮未修改",
+    "compile": "未运行，项目 AGENTS 与 Skill 明确禁止代编译"
+  },
+  "per_file_changes": [
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-change-reports.json",
+      "reports": [],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-change-reports.json",
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-151758-020886\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-change-reports.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-change-reports.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-151758-020886\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-change-reports.json"
+      ],
+      "current_sha256": "55c7309784f1ea9c7c0543926de3f3e3e19456a5e4d5e49c60e696e20b70baeb"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-provenance.json",
+      "reports": [],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-provenance.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-provenance.json"
+      ],
+      "current_sha256": "d01a022c0723143d50de16ebdf5672d466d069f35a93ae0610f46880039febad"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+      "reports": [],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-151758-020886\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-151758-020886\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html"
+      ],
+      "current_sha256": "49d8a5809107d9080874f54dfef32243ec86d780f80acdc153859e064a8e2f3c"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+      "reports": [],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-151758-020886\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-151758-020886\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json"
+      ],
+      "current_sha256": "ca10b40e7206a85e6d4bf47351750239a877235f956bda26389d4ac8539a0446"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+      "reports": [],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-151758-020886\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-151758-020886\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip"
+      ],
+      "current_sha256": "7d0f7c4cf49b459f056eab1813911f31e2fe8496e3043c82315cdeaa9f6f07fb"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "reports": [],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_sequence.wav",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-151406-744798\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_sequence.wav"
+      ],
+      "current_sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "reports": [
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-151222-348871\\JudgementCutEnd.cpp.json",
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-151617-367481\\JudgementCutEnd.cpp.json",
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-152855-910775\\JudgementCutEnd.cpp.json",
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-153053-413420\\JudgementCutEnd.cpp.json"
+      ],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-151222-348871\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-151617-367481\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-152855-910775\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-153053-413420\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-151222-348871\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-151617-367481\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-152855-910775\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-153053-413420\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+      ],
+      "current_sha256": "f64da7612e25f55b3f2247980d57e4f621a4460cb8edb93fbe5413098b155392"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_assets.py",
+      "reports": [
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-151348-037666\\tools__author_assets.py.json",
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-151757-282075\\tools__author_assets.py.json"
+      ],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-151348-037666\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_assets.py",
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-151757-282075\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_assets.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-151348-037666\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_assets.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-151757-282075\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_assets.py"
+      ],
+      "current_sha256": "fbb132b87f7d82aa78e67fdbb47f9da2b15ea9fafec4488fcb34cc7b6de703fa"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "reports": [
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-151757-282075\\tools__verify.py.json",
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-153053-413420\\tools__verify.py.json"
+      ],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-151757-282075\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-153053-413420\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-151757-282075\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-153053-413420\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+      ],
+      "current_sha256": "1bc7339e2d770a22f9702241d7011b98e6fc4749ae25db241893bd6d8bd623c9"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "reports": [
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-152855-910775\\README.md.json",
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-153735-301926\\README.md.json"
+      ],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-152855-910775\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-153735-301926\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-152855-910775\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-153735-301926\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+      ],
+      "current_sha256": "fb8869efa236c5af76f80a896fd3bfd9efd52e704bb1c8be6f9fd78f9f7d62e9"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "reports": [
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-152855-910775\\docs__task-status.json.json",
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-153735-301926\\docs__task-status.json.json"
+      ],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-152855-910775\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-153735-301926\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-152855-910775\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-153735-301926\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+      ],
+      "current_sha256": "ddfec27de2a8826a98beef5bb1344129c6f31e176d591ea94b7c21653d7c6dda"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "reports": [
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-153921-664046\\package__JudgementCutEnd__LICENSE-NOTICE.md.json"
+      ],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-153921-664046\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-153921-664046\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md"
+      ],
+      "current_sha256": "60993760b9974a6fae1ee4c584f784311c0778e270d0ead19abd6c1ad15bd9bf"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "reports": [
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-Rework-20261007-153921-664046\\package__JudgementCutEnd__README.md.json"
+      ],
+      "backups": [
+        "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-153921-664046\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-153921-664046\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+      ],
+      "current_sha256": "841ad52b0b53caf6f3274236fbd2bbf04506b71e7269b1060b9989dd35d39292"
+    },
+    {
+      "file": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\audio-provenance.json",
+      "reports": [
+        "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-change-reports.json"
+      ],
+      "backups": [],
+      "new_file": true,
+      "current_sha256": "7bcf555967908a4fe69e0371e151089801f98c5566fe7b6ca88abb08e73eac84"
+    }
+  ],
+  "source_backup_root": "D:\\CodexBackups\\JudgementCutEnd-Rework-20261007-151222-348871",
+  "secondary_backup_root": "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Rework-20261007-151222-348871",
+  "next": [
+    "用户编译 JudgementCutEnd.sln 的 Release|x64",
+    "退出游戏后用 Stage-LocalMod.ps1 -Mode Install 整体更新 DLL/资源",
+    "Ctrl+Shift+F8 室外测试，并核对 vfx_material_loaded / vfx_queue_submitted / vfx_render_callback 与实际显示"
+  ],
+  "audit_scope": "仅本轮 15:12 后的 Rework 与 15:14/15:17 两次资源生成；不纳入历史构建/安装/输入修复备份",
+  "new_provenance_notice": "新版参考音频不列入本项目 CC0 原创资源；仅本机测试包"
+}

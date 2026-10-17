@@ -1,0 +1,43 @@
+{
+  "source_version": "2.6.0-dev",
+  "resource_revision": "2.6-independent-blue-flow-r1",
+  "reference": "BG3 Vergil mod in E:\\次元斩绝; phase structure only",
+  "bg3_assets_copied": false,
+  "design": "连续共享双向烟流、蓝色生命期调色、八切面错开分离并透明退场",
+  "unchanged_gameplay": {
+    "radius": 350,
+    "hits_per_target": 96,
+    "weapon_multiplier_per_hit": 1,
+    "key": "U",
+    "cooldown": 0,
+    "playback_rate": 3,
+    "time_restore": "unchanged"
+  },
+  "geometry": {
+    "mist_slices": 32,
+    "smoke_bands": 48,
+    "smoke_segments": 10,
+    "smoke_wisps": 96,
+    "optical_planes": 8,
+    "material_sections": 11,
+    "vertex_upper_bound": 19096,
+    "index_upper_bound": 46788
+  },
+  "gpu": {
+    "scene_copy_samples_per_refraction_fragment": 1,
+    "max_offset_pixels": 28,
+    "source_smoke_noise_samples": 2,
+    "additional_noise_samples_vs_2_5": 1,
+    "performance_measured": false,
+    "overdraw_note": "更宽的透明烟带会增加像素覆盖，不能用几何数量不变推断GPU无额外开销"
+  },
+  "lifecycle": {
+    "last_optical_end_clip_seconds": 5.6,
+    "stagger_clip_seconds": 0.018,
+    "cast_end_clip_seconds": 6.7,
+    "clock": "plugin clip time; not world time"
+  },
+  "compiled": false,
+  "game_tested": false,
+  "installed": false
+}

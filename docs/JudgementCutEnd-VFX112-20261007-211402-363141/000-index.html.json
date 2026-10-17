@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+  "Role": "离线视觉预览消费者",
+  "Code location": "slashAfterimages / mist / mirrors / draw",
+  "Before": "836ad047acbeffef81e9bd132a7d58ee983bef2530a6dc8d6807dc0789e749ec",
+  "Changes": "灰色半球与透明雾，6层刀痕拖尾、4层人影，固定空间高光无坠落",
+  "Reasons": "用户提供参考图要求空间碎裂光影、每道多层残迹、整体灰色半球气氛",
+  "After": "76868467b2440b1228512b1f661ddee552b411125ce895136165d7d22a0e2e96",
+  "Impact": "仅JudgementCutEnd特效；伤害/控制/角色动作合同保持",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFX112-20261007-211402-363141\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFX112-20261007-211402-363141\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "未编译；游戏HDR/透明排序/性能待实测"
+}

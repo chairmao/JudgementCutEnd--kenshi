@@ -1,0 +1,73 @@
+{
+  "task": "D:\\CodexWorkSpace\\Sessions\\20261002-235652-kenshi-crash-407794f2\\Task-JudgementCutEnd-FourFix27-20261009-020945-992642",
+  "project": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd",
+  "backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-FourFix27-20261009-020945-992642",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FourFix27-20261009-020945-992642"
+  ],
+  "files": {
+    "JudgementCutEnd.cpp": {
+      "sha256": "6599c52704bd3ee9a5efdcbf40f0d9b1b3677cfbf01ce035e8bd635aedba9eed",
+      "encoding": "utf-8-sig",
+      "line_endings": "CRLF",
+      "size": 128448
+    },
+    "package/JudgementCutEnd/assets/jce_atmosphere.hlsl": {
+      "sha256": "1b263cf89938ca9427c5ac197c3deab91c9589fd55749ce4c59de17d4df8a146",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 8988
+    },
+    "package/JudgementCutEnd/assets/jce_refraction.hlsl": {
+      "sha256": "7f12730992cbdafa882fb7bd1bcc699c72574d43373852084c5d6e70c8a508af",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 5752
+    },
+    "package/JudgementCutEnd/assets/jce_atmosphere.program": {
+      "sha256": "a1a0be25217233dc42004cc6080a28e7e711d074f2c200a6223453546df466f2",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 1048
+    },
+    "package/JudgementCutEnd/assets/jce_refraction.program": {
+      "sha256": "64ada2c6d405402e680e6f9a4aac4511652d1d71656edb4d18cc2b98c2142d11",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 1869
+    },
+    "package/JudgementCutEnd/assets/jce.material": {
+      "sha256": "4650481417c4eaf578c1e7533894e34b8757404a0b88be65ed139c2022229e4c",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 3771
+    },
+    "package/JudgementCutEnd/assets/jce_source.material": {
+      "sha256": "c96a19faa7c311fe488b58ac191846950ae694e5f1ed158d757b25923878781f",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 7109
+    },
+    "package/JudgementCutEnd/assets/jce_source_texture.hlsl": {
+      "sha256": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 1584
+    },
+    "package/JudgementCutEnd/assets/jce_source_texture.program": {
+      "sha256": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 615
+    },
+    "docs/task-status.json": {
+      "sha256": "4ff869d9f5dfc17aaa371d76e1d2b851ded664d5174ef7c38e1b152b3d8279d7",
+      "encoding": "utf-8",
+      "line_endings": "CRLF",
+      "size": 17981
+    }
+  },
+  "scope": "JudgementCutEnd.cpp仅Vertex、烟雾/尘烟、Draw日志及版本；自有shader/material；不改伤害、输入、动画、时间、引擎或其他项目",
+  "compiled": false,
+  "game_tested": false
+}

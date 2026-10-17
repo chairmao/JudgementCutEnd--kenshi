@@ -1,0 +1,329 @@
+{
+  "installed_version": "0.2.4",
+  "files": [
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "_JudgementCutEnd.info",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3",
+        "encoding": "UTF-8/CRLF",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "assets\\jce.clip",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "7d0f7c4cf49b459f056eab1813911f31e2fe8496e3043c82315cdeaa9f6f07fb",
+        "encoding": "UTF-8/CRLF",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "assets\\jce.material",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "c7bb6d436a7cc55f69d7c35c01ecc28e3d8a6a1905f2bd9492962dd2b627aad0",
+        "encoding": "UTF-8/CRLF",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "assets\\jce_glow.tga",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481",
+        "encoding": "binary",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "assets\\jce_sequence.wav",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611",
+        "encoding": "binary",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence_fast.wav",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "assets\\jce_sequence_fast.wav",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+        "encoding": "binary",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "assets\\slashes.csv",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b",
+        "encoding": "UTF-8/CRLF",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "JudgementCutEnd.dll",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "f8d1c151c8e07c699982f92d8103ad2a18d50c5d3caf19c3001e0f9a77ac962f",
+        "encoding": "binary",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "JudgementCutEnd.ini",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "47ff0b902779c78bef7f29fabbc0d1464f322ae28baa4c14ec1cfe74ea9ff3b3",
+        "encoding": "UTF-8/CRLF",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "JudgementCutEnd.mod",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b",
+        "encoding": "binary",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "LICENSE",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809",
+        "encoding": "binary",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "LICENSE-NOTICE.md",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "b614791d4b45d2ba65f8f09bef1b10577adf0d0a8d7729c611afe64b9d13ace3",
+        "encoding": "UTF-8/CRLF",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "RE_Kenshi.json",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5",
+        "encoding": "UTF-8/CRLF",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "Role": "JudgementCutEnd runtime package",
+      "Code location": "README.md",
+      "Before": "existing target backed up if present",
+      "Changes": "copied current packaged bytes",
+      "Reasons": "user requested updated compiled 0.2.4 mod",
+      "After": "installed, hash verified",
+      "Impact": "only JudgementCutEnd local mod",
+      "Validation": {
+        "sha256": "c5607f8cfde444b02bafeb9bc444468fab7c7cbcd9258bcf027db7816f2766b3",
+        "encoding": "UTF-8/CRLF",
+        "source_equals_target": true
+      },
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-174512-1907896\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+        ],
+        "binary_copy": true
+      },
+      "Unresolved": "new 0.2.4 gameplay not tested"
+    }
+  ],
+  "dll_sha256": "f8d1c151c8e07c699982f92d8103ad2a18d50c5d3caf19c3001e0f9a77ac962f",
+  "compiled_by": "user",
+  "compiled_this_turn": false,
+  "game_tested": false,
+  "backup_directory": "JudgementCutEnd-20261007-174512-1907896"
+}

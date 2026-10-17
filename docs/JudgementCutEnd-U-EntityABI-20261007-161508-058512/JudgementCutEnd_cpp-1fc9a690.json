@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "插件输入与实例蒙皮",
+  "Code location": "Settings/Tick/SkinApi/Begin/RefreshSkin/Pose/startPlugin",
+  "Before": "旧键Ctrl+Shift+F8；Entity 内联字段错8字节，日志反复拒绝施放",
+  "Changes": "默认单键U；新增七个真实OGRE导出绑定；替换全部新增Entity内联访问；保留身份/恢复检查、限量绑定日志；0.2.2",
+  "Reasons": "本机0.2.1反汇编与OGRE导出访问偏移不同；16:09日志已收到按键却拒绝",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-U-EntityABI-20261007-161508-058512\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-U-EntityABI-20261007-161508-058512\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

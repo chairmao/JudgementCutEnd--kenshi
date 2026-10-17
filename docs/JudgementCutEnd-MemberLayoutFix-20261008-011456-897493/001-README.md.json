@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+  "Role": "工程入口",
+  "Code location": "最新运行错误",
+  "Before": "c0d1c14adb504e6f9575ea64d75799a9a4cd5ba478937392d5f23038106a45ac",
+  "Changes": "将真实plugin_disabled原因置于当前状态，避免把旧安装或静态通过当成运行成功",
+  "Reasons": "用户报告U键无反应，修正已授权成员地址绑定范围内的错误布局拒绝",
+  "After": "2bf6d844376245fb5465066b4ed864c4931d3325f7915cd639723b9b82252d56",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-MemberLayoutFix-20261008-011456-897493\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-MemberLayoutFix-20261008-011456-897493\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

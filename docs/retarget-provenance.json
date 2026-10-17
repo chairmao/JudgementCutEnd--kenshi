@@ -1,0 +1,157 @@
+{
+  "animation_source": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\actors\\character\\animations\\dynamicanimationreplacer\\_CustomConditions\\10004905\\combatidlea.hkx",
+  "animation_sha256": "f0b4b58274bc213034c39957fcbfd0f9bc6526c7ab1819c365649820649c035e",
+  "skeleton_source": "E:\\skyrimspecialedition\\mods\\XP32 Maximum Skeleton Special Extended\\meshes\\actors\\character\\character assets\\skeleton.hkx",
+  "skeleton_sha256": "c16d8b2512ca7472cb942280eef0978c517f7cc3f60e4c373c34040736a99d1a",
+  "decoder": {
+    "name": "PyNifly",
+    "url": "https://github.com/BadDogSkyrim/PyNifly",
+    "license": "GPL-3.0",
+    "files": {
+      "anim_fo4.py": "9b46fb0dfe48710f0333ec89a50019d79592063b40844d6175961d8065257d67",
+      "anim_skyrim.py": "8f308511882dd4aeb0d47b7e9698cce9ab4ad238eae99bdd47bec2e08139266a"
+    }
+  },
+  "coordinate_alignment": {
+    "up": "Skyrim +Z -> Kenshi +Y",
+    "left": "Skyrim -X -> Kenshi +X",
+    "forward": "Skyrim +Y -> Kenshi +Z",
+    "quaternion_wxyz": [
+      4.329780281177467e-17,
+      -4.329780281177467e-17,
+      0.7071067811865476,
+      0.7071067811865476
+    ],
+    "anatomical_aim": {
+      "Bip01 Spine": "Bip01 Spine1",
+      "Bip01 Spine1": "Bip01 Spine2",
+      "Bip01 Spine2": "Bip01 Neck",
+      "Bip01 Neck": "Bip01 Head",
+      "Bip01 L Thigh": "Bip01 L Calf",
+      "Bip01 L Calf": "Bip01 L Foot",
+      "Bip01 L Foot": "Bip01 L Toe0",
+      "Bip01 L Clavicle": "Bip01 L UpperArm",
+      "Bip01 L UpperArm": "Bip01 L Forearm",
+      "Bip01 L Forearm": "Bip01 L Hand",
+      "Bip01 R Thigh": "Bip01 R Calf",
+      "Bip01 R Calf": "Bip01 R Foot",
+      "Bip01 R Foot": "Bip01 R Toe0",
+      "Bip01 R Clavicle": "Bip01 R UpperArm",
+      "Bip01 R UpperArm": "Bip01 R Forearm",
+      "Bip01 R Forearm": "Bip01 R Hand"
+    }
+  },
+  "source_duration": 7.0,
+  "source_frames": 211,
+  "source_tracks": 242,
+  "binding": "empty binding identity with annotation bone names; explicit standard humanoid names",
+  "mapping": {
+    "Bip01": "NPC COM [COM ]",
+    "Bip01 Pelvis": "NPC Pelvis [Pelv]",
+    "Bip01 Spine": "NPC Spine [Spn0]",
+    "Bip01 Spine1": "NPC Spine1 [Spn1]",
+    "Bip01 Spine2": "NPC Spine2 [Spn2]",
+    "Bip01 Neck": "NPC Neck [Neck]",
+    "Bip01 Head": "NPC Head [Head]",
+    "Bip01 L Thigh": "NPC L Thigh [LThg]",
+    "Bip01 L Calf": "NPC L Calf [LClf]",
+    "Bip01 L Foot": "NPC L Foot [Lft ]",
+    "Bip01 L Toe0": "NPC L Toe0 [LToe]",
+    "Bip01 L Clavicle": "NPC L Clavicle [LClv]",
+    "Bip01 L UpperArm": "NPC L UpperArm [LUar]",
+    "Bip01 L Forearm": "NPC L Forearm [LLar]",
+    "Bip01 L Hand": "NPC L Hand [LHnd]",
+    "Bip01 R Thigh": "NPC R Thigh [RThg]",
+    "Bip01 R Calf": "NPC R Calf [RClf]",
+    "Bip01 R Foot": "NPC R Foot [Rft ]",
+    "Bip01 R Toe0": "NPC R Toe0 [RToe]",
+    "Bip01 R Clavicle": "NPC R Clavicle [RClv]",
+    "Bip01 R UpperArm": "NPC R UpperArm [RUar]",
+    "Bip01 R Forearm": "NPC R Forearm [RLar]",
+    "Bip01 R Hand": "NPC R Hand [RHnd]"
+  },
+  "events": [
+    {
+      "time": 0.029999999329447746,
+      "text": "PIE.$JCEIntro"
+    },
+    {
+      "time": 0.029999999329447746,
+      "text": "SpecialFrames_Invincible{\"Duration\":7.0}"
+    },
+    {
+      "time": 0.43333300948143005,
+      "text": "PIE.$JCEVoice"
+    },
+    {
+      "time": 2.0999999046325684,
+      "text": "PIE.$JCEDraw"
+    },
+    {
+      "time": 2.3208329677581787,
+      "text": "PIE.$JCEDisable"
+    },
+    {
+      "time": 2.3343749046325684,
+      "text": "PIE.$JCECut"
+    },
+    {
+      "time": 3.133542060852051,
+      "text": "PIE.$JCEEnable"
+    },
+    {
+      "time": 3.1343750953674316,
+      "text": "PIE.$JCEDash"
+    },
+    {
+      "time": 3.6666669845581055,
+      "text": "PIE.$JCESheathSFX"
+    },
+    {
+      "time": 3.9000000953674316,
+      "text": "PIE.$JCESheath1"
+    },
+    {
+      "time": 5.133334159851074,
+      "text": "PIE.$JCESheath2"
+    },
+    {
+      "time": 5.134375095367432,
+      "text": "PIE.$JCEFinish"
+    },
+    {
+      "time": 5.233334064483643,
+      "text": "PIE.$JCEStagger"
+    },
+    {
+      "time": 6.0,
+      "text": "PIE.$JCEEnd"
+    },
+    {
+      "time": 6.566667079925537,
+      "text": "PIE.$JCEFlame"
+    },
+    {
+      "time": 6.699999809265137,
+      "text": "PIE.$JCEFlameSFX"
+    }
+  ],
+  "source_horizontal_COM_range": [
+    -21.283273696899414,
+    476.13510131835943
+  ],
+  "raw_max_bone_step_degrees": 82.93055474551657,
+  "retarget_velocity_cap_clip_degrees_per_second": 720,
+  "horizontal_root_motion_removed": true,
+  "maximum_floor_error": 4.163336342344337e-17,
+  "output_frames": 403,
+  "output_tracks": 23,
+  "output_clip_sha256": "7930ef265de588c0c9db2cef59e7cab041103efdd8d05489aeb0fccb88640a99",
+  "phantom": {
+    "vertices": 198,
+    "triangles": 256,
+    "sha256": "216219cd1b64662aae3bbd3733d044d555f6f5e961465528d89fbe47e97d0ff7",
+    "origin": "independent authored generic humanoid, NOT caster equipment clone"
+  },
+  "license_note": "HKX由ap05制作；作者允许非商业修改/跨游戏转换并要求署名；未将原版第三方贴图标为原创或CC0"
+}

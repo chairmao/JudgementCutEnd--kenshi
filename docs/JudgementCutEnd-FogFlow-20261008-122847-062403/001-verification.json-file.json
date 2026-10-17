@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-FogFlow-20261008-122847-062403\\verification.json",
+  "Role": "本次流动验证记录",
+  "Code location": "静态合同与连续密度数值模型",
+  "Before": "无r2验证",
+  "Changes": "记录保护区身份、连续运动幅度、烟格边界",
+  "Reasons": "确认输运变化大于旧版而非单纯增浓",
+  "After": "8fadbe128edd7c18d42ce1465238d731e046ba19733fbe0fcaa5eff25a4f12b5",
+  "Impact": "仅诊断证据，不等同于游戏实测",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

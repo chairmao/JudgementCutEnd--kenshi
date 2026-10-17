@@ -1,0 +1,13 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SpeedWeapon-20261007-172113-138619\\native-damage-excerpts.json",
+  "Role": "只读原生反汇编证据",
+  "Code location": "完整新文件",
+  "Before": "不存在",
+  "Changes": "保存基准伤害、impact倍率和multiply的相关原生片段",
+  "Reasons": "依据实际Steam1.0.65函数，而非头文件RVA注释",
+  "After": "写入完成；未修改安装目录",
+  "Impact": "仅 JudgementCutEnd",
+  "Validation": "严格读回，UTF-8/CRLF，乱码扫描通过；运行验证另列",
+  "Safety": "新建不覆盖，UTF-8无BOM/CRLF",
+  "Unresolved": "新DLL待用户编译和实机验收"
+}

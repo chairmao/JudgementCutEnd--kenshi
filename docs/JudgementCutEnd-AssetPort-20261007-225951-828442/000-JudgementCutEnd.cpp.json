@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "插件运行时",
+  "Code location": "LoadAssets/Pose/Phantom/Refraction/lifetime",
+  "Before": "1f25caf99d079a8f717ea62ca5b4908fa83b3012a2b388ce63e39498de886dee",
+  "Changes": "JCECLIP v1/v2兼容、只读网格、真实动作、独立GPU场景复制及失败降级；保留时间/伤害",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "933ca791a70d50ecae00380cb1df0e17a34ff532eb47d6a9631b49742792fc24",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-225951-828442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-225951-828442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

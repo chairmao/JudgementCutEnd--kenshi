@@ -1,0 +1,14 @@
+{
+  "audit": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-BlueFog-20261008-120105-326056",
+  "baseline": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-BlueFog-20261008-120105-326056\\baseline.json",
+  "source_version": "2.2.0-dev",
+  "resource_revision": "2.2-blue-wisps-r1",
+  "changed_existing": [
+    "JudgementCutEnd.cpp",
+    "package/JudgementCutEnd/assets/jce.material",
+    "package/JudgementCutEnd/assets/jce_source.material"
+  ],
+  "compiled": false,
+  "game_tested": false,
+  "installed": false
+}

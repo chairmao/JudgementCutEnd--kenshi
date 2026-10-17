@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+  "Role": "运行资源包说明",
+  "Code location": "包README当前说明",
+  "Before": "标题及部署声明仍是2.3",
+  "Changes": "增加2.4待用户编译说明，旧段落保留为历史",
+  "Reasons": "避免新材质配旧DLL及误以为已安装新版本",
+  "After": "d3697cadba0d8f9b2667b23eaf7c32f7d3f6eb23947ec7c109f65ef63051d00e",
+  "Impact": "仅文档，现有游戏安装不动",
+  "Validation": "UTF-8/CRLF、中文与字节读回通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941-PackageDoc\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941-PackageDoc\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8 / CRLF",
+    "before_sha256": "66bd0ab8fc2b8d1e88b0c48e372b86e17a19f944b35aedb91af8c7245aa5a971"
+  },
+  "Unresolved": "编译/GPU/游戏效果未验证"
+}

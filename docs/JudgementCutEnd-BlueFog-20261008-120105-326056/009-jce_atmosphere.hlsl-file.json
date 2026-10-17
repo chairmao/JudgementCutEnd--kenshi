@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+  "Role": "独立雾shader",
+  "Code location": "两种FP零Alpha早退",
+  "Before": "透明占位片仍执行全部采样",
+  "Changes": "零Alpha像素直接返回透明",
+  "Reasons": "固定槽预出生阶段避免无意义采样",
+  "After": "ac570629c84b9304ac479435ead6bc364bd5eee6fe55cb6ca1d0dc2a3a870ac1",
+  "Impact": "只跳过严格零Alpha；正Alpha路径与其它材质保持",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-BlueFog-20261008-120218-548049\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BlueFog-20261008-120218-548049\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "cb72c5585fd074794b73391e491210691d06d17b7df9bba4146fd996900fe6ed"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

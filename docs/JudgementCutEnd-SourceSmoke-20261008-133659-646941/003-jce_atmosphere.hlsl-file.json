@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+  "Role": "雾与原烟像素程序",
+  "Code location": "jce_mist_fp / jce_source_smoke_shape",
+  "Before": "底雾过强且没有主体原烟轮廓",
+  "Changes": "底雾系数.85→.16；新增4×4静态烟形采样及淡蓝微卷边",
+  "Reasons": "原烟图集、SubTex关闭、均匀蓝膜反馈",
+  "After": "3faea07a452294deadc0b33d9c61b0865a818110b8e12faf4ece7e943709c6cf",
+  "Impact": "FogVP/旧64格尘烟输入保持；新程序需2.4 packed UV合同",
+  "Validation": "即时字节读回、编码/CRLF/中文乱码检查通过；跨层与几何模型验证另记 verification.json；未编译、未GPU/游戏测试。",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "e6905100971c45b54a79acdec42e37103415439ba1fc00e810de220161be9756"
+  },
+  "Unresolved": "[MISSING] 用户Release|x64编译、GPU材质加载、实际透明叠加/帧率和最终观感。"
+}

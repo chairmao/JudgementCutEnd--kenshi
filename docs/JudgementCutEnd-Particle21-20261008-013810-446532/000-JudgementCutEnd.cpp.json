@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "粒子几何生产者/有界日志",
+  "Code location": "HazeCell, Mist, ParticleAngle, SourceDust, SourceSparks",
+  "Before": "a7a18e1d63a7bfc85973df2beb61081bbf31e886acc2a8596db845877af1a46e",
+  "Changes": "正式版2.0之后开发2.1：降低背景遮挡，稳定排序身份，沿刀路细雾与较长寿命光丝；不改刀光/伤害/输入/动画/时间/绑定",
+  "Reasons": "用户指定冻结正式版2.0并改进粒子；沿用已授权JudgementCutEnd.cpp特效绘制范围",
+  "After": "61f10be1a013bfe06c0075a79b9359d4cb30a5bf425dcd5af70f7dc3b1993e33",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Particle21-20261008-013810-446532\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Particle21-20261008-013810-446532\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

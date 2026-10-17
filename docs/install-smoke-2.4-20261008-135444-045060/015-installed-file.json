@@ -1,0 +1,26 @@
+{
+  "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga",
+  "Role": "运行DLL/资源包",
+  "Code location": "JudgementCutEnd模组部署文件",
+  "Before": {
+    "sha256": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c",
+    "size": 65554,
+    "modified": "2026-10-07T21:12:39.019822"
+  },
+  "Changes": "安装已核验2.4 DLL及对应资源，保持源文件字节",
+  "Reasons": "用户要求迅速更新最新模组",
+  "After": {
+    "sha256": "aa8e3c30c48b61bb2fb78c903f2a9bedd0c5a3612be362262d6aad5c5065794c",
+    "size": 65554
+  },
+  "Impact": "下次启动游戏加载2.4；游戏效果待验证",
+  "Validation": "逐文件SHA256一致；备份哈希已核验；未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-20261008-135445-1293763\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261008-135445-1293763\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_mist.tga"
+    ],
+    "encoding": "字节复制保留源编码、BOM与换行"
+  },
+  "Unresolved": "实机烟感、透明排序及帧率尚未验收"
+}

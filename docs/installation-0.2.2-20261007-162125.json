@@ -1,0 +1,292 @@
+{
+  "version": "0.2.2",
+  "compiled_by": "user",
+  "installed_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "file_count": 13,
+  "dll_sha256": "22dcc395186844800c2af4caf7d391f1e7514ef9813c93a66314e2dd6940014f",
+  "game_tested": false,
+  "configuration": {
+    "CastKeyVK": 85,
+    "single_key": "U",
+    "CinematicCamera": 0
+  },
+  "per_file_reports": [
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.dll"
+        ],
+        "encoding": "binary",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "22dcc395186844800c2af4caf7d391f1e7514ef9813c93a66314e2dd6940014f"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.ini"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "0050617c05009590cfd4157a13a4740bfae1f1d09df79a319a4294ba539425d1"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\JudgementCutEnd.mod"
+        ],
+        "encoding": "binary",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "6facdb634c618b713a05c6b04ebde78cf953e5812753203f6ac00c796571cd9b"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\LICENSE-NOTICE.md"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "60993760b9974a6fae1ee4c584f784311c0778e270d0ead19abd6c1ad15bd9bf"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\README.md"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "f44a8a11c5b3af96dd7dd7de41093d36343ede95e819e789d5f26bcef13b9fbc"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\RE_Kenshi.json"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "06de49ca9f36179c6f90f7e064f8973a77b38a19152a815f3a84c844de4b90c5"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\_JudgementCutEnd.info"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "370b14ba11cc1e485d342c92b81606f9e8013104502a209c8e1604b67b7b18a3"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.clip"
+        ],
+        "encoding": "binary",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "7d0f7c4cf49b459f056eab1813911f31e2fe8496e3043c82315cdeaa9f6f07fb"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "2a5c44eb23d91eed4e21fe8426c2f1c21c4e38e23180b15423bcc0320f0e27ee"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_glow.tga"
+        ],
+        "encoding": "binary",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "45d86a9e2d38d7386bb4f5310cebc05f3cdba801f53d94d3cb8ab067c2d36481"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_sequence.wav"
+        ],
+        "encoding": "binary",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "17ff403b396c9a584419bb90370ca50996dc1b05355fcce7b0a43a59a7963611"
+    },
+    {
+      "File": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+      "Role": "RE_Kenshi 本地 mod 分发文件",
+      "Code location": "整文件字节复制",
+      "Before": "旧分发文件；覆盖前双份备份",
+      "Changes": "复制0.2.2分发包对应文件",
+      "Reasons": "用户要求更新mod",
+      "After": "与源文件逐字节一致",
+      "Impact": "下次启动加载0.2.2及U键配置",
+      "Validation": "字节及SHA256核对，文本严格UTF-8检查",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\D\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\slashes.csv"
+        ],
+        "encoding": "UTF-8",
+        "line_endings": "保留源文件原字节"
+      },
+      "Unresolved": "0.2.2游戏效果待实测",
+      "sha256": "60ccc5e738d5061c2b6deb4d917a0b5cdc42e6e4879eb2f4697e52541dbc8b0b"
+    }
+  ],
+  "staged_dll_backups": [
+    "D:\\CodexBackups\\JudgementCutEnd-20261007-162027-4926287\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-162027-4926287\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\JudgementCutEnd.dll"
+  ]
+}

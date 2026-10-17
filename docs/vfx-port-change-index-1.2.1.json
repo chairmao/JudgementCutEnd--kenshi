@@ -1,0 +1,446 @@
+{
+  "source_version": "1.2.1-dev",
+  "report_count": 24,
+  "unique_changed_files": 20,
+  "note": "每条记录独立保留11字段和双备份；同一文件的多次修改均保留历史。",
+  "entries": [
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_curves.csv",
+      "Role": "运行时源曲线",
+      "Code location": "6条原Alpha曲线及归一化切线",
+      "Before": "absent",
+      "Changes": "按实际引用导出，禁止按文件中出现顺序猜测用途",
+      "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+      "After": "4b1b339f36f0ab87ff085b7b566680dc4baf7ec4af3f6249051a04f7472c0134",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SkyrimVFXAssets-20261008-003742-797451\\000-jce_source_curves.csv.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_blade09.dds",
+      "Role": "本机源纹理",
+      "Code location": "只读源DDS逐字节复制",
+      "Before": "absent",
+      "Changes": "保留原像素、压缩格式和Alpha，不把原图替换成随机生成纹理",
+      "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+      "After": "bdac002f13ed2fe2ebe69d7f37fa1d8d0ed4dd18903b888dd1b42c95e8591104",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SkyrimVFXAssets-20261008-003742-797451\\001-jce_source_blade09.dds.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+      "Role": "本机源纹理",
+      "Code location": "只读源DDS逐字节复制",
+      "Before": "absent",
+      "Changes": "保留原像素、压缩格式和Alpha，不把原图替换成随机生成纹理",
+      "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+      "After": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SkyrimVFXAssets-20261008-003742-797451\\002-jce_source_blade08.dds.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_dust.dds",
+      "Role": "本机源纹理",
+      "Code location": "只读源DDS逐字节复制",
+      "Before": "absent",
+      "Changes": "保留原像素、压缩格式和Alpha，不把原图替换成随机生成纹理",
+      "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+      "After": "d43801bd7c40710da94ab48df65acb0e7eee44b7006b85eb8d70d1ed4e16044b",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SkyrimVFXAssets-20261008-003742-797451\\003-jce_source_dust.dds.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_flash.dds",
+      "Role": "本机源纹理",
+      "Code location": "只读源DDS逐字节复制",
+      "Before": "absent",
+      "Changes": "保留原像素、压缩格式和Alpha，不把原图替换成随机生成纹理",
+      "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+      "After": "cfef201f49615dd924dd0919c68fd623e226100b19e3fb2c685c9fd39dd3e02b",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SkyrimVFXAssets-20261008-003742-797451\\004-jce_source_flash.dds.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_spark.dds",
+      "Role": "本机源纹理",
+      "Code location": "只读源DDS逐字节复制",
+      "Before": "absent",
+      "Changes": "保留原像素、压缩格式和Alpha，不把原图替换成随机生成纹理",
+      "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+      "After": "2db71b93a2e14c41245a6bf52ade500505801ba4b8d7f3cd2e63849230e5a4d1",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "binary"
+      },
+      "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SkyrimVFXAssets-20261008-003742-797451\\005-jce_source_spark.dds.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.program",
+      "Role": "专用shader声明",
+      "Code location": "JCE/SourceTexture_FP",
+      "Before": "absent",
+      "Changes": "独立HDR增益，不改变游戏公用程序",
+      "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+      "After": "6580a1a04e1c34f659386f5888513747820246f3d56ed07f631c00fe3a22ce9a",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SkyrimVFXAssets-20261008-003742-797451\\006-jce_source_texture.program.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+      "Role": "专用源纹理shader",
+      "Code location": "DX11像素输入合同",
+      "Before": "absent",
+      "Changes": "同时保留源纹理Alpha和顶点Alpha，按材质选择中性灰转译",
+      "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+      "After": "818386b8728d4434bca0055f8e06ce4a655a3db7c920a0c81ef737ce370d7cc5",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SkyrimVFXAssets-20261008-003742-797451\\007-jce_source_texture.hlsl.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+      "Role": "五个独立材质层",
+      "Code location": "刀光、残迹、烟尘、闪光、光屑",
+      "Before": "absent",
+      "Changes": "保留灰色整体半球，在其内部按原纹理叠加空间效果",
+      "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+      "After": "84f52799071875ab550508c9ebfb8cdd1d21539fe993d085fb02fbad1488e656",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SkyrimVFXAssets-20261008-003742-797451\\008-jce_source.material.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\vfx-1.2.1.json",
+      "Role": "移植来源清单",
+      "Code location": "源哈希、curve引用及明确适配项",
+      "Before": "absent",
+      "Changes": "区分精确复制、准确曲线读取和Kenshi适配行为",
+      "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+      "After": "f8fcf67d0eb0889fdbd2fef8c1c1d63b69ff47dfa035c5650f223ba7a38d161e",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-SkyrimVFXAssets-20261008-003742-797451\\009-vfx-1.2.1.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\inspect_skyrim_vfx.py",
+      "Role": "SSE只读格式解析器",
+      "Code location": "NiControllerSequence和材质控制器",
+      "Before": "3e6922645e62ff9e39fd6326bf656505c4573a26c9791c3a1ed04f388ad4054f",
+      "Changes": "补充精确的sequence→controller→interpolator→keys关联，避免猜测曲线用途",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "8d897120a7bfcc8c0c065707cd0fc711eba95c07bdc77d127905499f9b95add6",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-003308-881565\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\inspect_skyrim_vfx.py",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-003308-881565\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\inspect_skyrim_vfx.py"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-003308-881565\\000-inspect_skyrim_vfx.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_skyrim_vfx.py",
+      "Role": "本机源特效移植工具",
+      "Code location": "DDS和sequence关联曲线导出",
+      "Before": "absent",
+      "Changes": "保留原资源来源；双备份和分层材质；明确适配边界",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "22fe65b536014520df46208c146b1606c3ecf74553ea59fd5489767959ab90b1",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-003650-929565\\000-author_skyrim_vfx.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_skyrim_vfx.py",
+      "Role": "本机原特效移植工具",
+      "Code location": "sequence frequency",
+      "Before": "22fe65b536014520df46208c146b1606c3ecf74553ea59fd5489767959ab90b1",
+      "Changes": "发现CutAllActi原sequence为1.16倍速；显式记录而不是错误假定全部为1",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "91d523d03d3aa6f04ef6487b219d85941c41714e07ce124ae32c44258d156146",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-003742-577935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_skyrim_vfx.py",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-003742-577935\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_skyrim_vfx.py"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-003742-577935\\000-author_skyrim_vfx.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "Role": "RE_Kenshi插件唯一运行时",
+      "Code location": "LoadAssets、SourceCurve、新增五层、Glass Alpha、Draw与有界日志",
+      "Before": "9799f2a44f62d2841e974b649c82aecbec05fc447b4a8f8547d66b547b7a050d",
+      "Changes": "接入原DDS与六条准确绑定曲线；保留全部玩法、动画和时间恢复逻辑",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "8ac0ada0a899b9335bfea46f9c5f62da184f2fc43d922c1465a0b7176b8978e4",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-003948-386021\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-003948-386021\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+        ],
+        "encoding": "UTF-8 BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-003948-386021\\000-JudgementCutEnd.cpp.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+      "Role": "静态特效回归",
+      "Code location": "分层回调和几何预算",
+      "Before": "1d160e2ceb7f61d650ee7b58e1738bf077969420916efea8a91672bf68d65b19",
+      "Changes": "按新九层核验，保留正式1.0、玩法和原4层全部回归",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "d1a47b3616ae550e1ad34d5d50a45636497dafce87a4cf8bbe4c1584c73b347a",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-004133-502963\\000-verify_vfx.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+      "Role": "资源与编译边界静态检查",
+      "Code location": "源码版本和已编译产物身份",
+      "Before": "e59e306fe22d011eff6474ba0d7b5e174e3db8670be70123abc189085985bc34",
+      "Changes": "1.2.1须重新编译；不把旧1.2.0 DLL认作新特效实现",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "dd2262271c2e96149cec68341f406bca425e10252da0e5f59459cdb6500a30a6",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-004133-502963\\001-verify_port.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "Role": "项目状态",
+      "Code location": "新版特效编译边界与预算",
+      "Before": "c344d9d33afc0a039cd7aecfec629b69153fff539d79231e93784a01d196941a",
+      "Changes": "明确新源码待编译；旧DLL身份和历史编译记录保持原样",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "b0411ae823a0e6bcf2deaf28cddd214c5f46cdd50a8c700387cd3f5033c8abbf",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-004133-502963\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-004133-502963\\002-task-status.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py",
+      "Role": "原特效移植专用核验",
+      "Code location": "原图/curve精确性、坏输入、固定预算和玩法逐字对比",
+      "Before": "absent",
+      "Changes": "覆盖跨资源/读取器/渲染合同；不把Python测试冒充C++执行",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "8163ced0ee3a7a97d580a9ad85a172ac6b3b432d8df16d371f186abd60c3dd3e",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-004312-886646\\000-verify_source_vfx.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py",
+      "Role": "独立特效静态回归",
+      "Code location": "绑定与日志分离核验",
+      "Before": "8163ced0ee3a7a97d580a9ad85a172ac6b3b432d8df16d371f186abd60c3dd3e",
+      "Changes": "只规范化获授权的特效资源日志，继续逐字核验 Hook 绑定与失败处理",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "3bbe7471b78657fe9a9a9585aa3bed4aa1c787fad35da85ee4f4d4d1e17261e5",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-004858-253310\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-004858-253310\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-004858-253310\\000-verify_source_vfx.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+      "Role": "既有光影回归",
+      "Code location": "结果元数据",
+      "Before": "d1a47b3616ae550e1ad34d5d50a45636497dafce87a4cf8bbe4c1584c73b347a",
+      "Changes": "保留所有旧回归断言，仅更正报告的开发版本为1.2.1",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "bba291c66a5aef1d097c5df7a1abfcbd8d6dfb42081a327c4a9ac18da4dc4152",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-005035-990248\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-005035-990248\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-005035-990248\\000-verify_vfx.py.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-source-vfx-1.2.1.json",
+      "Role": "本轮集中验证证据",
+      "Code location": "独立VFX、原有光影、移植、时间与骨架回归",
+      "Before": "absent",
+      "Changes": "记录真实执行的静态检查与未执行的编译/游戏验收边界",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "36757f9e032edfe24b5a8ae21b7a4194f810d9514ea2fc1abf06c07c77f035af",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-005112-296955\\000-verification-source-vfx-1.2.1.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "Role": "当前工程状态",
+      "Code location": "1.2.1静态验证与编译状态",
+      "Before": "b0411ae823a0e6bcf2deaf28cddd214c5f46cdd50a8c700387cd3f5033c8abbf",
+      "Changes": "记录静态通过，保留旧DLL身份；明确本轮须重新编译，未安装、未实机验证",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "870c44df2c050cac298cf2d6628b80914ed6feca49eea6e7f9c1644c10f2c972",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-005112-296955\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-005112-296955\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-005112-296955\\001-task-status.json.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\vfx-port-1.2.1.md",
+      "Role": "本轮移植说明",
+      "Code location": "资源来源、运行时接线、边界与验收",
+      "Before": "absent",
+      "Changes": "明确原始纹理/Alpha曲线与适配粒子的区别，记录1346项静态验证和用户编译要求",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "d70b5707971f95dd1c19c0695bace7fc5ead7d83db65a208573611882fbe1a22",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-005306-699235\\000-vfx-port-1.2.1.md.json"
+    },
+    {
+      "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "Role": "项目入口说明",
+      "Code location": "当前版本摘要",
+      "Before": "a727280ee308f8fb7c54c57d3765456f17d0a5b2e0db106b3c56f5c9a8cf4687",
+      "Changes": "更正当前源码1.2.1与已安装1.2.0，保留历史并明确旧参数表不代表当前配置",
+      "Reasons": "用户明确授权原模组特效移植及JudgementCutEnd.cpp特效范围",
+      "After": "7219aeedbd1ed20f868589bfe0b1865a7cd51c49667ae48f242a8b2361199878",
+      "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+      "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+      "Safety": {
+        "backups": [
+          "D:\\CodexBackups\\JudgementCutEnd-VFXPort-20261008-005306-699235\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+          "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFXPort-20261008-005306-699235\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+        ],
+        "encoding": "UTF-8 no BOM / CRLF"
+      },
+      "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收",
+      "audit_record": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VFXPort-20261008-005306-699235\\001-README.md.json"
+    }
+  ]
+}

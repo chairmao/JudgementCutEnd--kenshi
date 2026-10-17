@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "插件原生绑定",
+  "Code location": "NativeAddress最低长度校验与启动日志",
+  "Before": "e8ee11816f32c66d0147c991e41685b4f8c6b540e4d4d9dbcb620644ebfdbe8a",
+  "Changes": "按SDK首字合同允许更大成员指针；继续验证桩范围，在成功绑定日志记录总长与地址字段长度",
+  "Reasons": "用户报告U键无反应，修正已授权成员地址绑定范围内的错误布局拒绝",
+  "After": "a7a18e1d63a7bfc85973df2beb61081bbf31e886acc2a8596db845877af1a46e",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-MemberLayoutFix-20261008-011233-397410\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-MemberLayoutFix-20261008-011233-397410\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

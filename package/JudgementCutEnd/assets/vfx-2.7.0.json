@@ -1,0 +1,96 @@
+{
+  "source_version": "2.7.0-dev",
+  "resource_revision": "2.7-soft-volume-cold-r1",
+  "four_fixes": [
+    "hue_preserving_glow_energy",
+    "volume_optical_depth_0_95",
+    "local_cold_contrast",
+    "low_frequency_shared_volume_and_weak_atlas"
+  ],
+  "field_texture": {
+    "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_cloud_field27.tga",
+    "sha256": "7fa310bae0be51285107ab3b4e7cc839c81f23b0b871b6e277e2e50371b45db1",
+    "dimensions": [
+      512,
+      512,
+      4
+    ],
+    "seed": 270041,
+    "frequencies": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        -1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        -2
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "weights": [
+      1,
+      0.75,
+      0.55,
+      0.38,
+      0.22,
+      0.12
+    ],
+    "min": 0.06648244828166083,
+    "max": 0.9597370533289333,
+    "role": "周期连续密度与输运数据，非灰颗粒烟形图集",
+    "provenance": "independently authored procedural Fourier field",
+    "compiler_used": false
+  },
+  "geometry": {
+    "vertex_upper_bound": 19096,
+    "index_upper_bound": 46788,
+    "mist_slices": 32,
+    "smoke_bands": 48,
+    "smoke_segments": 10,
+    "smoke_wisps": 96,
+    "material_sections": 11,
+    "optical_planes": 8
+  },
+  "unchanged_gameplay": {
+    "radius": 350,
+    "hits_per_target": 96,
+    "key": "U",
+    "playback_rate": 3,
+    "time_restore": "byte unchanged"
+  },
+  "glow_contract": "Vertex RGB normalized by common energy; Alpha=energy/2; Glow27 FP decodes and premultiplies RGB; material add ignores output alpha",
+  "density": {
+    "base_optical_depth": 0.95,
+    "old_dust_opacity": ".006+.010*curve",
+    "ribbon_alpha": 0.18,
+    "wisp_alpha": ".025+.020*random",
+    "atlas_alpha_modulation_max": 0.08
+  },
+  "gpu": {
+    "scene_samples": 1,
+    "refraction_limit_pixels": 28,
+    "noise_samples_per_volume_fragment": 2,
+    "noise_samples_per_aux_smoke_fragment": 2,
+    "extra_geometry": 0,
+    "performance_measured": false
+  },
+  "compiled": false,
+  "game_tested": false,
+  "installed": false,
+  "bg3_assets_copied": false
+}

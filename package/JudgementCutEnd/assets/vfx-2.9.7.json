@@ -1,0 +1,47 @@
+{
+  "version": "2.9.7-dev",
+  "source_sha256": "AD0DE2A35647E67BB931D618BCB62A6CD6CDB7485F7AC9FC0FB8DE3553877BB0",
+  "source_assets": 3,
+  "instances": 5,
+  "vertices": 120,
+  "triangles": 60,
+  "adaptation": {
+    "reveal_clip_seconds": 0.45,
+    "bend_remaining_fraction": 0.55,
+    "release_fade_start": 0.5,
+    "cut_edge": "fwidth before divergent early returns;1.25*L1 gradient",
+    "view_fade_independent": [
+      0.015,
+      0.055
+    ],
+    "view_fade_legacy": [
+      0.015,
+      0.12
+    ]
+  },
+  "source_mask_threshold": [
+    0.025,
+    0.22
+  ],
+  "source_mask_front_tile_min_alpha": 0.34509803921568627,
+  "unchanged": "source geometry/profiles/textures/colour/curves/vertex ABI/capture/queue/damage/input/time restoration/END",
+  "HDR_copies_per_frame": 1,
+  "texture_samples": 2,
+  "max_displacement_pixels": 36,
+  "last_facet_end": 6.45,
+  "END": 6.7,
+  "resources": {
+    "jce_facets297.hlsl": "664367AFECD3CDC8098D70F6B27D14EB205980040D7D8DFE26F6147315C9A809",
+    "jce_facets297.program": "0B17068ABA8F499D0315C993629545552711642D4C8A9B3818753D8E9CC31FB3",
+    "jce.material": "CDFFF08DBFCFE74C1B304EFA87149DFE51ADB6D3A4A249CD1AB465A275C3A9CF",
+    "jce_facets29.csv": "FCA82D54DB3080C3F847A32091AC23060B76C9E02D7703B88177770D9E713FC3",
+    "jce_source_optical_mask.dds": "A3F29383DE8BB46BB69B75475067DE5DD1238CCE41793CE6E04950B7749B19FD"
+  },
+  "backup_roots": [
+    "D:\\CodexBackups\\JCE-FacetEdges297-20261010-195016",
+    "E:\\AIWorkSpace\\_backups\\JCE-FacetEdges297-20261010-195016"
+  ],
+  "compilation": "not run by policy",
+  "runtime": "not verified; package DLL remains user-built296 until user builds297",
+  "source_mask_observation": "RGBA decoded DDS;front UV tile with endpoint-adjacent texels:rows128..256 cols192..320;interior earlier sample0.349,extended conservative sample0.345;all above0.22"
+}

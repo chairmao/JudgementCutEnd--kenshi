@@ -1,0 +1,289 @@
+{
+  "static_passed": true,
+  "checks": [
+    {
+      "name": "restore before renderer/resolve/bone/weapon operations",
+      "passed": true
+    },
+    {
+      "name": "restore independent of active flag",
+      "passed": true
+    },
+    {
+      "name": "ownership published before slow setter",
+      "passed": true
+    },
+    {
+      "name": "pending blocks replacement of baseline",
+      "passed": true
+    },
+    {
+      "name": "idle resume recovery before new input snapshot",
+      "passed": true
+    },
+    {
+      "name": "no pause override or field writes",
+      "passed": true
+    },
+    {
+      "name": "old world guarded before calls",
+      "passed": true
+    },
+    {
+      "name": "restore verified by native getter before release",
+      "passed": true
+    },
+    {
+      "name": "bounded failure logging",
+      "passed": true
+    },
+    {
+      "name": "distinct pause/focus/escape diagnostics",
+      "passed": true
+    },
+    {
+      "name": "restore completed base=1",
+      "passed": true
+    },
+    {
+      "name": "restore escape base=1",
+      "passed": true
+    },
+    {
+      "name": "restore focus base=1",
+      "passed": true
+    },
+    {
+      "name": "restore loading base=1",
+      "passed": true
+    },
+    {
+      "name": "restore pose_error base=1",
+      "passed": true
+    },
+    {
+      "name": "restore frame_stall base=1",
+      "passed": true
+    },
+    {
+      "name": "restore begin_after_slow_failed base=1",
+      "passed": true
+    },
+    {
+      "name": "restore restart base=1",
+      "passed": true
+    },
+    {
+      "name": "pause remains paused base=1",
+      "passed": true
+    },
+    {
+      "name": "pending cannot overwrite baseline base=1",
+      "passed": true
+    },
+    {
+      "name": "unpause restores original base=1",
+      "passed": true
+    },
+    {
+      "name": "next cast snapshots normal speed base=1",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 1 -> 1",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 1 -> 2",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 1 -> 3",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 1 -> 0.5",
+      "passed": true
+    },
+    {
+      "name": "restore completed base=2",
+      "passed": true
+    },
+    {
+      "name": "restore escape base=2",
+      "passed": true
+    },
+    {
+      "name": "restore focus base=2",
+      "passed": true
+    },
+    {
+      "name": "restore loading base=2",
+      "passed": true
+    },
+    {
+      "name": "restore pose_error base=2",
+      "passed": true
+    },
+    {
+      "name": "restore frame_stall base=2",
+      "passed": true
+    },
+    {
+      "name": "restore begin_after_slow_failed base=2",
+      "passed": true
+    },
+    {
+      "name": "restore restart base=2",
+      "passed": true
+    },
+    {
+      "name": "pause remains paused base=2",
+      "passed": true
+    },
+    {
+      "name": "pending cannot overwrite baseline base=2",
+      "passed": true
+    },
+    {
+      "name": "unpause restores original base=2",
+      "passed": true
+    },
+    {
+      "name": "next cast snapshots normal speed base=2",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 2 -> 1",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 2 -> 2",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 2 -> 3",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 2 -> 0.5",
+      "passed": true
+    },
+    {
+      "name": "restore completed base=3",
+      "passed": true
+    },
+    {
+      "name": "restore escape base=3",
+      "passed": true
+    },
+    {
+      "name": "restore focus base=3",
+      "passed": true
+    },
+    {
+      "name": "restore loading base=3",
+      "passed": true
+    },
+    {
+      "name": "restore pose_error base=3",
+      "passed": true
+    },
+    {
+      "name": "restore frame_stall base=3",
+      "passed": true
+    },
+    {
+      "name": "restore begin_after_slow_failed base=3",
+      "passed": true
+    },
+    {
+      "name": "restore restart base=3",
+      "passed": true
+    },
+    {
+      "name": "pause remains paused base=3",
+      "passed": true
+    },
+    {
+      "name": "pending cannot overwrite baseline base=3",
+      "passed": true
+    },
+    {
+      "name": "unpause restores original base=3",
+      "passed": true
+    },
+    {
+      "name": "next cast snapshots normal speed base=3",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 3 -> 1",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 3 -> 2",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 3 -> 3",
+      "passed": true
+    },
+    {
+      "name": "preserve manual/external speed 3 -> 0.5",
+      "passed": true
+    },
+    {
+      "name": "manual resume speed preserved",
+      "passed": true
+    },
+    {
+      "name": "old world never written on replacement",
+      "passed": true
+    },
+    {
+      "name": "invalid world releases without dereference/write",
+      "passed": true
+    },
+    {
+      "name": "setter exception retains baseline",
+      "passed": true
+    },
+    {
+      "name": "setter exception retry restores",
+      "passed": true
+    },
+    {
+      "name": "unverified setter retains ownership",
+      "passed": true
+    },
+    {
+      "name": "unverified setter retry restores",
+      "passed": true
+    },
+    {
+      "name": "invalid speed deferred 0",
+      "passed": true
+    },
+    {
+      "name": "invalid speed deferred nan",
+      "passed": true
+    },
+    {
+      "name": "invalid speed deferred inf",
+      "passed": true
+    },
+    {
+      "name": "old bug reproduced: poisoned baseline persists",
+      "passed": true
+    },
+    {
+      "name": "100 repeated casts and pause cancellations do not drift",
+      "passed": true
+    }
+  ],
+  "check_count": 70,
+  "compiled": false,
+  "game_tested": false,
+  "model_limit": "接口合同模型及源码绑定检查，不能代替实际C++和游戏验证"
+}

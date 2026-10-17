@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+  "Role": "烟流材质绑定",
+  "Code location": "仅JCE/SourceDust",
+  "Before": "SourceTexture_FP启用dustDetail稠密轮廓",
+  "Changes": "绑定专用Fog_VP/Smoke_FP和噪声/源色表/原烟图集",
+  "Reasons": "低密度薄烟需要恢复及连续帧插值",
+  "After": "bef15e8112ce8029ccb0858b49a53a9e4f9ffda434115b30b5b475891855ed88",
+  "Impact": "其余刀光/拖尾/闪光/光屑材质逐字保持",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-BlueFog-20261008-120105-326056\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BlueFog-20261008-120105-326056\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source.material"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "685d8cac629eed4f9abe17ac3ef5c11d206f92d6f953f3aff3aa4a7304fca3fe"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

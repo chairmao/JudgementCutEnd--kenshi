@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "实例动画驱动、蒙皮发布及视觉几何",
+  "Code location": "SkinApi / Settings / BoneState / RefreshSkin / Pose / Draw",
+  "Before": "蒙皮缓存调用被 skip 开关跳过；局部位置漂移；半径30与短寿命细光带",
+  "Changes": "新增真实 cache 导出；先缓存再世界矩阵刷新；持有/恢复位置；半径150上限300；光带五倍并持续到收刀；颜色钳制",
+  "Reasons": "运行库反汇编与0.2.2日志相互支持；按用户四点反馈修正，保留自由相机和U键",
+  "After": "项目修订；现有运行中DLL不变",
+  "Impact": "仅 JudgementCutEnd；音轨与特效资源不重制",
+  "Validation": "原字节双备份，写后读回一致；UTF-8/BOM/CRLF保留，中文乱码扫描通过",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-RootVFX-20261007-164157-081257\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-RootVFX-20261007-164157-081257\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF"
+  },
+  "Unresolved": "DLL待用户编译，蒙皮显示待实机；已加载配置需重启生效"
+}

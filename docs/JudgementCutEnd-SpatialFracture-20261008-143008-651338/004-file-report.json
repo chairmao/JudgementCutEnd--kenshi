@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+  "Role": "独立HDR空间切裂顶点/像素shader",
+  "Code location": "jce_refraction_vp / jce_refraction_fp",
+  "Before": "软三角遮罩和约4.8像素位移",
+  "Changes": "八切面连续片区、稳定符号位移/微旋转、原宽度比例及最多28像素预算",
+  "Reasons": "原资源长薄折射几何；录像背景仍连续",
+  "After": "背景在切口两侧错位，原曲线退场，半球之外透明",
+  "Impact": "仅独立材质，复用一次HDR副本，一次纹理采样；保留世界深度",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl"
+    ],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": "3c854b96b9982067353eb1c7ff7b4eec661831b4c9955f9c97bd71f2785e78ae",
+    "after_sha256": "d30e976dee21ee67933f3c4fb00575679bdcf52386773904f9d0f45b73e73dc3"
+  },
+  "Unresolved": "未运行HLSL编译；新增片元算术需实机GPU验证"
+}

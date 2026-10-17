@@ -1,0 +1,21 @@
+{
+  "version": "1.1.1-dev",
+  "slashes": 96,
+  "slash_echoes": 6,
+  "phantom_paths": 16,
+  "phantom_echoes": 4,
+  "mist_clouds": 168,
+  "motes": 0,
+  "hemisphere_shell_quads": 576,
+  "physical_mirrors": false,
+  "falling_fragments": false,
+  "spatial_facets": 192,
+  "shards": 192,
+  "sections": [
+    "JCE/Glow",
+    "JCE/Mist",
+    "JCE/Glass"
+  ],
+  "damage_changed": false,
+  "assets": "原创确定性制作；不是DMC原始模型/着色器资源"
+}

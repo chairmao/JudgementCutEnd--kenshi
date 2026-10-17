@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+  "Role": "资源移植核验器",
+  "Code location": "main / source versus native artifact",
+  "Before": "a69834b86a2e8c462b02924c37f38100039f1e041d210e3dc14c1b2a065932a5",
+  "Changes": "移除编译前过期假设；核验用户产物真实哈希，资源部署状态独立",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "e59e306fe22d011eff6474ba0d7b5e174e3db8670be70123abc189085985bc34",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VerificationState-20261008-002036-058959\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VerificationState-20261008-002036-058959\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

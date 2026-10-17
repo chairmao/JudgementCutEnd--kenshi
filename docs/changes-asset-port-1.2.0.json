@@ -1,0 +1,357 @@
+{
+  "source_version": "1.2.0-dev",
+  "compiled": false,
+  "game_tested": false,
+  "backup_integrity_verified": true,
+  "files": [
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+      "before_sha256": "absent",
+      "changes": [
+        "支持Skyrim SE的真实HKX读取、解剖主轴重定向、受界网格和来源哈希记录",
+        "女性骨序不同；名称集合核验替代顺序假设，消费方仍按骨名绑定",
+        "仅约束实际控制的23骨，允许男女装饰骨差异",
+        "源隐藏/瞬移期间最大83度跳变，双向限制到60Hz每步12度，并重新计算足底补偿",
+        "同时纳入脚踝/足趾骨，避免只按足趾高度修正导致脚底低于地面",
+        "固定解码器SHA，远端版本变化时拒绝执行"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-225211-063137\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-225211-063137\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-225250-674245\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-225250-674245\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231032-952328\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231032-952328\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231703-989052\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231703-989052\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-232927-322483\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-232927-322483\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\author_port.py"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "b0d697ca6c63ac5214aad811ae3bd91afe34e124dd5521512f6f8978e215e8f4",
+      "size": 15661
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+      "before_sha256": "7d0f7c4cf49b459f056eab1813911f31e2fe8496e3043c82315cdeaa9f6f07fb",
+      "changes": [
+        "真实 HKX 23骨映射；403关键帧；位置通道仅根骨竖直补偿",
+        "真实 HKX 23骨映射；403关键帧；位置通道仅根骨竖直补偿"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-225250-737925\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-225250-737925\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231033-030907\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231033-030907\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.clip"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "153490230c713f89e8aa597361526eae4de72e68510899b9b622e307e3f0a2c2",
+      "size": 950647
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_phantom.bin",
+      "before_sha256": "absent",
+      "changes": [
+        "198顶点/256三角立体人形与衣摆；实际HKX姿态烘焙，无实体克隆",
+        "198顶点/256三角立体人形与衣摆；实际HKX姿态烘焙，无实体克隆"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231033-030907\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_phantom.bin",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231033-030907\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_phantom.bin"
+      ],
+      "encoding": "binary",
+      "sha256": "e25e159541ecb17cf597ead4d99419211aa91aedabcb95b4f342d8772dc453bd",
+      "size": 959092
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+      "before_sha256": "2158c284828fc9835b4fc986122cb659b8e0eda0aaa9db76c6b3f02d30b54e41",
+      "changes": [
+        "离线预览与实际资源同源；不称为游戏验证",
+        "离线预览与实际资源同源；不称为游戏验证"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-225250-737925\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-225250-737925\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231033-030907\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231033-030907\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\scene.json"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "ef4e6f91363ed5f737bc6472a47e3b3a2eebbeb6c2eb9827d6a2033aa3ccb4d2",
+      "size": 3308926
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+      "before_sha256": "76868467b2440b1228512b1f661ddee552b411125ce895136165d7d22a0e2e96",
+      "changes": [
+        "同步实际HKX动作和网格资源",
+        "真实位移与旋转插值，网格残影，动作近看；静态预览不代替游戏验证",
+        "同步实际HKX动作和网格资源",
+        "可定位静态动作帧；标注预览未模拟实机HDR，修正小窗口复选框宽度"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-225250-737925\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-225250-737925\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-230356-335181\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-230356-335181\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231033-030907\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231033-030907\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "62f3a0cc7a57d5ee0299c25ceb918097bdc743dfb7ad41463f79f6f656558bfb",
+      "size": 3324945
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\retarget-provenance.json",
+      "before_sha256": "absent",
+      "changes": [
+        "保留源文件身份、事件、骨映射、根位移处理和来源限制",
+        "保留源文件身份、事件、骨映射、根位移处理和来源限制"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231033-030907\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\retarget-provenance.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231033-030907\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\retarget-provenance.json"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "d20298bec95adc895c7b2f36be05e0c06020c811729132ff6c78c4b9e8534d74",
+      "size": 4225
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "before_sha256": "1f25caf99d079a8f717ea62ca5b4908fa83b3012a2b388ce63e39498de886dee",
+      "changes": [
+        "JCECLIP v1/v2兼容、只读网格、真实动作、独立GPU场景复制及失败降级；保留时间/伤害",
+        "光刃跟随实际右手截面；资源最小顶点数覆盖锚点索引",
+        "补齐实际声明头，固定198顶点256三角拓扑与右手索引语义",
+        "折射不可用时写入透明占位三角形，避免空层导致整场演出失败",
+        "材质与纹理管理器回收分离；限定已存在基类导出；校验完整DX11复制尺寸",
+        "关机/旧世界清理先查Manager单例存活，避免销毁阶段强取已消失单例"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-225951-828442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-225951-828442\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-230356-335181\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-230356-335181\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231032-952328\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231032-952328\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233941-178606\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233941-178606\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+      ],
+      "encoding": "UTF-8 BOM / CRLF",
+      "sha256": "9799f2a44f62d2841e974b649c82aecbec05fc447b4a8f8547d66b547b7a050d",
+      "size": 90549
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.hlsl",
+      "before_sha256": "absent",
+      "changes": [
+        "采样独立背景副本；像素幅度受限的分光与空间错位"
+      ],
+      "backup_paths": [],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "3c854b96b9982067353eb1c7ff7b4eec661831b4c9955f9c97bd71f2785e78ae",
+      "size": 1277
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_refraction.program",
+      "before_sha256": "absent",
+      "changes": [
+        "局部ps_4_0程序及视口常量，不替换公共shader"
+      ],
+      "backup_paths": [],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "e1d50bf3af0250cb6e6f1135ce7bf85369c759b64bd769c5e4759c05434e2361",
+      "size": 367
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+      "before_sha256": "5b4d2b5abe1cab1611c8c7c1d5f3cbf2b46fd623a398794fab57e6e4441b0233",
+      "changes": [
+        "新增第四段Alpha折射，与原三段资源共存"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-230139-408967\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-230139-408967\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce.material"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "883fea341a7885eabeee4602814d9baca312365b2f91d9d01253bc5ebd992ba4",
+      "size": 3220
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "before_sha256": "79a10c5eec22dd8db8eeb263deb5efc109edc412c2d8e9aa65b774286cea0351",
+      "changes": [
+        "适配实际HKX动作四元数和垂直落地修正；保留骨长、角速度及游戏合同核验",
+        "与实际落地补偿使用同一完整足部骨集合",
+        "保留退出还原断言，演出期间改为每帧快照加有界位移，禁止累加"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231703-989052\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231703-989052\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231742-593159\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231742-593159\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "35babf9d1beae656c0fb30ecae303ca7b8a688f2cbdd003df9783cd7516b81fa",
+      "size": 50296
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+      "before_sha256": "cb572d42bd5c5369735c20f5175711ee0ba47506aedd002311569d2e85535443",
+      "changes": [
+        "按显式升级替换旧动画不变断言；保留冻结1.0、伤害、声音、空间范围和JS解释运行",
+        "旧逐字冻结动画合同换成显式授权有界位移及蒙皮消费者断言",
+        "Node沙盒加入真实URLSearchParams，保留绘制有限性断言"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231558-840378\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-231843-028214\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-231843-028214\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_vfx.py"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "1d160e2ceb7f61d650ee7b58e1738bf077969420916efea8a91672bf68d65b19",
+      "size": 13102
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1",
+      "before_sha256": "d1b0df543cb9fdd46404c22018eb81cf9e00f987d3b60833cf7106d83088608a",
+      "changes": [
+        "PE入口、版本标记和源码时间戳全部通过后才复制；拒绝1.1.2旧DLL配新动画"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-232550-230791\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\Stage-LocalMod.ps1"
+      ],
+      "encoding": "UTF-8 BOM / CRLF",
+      "sha256": "646b9bb9c64d11d577956227101fb3d342748a2a1753ad1d70983570faef81f4",
+      "size": 7017
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+      "before_sha256": "absent",
+      "changes": [
+        "独立解析真实二进制网格；覆盖截断、越界、NaN、同源预览与局部资源所有权",
+        "按真实PI事件名称读取；删除不能代表原生运行的常量层计数模型"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233221-274893\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233221-274893\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_port.py"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "a69834b86a2e8c462b02924c37f38100039f1e041d210e3dc14c1b2a065932a5",
+      "size": 8350
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "before_sha256": "9430adefcf03a8be8b3f6d31fdd287aba5de86b78253465a7a141b654a7712d7",
+      "changes": [
+        "保留所有既有DLL身份，不把源码静态通过记为已编译或已安装",
+        "标记非编译核验通过，保持compiled/game_tested=false及旧DLL身份"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-232927-322483\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-232927-322483\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233941-729091\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233941-729091\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "0c43ab4a0a6f33522121cdbda7228c051144484e69e409c032de513711f1ad29",
+      "size": 8245
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-provenance.json",
+      "before_sha256": "d01a022c0723143d50de16ebdf5672d466d069f35a93ae0610f46880039febad",
+      "changes": [
+        "更正旧独立IK动画表述，关联真实解码/骨架/输出证据"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233221-274893\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-provenance.json",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233221-274893\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-provenance.json"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "45ad1426a9e9d4e0754c9dfe6914ec18dc15a68aec6509058907c5b480f67e57",
+      "size": 2850
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+      "before_sha256": "b614791d4b45d2ba65f8f09bef1b10577adf0d0a8d7729c611afe64b9d13ace3",
+      "changes": [
+        "区分原创纹理/拓扑与ap05动作/既有参考声音，不把衍生动画标CC0"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233453-149709\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233453-149709\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\LICENSE-NOTICE.md"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "8015f5b7041394fa03dae4fc1b8c3013796ece87c38f119a486764799d5f4a50",
+      "size": 1603
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-port-1.2.0.md",
+      "before_sha256": "absent",
+      "changes": [
+        "记录真实动作、通用幻影、HDR副本、成本、限制、编译及安装合同",
+        "按作者HKX文档列出的io_scene_nifly/hkx目录修正链接"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233941-178606\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-port-1.2.0.md",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233941-178606\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\asset-port-1.2.0.md"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "ba99b578bb8f222834dfef5e6774e99812abff88054f3ca1a544cf4a7f55de6d",
+      "size": 4816
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+      "before_sha256": "5bc5269a2d018d8d889692aaa64cef289f8451ca59d1ca784456c4e3a8c8353e",
+      "changes": [
+        "明确1.2.0源码未编译，链接实现和预览，旧安装记录改为历史"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233453-149709\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233453-149709\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\README.md"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "a727280ee308f8fb7c54c57d3765456f17d0a5b2e0db106b3c56f5c9a8cf4687",
+      "size": 28442
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "before_sha256": "c3afa3cec4baae35860a99243050258947935c49f288b313b956aa6d6bdfc8d6",
+      "changes": [
+        "提醒资源已升级、用户需先编译配套1.2.0DLL"
+      ],
+      "backup_paths": [
+        "D:\\CodexBackups\\JudgementCutEnd-AssetPort-20261007-233453-149709\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+        "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AssetPort-20261007-233453-149709\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+      ],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "32b14d9fbe9175d517be2d455fb87261babbfc0190e416f0d5a4f3b2a3bbaf14",
+      "size": 4262
+    },
+    {
+      "path": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-asset-port-1.2.0.json",
+      "before_sha256": "absent",
+      "changes": [
+        "保存基础/VFX/时间恢复/坏资源核验及旧DLL安装拒绝结果"
+      ],
+      "backup_paths": [],
+      "encoding": "UTF-8 no BOM / CRLF",
+      "sha256": "d4961bc0a5e74a3f1181fda4100150b94403bdb755feac44d2127536f09471c4",
+      "size": 19094
+    }
+  ],
+  "scope": "JudgementCutEnd source/resources/docs and workspace decoder only; installed DLL/1.0 archive unchanged",
+  "verification": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\verification-asset-port-1.2.0.json"
+}

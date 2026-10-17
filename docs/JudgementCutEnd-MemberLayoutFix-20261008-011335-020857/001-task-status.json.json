@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "当前工程状态",
+  "Code location": "失败运行与修正源码身份",
+  "Before": "5b8690c28f0d02a911edd5aa57753005a2678a396ec1957226bc3a8fdff6caae",
+  "Changes": "将前次安装标为绑定初始化失败，修正源码待用户编译；保存已安装DLL历史而不假称热修复完成",
+  "Reasons": "用户报告U键无反应，修正已授权成员地址绑定范围内的错误布局拒绝",
+  "After": "549719d66eccd44838158cd5ef58b9c919f4bc15450d39a845a950171c3dcf0d",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-MemberLayoutFix-20261008-011335-020857\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-MemberLayoutFix-20261008-011335-020857\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

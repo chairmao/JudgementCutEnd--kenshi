@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+  "Role": "可交互离线视觉预览",
+  "Code location": "幻影/雾/镜片渲染与滑杆",
+  "Before": "1.0正式基线已独立封存；原文件另行双备份",
+  "Changes": "同步新增层次、挥刀跨步幻影和解析碎片落地，支持分层对比",
+  "Reasons": "用户要求蓝色雾气、沿路径斩击幻影、镜面碎裂与碎片落地",
+  "After": "1.1.0开发资源/源码",
+  "Impact": "仅本项目特效，不改伤害/范围/速度和已安装模组",
+  "Validation": "写后读回一致，文本UTF-8/BOM/CRLF与中文扫描通过；待专项静态检查",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFX110-20261007-203029-992678\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFX110-20261007-203029-992678\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\preview\\index.html"
+    ],
+    "encoding": "UTF-8/CRLF或明确二进制资源"
+  },
+  "Unresolved": "不代编译，待用户Release|x64与实机视觉/性能验收"
+}

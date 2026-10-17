@@ -1,0 +1,45 @@
+{
+  "version": "2.1.0-dev",
+  "resource_revision": "2.1-pale-blue-r1",
+  "installed_local": "2026-10-08T02:12:26.449858",
+  "dll_sha256": "eace738bd15cb03be6591db50ea12d4107cf6585526c8e0ad7e7fe2cfd09da4c",
+  "dll_changed": false,
+  "cpp_changed": false,
+  "native_compile_run": false,
+  "shader_compile_run": false,
+  "game_tested": false,
+  "changed_resources": [
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce.material",
+      "source_sha256": "65e1776ffe87965f3b89b2c0b173d44fbb0964fc997b74653f5871eeebdd26eb",
+      "previous_sha256": "883fea341a7885eabeee4602814d9baca312365b2f91d9d01253bc5ebd992ba4",
+      "bytes_verified": true
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source.material",
+      "source_sha256": "685d8cac629eed4f9abe17ac3ef5c11d206f92d6f953f3aff3aa4a7304fca3fe",
+      "previous_sha256": "b0e6028297b6bd04436f760b05209047d82c9d25f0cc9d92542a30c5ce0a4e22",
+      "bytes_verified": true
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.hlsl",
+      "source_sha256": "668550cea93bd1a357e21fe270fdacc2aea24daa25f1e64d217133ac670a230f",
+      "previous_sha256": "31fdfa2dd767d25f0c503413035bc91109e98a0f3de6e1c9d00f036afe175b55",
+      "bytes_verified": true
+    },
+    {
+      "path": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd\\assets\\jce_source_texture.program",
+      "source_sha256": "c04150f3f408ef31956a866471e8cb3950ebe5f8601df2d878b035950e255c51",
+      "previous_sha256": "e19c82f7a9a0aad7d443b6ef0e546defb1bb3e9bc85decc8203ee3c436071810",
+      "bytes_verified": true
+    }
+  ],
+  "full_package_file_count": 32,
+  "full_package_hashes_verified": true,
+  "backup_task_directory": "JudgementCutEnd-PaleBlue-20261008-021226-403276",
+  "backup_roots": [
+    "D:\\CodexBackups\\JudgementCutEnd-PaleBlue-20261008-021226-403276",
+    "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-PaleBlue-20261008-021226-403276"
+  ],
+  "encoding": "UTF-8 no BOM / CRLF; byte-identical source and installed"
+}

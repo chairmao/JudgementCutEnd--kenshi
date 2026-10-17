@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\blue-fog-2.2-task.json",
+  "Role": "本轮任务状态",
+  "Code location": "新建2.2任务记录",
+  "Before": "无",
+  "Changes": "保存不可变基线入口与待编译状态",
+  "Reasons": "静态审计需要原版身份",
+  "After": "8e560625a21ce25da09beeb1f9183cd5cbf7f31e075757c10c23659b641f6d67",
+  "Impact": "不影响旧版本实机状态",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

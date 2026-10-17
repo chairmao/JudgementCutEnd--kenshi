@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+  "Role": "只读非编译检查",
+  "Code location": "入口/按键/安装边界检查",
+  "Before": "检查未覆盖错误导出与固定 J",
+  "Changes": "新增 C++ ABI、F8 配置、输入有界日志、安装前导出检查及按键边界模型",
+  "Reasons": "本次故障绕过了原来仅 PE/x64 的静态检查",
+  "After": "修改已写入；需要重新编译/部署才影响游戏运行",
+  "Impact": "仅限本插件项目/分发包，不写其他模组及运行游戏",
+  "Validation": "UTF-8/BOM/CRLF/中文严格回读；专项非编译检查随后另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InputFix-20261007-142533-005949\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InputFix-20261007-142533-005949\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify.py"
+    ],
+    "encoding": "UTF-8",
+    "line_endings": "CRLF",
+    "sha256": "f8a9b1c3ca8ff72e88c9e86f9c5d02c6f9458bf3887257b8bf13590fd92023a4"
+  },
+  "Unresolved": "新 DLL 编译/安装和实机验收仍待完成"
+}

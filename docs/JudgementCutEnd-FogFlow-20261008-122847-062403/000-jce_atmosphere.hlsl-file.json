@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+  "Role": "Mist/SourceDust专用像素shader",
+  "Code location": "jce_mist_fp / jce_smoke_fp",
+  "Before": "低速平移与均匀底膜使蓝雾静止感明显",
+  "Changes": "高度涡旋+错向输运+软密度展开；烟图UV随连续场卷动",
+  "Reasons": "用户反馈；旧主斩击阶段0.0616UV漂移；日志证明时间推进",
+  "After": "d3f2c372e3d3b508b7413d5689115b65d88aa8579d5ec5a0bc225e2a29146360",
+  "Impact": "维持VP合同、两次Mist噪声/两帧烟图采样、半径与颜色；GPU观感待实测",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-FogFlow-20261008-122847-062403\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-FogFlow-20261008-122847-062403\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_atmosphere.hlsl"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "ac570629c84b9304ac479435ead6bc364bd5eee6fe55cb6ca1d0dc2a3a870ac1"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

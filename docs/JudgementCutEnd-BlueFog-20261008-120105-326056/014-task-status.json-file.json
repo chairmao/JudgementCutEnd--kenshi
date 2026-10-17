@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "项目当前状态",
+  "Code location": "源码/安装版本与待编译验收",
+  "Before": "源码/安装2.1均为current",
+  "Changes": "源码2.2未编译，已安装2.1保持且current=false；分离配置",
+  "Reasons": "防止旧DLL与新UV/shader混装",
+  "After": "470a141d034c1cb59a358adfa6b1727c38e34b2f9910766eb84fcc79570d5f15",
+  "Impact": "保留历史运行观察/原正式版信息",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-BlueFog-20261008-121154-133697\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BlueFog-20261008-121154-133697\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": "2dc303c0c0afd34f0dd6eddb4da01fae13a152ec95523811d5d66b56d4c96494"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

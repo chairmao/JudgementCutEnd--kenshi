@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\retarget-provenance.json",
+  "Role": "重定向证据",
+  "Code location": "source and output hashes",
+  "Before": "absent",
+  "Changes": "保留源文件身份、事件、骨映射、根位移处理和来源限制",
+  "Reasons": "用户授权实际HKX重定向、人物网格残影和空间裂光升级",
+  "After": "fd6b7577b8a9daf56927494fdc4a4b350d406727050508f2044edff5af355b70",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "禁止代编译；新动画及渲染需用户编译后游戏验收"
+}

@@ -1,0 +1,57 @@
+{
+  "sources": [
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE010Intro.wav",
+      "sha256": "2b42df9aa475af6cd1cfe2c1c236948ba4cafe7e3f90abe14bc88e72cffcc8ef",
+      "clip_at": 0,
+      "real_at": 0.0,
+      "gain": 0.45,
+      "used_seconds": 0.7,
+      "peak_before_mix": 0.36474609375
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE020Draw.wav",
+      "sha256": "a2cd2f48c3584f43b87dcf722e4e4f18ca06b715b23b42dbe8c09520de40e047",
+      "clip_at": 2.1,
+      "real_at": 0.7,
+      "gain": 0.65,
+      "used_seconds": 0.23333333333333334,
+      "peak_before_mix": 0.5345916748046875
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE030CutAll.wav",
+      "sha256": "0e0841baa8b403c0e8395054bf41d78ad0449ee80548fa18dea4ee038582cfb1",
+      "clip_at": 2.35,
+      "real_at": 0.7833333333333333,
+      "gain": 0.65,
+      "used_seconds": 0.36666666666666664,
+      "peak_before_mix": 0.4165054321289063
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE040Sheath.wav",
+      "sha256": "7e37b6d0b7be3c685eea096e146bd99697f31f2f4b9ce6124f0552b65ec261ec",
+      "clip_at": 3.66,
+      "real_at": 1.22,
+      "gain": 0.5,
+      "used_seconds": 0.2480045351473923,
+      "peak_before_mix": 0.48333740234375
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE040Finish.wav",
+      "sha256": "ba1766c51b147a9cdcf5417d0d28ec7f521de8fbf3ed9bf39ae56fc64c7f1f0f",
+      "clip_at": 5.15,
+      "real_at": 1.7166666666666666,
+      "gain": 0.7,
+      "used_seconds": 0.5166666666666667,
+      "peak_before_mix": 0.6789581298828125
+    }
+  ],
+  "playback_rate": 3.0,
+  "duration": 2.2333333333333334,
+  "format": "mono PCM16 44100 Hz",
+  "method": "retime cues, trim source windows, preserve sample rate/pitch",
+  "peak": 0.6789581298828125,
+  "frames": 98490,
+  "sha256": "b3fefcc5e30a11b7ecdbdae04d90ef504770083fcd1a6619edde82d277e37dad",
+  "redistribution": "用户提供的本地测试音效，不声称原创，不自动分发"
+}

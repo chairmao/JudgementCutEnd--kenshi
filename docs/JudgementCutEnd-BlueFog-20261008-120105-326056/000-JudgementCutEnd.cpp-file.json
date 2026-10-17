@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "RE_Kenshi主线程演出生产端",
+  "Code location": "HazeVertex/HazeQuad/Mist/SmokeSprite/SourceDust与版本/首次日志",
+  "Before": "168小灰雾片+576壳面；48个短寿命烟团",
+  "Changes": "96宽软底雾；144重叠烟流；四分量UV输送时间/半径；版本2.2.0-dev",
+  "Reasons": "实机4.4/10秒雾稀薄；旧顶点灰色、独立小片与密度收紧阻碍连续氤氲",
+  "After": "cc66e596f5db61a56cdcdfd6b8b06d3322ddd234a3d1f063173085dd075644fc",
+  "Impact": "仅VFX生产与自有shader合同；保持9段索引和首段背景复制，其他游戏逻辑逐字校验",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-BlueFog-20261008-120105-326056\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-BlueFog-20261008-120105-326056\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF",
+    "before_sha256": "61f10be1a013bfe06c0075a79b9359d4cb30a5bf425dcd5af70f7dc3b1993e33"
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

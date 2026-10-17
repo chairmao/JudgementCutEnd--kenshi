@@ -1,0 +1,29 @@
+// 原纹理专用shader；只在本插件资源组使用，不覆盖游戏Basic_*程序。
+fragment_program JCE/SourceTexture27_FP hlsl
+{
+    source jce_source_texture.hlsl
+    entry_point jce_source_texture_fp
+    target ps_4_0
+    default_params
+    {
+        param_named hdrGain float 1
+        param_named grayscale float 0
+        // 白色缺省兼容未指定色调的材质；各层在自有material中选择淡蓝强度。
+        param_named colourTint float3 1 1 1
+        // 缺省关闭细雾处理，兼容原刀光/闪光/光屑材质。
+        param_named dustDetail float 0
+    }
+}
+
+// 仅本插件Glow材质使用；Alpha能量解码不可误用到普通透明烟雾。
+fragment_program JCE/Glow27_FP hlsl
+{
+    source jce_source_texture.hlsl
+    entry_point jce_glow27_fp
+    target ps_4_0
+    default_params
+    {
+        param_named hdrGain float 1.35
+        param_named colourTint float3 0.25 0.82 1
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+  "Role": "编译产物身份状态",
+  "Code location": "00:54新产物与00:58源码区分",
+  "Before": "870c44df2c050cac298cf2d6628b80914ed6feca49eea6e7f9c1644c10f2c972",
+  "Changes": "只读检测到外部新1.2.1DLL，实际导出表校验通过；此DLL仍为旧签名绑定且早于本次源码，不能声称已含修正",
+  "Reasons": "用户明确要求JudgementCutEnd.cpp不使用字符串函数签名，改为函数地址式绑定",
+  "After": "b4d526379d93f7b30d7e2bce263415c72e57d1884f88137c0a10e920fe9d38fe",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-AddressBinding-20261008-010052-229530\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-AddressBinding-20261008-010052-229530\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\task-status.json"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

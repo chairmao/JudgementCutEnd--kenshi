@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py",
+  "Role": "ap05原资源与接口回归",
+  "Code location": "版本截取/图集局部时钟契约",
+  "Before": "25c0fa2b1f631b21eedffc851ade3f69fb3f8427229f4fba7f7369bb52b915d2",
+  "Changes": "保留原5DDS/6曲线和所有伤害/输入/姿态检查；适配独立粒子时钟",
+  "Reasons": "用户指定冻结正式版2.0并改进粒子；沿用已授权JudgementCutEnd.cpp特效绘制范围",
+  "After": "1f0591ce97ac963f787fe09c972221857379fae43a805b14dd0f8b093e2bb733",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-Particle21-20261008-013933-386546\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-Particle21-20261008-013933-386546\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_source_vfx.py"
+    ],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

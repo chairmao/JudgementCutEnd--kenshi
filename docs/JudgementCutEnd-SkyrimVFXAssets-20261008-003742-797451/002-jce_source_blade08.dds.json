@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\assets\\jce_source_blade08.dds",
+  "Role": "本机源纹理",
+  "Code location": "只读源DDS逐字节复制",
+  "Before": "absent",
+  "Changes": "保留原像素、压缩格式和Alpha，不把原图替换成随机生成纹理",
+  "Reasons": "用户授权本机原模组特效移植，保留来源哈希",
+  "After": "0a0377f9afa441e7ff047de703c19ee55cb8c9de651adeb24b4b1eea2a8fbf57",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "binary"
+  },
+  "Unresolved": "新C++消费端须用户编译Release|x64，实机未验证"
+}

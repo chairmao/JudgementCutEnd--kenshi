@@ -1,0 +1,43 @@
+{
+  "reference": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake",
+  "hkx": [
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\actors\\character\\animations\\dynamicanimationreplacer\\_CustomConditions\\10004905\\combatidlea.hkx",
+      "sha256": "f0b4b58274bc213034c39957fcbfd0f9bc6526c7ab1819c365649820649c035e"
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\actors\\character\\animations\\dynamicanimationreplacer\\_CustomConditions\\10004905\\combatidleb.hkx",
+      "sha256": "f0b4b58274bc213034c39957fcbfd0f9bc6526c7ab1819c365649820649c035e"
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\actors\\character\\animations\\dynamicanimationreplacer\\_CustomConditions\\10004905\\combatidlec.hkx",
+      "sha256": "f0b4b58274bc213034c39957fcbfd0f9bc6526c7ab1819c365649820649c035e"
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\actors\\character\\animations\\dynamicanimationreplacer\\_CustomConditions\\10004905\\combatidlesmalla.hkx",
+      "sha256": "f0b4b58274bc213034c39957fcbfd0f9bc6526c7ab1819c365649820649c035e"
+    },
+    {
+      "path": "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\Meshes\\actors\\character\\animations\\dynamicanimationreplacer\\_CustomConditions\\10004905\\combatidlesmallb.hkx",
+      "sha256": "f0b4b58274bc213034c39957fcbfd0f9bc6526c7ab1819c365649820649c035e"
+    }
+  ],
+  "reference_skeletons": [
+    "E:\\skyrimspecialedition\\mods\\XP32 Maximum Skeleton Special Extended\\meshes\\actors\\character\\character assets\\skeleton.hkx"
+  ],
+  "male_sha256": "6bb4c3a0184f05f0aef5f5ddd9a6e333c034b87ac761382260886c060fb3edab",
+  "male_bones": 30,
+  "female_bones": 30,
+  "female_controls_match": true,
+  "copied_third_party_files": [
+    "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE010Intro.wav",
+    "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE020Draw.wav",
+    "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE030CutAll.wav",
+    "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE040Sheath.wav",
+    "E:\\skyrimspecialedition\\mods\\Judgement Cut End - ap05's Remake\\sound\\fx\\zjc\\JCE040Finish.wav"
+  ],
+  "animation": "actual ap05 Skyrim SE HKX retarget; 23 named tracks; horizontal root removed; vertical foot correction; velocity adaptation",
+  "animation_frame_count": 403,
+  "retarget_record": "docs/retarget-provenance.json",
+  "phantom": "independently authored generic humanoid and coat mesh, baked with retargeted pose; not caster appearance"
+}

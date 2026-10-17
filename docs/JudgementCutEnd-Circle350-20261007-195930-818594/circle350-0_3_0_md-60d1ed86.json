@@ -1,0 +1,13 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\circle350-0.3.0.md",
+  "Role": "350圆修改说明与证据",
+  "Code location": "完整新增文件",
+  "Before": "不存在",
+  "Changes": "新增本次范围修改验证和审计材料",
+  "Reasons": "保留可复核证据和源码/成品边界",
+  "After": "新文件已写入",
+  "Impact": "仅本项目文档",
+  "Validation": "UTF-8无BOM/CRLF，写后读回一致",
+  "Safety": "独占新建，不覆盖；新文件无需原件备份",
+  "Unresolved": "待用户编译及实机验收"
+}

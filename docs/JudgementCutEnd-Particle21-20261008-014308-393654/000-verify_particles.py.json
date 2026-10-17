@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_particles.py",
+  "Role": "正式2.0与粒子2.1只读验证",
+  "Code location": "冻结字节/保护函数/独立时钟/材质契约/寿命边界",
+  "Before": "absent",
+  "Changes": "增加正式2.0完整归档和安装文件身份、保护函数逐字回归及粒子停止与图集边界核验",
+  "Reasons": "用户指定冻结正式版2.0并改进粒子；沿用已授权JudgementCutEnd.cpp特效绘制范围",
+  "After": "c658384f0bd4ae014fea1605f42f1f15d119df801c6e20056d5e6d24cd34b963",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "不代编译；运行时渲染效果待用户Release|x64编译和实机验收"
+}

@@ -1,0 +1,157 @@
+{
+  "static_passed": true,
+  "base_check_count": 223,
+  "vfx_check_count": 34,
+  "checks": [
+    {
+      "name": "original regression suite",
+      "passed": true
+    },
+    {
+      "name": "formal 1.0 release tag and original build marker",
+      "passed": true
+    },
+    {
+      "name": "every frozen source/runtime hash preserved",
+      "passed": true
+    },
+    {
+      "name": "formal ZIP CRC",
+      "passed": true
+    },
+    {
+      "name": "formal ZIP payload equals frozen directory",
+      "passed": true
+    },
+    {
+      "name": "all damage, 350 boundary, native stagger logic byte-equivalent",
+      "passed": true
+    },
+    {
+      "name": "player skeletal pose logic byte-equivalent",
+      "passed": true
+    },
+    {
+      "name": "input, speed and real timeline byte-equivalent",
+      "passed": true
+    },
+    {
+      "name": "unchanged animation/audio/base glow jce.clip",
+      "passed": true
+    },
+    {
+      "name": "unchanged animation/audio/base glow jce_sequence.wav",
+      "passed": true
+    },
+    {
+      "name": "unchanged animation/audio/base glow jce_sequence_fast.wav",
+      "passed": true
+    },
+    {
+      "name": "unchanged animation/audio/base glow jce_glow.tga",
+      "passed": true
+    },
+    {
+      "name": "same 96 geometric slash paths and lifetimes",
+      "passed": true
+    },
+    {
+      "name": "spread births inside cut to sheath",
+      "passed": true
+    },
+    {
+      "name": "16 distinct moving paths with full phantom lifetime before damage",
+      "passed": true
+    },
+    {
+      "name": "192 triangles from 48 synchronized panels",
+      "passed": true
+    },
+    {
+      "name": "bounded finite nondegenerate fragment assets",
+      "passed": true
+    },
+    {
+      "name": "valid 32-bit top-left TGA jce_mist.tga",
+      "passed": true
+    },
+    {
+      "name": "valid 32-bit top-left TGA jce_glass.tga",
+      "passed": true
+    },
+    {
+      "name": "mist soft black rim and nonuniform cloud noise",
+      "passed": true
+    },
+    {
+      "name": "three separate existing shader-compatible materials",
+      "passed": true
+    },
+    {
+      "name": "material texture exists jce_glow.tga",
+      "passed": true
+    },
+    {
+      "name": "material texture exists jce_mist.tga",
+      "passed": true
+    },
+    {
+      "name": "material texture exists jce_glass.tga",
+      "passed": true
+    },
+    {
+      "name": "new shard loader validates count and corruption before hooks",
+      "passed": true
+    },
+    {
+      "name": "three material sections and render callback coverage",
+      "passed": true
+    },
+    {
+      "name": "unique graphical object retained and cleanup still owns all sections",
+      "passed": true
+    },
+    {
+      "name": "new layers use existing graphics API and no cloned gameplay entities",
+      "passed": true
+    },
+    {
+      "name": "per-cast diagnostic stage flags bounded",
+      "passed": true
+    },
+    {
+      "name": "hard bounded geometry",
+      "passed": true
+    },
+    {
+      "name": "C++ delimiter structure",
+      "passed": true
+    },
+    {
+      "name": "preview JavaScript syntax",
+      "passed": true
+    },
+    {
+      "name": "preview timeline, finite drawing, fragment circle, actual landing, 16 phantom events",
+      "passed": true
+    },
+    {
+      "name": "no source or installed formal DLL altered",
+      "passed": true
+    }
+  ],
+  "geometry_upper_bound": {
+    "vertices": 11980,
+    "indices": 17202
+  },
+  "preview_model": {
+    "fragment_vertices_checked": 77760,
+    "phantom_paths": 16,
+    "landed_frames": 768,
+    "draw_operations": 845193
+  },
+  "compiled": false,
+  "game_tested": false,
+  "frozen_release": "1.0.0",
+  "development_version": "1.1.0-dev"
+}

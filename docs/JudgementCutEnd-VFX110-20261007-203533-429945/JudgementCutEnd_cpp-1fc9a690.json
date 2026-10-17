@@ -1,0 +1,19 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "三维蓝雾空间",
+  "Code location": "Mist",
+  "Before": "1.0正式基线已独立封存；原文件另行双备份",
+  "Changes": "根据预览将蓝雾覆盖到整个裂痕高度并增强浓度，粒子数量与边界不变",
+  "Reasons": "用户要求蓝色雾气、沿路径斩击幻影、镜面碎裂与碎片落地",
+  "After": "1.1.0开发资源/源码",
+  "Impact": "仅本项目特效，不改伤害/范围/速度和已安装模组",
+  "Validation": "写后读回一致，文本UTF-8/BOM/CRLF与中文扫描通过；待专项静态检查",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-VFX110-20261007-203533-429945\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-VFX110-20261007-203533-429945\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "原UTF-8 BOM/CRLF"
+  },
+  "Unresolved": "不代编译，待用户Release|x64与实机视觉/性能验收"
+}

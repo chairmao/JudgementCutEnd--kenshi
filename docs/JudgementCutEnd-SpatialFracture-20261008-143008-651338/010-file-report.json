@@ -1,0 +1,22 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_spatial_fracture.py",
+  "Role": "只读静态核验",
+  "Code location": "main / allowed paths",
+  "Before": "Windows反斜杠与清单正斜杠导致已许可文件被误判为越界",
+  "Changes": "Path规范化后比较授权清单，保留未许可文件哈希检查",
+  "Reasons": "路径表示必须一致才能验证范围",
+  "After": "能正确区分本次4项实际代码/材质改动与未改文件",
+  "Impact": "只修改验证器路径归一化，未降低比较范围",
+  "Validation": "逐字节读回、UTF-8严格解码、中文一致及乱码扫描通过；功能静态验证随后单列",
+  "Safety": {
+    "backup": [
+      "D:\\CodexBackups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338-verify-144747-762009\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_spatial_fracture.py",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SpatialFracture-20261008-143008-651338-verify-144747-762009\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\tools\\verify_spatial_fracture.py"
+    ],
+    "encoding": "utf-8",
+    "line_endings": "CRLF",
+    "original_sha256": "05b46426110990d519394d7fe3bb677a08ca86bd02c18168c8b8ce8cd84c6672",
+    "after_sha256": "ebc11013b019d3be68a68f0cbc466bcd2f956eddfd61b6beeb788a1f5f4057e8"
+  },
+  "Unresolved": "用户尚未编译或实机验证"
+}

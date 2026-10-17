@@ -1,0 +1,16 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\installation-member-layout-fix-20261008.json",
+  "Role": "部署核验与逐文件记录",
+  "Code location": "32文件哈希与双备份",
+  "Before": "absent",
+  "Changes": "实际新DLL已含最低长度检查和长度日志，错误等长标记已消失；整包复制核验通过",
+  "Reasons": "用户明确要求迅速更新含成员布局修正的模组",
+  "After": "f4d76e356564421eca7f09aa39267adbf2d22124cce5955fcd3ef349a5124791",
+  "Impact": "仅JudgementCutEnd项目与自有资源；保持350范围、96次伤害、U覆盖重施放与时间恢复",
+  "Validation": "即时字节读回；编码/中文/换行扫描；后续集中静态核验",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF"
+  },
+  "Unresolved": "用户DLL已部署并核验；游戏启动和U施放尚待实测"
+}

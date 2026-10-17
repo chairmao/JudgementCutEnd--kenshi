@@ -1,0 +1,17 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\docs\\JudgementCutEnd-VolumeFog-20261008-124150-858878\\verification.json",
+  "Role": "r3验证证据",
+  "Code location": "保护区/几何覆盖/厚度合同",
+  "Before": "无r3验证",
+  "Changes": "记录完整源保护、不同相机覆盖和有界积分",
+  "Reasons": "避免重复只看UV速度的验证盲点",
+  "After": "e2c9205e96371574b57507495964b2721a35b5657f648f3f149f1ff6dba49ac8",
+  "Impact": "未编译未安装；必须用户实际测试",
+  "Validation": "立即字节读回与编码/中文检查通过；见随后verify_blue_fog.py，未运行编译器",
+  "Safety": {
+    "backups": [],
+    "encoding": "UTF-8 no BOM / CRLF",
+    "before_sha256": null
+  },
+  "Unresolved": "[MISSING] 游戏实际shader加载、透明排序/性能与最终观感；用户Release|x64编译后验收"
+}

@@ -1,0 +1,38 @@
+{
+  "source_version": "2.9.4-dev",
+  "resource_revision": "2.9.4-facet-rhythm",
+  "user_compile_required": true,
+  "game_tested": false,
+  "installed": false,
+  "default_probe_mode": 3,
+  "source_sha256": "B16FE7E18E3C4D135C606CA6E974A90B525185CCD1A670C79D40187EDA79BC32",
+  "source_shape": "Skyrim JCE030CutRefraction screen1; original CSV topology UV unchanged",
+  "adaptation": "Same three screen1 profiles with source-path projected reveal (0.36 clip seconds), independent bend response <=1, release interval 0.30 and duration 0.70 clip seconds; fade after 35% separation. World transforms/response are Kenshi adaptations, source mask/hold/release envelopes retained",
+  "hdr_copies_max": 1,
+  "texture_samples_max": 2,
+  "max_offset_pixels": 36,
+  "compilation": "not run by policy",
+  "diagnostics": "At most 15 facet stage entries plus 1 activation per cast; pre-depth/pre-mask bounding boxes; GPU unmeasured",
+  "resources": {
+    "jce_facets294.hlsl": "2236F2E1CF4CDE26630E2E7F51944AD5882E1B0AEE1C97A9F44260855517139F",
+    "jce_facets294.program": "BAE71B12CF98FF8FE9F4E3E9796E6A16F315D5DB46205FC755C247D154A95287",
+    "jce.material": "4BFEF7A76C9B5BDF70BCFA5F2787C55035723A5F4E57C23EB20DB4FA09856CB5",
+    "jce_facets29.csv": "FCA82D54DB3080C3F847A32091AC23060B76C9E02D7703B88177770D9E713FC3",
+    "jce_source_optical_mask.dds": "A3F29383DE8BB46BB69B75475067DE5DD1238CCE41793CE6E04950B7749B19FD"
+  },
+  "instances": 3,
+  "vertices": 72,
+  "triangles": 36,
+  "legacy_single_modes": [
+    1,
+    2
+  ],
+  "shader_revision_reused": "replaced by paired Facet294 ABI; 292 files retained",
+  "overlap": "Shared original snapshot, far-to-near alpha blend; no cumulative refraction",
+  "vertex_contract": "POSITION NORMAL COLOR TEXCOORD0 float4 / 1 float3 / 2 float3 / 3 float4; legacy optical.x=-1",
+  "end_clip_seconds": [
+    5.85,
+    6.15,
+    6.45
+  ]
+}

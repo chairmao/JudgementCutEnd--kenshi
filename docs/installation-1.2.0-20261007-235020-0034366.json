@@ -1,0 +1,16 @@
+{
+  "version": "1.2.0-dev",
+  "installed_local": "2026-10-07T23:50:20.0036270+08:00",
+  "installed_directory": "D:\\steam\\steamapps\\common\\Kenshi\\mods\\JudgementCutEnd",
+  "dll_sha256": "9a5d8be528cb21dbbef50015b50c0997cdeca4819e015f8be4fd56dca6c1a833",
+  "dll_bytes": 349184,
+  "verified_package_files": 22,
+  "mismatches": [],
+  "installer_backup_directory": "D:\\CodexBackups\\JudgementCutEnd-20261007-234920-2873054",
+  "secondary_backup_directory": "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-20261007-234920-2873054",
+  "encoding": "byte-for-byte package copy; status retains UTF-8 and CRLF",
+  "game_tested": false,
+  "agent_ran_compiler": false,
+  "compiled_by": "user",
+  "status_backup_directory": "D:\\CodexBackups\\JudgementCutEnd-InstallRecord-20261007-235019-9507085"
+}

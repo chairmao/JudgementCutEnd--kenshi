@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+  "Role": "分发说明",
+  "Code location": "版本 / 按键 / 加载诊断",
+  "Before": "仍描述固定 J 的 0.1.0",
+  "Changes": "同步 0.1.1 和 F8，注明旧版入口失败与待实机验证状态",
+  "Reasons": "文档应与新源码/config 合同一致",
+  "After": "修改已写入；需要重新编译/部署才影响游戏运行",
+  "Impact": "仅限本插件项目/分发包，不写其他模组及运行游戏",
+  "Validation": "UTF-8/BOM/CRLF/中文严格回读；专项非编译检查随后另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InputFix-20261007-142533-005949\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InputFix-20261007-142533-005949\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\package\\JudgementCutEnd\\README.md"
+    ],
+    "encoding": "UTF-8",
+    "line_endings": "CRLF",
+    "sha256": "74e815ee1722664d38aea89a29d49eb8523b0c6097916191351bafc3fd2638cc"
+  },
+  "Unresolved": "新 DLL 编译/安装和实机验收仍待完成"
+}

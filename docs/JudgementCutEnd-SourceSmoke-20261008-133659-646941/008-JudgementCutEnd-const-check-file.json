@@ -1,0 +1,20 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "演出CPU绘制/生命周期",
+  "Code location": "SourceSmokePoint / SourceWispPoint const兼容性及雾层说明",
+  "Before": "新const助手调用既有非const BoundAtmosphere",
+  "Changes": "仅移除两个新助手的const；更新雾层说明",
+  "Reasons": "保持既有边界接口，消除可直接判定的编译类型错误",
+  "After": "3dc6700f991362c480b89f3d464a3899292080b76ee814069a71ea22df216dc3",
+  "Impact": "不动伤害、U、动画、时间恢复、原生绑定、视角；增加固定几何且须新DLL",
+  "Validation": "字节读回、BOM、CRLF、中文检查通过；未编译",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941-ConstCheck\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-SourceSmoke-20261008-133659-646941-ConstCheck\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM / CRLF",
+    "before_sha256": "650613ba0a5c3792e5842e32335527eb05e92fb7deb2d86ebfb152cfbf99c05b"
+  },
+  "Unresolved": "[MISSING] 用户Release|x64编译、GPU材质加载、实际透明叠加/帧率和最终观感。"
+}

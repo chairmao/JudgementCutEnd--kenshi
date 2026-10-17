@@ -1,0 +1,21 @@
+{
+  "File": "E:\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+  "Role": "插件入口和主线程输入/日志",
+  "Code location": "Settings::Load / Runtime::Tick / FrameHook / startPlugin",
+  "Before": "C 导出与加载器不匹配；J 与传送模组冲突；输入拒绝无日志",
+  "Changes": "修正 C++ 入口，默认 Ctrl+Shift+F8，可配置 CastKeyVK，新增有界输入/首次钩子日志，诊断版本 0.1.1",
+  "Reasons": "已安装 DLL 仅导出 startPlugin；RE_Kenshi.dll 存在 ?startPlugin@@YAXXZ；RE_Kenshi_log.txt:250 初始化失败；ClickToTeleport 的 J edge 与 teleporting squad 日志",
+  "After": "修正已写入源文件；需用户重新编译/关闭游戏后部署才影响运行",
+  "Impact": "只改本插件及其参数/安装合同；不改其他模组、游戏配置或当前运行进程",
+  "Validation": "严格 UTF-8 回读、BOM/CRLF 保持、中文无新增乱码；后续专项检查记录另存",
+  "Safety": {
+    "backups": [
+      "D:\\CodexBackups\\JudgementCutEnd-InputFix-20261007-142533-005949\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp",
+      "E:\\AIWorkSpace\\_backups\\JudgementCutEnd-InputFix-20261007-142533-005949\\E\\KenshiProject\\2.Projects\\JudgementCutEnd\\JudgementCutEnd.cpp"
+    ],
+    "encoding": "UTF-8 BOM",
+    "line_endings": "CRLF",
+    "sha256": "689e01113318606d26cf427ef3fd91fdab09fdf7f3c4cbae3dcf2c8414ac3bf3"
+  },
+  "Unresolved": "新 DLL 未编译，游戏内加载/输入/演出仍待验证"
+}
